@@ -212,13 +212,19 @@ function decorateSectionMetadata(main) {
           .forEach((c) => section.classList.add(c));
       } else {
         section.dataset[toCamelCase(key)] = value;
-        applySectionVar(section, key, value);
-        if (key === 'kit-width' && Number.parseFloat(value)) section.style.setProperty('--kit-w', `${Number.parseFloat(value)}px`);
       }
     });
     const wrapper = meta.parentElement;
     meta.remove();
     if (wrapper && !wrapper.children.length) wrapper.remove();
+  });
+  // the delivery pipeline applies section metadata server-side as section data attributes
+  main.querySelectorAll(':scope > .section').forEach((section) => {
+    Object.entries(section.dataset).forEach(([camel, value]) => {
+      const key = camel.replace(/[A-Z]/g, (c) => `-${c.toLowerCase()}`);
+      applySectionVar(section, key, value);
+      if (key === 'kit-width' && Number.parseFloat(value)) section.style.setProperty('--kit-w', `${Number.parseFloat(value)}px`);
+    });
   });
 }
 
