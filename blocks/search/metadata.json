@@ -1,0 +1,29 @@
+{
+  "variantName": "search",
+  "baseBlock": "search",
+  "name": "Search",
+  "description": "Search bar: placeholder row, optional suggestion rows and a \"Show more\" link; \"expanded\" opens suggestions.",
+  "version": "1.0.0",
+  "created": "2026-10-26T15:55:29.149Z",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "purpose": "search-bar",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "placeholder + suggestions",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "variants": [
+    "expanded"
+  ],
+  "usage": {
+    "pagesUsing": [
+      "library/search-bar"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-26T15:55:29.149Z"
+  }
+}

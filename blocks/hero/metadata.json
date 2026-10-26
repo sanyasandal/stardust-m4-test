@@ -1,0 +1,29 @@
+{
+  "variantName": "hero",
+  "baseBlock": "hero",
+  "name": "Hero",
+  "description": "Hero with a background image and heading. The \"branded\" variant adds a brand logo, text, button and side image.",
+  "version": "1.0.0",
+  "created": "2026-10-26T15:55:29.149Z",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "purpose": "hero-branded",
+    "imagePattern": "background"
+  },
+  "contentPattern": {
+    "structure": "image + heading + body + cta",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "variants": [
+    "branded"
+  ],
+  "usage": {
+    "pagesUsing": [
+      "library/home-hero-branded"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-26T15:55:29.149Z"
+  }
+}

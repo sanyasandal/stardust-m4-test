@@ -1,0 +1,30 @@
+{
+  "variantName": "quiz",
+  "baseBlock": "quiz",
+  "name": "Quiz",
+  "description": "Quiz card: progress stepper, question or result text, answer options, action links and a \"Powered by\" badge.",
+  "version": "1.0.0",
+  "created": "2026-10-26T15:55:29.149Z",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "purpose": "interactive-quiz",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "stepper + heading + options + ctas + badge",
+    "buttonCount": 2,
+    "imageCount": 1
+  },
+  "variants": [
+    "question",
+    "results"
+  ],
+  "usage": {
+    "pagesUsing": [
+      "library/quiz"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-26T15:55:29.149Z"
+  }
+}

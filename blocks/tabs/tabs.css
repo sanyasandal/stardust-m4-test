@@ -123,3 +123,145 @@
 .tabs .tabs-panel[hidden] {
   display: none;
 }
+
+/* Nav variant (`tabs nav`) — kit "Tab Nav" 12914:22783 (desktop) / 12914:23170 (tablet) / 12914:23208 (mobile) */
+.tabs.nav {
+  position: relative;
+  font-family: var(--heading-font-family);
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.tabs.nav nav {
+  height: 44px;
+}
+
+.tabs.nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tabs.nav .tabs-nav-chevron {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  background-color: var(--az-graphite);
+  mask: url('../../icons/chevron-down.svg') no-repeat center / 20px 20px;
+}
+
+.tabs.nav [aria-expanded="true"] > .tabs-nav-chevron {
+  transform: rotate(180deg);
+}
+
+.tabs.nav .tabs-nav-link,
+.tabs.nav .tabs-nav-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 44px;
+  margin: 0;
+  padding: 12px 16px;
+  border: 0;
+  background: none;
+  color: var(--az-graphite);
+  font: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.tabs.nav .tabs-nav-link:hover,
+.tabs.nav .tabs-nav-link[aria-expanded="true"] {
+  color: var(--az-magenta);
+}
+
+.tabs.nav .tabs-nav-link:focus-visible,
+.tabs.nav .tabs-nav-toggle:focus-visible {
+  outline: 2px solid var(--az-magenta);
+  outline-offset: -2px;
+}
+
+/* mobile: a single disclosure showing the active item */
+.tabs.nav .tabs-nav-toggle {
+  justify-content: space-between;
+  width: 100%;
+  background-color: var(--az-white);
+  color: var(--az-magenta);
+}
+
+.tabs.nav .tabs-nav-list {
+  display: none;
+  position: absolute;
+  top: 44px;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  background-color: var(--az-white);
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%);
+}
+
+.tabs.nav .tabs-nav-toggle[aria-expanded="true"] + .tabs-nav-list {
+  display: block;
+}
+
+.tabs.nav .tabs-nav-submenu {
+  display: none;
+  padding: 8px 0;
+  background-color: var(--az-white);
+}
+
+.tabs.nav .tabs-nav-link[aria-expanded="true"] + .tabs-nav-submenu {
+  display: block;
+}
+
+.tabs.nav .tabs-nav-submenu a {
+  display: block;
+  padding: 8px 16px;
+  color: var(--az-graphite);
+  font-family: var(--body-font-family);
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.tabs.nav .tabs-nav-submenu a:hover {
+  color: var(--az-magenta);
+}
+
+@media (width >= 768px) {
+  .tabs.nav .tabs-nav-toggle {
+    display: none;
+  }
+
+  .tabs.nav .tabs-nav-list {
+    display: flex;
+    position: static;
+    gap: 10px;
+    overflow-x: auto;
+    max-width: var(--container-width);
+    margin: 0 auto;
+    background: none;
+    box-shadow: none;
+    scrollbar-width: none;
+  }
+
+  .tabs.nav .tabs-nav-item {
+    flex: none;
+  }
+
+  .tabs.nav .tabs-nav-submenu {
+    position: absolute;
+    top: 44px;
+    left: var(--left, 0);
+    z-index: 2;
+    min-width: 200px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -2px rgb(0 0 0 / 10%);
+  }
+}
+
+@media (width >= 1200px) {
+  .tabs.nav .tabs-nav-list {
+    gap: 16px;
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "variantName": "tooltip",
+  "baseBlock": "tooltip",
+  "name": "Tooltip",
+  "description": "Tooltip bubble: trigger cell (text or icon) and tip text cell; a single cell shows the bubble alone. Arrow side top/bottom/left/right.",
+  "version": "1.0.0",
+  "created": "2026-10-26T15:55:29.149Z",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "purpose": "tooltip",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "trigger | tip-text",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "variants": [
+    "top",
+    "bottom",
+    "left",
+    "right"
+  ],
+  "usage": {
+    "pagesUsing": [
+      "library/tooltip"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-26T15:55:29.149Z"
+  }
+}

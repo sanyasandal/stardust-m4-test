@@ -110,6 +110,35 @@ function buildAutoBlocks(main) {
   }
 }
 
+/* section styles that restyle the default-content buttons of their section (kit "Button") */
+const BUTTON_SIZES = ['large', 'small'];
+const BUTTON_TYPES = ['tertiary', 'link'];
+
+/**
+ * Default-content buttons pick up their section's size / type styles; their icons become
+ * currentcolor masks and a button without text is an icon-only button.
+ * @param {Element} a The button link
+ */
+function decorateDefaultContentButton(a) {
+  const section = a.closest('.section');
+  if (section) {
+    BUTTON_SIZES.filter((s) => section.classList.contains(s)).forEach((s) => a.classList.add(s));
+    const type = BUTTON_TYPES.find((t) => section.classList.contains(t));
+    if (type) a.classList.replace(a.classList.contains('secondary') ? 'secondary' : 'primary', type);
+  }
+  a.querySelectorAll('.icon').forEach((icon) => {
+    const name = [...icon.classList].find((c) => c.startsWith('icon-'))?.slice(5);
+    if (name) icon.style.setProperty('--icon', `url('${window.hlx.codeBasePath}/icons/${name}.svg')`);
+    icon.classList.add('button-icon');
+    icon.setAttribute('aria-hidden', 'true');
+    icon.replaceChildren();
+  });
+  if (!a.textContent.trim()) {
+    a.classList.add('icon-only');
+    a.setAttribute('aria-label', a.title || 'Button');
+  }
+}
+
 /**
  * Decorates formatted links to style them as buttons.
  * @param {HTMLElement} main The main container element
@@ -119,9 +148,11 @@ function decorateButtons(main) {
     a.title = a.title || a.textContent;
     const p = a.closest('p');
     const text = a.textContent.trim();
+    const inBlock = !!a.closest('.block');
 
-    // quick structural checks
-    if (a.querySelector('img') || p.textContent.trim() !== text) return;
+    // quick structural checks (icons are fine in default-content buttons, other images are not)
+    const img = inBlock ? a.querySelector('img') : a.querySelector('img:not(.icon img)');
+    if (img || p.textContent.trim() !== text) return;
 
     // skip URL display links
     try {
@@ -146,7 +177,25 @@ function decorateButtons(main) {
       a.classList.add('secondary');
       em.replaceWith(a);
     }
+    if (!inBlock) decorateDefaultContentButton(a);
   });
+}
+
+const SECTION_VAR = /^(height|pad-top|pad-bottom)-(desktop|tablet|mobile)$/;
+
+/**
+ * `height-<bp>` / `pad-top-<bp>` / `pad-bottom-<bp>` section metadata (px, bp = desktop | tablet |
+ * mobile) → --section-{h,pt,pb}-{d,t,m}, which the page templates use for the section box.
+ * @param {Element} section The section element
+ * @param {string} key The metadata key
+ * @param {string} value The metadata value
+ */
+function applySectionVar(section, key, value) {
+  const [, prop, bp] = key.match(SECTION_VAR) || [];
+  const px = Number.parseFloat(value);
+  if (!prop || Number.isNaN(px)) return;
+  const name = { height: 'h', 'pad-top': 'pt', 'pad-bottom': 'pb' }[prop];
+  section.style.setProperty(`--section-${name}-${bp[0]}`, `${px}px`);
 }
 
 /**
@@ -163,6 +212,7 @@ function decorateSectionMetadata(main) {
           .forEach((c) => section.classList.add(c));
       } else {
         section.dataset[toCamelCase(key)] = value;
+        applySectionVar(section, key, value);
         if (key === 'kit-width' && Number.parseFloat(value)) section.style.setProperty('--kit-w', `${Number.parseFloat(value)}px`);
       }
     });

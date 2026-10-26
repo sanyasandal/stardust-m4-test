@@ -1,0 +1,34 @@
+{
+  "variantName": "cards",
+  "baseBlock": "cards",
+  "name": "Cards",
+  "description": "Card grid: one row per card with an image cell and a text cell. The \"teaser\" variant renders a single kit teaser.",
+  "version": "1.0.0",
+  "created": "2026-10-26T15:55:29.149Z",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "purpose": "cards-teaser",
+    "imagePattern": "multiple"
+  },
+  "contentPattern": {
+    "structure": "image | heading-body-cta, repeating",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "variants": [
+    "teaser large",
+    "teaser medium",
+    "teaser small",
+    "teaser text-image left",
+    "teaser text-image right",
+    "teaser card"
+  ],
+  "usage": {
+    "pagesUsing": [
+      "library/teaser"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-26T15:55:29.149Z"
+  }
+}

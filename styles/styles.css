@@ -307,6 +307,7 @@ button.button.link {
   background: none;
   color: var(--az-graphite);
   text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 a.button.large,
@@ -322,9 +323,63 @@ button.button.small {
   line-height: 20px;
 }
 
+a.button.link.large,
+button.button.link.large {
+  height: 24px;
+}
+
 a.button.link.small,
 button.button.link.small {
   height: 20px;
+}
+
+a.button.tertiary:hover,
+button.button.tertiary:hover {
+  border-color: var(--az-mulberry);
+  background-color: var(--az-white);
+  color: var(--az-mulberry);
+}
+
+a.button.link:hover,
+button.button.link:hover {
+  background: none;
+  color: var(--az-magenta);
+}
+
+a.button:focus-visible,
+button.button:focus-visible {
+  outline: 2px solid var(--az-magenta);
+  outline-offset: 2px;
+}
+
+a.button[aria-disabled="true"] {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+/* icons in default-content buttons are currentcolor masks (scripts.js sets --icon) */
+.button .button-icon {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  background-color: currentcolor;
+  mask: var(--icon) center / 20px 20px no-repeat;
+}
+
+a.button.icon-only {
+  width: 42px;
+  height: 42px;
+  padding: 0;
+}
+
+a.button.icon-only.large {
+  width: 54px;
+  height: 54px;
+}
+
+a.button.icon-only.small {
+  width: 34px;
+  height: 34px;
 }
 
 .button-wrapper {
@@ -332,11 +387,154 @@ button.button.link.small {
   margin: 0;
 }
 
-.default-content-wrapper:has(> .button-wrapper) {
+/* default content — kit "Block Content": title + text stacked 16 apart */
+main > .section > .default-content-wrapper {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* a paragraph of buttons — kit ".Buttons Collage": stacked full width with the primary first on
+   mobile, a centred row (gap 10) from tablet up */
+main > .section > .default-content-wrapper:not(:has(> :not(.button-wrapper))) {
   gap: 10px;
+}
+
+main > .section > .default-content-wrapper:not(:has(> :not(.button-wrapper))) > .button-wrapper,
+main > .section > .default-content-wrapper:not(:has(> :not(.button-wrapper))) .button:not(.icon-only) {
+  width: 100%;
+}
+
+main > .section > .default-content-wrapper:not(:has(> :not(.button-wrapper))) > .button-wrapper:has(> .primary) {
+  order: -1;
+}
+
+/* section styles: text alignment and the accent (status) text colour */
+main > .section.center > .default-content-wrapper {
+  text-align: center;
+}
+
+main > .section.accent > .default-content-wrapper p {
+  color: var(--az-magenta);
+}
+
+/* section style "dots": the waiting indicator, two 12px magenta dots 12 apart (text is for AT) */
+main > .section.dots > .default-content-wrapper {
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  gap: 12px;
+  height: 12px;
+  overflow: hidden;
+  font-size: 0;
+  line-height: 0;
+}
+
+main > .section.dots > .default-content-wrapper::before,
+main > .section.dots > .default-content-wrapper::after {
+  content: '';
+  flex: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--az-magenta);
+}
+
+main > .section.dots > .default-content-wrapper > * {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+
+/* section style "links" — kit "In-Page Nav": a (nested) list of links, 32px items with a 2px gold
+   rule; nested items are secondary ("—" prefix), a bold link is the current item.
+   horizontal: one scrolling row; vertical (default): a column */
+main > .section.links ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+main > .section.links li,
+main > .section.links li > ul,
+main > .section.links li > strong {
+  display: contents;
+}
+
+main > .section.links.horizontal > .default-content-wrapper > ul {
+  flex-direction: row;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+main > .section.links li a:any-link {
+  display: flex;
+  flex: none;
+  align-items: center;
+  gap: 4px;
+  height: 32px;
+  padding: 4px 16px 4px 14px;
+  border-left: 2px solid var(--az-gold);
+  color: var(--az-magenta);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+main > .section.links li li a:any-link::before {
+  content: '—';
+  display: inline-block;
+  width: 16px;
+  line-height: 16px;
+}
+
+main > .section.links li a:hover {
+  color: var(--az-mulberry);
+  text-decoration: underline;
+}
+
+main > .section.links li a:focus-visible {
+  outline: 2px solid var(--az-magenta);
+  outline-offset: -2px;
+}
+
+main > .section.links li a:is([aria-current], strong > *) {
+  color: var(--az-graphite);
+}
+
+@media (width < 768px) {
+  main > .section.center-mobile > .default-content-wrapper {
+    text-align: center;
+  }
+}
+
+@media (width >= 768px) {
+  main > .section > .default-content-wrapper:not(:has(> :not(.button-wrapper))) {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  main > .section > .default-content-wrapper:not(:has(> :not(.button-wrapper))) > .button-wrapper,
+  main > .section > .default-content-wrapper:not(:has(> :not(.button-wrapper))) .button:not(.icon-only) {
+    width: auto;
+  }
+
+  main > .section > .default-content-wrapper:not(:has(> :not(.button-wrapper))) > .button-wrapper:has(> .primary) {
+    order: 0;
+  }
+}
+
+@media (width >= 768px) and (width < 1200px) {
+  main > .section.center-tablet > .default-content-wrapper {
+    text-align: center;
+  }
 }
 
 /* form controls — kit "Input Field" (12128:3261) / "Checkbox" (12274:6372) */
@@ -509,17 +707,35 @@ body.overlay main > .section {
   }
 }
 
-/* library pages: each kit variant is its own section */
-body.library main > .section[data-kit-component] {
+/* library pages: each kit variant is its own section; its content is the kit frame's width */
+main > .section[data-kit-component] {
   padding: 24px 0;
 }
 
-body.library main > .section[data-kit-component] > div {
+main > .section[data-kit-component] > div {
   max-width: none;
 }
 
-body.library main > .section[data-kit-width] > div {
+main > .section[data-kit-width] > div {
   width: var(--kit-w);
   margin: 0;
   padding: 0;
+}
+
+/* default-content variants are screenshotted as the whole section: it is the kit frame */
+main > .section[data-kit-width]:not(:has(.block)) {
+  width: var(--kit-w);
+  margin: 24px 0;
+  padding: 0;
+}
+
+/* section style "padded": the frame includes the kit Block Content padding */
+main > .section[data-kit-width].padded:not(:has(.block)) {
+  padding: var(--section-padding) var(--gutter);
+}
+
+main > .section[data-kit-width].padded > div {
+  width: auto;
+  max-width: var(--container-width);
+  margin: 0 auto;
 }

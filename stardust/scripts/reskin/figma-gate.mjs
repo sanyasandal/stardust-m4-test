@@ -37,7 +37,7 @@ export const HELP = `Usage:
   node figma-gate.mjs register --page <slug> [--target preview] [--dir stardust]
   node figma-gate.mjs all --page <slug> --url <url|file> [--dir stardust]
   node figma-gate.mjs exact --page <slug> --url <url|file> [--bar 3] [--height-tol 8] [--dir stardust]
-  node figma-gate.mjs library --url-pattern <url with {block}> [--block a,b] [--bar 3] [--size-tol 2] [--dir stardust]
+  node figma-gate.mjs library --url-pattern <url with {block}|{page}> [--block a,b] [--bar 3] [--size-tol 2] [--dir stardust] [--out <dir>]
   (geometry, ramp, pixel and all take --target preview --reskin <file> like join;
    register takes --target preview alone, to read the preview run's files;
    geometry, ramp, pixel, register and all take --waiver-budget <pct>)
@@ -253,7 +253,7 @@ const TARGET_VALUES = ['--target', '--reskin'];
 
 const SPEC = {
   exact: { values: ['--page', '--url', '--bar', '--height-tol', '--dir'], bools: [], positional: [] },
-  library: { values: ['--url-pattern', '--block', '--bar', '--size-tol', '--dir'], bools: [], positional: [] },
+  library: { values: ['--url-pattern', '--block', '--bar', '--size-tol', '--dir', '--out'], bools: [], positional: [] },
   boxes: { values: ['--module', '--node', '--depth', '--dir'], bools: [], positional: [] },
   join: { values: ['--page', '--url', ...TARGET_VALUES, '--dir'], bools: [], positional: [] },
   geometry: { values: ['--page', '--url', ...TARGET_VALUES, '--waiver-budget', '--dir'], bools: [], positional: [] },
@@ -630,7 +630,7 @@ async function libraryStep({ dir, opts, log, UsageError }) {
   if (!opts['url-pattern']) throw new UsageError('library needs --url-pattern <url with {block}>');
   const { runLibrary, gateRow, DEFAULT_BAR, DEFAULT_SIZE_TOL } = await helper('exact');
   const blocks = opts.block ? opts.block.split(',').map((x) => x.trim()).filter(Boolean) : null;
-  const s = await runLibrary({ dir, urlPattern: opts['url-pattern'], blocks, bar: numOpt(opts, 'bar', DEFAULT_BAR, UsageError), sizeTol: numOpt(opts, 'size-tol', DEFAULT_SIZE_TOL, UsageError), out: join(dir, '.work', 'reskin', 'gates', '_library') });
+  const s = await runLibrary({ dir, urlPattern: opts['url-pattern'], blocks, bar: numOpt(opts, 'bar', DEFAULT_BAR, UsageError), sizeTol: numOpt(opts, 'size-tol', DEFAULT_SIZE_TOL, UsageError), out: opts.out || join(dir, '.work', 'reskin', 'gates', '_library') });
   for (const [b, e] of Object.entries(s.blocks)) {
     log(`${e.pass ? 'PASS' : 'FAIL'} ${b} ${e.rows.filter((r) => r.verdict === 'PASS').length}/${e.rows.length} variants · similarity ${e.similarity ?? 'n/a'}%`);
     for (const r of e.rows.filter((x) => x.verdict !== 'PASS')) log(`  ${gateRow(r)}`);

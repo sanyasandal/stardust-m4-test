@@ -1,0 +1,34 @@
+{
+  "variantName": "chips",
+  "baseBlock": "chips",
+  "name": "Chips",
+  "description": "Removable chips, one per cell; sizes small/large, colours dark/light/active.",
+  "version": "1.0.0",
+  "created": "2026-10-26T15:55:29.149Z",
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "purpose": "filter-chips",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "chip-per-cell",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "variants": [
+    "small dark",
+    "large dark",
+    "small light",
+    "large light",
+    "small active",
+    "large active"
+  ],
+  "usage": {
+    "pagesUsing": [
+      "library/chips"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-26T15:55:29.149Z"
+  }
+}

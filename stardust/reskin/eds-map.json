@@ -1,0 +1,197 @@
+{
+  "$comment": "Figma kit module -> EDS block (D1/D11). block null = default content. Injected into figma-renders.json library[*].eds",
+  "modules": {
+    "accordion": {
+      "block": "accordion",
+      "variant": null,
+      "page": "accordion",
+      "reason": "Block Collection accordion"
+    },
+    "back-to-top": {
+      "block": "back-to-top",
+      "variant": null,
+      "page": "back-to-top",
+      "reason": "no EDS equivalent: new block"
+    },
+    "button": {
+      "block": null,
+      "variant": null,
+      "page": "button",
+      "reason": "default content: aem.js decorateButtons (bold link = primary, italic = secondary); sizes/states as section styles"
+    },
+    "breadcrumb": {
+      "block": "breadcrumbs",
+      "variant": null,
+      "page": "breadcrumbs",
+      "reason": "Block Collection breadcrumbs"
+    },
+    "carousel": {
+      "block": "carousel",
+      "variant": null,
+      "page": "carousel",
+      "reason": "Block Collection carousel"
+    },
+    "checkbox-radio": {
+      "block": "form",
+      "variant": null,
+      "page": "form",
+      "reason": "Block Collection form: checkbox / radio field rows (type cell per row, not a block variant)"
+    },
+    "chips": {
+      "block": "chips",
+      "variant": null,
+      "page": "chips",
+      "reason": "no EDS equivalent: new block"
+    },
+    "dropdown": {
+      "block": "form",
+      "variant": null,
+      "page": "form",
+      "reason": "Block Collection form: select / multi-select field rows (type cell per row, not a block variant)"
+    },
+    "input": {
+      "block": "form",
+      "variant": null,
+      "page": "form",
+      "reason": "Block Collection form: text/email/tel/password/number field rows (type cell per row, not a block variant)"
+    },
+    "links": {
+      "block": null,
+      "variant": null,
+      "page": "links",
+      "reason": "default content: links"
+    },
+    "modal": {
+      "block": "modal",
+      "variant": null,
+      "page": "modal",
+      "reason": "Block Collection modal"
+    },
+    "pagination": {
+      "block": "pagination",
+      "variant": null,
+      "page": "pagination",
+      "reason": "no EDS equivalent: new block"
+    },
+    "search-bar": {
+      "block": "search",
+      "variant": null,
+      "page": "search",
+      "reason": "Block Collection search"
+    },
+    "slider": {
+      "block": "form",
+      "variant": null,
+      "page": "form",
+      "reason": "Block Collection form: range field rows (type cell per row, not a block variant)"
+    },
+    "stepper": {
+      "block": "stepper",
+      "variant": null,
+      "page": "stepper",
+      "reason": "no EDS equivalent: new block (step progress indicator)"
+    },
+    "tab-nav": {
+      "block": "tabs",
+      "variant": "nav",
+      "page": "tabs",
+      "reason": "Block Collection tabs, nav variant"
+    },
+    "tabs": {
+      "block": "tabs",
+      "variant": null,
+      "page": "tabs",
+      "reason": "Block Collection tabs"
+    },
+    "tables": {
+      "block": "table",
+      "variant": null,
+      "page": "table",
+      "reason": "Block Collection table"
+    },
+    "toggle": {
+      "block": "form",
+      "variant": null,
+      "page": "form",
+      "reason": "Block Collection form: toggle field rows (type cell per row, not a block variant)"
+    },
+    "tooltip": {
+      "block": "tooltip",
+      "variant": null,
+      "page": "tooltip",
+      "reason": "no EDS equivalent: new block"
+    },
+    "account": {
+      "block": "account",
+      "variant": null,
+      "page": "account",
+      "reason": "no EDS equivalent: new block"
+    },
+    "block-content": {
+      "block": null,
+      "variant": null,
+      "page": "block-content",
+      "reason": "default content (heading, text, buttons) with section styles; its field rows are the form block"
+    },
+    "cta-banner": {
+      "block": "cta-banner",
+      "variant": null,
+      "page": "cta-banner",
+      "reason": "no EDS equivalent: new block"
+    },
+    "calculator": {
+      "block": "calculator",
+      "variant": null,
+      "page": "calculator",
+      "reason": "no EDS equivalent: new block (interactive)"
+    },
+    "email": {
+      "block": null,
+      "variant": null,
+      "page": "email",
+      "reason": "default content in the email page template"
+    },
+    "forms": {
+      "block": "form",
+      "variant": null,
+      "page": "form",
+      "reason": "Block Collection form"
+    },
+    "footer": {
+      "block": "footer",
+      "variant": null,
+      "page": "footer",
+      "reason": "boilerplate footer"
+    },
+    "header": {
+      "block": "header",
+      "variant": null,
+      "page": "header",
+      "reason": "boilerplate header"
+    },
+    "home-hero-branded": {
+      "block": "hero",
+      "variant": "branded",
+      "page": "hero",
+      "reason": "boilerplate hero, branded variant"
+    },
+    "login": {
+      "block": "form",
+      "variant": "login",
+      "page": "form",
+      "reason": "Block Collection form; login = layout class only"
+    },
+    "teaser": {
+      "block": "cards",
+      "variant": "teaser",
+      "page": "cards",
+      "reason": "boilerplate cards, teaser variant"
+    },
+    "quiz": {
+      "block": "quiz",
+      "variant": null,
+      "page": "quiz",
+      "reason": "no EDS equivalent: new block (interactive)"
+    }
+  }
+}

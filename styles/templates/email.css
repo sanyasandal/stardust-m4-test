@@ -1,5 +1,8 @@
-/* One AZ email page template — Figma "Email" frames (13512:6269 …): #ebefee canvas, no site chrome,
-   the 674-wide email centred with 40 / 32 / 16×20 frame padding */
+/* One AZ email page template — Figma "Email" frames (13512:6269 …) and kit "Email" (12712:21024):
+   #ebefee canvas, no site chrome, the 674-wide email centred with 40 / 32 / 16×20 frame padding.
+   The email is default content in one section: a logo paragraph (:az-email-logo:), the message
+   (heading, text, a bold link = button, an image) shown as a white card, and an optional closing
+   list of footer links. Section style "mobile" is the 343-wide kit layout at any viewport. */
 body.email header,
 body.email footer {
   display: none;
@@ -9,13 +12,126 @@ body.email main {
   padding: 16px 20px;
 }
 
-body.email main > .section > div {
-  max-width: none;
+body.email main > .section > .default-content-wrapper {
+  --email-pad: 40px;
+  --email-heading-gap: 24px;
+
+  gap: 0;
+  max-width: 674px;
+  margin: 0 auto;
+  color: var(--az-graphite);
+  font-family: var(--email-font-family);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* the message card: white, padded, its parts 16 apart */
+body.email main > .section > .default-content-wrapper > * {
+  padding: 16px var(--email-pad) 0;
+  background-color: var(--az-white);
+}
+
+body.email main > .section > .default-content-wrapper > :first-child + * {
+  padding-top: var(--email-pad);
+}
+
+body.email main > .section > .default-content-wrapper > :last-child,
+body.email main > .section > .default-content-wrapper > :has(+ ul:last-child) {
+  padding-bottom: var(--email-pad);
+}
+
+body.email main > .section > .default-content-wrapper > p > picture img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+
+/* the logo — 202×48, 24 above the card */
+body.email main > .section > .default-content-wrapper > :first-child {
+  margin-bottom: 24px;
+  padding: 0;
+  background: none;
+}
+
+body.email main > .section > .default-content-wrapper > :first-child .icon,
+body.email main > .section > .default-content-wrapper > :first-child img {
+  display: block;
+  width: 202px;
+  height: 48px;
+}
+
+body.email main > .section > .default-content-wrapper > :is(h1, h2, h3, h4, h5, h6) {
+  padding-bottom: var(--email-heading-gap);
+  color: var(--az-graphite);
+  font-family: var(--email-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+/* footer links, 24 below the card */
+body.email main > .section > .default-content-wrapper > ul:last-child {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 24px;
+  margin: 24px 0 0;
+  padding: 0;
+  background: none;
+  list-style: none;
+}
+
+body.email main > .section > .default-content-wrapper > ul:last-child a:any-link {
+  color: var(--az-graphite);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+body.email main > .section.mobile > .default-content-wrapper {
+  --email-pad: 16px;
+  --email-heading-gap: 8px;
+
+  max-width: 343px;
+}
+
+body.email main > .section.mobile > .default-content-wrapper > :is(h1, h2, h3, h4, h5, h6) {
+  font-size: 26px;
+  line-height: 32px;
+}
+
+body.email main > .section.mobile > .default-content-wrapper > p > picture img {
+  height: 160px;
+}
+
+/* kit library: the variant frames are transparent (flattened on white) */
+body.email main > .section[data-kit-component] {
+  background-color: var(--az-white);
+}
+
+@media (width < 768px) {
+  body.email main > .section > .default-content-wrapper {
+    --email-heading-gap: 8px;
+  }
+
+  body.email main > .section > .default-content-wrapper > :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  body.email main > .section > .default-content-wrapper > p > picture img {
+    height: 160px;
+  }
 }
 
 @media (width >= 768px) {
   body.email main {
     padding: 32px 0;
+  }
+}
+
+@media (width < 1200px) {
+  body.email main > .section:not(.mobile) > .default-content-wrapper {
+    --email-pad: 24px;
   }
 }
 

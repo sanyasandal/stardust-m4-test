@@ -1,0 +1,50 @@
+{
+  "variantName": "pagination",
+  "baseBlock": "pagination",
+  "name": "Pagination",
+  "description": "Page navigation (previous · pages · next); \"base\" renders a single control in a given state.",
+  "version": "1.0.0",
+  "created": "2026-10-26T15:55:29.149Z",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "purpose": "navigation-pagination",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "link-list",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "variants": [
+    "base page-number",
+    "base page-number hover",
+    "base page-number active",
+    "base page-number disabled",
+    "base left-icon",
+    "base left-icon hover",
+    "base left-icon active",
+    "base left-icon disabled",
+    "base previous-icon-text",
+    "base previous-icon-text hover",
+    "base previous-icon-text active",
+    "base previous-icon-text disabled",
+    "base next-icon-text",
+    "base next-icon-text hover",
+    "base next-icon-text active",
+    "base next-icon-text disabled",
+    "base right-icon",
+    "base right-icon hover",
+    "base right-icon active",
+    "base right-icon disabled",
+    "group icon-only",
+    "group icon-text"
+  ],
+  "usage": {
+    "pagesUsing": [
+      "library/pagination"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-26T15:55:29.149Z"
+  }
+}

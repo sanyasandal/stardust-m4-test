@@ -1,0 +1,26 @@
+{
+  "variantName": "carousel",
+  "baseBlock": "carousel",
+  "name": "Carousel",
+  "description": "Slides: one row per slide, image cell and a text cell (heading, text, optional bold link as primary button).",
+  "version": "1.0.0",
+  "created": "2026-10-26T15:55:29.149Z",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "purpose": "carousel-promo",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image | heading-body-cta, repeating",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "usage": {
+    "pagesUsing": [
+      "library/carousel"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-26T15:55:29.149Z"
+  }
+}

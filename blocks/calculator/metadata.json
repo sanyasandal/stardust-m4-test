@@ -1,0 +1,31 @@
+{
+  "variantName": "calculator",
+  "baseBlock": "calculator",
+  "name": "Calculator",
+  "description": "Interactive calculator built from text, field, choice, button and result rows (weight conversion, dosing, risk).",
+  "version": "1.0.0",
+  "created": "2026-10-26T15:55:29.149Z",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "dense",
+    "purpose": "interactive-calculator",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "intro + field rows + button + result rows",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "variants": [
+    "weight-conversion",
+    "dosing-calculator",
+    "risk-calculator"
+  ],
+  "usage": {
+    "pagesUsing": [
+      "library/calculator"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-26T15:55:29.149Z"
+  }
+}

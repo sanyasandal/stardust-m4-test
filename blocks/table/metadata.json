@@ -1,0 +1,48 @@
+{
+  "variantName": "table",
+  "baseBlock": "table",
+  "name": "Table",
+  "description": "Data table: one row per table row, one cell per column; icon/checkbox/radio/toggle cell types and header/light/dark/highlight positions.",
+  "version": "1.0.0",
+  "created": "2026-10-26T15:55:29.149Z",
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "dense",
+    "purpose": "data-table",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "rows x columns",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "variants": [
+    "icon header",
+    "icon cell-light",
+    "icon cell-dark",
+    "icon highlight",
+    "checkbox header",
+    "checkbox cell-light",
+    "checkbox cell-dark",
+    "checkbox highlight",
+    "radio header",
+    "radio cell-light",
+    "radio cell-dark",
+    "radio highlight",
+    "toggle header",
+    "toggle cell-light",
+    "toggle cell-dark",
+    "toggle highlight",
+    "empty header",
+    "empty cell-light",
+    "empty cell-dark",
+    "empty highlight"
+  ],
+  "usage": {
+    "pagesUsing": [
+      "library/tables"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-26T15:55:29.149Z"
+  }
+}

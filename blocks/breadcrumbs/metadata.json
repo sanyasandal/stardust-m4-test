@@ -1,0 +1,32 @@
+{
+  "variantName": "breadcrumbs",
+  "baseBlock": "breadcrumbs",
+  "name": "Breadcrumbs",
+  "description": "Breadcrumb trail as a list of links; the last crumb is the current page. \"label\" renders a single crumb.",
+  "version": "1.0.0",
+  "created": "2026-10-26T15:55:29.149Z",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "purpose": "navigation-breadcrumb",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "link-list",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "variants": [
+    "label",
+    "label hover",
+    "label active",
+    "breadcrumble-example"
+  ],
+  "usage": {
+    "pagesUsing": [
+      "library/breadcrumb"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-26T15:55:29.149Z"
+  }
+}

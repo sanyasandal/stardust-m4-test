@@ -1,0 +1,30 @@
+{
+  "variantName": "accordion",
+  "baseBlock": "accordion",
+  "name": "Accordion",
+  "description": "Expandable items: one row per item, title cell and panel content cell.",
+  "version": "1.0.0",
+  "created": "2026-10-26T15:55:29.149Z",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "purpose": "faq",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "title-body-expandable",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "variants": [
+    "closed",
+    "expanded"
+  ],
+  "usage": {
+    "pagesUsing": [
+      "library/accordion"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-26T15:55:29.149Z"
+  }
+}

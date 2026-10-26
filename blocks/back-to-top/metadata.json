@@ -1,0 +1,30 @@
+{
+  "variantName": "back-to-top",
+  "baseBlock": "back-to-top",
+  "name": "Back to Top",
+  "description": "Link that scrolls back to the top of the page; light (magenta) or dark (white) styling.",
+  "version": "1.0.0",
+  "created": "2026-10-26T15:55:29.149Z",
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "density": "minimal",
+    "purpose": "navigation-utility",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "single-link",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "variants": [
+    "light",
+    "dark"
+  ],
+  "usage": {
+    "pagesUsing": [
+      "library/back-to-top"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-26T15:55:29.149Z"
+  }
+}

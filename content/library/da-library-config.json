@@ -1,0 +1,17 @@
+{
+  ":names": [
+    "library"
+  ],
+  ":type": "multi-sheet",
+  "library": {
+    "total": 1,
+    "limit": 1,
+    "offset": 0,
+    "data": [
+      {
+        "title": "Blocks",
+        "path": "https://content.da.live/sanyasandal/stardust-m4-test/library/blocks.json"
+      }
+    ]
+  }
+}

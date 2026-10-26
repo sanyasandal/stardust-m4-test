@@ -1,8 +1,8 @@
-/* One AZ form page template — owned by the form builder (B)
- * Pages: Header Registration + Block Content sections + Footer.
+/* One AZ form page template — the Figma form / message page frames
+ * Pages: Header Registration + content sections (default content, `form` blocks) + Footer.
  * Desktop frames are min 1024 tall; tablet and mobile frames hug their content.
- * Sections carry per-breakpoint overrides from block-content.js:
- *   --bc-pt-{d,t,m} top padding, --bc-pb-{d,t,m} bottom padding, --bc-h-{d,t,m} frame height.
+ * Sections carry per-breakpoint section-metadata overrides (scripts.js → custom properties):
+ *   --section-pt-{d,t,m} top padding, --section-pb-{d,t,m} bottom padding, --section-h-{d,t,m} height.
  * Sections styled bp-desktop / bp-tablet / bp-mobile only show at those breakpoints.
  */
 body.form.appear {
@@ -10,8 +10,8 @@ body.form.appear {
 }
 
 body.form main > .section {
-  min-height: var(--bc-h-m, 0);
-  padding: var(--bc-pt-m, var(--section-padding)) var(--gutter) var(--bc-pb-m, 0);
+  min-height: var(--section-h-m, 0);
+  padding: var(--section-pt-m, var(--section-padding)) var(--gutter) var(--section-pb-m, 0);
 }
 
 body.form main > .section[class*="bp-"] {
@@ -24,8 +24,8 @@ body.form main > .section.bp-mobile {
 
 @media (width >= 768px) {
   body.form main > .section {
-    min-height: var(--bc-h-t, 0);
-    padding: var(--bc-pt-t, var(--section-padding)) var(--gutter) var(--bc-pb-t, 0);
+    min-height: var(--section-h-t, 0);
+    padding: var(--section-pt-t, var(--section-padding)) var(--gutter) var(--section-pb-t, 0);
   }
 
   body.form main > .section.bp-mobile {
@@ -43,8 +43,8 @@ body.form main > .section.bp-mobile {
   }
 
   body.form main > .section {
-    min-height: var(--bc-h-d, 0);
-    padding: var(--bc-pt-d, var(--section-padding)) var(--gutter) var(--bc-pb-d, 0);
+    min-height: var(--section-h-d, 0);
+    padding: var(--section-pt-d, var(--section-padding)) var(--gutter) var(--section-pb-d, 0);
   }
 
   body.form main > .section.bp-tablet {
@@ -56,7 +56,8 @@ body.form main > .section.bp-mobile {
   }
 }
 
-/* 3rd party login: the login modal over the 60% black scrim, no page chrome */
+/* modal — 3rd party login: the section is the login card (343 / 568, padding 16 / 24, radius 12)
+   over the 60% black scrim, no page chrome */
 body.form:has(main > .section.modal) {
   min-height: 800px;
   background-color: rgb(102 102 102);
@@ -71,16 +72,65 @@ body.form:has(main > .section.modal) main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 0 16px;
 }
 
 body.form main > .section.modal {
-  padding: 0 16px;
-  background: none;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 343px;
+  max-width: 100%;
+  min-height: 0;
+  margin: 0 auto;
+  padding: 16px;
+  border: 1px solid var(--az-grey-300);
+  border-radius: 12px;
+  background: var(--az-white);
+}
+
+body.form main > .section.modal > div {
+  width: 100%;
+  margin: 0;
+}
+
+body.form main > .section.modal > .default-content-wrapper:first-child {
+  gap: 8px;
+  padding-top: 4px;
+  text-align: center;
+}
+
+body.form main > .section.modal h2 {
+  font-size: var(--heading-font-size-m);
+  line-height: var(--heading-line-height-m);
+}
+
+/* the close button: an icon link in the last paragraph, pinned to the card's top-right corner */
+body.form main > .section.modal > .default-content-wrapper:last-child {
+  position: absolute;
+  top: 23px;
+  right: 23px;
+  width: auto;
+}
+
+body.form main > .section.modal > .default-content-wrapper:last-child a:any-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: var(--radius);
 }
 
 @media (width >= 768px) {
   body.form:has(main > .section.modal) {
     min-height: 541px;
+  }
+
+  body.form main > .section.modal {
+    width: 568px;
+    padding: 24px;
   }
 }
 

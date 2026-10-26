@@ -1,0 +1,19 @@
+{
+  "variantName": "columns",
+  "baseBlock": "columns",
+  "name": "Columns",
+  "description": "Side-by-side columns: each row is a line of columns, each cell one column (text or an image).",
+  "version": "1.0.0",
+  "created": "2026-10-26T15:55:29.149Z",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "purpose": "columns-layout",
+    "imagePattern": "single"
+  },
+  "contentPattern": {
+    "structure": "text | image columns",
+    "buttonCount": 1,
+    "imageCount": 1
+  }
+}

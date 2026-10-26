@@ -1,0 +1,13 @@
+{
+  "variantName": "fragment",
+  "baseBlock": "fragment",
+  "name": "Fragment",
+  "description": "Includes the content of another document (a fragment) by path or URL.",
+  "version": "1.0.0",
+  "created": "2026-10-26T15:55:29.149Z",
+  "contentPattern": {
+    "structure": "single-link",
+    "buttonCount": 0,
+    "imageCount": 0
+  }
+}

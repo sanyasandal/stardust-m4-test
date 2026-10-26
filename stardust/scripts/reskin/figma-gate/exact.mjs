@@ -127,7 +127,7 @@ export async function runExact({ dir, slug, url, bar = DEFAULT_BAR, heightTol = 
 
 // → { blocks: { block: { pass, similarity, rows } }, rows, similarity, pass }
 export async function runLibrary({ dir, urlPattern, blocks = null, bar = DEFAULT_BAR, sizeTol = DEFAULT_SIZE_TOL, timeout = 60, out }) {
-  if (!/\{block\}/.test(urlPattern)) throw new UsageError(`--url-pattern "${urlPattern}" needs {block} (e.g. http://localhost:3000/library/{block})`);
+  if (!/\{(block|page)\}/.test(urlPattern)) throw new UsageError(`--url-pattern "${urlPattern}" needs {block} or {page} (e.g. http://localhost:3000/library/{page})`);
   const renders = loadRenders(dir);
   const all = Object.entries(renders.library || {});
   const unknown = (blocks || []).filter((b) => !renders.library?.[b]);
@@ -139,7 +139,10 @@ export async function runLibrary({ dir, urlPattern, blocks = null, bar = DEFAULT
     for (const [block, entry] of list) {
       const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 }, deviceScaleFactor: renders.scale || 1 });
       const page = await ctx.newPage();
-      const url = urlPattern.replace('{block}', block);
+      // entry.eds maps the Figma module to its EDS block: { block (null = default content), variant, page }.
+      const eds = entry.eds || {};
+      const url = urlPattern.replace('{block}', block).replace('{page}', eds.page || block);
+      const cls = eds.block === null ? null : (eds.block || block);
       const res = await page.goto(toUrl(url), { waitUntil: 'load' }).catch((e) => ({ status: () => 0, err: e }));
       if (!res || res.status() >= 400 || res.err) {
         for (const v of entry.variants) rows.push({ key: `${block}/${v.name}`, block, id: v.id, verdict: 'FAIL', why: [`library page ${url} → ${res?.err ? res.err.message.split('\n')[0] : res?.status()}`] });
@@ -154,8 +157,8 @@ export async function runLibrary({ dir, urlPattern, blocks = null, bar = DEFAULT
         if (!ref || !existsSync(ref)) { rows.push({ ...base, verdict: 'FAIL', why: ['no Figma render (re-run figma-donor.mjs renders)'] }); continue; }
         const host = page.locator(`[data-kit-component="${v.id}"]`);
         if (await host.count() === 0) { rows.push({ ...base, verdict: 'FAIL', why: [`[data-kit-component="${v.id}"] is not on ${url}`] }); continue; }
-        const inner = host.first().locator(`.${block}`);
-        const el = (await inner.count()) ? inner.first() : host.first();
+        const inner = cls ? host.first().locator(`.${cls}`) : null;
+        const el = inner && (await inner.count()) ? inner.first() : host.first();
         const size = await pngSize(ref);
         const scale = renders.scale || 1;
         if (v.breakpoint === 'mobile' || v.breakpoint === 'tablet') await page.setViewportSize({ width: Math.max(320, Math.round(size.width / scale)), height: 900 });

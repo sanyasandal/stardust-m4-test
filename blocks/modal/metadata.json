@@ -1,0 +1,36 @@
+{
+  "variantName": "modal",
+  "baseBlock": "modal",
+  "name": "Modal",
+  "description": "Dialog with heading, body text and buttons; text-only, slot-component or image, horizontal or vertical.",
+  "version": "1.0.0",
+  "created": "2026-10-26T15:55:29.149Z",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "purpose": "modal-dialog",
+    "imagePattern": "single"
+  },
+  "contentPattern": {
+    "structure": "heading-body-ctas (+ image)",
+    "buttonCount": 3,
+    "imageCount": 1
+  },
+  "variants": [
+    "slot-component horizontal",
+    "text-only horizontal",
+    "slot-component vertical",
+    "text-only vertical",
+    "image horizontal",
+    "image vertical"
+  ],
+  "usage": {
+    "pagesUsing": [
+      "inactivity",
+      "logged-out",
+      "library/modal"
+    ],
+    "reuseCount": 3,
+    "lastUsed": "2026-10-26T15:55:29.149Z"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "variantName": "cta-banner",
+  "baseBlock": "cta-banner",
+  "name": "CTA Banner",
+  "description": "Call-to-action banner: image row, heading/text/buttons, and optional form field rows.",
+  "version": "1.0.0",
+  "created": "2026-10-26T15:55:29.149Z",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "purpose": "cta-banner",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading-body-cta + fields",
+    "buttonCount": 2,
+    "imageCount": 1
+  },
+  "usage": {
+    "pagesUsing": [
+      "library/cta-banner"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-26T15:55:29.149Z"
+  }
+}

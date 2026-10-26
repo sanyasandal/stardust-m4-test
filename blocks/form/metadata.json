@@ -1,0 +1,45 @@
+{
+  "variantName": "form",
+  "baseBlock": "form",
+  "name": "Form",
+  "description": "Form (Block Collection model): one row per field, Label | value | type | state. Types: text, email, tel, password, number, amount, select, multi-select, checkbox, radio, toggle, range, divider. A trailing * on the label marks it required; a row of links is the button line.",
+  "version": "1.0.0",
+  "created": "2026-10-26T16:18:27.354Z",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "purpose": "form",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "label | value | type | state, repeating + buttons row",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "variants": [
+    "login"
+  ],
+  "usage": {
+    "pagesUsing": [
+      "3rd-party-login",
+      "change-password",
+      "channel-consent",
+      "forgot-password",
+      "login-landing",
+      "login-without-pass",
+      "registration",
+      "resend-verification-email",
+      "reset-link-expired",
+      "reset-password",
+      "library/checkbox-radio",
+      "library/dropdown",
+      "library/forms",
+      "library/input",
+      "library/login",
+      "library/slider",
+      "library/toggle"
+    ],
+    "reuseCount": 17,
+    "lastUsed": "2026-10-26T16:18:27.354Z"
+  }
+}

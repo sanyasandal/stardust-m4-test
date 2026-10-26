@@ -1,0 +1,985 @@
+/* stylelint-disable no-descending-specificity */
+
+/*
+ * Form — kit "Forms" (12682:15982 …), "Input Field" (12160:3287), "Dropdown" (12277:7180),
+ * "Checkbox" (12265:6347 / 12274:6373), "Toggle" (12287:8485 / 12287:8715), "Slider"
+ * (12334:10106) and "Login" (12643:9460). Field base styles (.field, .check) live in styles.css.
+ * Selectors use .form.block: body.form is the form page template.
+ */
+.form.block {
+  box-sizing: border-box;
+  color: var(--az-graphite);
+}
+
+.form.block form {
+  margin: 0;
+}
+
+.form.block .form-fields {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 24px;
+}
+
+.form.block .form-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* label row: label (+ required mark, tooltip) and an optional link at the right */
+.form.block .form-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.form.block .form-label label,
+.form.block .form-label .label {
+  display: inline-flex;
+  align-items: center;
+}
+
+.form.block a.form-link:any-link {
+  color: var(--az-magenta);
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.form.block a.form-link:hover {
+  color: var(--az-mulberry);
+}
+
+/* icons drawn in currentcolor so field states recolour them */
+.form.block .form-icon {
+  display: block;
+  flex: none;
+  width: 20px;
+  height: 20px;
+  background-color: currentcolor;
+  mask: var(--icon) center / 20px 20px no-repeat;
+}
+
+.form.block .form-icon.form-helper {
+  width: 16px;
+  height: 16px;
+  margin-left: 2px;
+  background-color: var(--az-sage);
+  mask-size: 16px 16px;
+}
+
+/* text-like inputs and the native select: the input draws the box, icons sit over it */
+.form.block .form-control {
+  position: relative;
+  color: var(--az-graphite);
+}
+
+.form.block .form-control > .form-icon,
+.form.block .form-reveal {
+  position: absolute;
+  top: 17px;
+}
+
+.form.block .form-control > .form-icon {
+  pointer-events: none;
+}
+
+.form.block .form-lead {
+  left: 16px;
+}
+
+.form.block .form-trail,
+.form.block .form-reveal {
+  right: 16px;
+}
+
+/* the select chevron sits where the native select draws it (16px inside the border) */
+.form.block .form-select .form-control > .form-trail {
+  right: 17px;
+}
+
+.form.block .form-control select {
+  background-image: none;
+  cursor: pointer;
+}
+
+.form.block .form-reveal {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.form.block .form-reveal:focus-visible {
+  outline: 2px solid var(--az-magenta);
+  outline-offset: 2px;
+}
+
+.form.block .form-reveal:disabled {
+  cursor: not-allowed;
+}
+
+.form.block .has-lead input,
+.form.block .has-lead select {
+  padding-left: 44px;
+}
+
+.form.block .has-trail input,
+.form.block .has-unit input {
+  padding-right: 44px;
+}
+
+.form.block .form-control input {
+  caret-color: var(--az-magenta);
+}
+
+.form.block .form-unit {
+  position: absolute;
+  top: 15px;
+  right: 17px;
+  font-size: 16px;
+  line-height: 24px;
+  pointer-events: none;
+}
+
+/* focus state: a caret drawn after the value */
+.form.block .form-mirror {
+  position: absolute;
+  top: 50%;
+  left: 17px;
+  display: flex;
+  align-items: center;
+  color: transparent;
+  font-size: 16px;
+  line-height: 24px;
+  white-space: pre;
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+
+.form.block .has-lead .form-mirror {
+  left: 45px;
+}
+
+.form.block .form-mirror::after {
+  content: '';
+  width: 2px;
+  height: 24px;
+  margin-left: 2px;
+  background-color: var(--az-magenta);
+}
+
+.form.block .form-control:focus-within .form-mirror {
+  display: none;
+}
+
+.form.block .form-error {
+  margin: 0;
+  color: var(--az-magenta);
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* field states — real interaction plus the kit's static states */
+.form.block .form-control > input:hover,
+.form.block .form-control > select:hover,
+.form.block .form-field.hover .form-control > :is(input, select) {
+  border-color: var(--az-graphite);
+}
+
+.form.block .form-control > input:focus,
+.form.block .form-control > select:focus,
+.form.block .form-field.focus .form-control > :is(input, select),
+.form.block .form-field.error .form-control > :is(input, select) {
+  border-color: var(--az-magenta);
+  outline: 0;
+}
+
+.form.block .form-control:focus-within .form-icon,
+.form.block .form-field.focus .form-icon {
+  color: var(--az-magenta);
+}
+
+.form.block .form-field:is(.filled, .focus, .read-only) input::placeholder {
+  color: var(--az-graphite);
+}
+
+.form.block .form-field.read-only .form-control > :is(input, select) {
+  border-color: var(--az-grey-300);
+  background-color: var(--az-grey-100);
+}
+
+.form.block .form-field.disabled .form-control {
+  color: var(--az-grey-500);
+}
+
+.form.block .form-field.disabled .form-control > :is(input, select),
+.form.block .form-field.disabled .form-control > input::placeholder {
+  border-color: var(--az-grey-300);
+  background-color: var(--az-white);
+  color: var(--az-grey-500);
+  -webkit-text-fill-color: var(--az-grey-500);
+  cursor: not-allowed;
+}
+
+.form.block .form-field.disabled .form-icon {
+  color: var(--az-grey-500);
+}
+
+/* non-editable: the value as text in the control's place */
+.form.block .form-field.non-editable .form-control {
+  display: flex;
+  align-items: center;
+  height: var(--control-height);
+}
+
+.form.block .form-value {
+  margin: 0;
+  color: var(--az-grey-500);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.form.block .form-field.non-editable.horizontal {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.form.block .form-field.non-editable.horizontal > .form-label,
+.form.block .form-field.non-editable.horizontal > .form-control {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.form.block .form-field.non-editable.horizontal > .form-control {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  height: auto;
+}
+
+/* listbox: select with rich options, multi-select; a menu of 40px options under a 54px button */
+.form.block .form-listbox {
+  position: relative;
+  padding-bottom: 4px;
+}
+
+.form.block .form-listbox-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  box-sizing: border-box;
+  width: 100%;
+  height: var(--control-height);
+  margin: 0;
+  padding: 0 16px;
+  border: 1px solid var(--az-grey-300);
+  border-radius: var(--radius);
+  background: var(--az-white);
+  color: var(--az-graphite);
+  font: inherit;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.form.block .form-listbox-button:hover,
+.form.block .form-listbox.hover .form-listbox-button {
+  border-color: var(--az-graphite);
+}
+
+.form.block .form-listbox-button:focus-visible {
+  outline: 2px solid var(--az-magenta);
+  outline-offset: 1px;
+}
+
+.form.block .form-listbox-button:disabled {
+  color: var(--az-grey-500);
+  cursor: not-allowed;
+}
+
+.form.block .form-listbox-value {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.form.block .form-listbox-value.placeholder {
+  color: var(--az-grey-400);
+}
+
+.form.block .form-listbox-chevron {
+  mask-size: 100% 100%;
+}
+
+.form.block .form-listbox.is-open .form-listbox-chevron {
+  transform: rotate(180deg);
+}
+
+.form.block .form-menu {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  top: 100%;
+  left: 0;
+  flex-direction: column;
+  gap: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  max-height: 320px;
+  margin: 0;
+  padding: 7px;
+  overflow-y: auto;
+  list-style: none;
+  border: 1px solid var(--az-grey-300);
+  border-radius: var(--radius);
+  background: var(--az-white);
+  box-shadow: 0 4px 6px rgb(0 0 0 / 5%), 0 10px 15px rgb(0 0 0 / 10%);
+}
+
+.form.block .form-menu:focus-visible {
+  outline: 2px solid var(--az-magenta);
+  outline-offset: 1px;
+}
+
+.form.block .form-listbox.is-open .form-menu {
+  display: flex;
+}
+
+/* state "open": the menu stays open in the page flow */
+.form.block .form-listbox.open {
+  padding-bottom: 0;
+}
+
+.form.block .form-listbox.open .form-menu {
+  display: flex;
+  position: static;
+  max-height: none;
+  overflow: visible;
+}
+
+/* a lone open listbox reserves room for the menu shadow (15px each side, 25px below), as the kit frame */
+.form.block:has(.form-fields > .form-listbox.open:only-child) {
+  width: calc(100% + 30px);
+  max-width: 414px;
+  padding: 0 15px 25px;
+}
+
+.form.block .form-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  box-sizing: border-box;
+  min-height: 40px;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.form.block .form-option.highlighted,
+.form.block .form-option:hover {
+  background: var(--az-grey-100);
+}
+
+.form.block .form-option[aria-selected="true"]:not(:has(.form-option-check)) {
+  font-weight: 700;
+}
+
+.form.block .form-option-main {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.form.block .form-option .icon {
+  flex: none;
+  width: 20px;
+  height: 20px;
+}
+
+.form.block .form-option-secondary {
+  flex: none;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.form.block .form-option-check {
+  flex: none;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--az-grey-300);
+  border-radius: var(--radius);
+  background: var(--az-white);
+}
+
+.form.block .form-option[aria-selected="true"] .form-option-check {
+  border-color: var(--az-magenta);
+  background: var(--az-magenta) url('/icons/check-white.svg') center / 14px no-repeat;
+}
+
+/* checkbox / radio (base look in styles.css .check) */
+.form.block .form-checks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.form.block .check input {
+  cursor: pointer;
+}
+
+.form.block .check input:hover {
+  border-color: var(--az-graphite);
+}
+
+.form.block .check input:checked:hover {
+  border-color: var(--az-magenta);
+}
+
+.form.block .check input:focus-visible {
+  outline: 2px solid var(--az-magenta);
+  outline-offset: 2px;
+}
+
+.form.block .check input:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.form.block .check-text {
+  display: flex;
+  flex-direction: column;
+}
+
+/* a lone check hugs its text: sub-pixel slack as Inter's local metrics run ~0.3px wider than Figma's */
+.form.block .form-fields > .form-checks:only-child .check > :last-child {
+  margin-inline-end: -1px;
+}
+
+.form.block .check.hide-label {
+  gap: 0;
+}
+
+.form.block .check.hide-label input {
+  margin: 0;
+}
+
+.form.block .form-radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.form.block .form-legend {
+  padding: 0;
+  font-weight: 700;
+}
+
+/* toggle: 28×16 switch in a 36×24 slot, at the right of the text (or `left`) */
+.form.block .form-toggle {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.form.block .form-toggle-text {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.form.block .form-toggle.left .form-toggle-text {
+  flex: 0 1 auto;
+}
+
+.form.block .form-toggle-text strong {
+  font-weight: 500;
+}
+
+.form.block .form-toggle-description {
+  display: block;
+}
+
+.form.block .form-toggle input {
+  position: relative;
+  flex: none;
+  width: 28px;
+  height: 16px;
+  margin: 4px 8px 4px 16px;
+  border: 1px solid var(--az-grey-300);
+  border-radius: 9999px;
+  background: var(--az-grey-100);
+  appearance: none;
+  cursor: pointer;
+  transition: background-color 0.15s, border-color 0.15s;
+}
+
+.form.block .form-toggle.left input {
+  margin: 4px 20px 4px 0;
+}
+
+.form.block .form-toggle.hide-label input {
+  margin: 0;
+}
+
+.form.block .form-toggle input::before {
+  content: '';
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--az-white);
+  transition: transform 0.15s;
+}
+
+.form.block .form-toggle input:checked {
+  border-color: var(--az-magenta);
+  background: var(--az-magenta);
+}
+
+.form.block .form-toggle input:checked::before {
+  transform: translateX(12px);
+}
+
+.form.block .form-toggle input:disabled {
+  border-color: var(--az-grey-100);
+  background: var(--az-grey-100);
+  cursor: not-allowed;
+}
+
+.form.block .form-toggle:has(input:disabled) {
+  cursor: not-allowed;
+}
+
+.form.block .form-toggle input:focus-visible {
+  outline: 2px solid var(--az-magenta);
+  outline-offset: 2px;
+}
+
+/* range (slider): 8px track, 20px thumb, min / max under it */
+.form.block .form-range {
+  --thumb-shadow: 0 2px 4px -2px rgb(0 0 0 / 5%), 0 4px 6px -1px rgb(0 0 0 / 10%);
+
+  gap: 0;
+}
+
+.form.block .form-range > .form-label:not(.form-sr-only) {
+  margin-bottom: 4px;
+}
+
+.form.block .form-range-track {
+  --fill: 0.5;
+  --from: 0;
+
+  position: relative;
+  padding-top: 8px;
+}
+
+.form.block .form-range input[type="range"] {
+  display: block;
+  width: 100%;
+  height: 8px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 12px;
+  background:
+    linear-gradient(var(--az-magenta), var(--az-magenta)) no-repeat 0 0 / calc(10px + var(--fill) * (100% - 20px)) 100%,
+    var(--az-grey-100);
+  cursor: pointer;
+  appearance: none;
+}
+
+.form.block .form-range-track.two-thumbs input[type="range"] {
+  background:
+    linear-gradient(var(--az-magenta), var(--az-magenta)) no-repeat calc(10px + var(--from) * (100% - 20px)) 0 / calc((var(--fill) - var(--from)) * (100% - 20px)) 100%,
+    var(--az-grey-100);
+  pointer-events: none;
+}
+
+.form.block .form-range-track.two-thumbs input[type="range"] + input[type="range"] {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: none;
+}
+
+.form.block .form-range input[type="range"]::-webkit-slider-thumb {
+  width: 20px;
+  height: 20px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--az-white);
+  box-shadow: 0 0 0 1px var(--az-grey-100), var(--thumb-shadow);
+  pointer-events: auto;
+  appearance: none;
+}
+
+.form.block .form-range input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--az-white);
+  box-shadow: 0 0 0 1px var(--az-grey-100), var(--thumb-shadow);
+  pointer-events: auto;
+}
+
+.form.block .form-range input[type="range"]:active::-webkit-slider-thumb,
+.form.block .form-range input[type="range"]:focus-visible::-webkit-slider-thumb {
+  box-shadow: 0 0 0 1px var(--az-magenta), var(--thumb-shadow);
+}
+
+.form.block .form-range input[type="range"]:active::-moz-range-thumb,
+.form.block .form-range input[type="range"]:focus-visible::-moz-range-thumb {
+  box-shadow: 0 0 0 1px var(--az-magenta), var(--thumb-shadow);
+}
+
+.form.block .form-range input[type="range"]:focus-visible {
+  outline: 0;
+}
+
+.form.block .form-range-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* range state "thumb": the kit swatch, 20×20 inside its 1px ring + shadow bleed (32×32 render) */
+.form.block:has(.form-range-thumb) {
+  width: 32px;
+  height: 32px;
+  padding: 2px 6px 10px;
+}
+
+.form.block .form-range-thumb {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--az-white);
+  box-shadow: 0 0 0 1px var(--az-grey-100), var(--thumb-shadow);
+}
+
+.form.block .form-range.pressed .form-range-thumb {
+  box-shadow: 0 0 0 1px var(--az-magenta), var(--thumb-shadow);
+}
+
+/* divider ("Or") */
+.form.block .form-divider {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+}
+
+.form.block .form-divider::before,
+.form.block .form-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background-color: var(--az-grey-150);
+}
+
+/* rows without a field */
+.form.block .form-spacer {
+  display: none;
+}
+
+.form.block .form-note {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form.block .form-note .required {
+  margin: 0 2px;
+  color: var(--az-magenta);
+  font-weight: 400;
+}
+
+/* a lone field fills the row (library swatches) */
+.form.block .form-fields > :only-child {
+  grid-column: 1 / -1;
+}
+
+/* button line: stacked full width with the primary first on mobile, a centred row from tablet up */
+.form.block .form-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form.block .form-buttons .button-wrapper,
+.form.block .form-buttons .button {
+  width: 100%;
+}
+
+.form.block .form-buttons .button-wrapper:has(.primary) {
+  order: -1;
+}
+
+/* narrow: one centred column (the single-field forms of the message pages) */
+.form.block.narrow form {
+  max-width: 570px;
+  margin: 0 auto;
+}
+
+/* section style "framed": the kit .Forms frame includes its padding */
+main > .section.framed .form.block form {
+  padding: 20px 16px;
+}
+
+/* in the 3rd party login card: rows stay 24 apart, buttons hug their text */
+.section.modal .form.block .form-fields {
+  gap: 24px;
+}
+
+.section.modal .form.block.narrow form {
+  max-width: none;
+}
+
+.section.modal .form.block .form-buttons {
+  align-items: center;
+}
+
+.section.modal .form.block .form-buttons .button-wrapper,
+.section.modal .form.block .form-buttons .button {
+  width: auto;
+}
+
+/* login: kit "Login" (12643:9460) — a 550-wide card over a full-bleed image (941 / 869 tall), image-less below 768 */
+main .form.login {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+main .form.login .login-media {
+  display: none;
+}
+
+main .form.login .login-card {
+  position: relative;
+  width: 100%;
+}
+
+main .form.login .login-main {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px 16px;
+  border-radius: 8px 8px 0 0;
+  background-color: var(--az-white);
+}
+
+main .form.login .login-head {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+}
+
+main .form.login .login-head > * {
+  margin: 0;
+}
+
+main .form.login .login-head :is(h1, h2, h3, h4, h5, h6) {
+  color: var(--az-mulberry);
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-m);
+  font-weight: 400;
+  line-height: var(--heading-line-height-m);
+}
+
+main .form.login .login-head p {
+  display: none;
+}
+
+main .form.login .login-form,
+main .form.login .login-alt {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+main .form.login .login-alt {
+  gap: 16px;
+}
+
+main .form.login .has-trail input {
+  padding-right: 52px;
+}
+
+main .form.login .form-buttons .button-wrapper {
+  display: flex;
+}
+
+main .form.login .form-buttons .button-wrapper,
+main .form.login .form-buttons .button {
+  width: 100%;
+}
+
+main .form.login .login-link {
+  display: block;
+  text-align: center;
+}
+
+main .form.login .login-link a:any-link {
+  font-weight: 700;
+}
+
+main .form.login .login-band {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 0 0 8px 8px;
+  background-color: var(--az-grey-100);
+}
+
+main .form.login .login-band a:any-link {
+  color: var(--az-magenta);
+}
+
+@media (width >= 768px) {
+  .form.block:not(.narrow) .form-fields {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .form.block .form-checks,
+  .form.block .form-buttons,
+  .form.block .form-note {
+    grid-column: 1 / -1;
+  }
+
+  .form.block .form-spacer {
+    display: block;
+  }
+
+  .form.block .form-buttons {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .form.block .form-buttons .button-wrapper,
+  .form.block .form-buttons .button {
+    width: auto;
+  }
+
+  .form.block .form-buttons .button-wrapper:has(.primary) {
+    order: 0;
+  }
+
+  .section.modal .form.block .form-checks {
+    align-items: center;
+  }
+
+  main > .section.framed .form.block form {
+    padding: 32px;
+  }
+
+  main .form.login {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 869px;
+  }
+
+  main .form.login .login-media {
+    position: absolute;
+    inset: 0;
+    display: block;
+  }
+
+  main .form.login .login-media picture,
+  main .form.login .login-media img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  main .form.login .login-card {
+    width: 550px;
+  }
+
+  main .form.login .login-main {
+    gap: 40px;
+    padding: 40px;
+    border-radius: 8px;
+  }
+
+  main .form.login.has-band .login-main {
+    border-radius: 8px 8px 0 0;
+  }
+
+  main .form.login .login-head :is(h1, h2, h3, h4, h5, h6) {
+    font-size: var(--heading-font-size-l);
+    line-height: var(--heading-line-height-l);
+  }
+
+  main .form.login .login-head p {
+    display: block;
+  }
+
+  main .form.login .form-checks {
+    align-items: center;
+  }
+
+  main .form.login .form-buttons {
+    flex-direction: column;
+  }
+
+  main .form.login .form-buttons .button-wrapper,
+  main .form.login .form-buttons .button {
+    width: 100%;
+  }
+
+  main .form.login .login-band {
+    flex-direction: row;
+    justify-content: center;
+    padding: 24px 0;
+  }
+}
+
+@media (width >= 1200px) {
+  .form.block .form-fields {
+    gap: 40px;
+  }
+
+  main > .section.framed .form.block form {
+    padding: 40px calc((100% - var(--container-width)) / 2);
+  }
+
+  main .form.login {
+    justify-content: flex-start;
+    height: 941px;
+    padding: 0 80px;
+  }
+}

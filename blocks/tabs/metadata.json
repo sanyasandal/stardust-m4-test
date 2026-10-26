@@ -1,0 +1,34 @@
+{
+  "variantName": "tabs",
+  "baseBlock": "tabs",
+  "name": "Tabs",
+  "description": "Tabs: one row per tab (label, optional panel). \"compact\" shows a menu; \"nav\" is a navigation bar with submenus.",
+  "version": "1.0.0",
+  "created": "2026-10-26T15:55:29.149Z",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "purpose": "tabbed-navigation",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "tabbed-panels",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "variants": [
+    "large",
+    "compact large",
+    "medium",
+    "compact medium",
+    "nav"
+  ],
+  "usage": {
+    "pagesUsing": [
+      "library/tab-nav",
+      "library/tabs"
+    ],
+    "reuseCount": 2,
+    "lastUsed": "2026-10-26T15:55:29.149Z"
+  }
+}

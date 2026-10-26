@@ -654,7 +654,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12362-10353@1x.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "accordion",
+        "variant": null,
+        "page": "accordion"
+      }
     },
     "back-to-top": {
       "module": "M2",
@@ -762,7 +767,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12522-1197@1x.frame.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "back-to-top",
+        "variant": null,
+        "page": "back-to-top"
+      }
     },
     "button": {
       "module": "M3",
@@ -1200,7 +1210,12 @@
           "texts": [],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12084-109230@1x.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": null,
+        "variant": null,
+        "page": "button"
+      }
     },
     "breadcrumb": {
       "module": "M4",
@@ -1369,7 +1384,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12410-12886@1x.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "breadcrumbs",
+        "variant": null,
+        "page": "breadcrumbs"
+      }
     },
     "carousel": {
       "module": "M5",
@@ -1426,7 +1446,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12473-16145@1x.frame.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "carousel",
+        "variant": null,
+        "page": "carousel"
+      }
     },
     "checkbox-radio": {
       "module": "M6",
@@ -1574,7 +1599,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12274-6374@1x.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "form",
+        "variant": null,
+        "page": "form"
+      }
     },
     "chips": {
       "module": "M7",
@@ -1688,7 +1718,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12334-9700@1x.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "chips",
+        "variant": null,
+        "page": "chips"
+      }
     },
     "dropdown": {
       "module": "M8",
@@ -1946,7 +1981,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12277-7465@1x.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "form",
+        "variant": null,
+        "page": "form"
+      }
     },
     "input": {
       "module": "M9",
@@ -2609,7 +2649,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12128-3261@1x.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "form",
+        "variant": null,
+        "page": "form"
+      }
     },
     "links": {
       "module": "M10",
@@ -2763,7 +2808,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12929-23851@1x.frame.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": null,
+        "variant": null,
+        "page": "links"
+      }
     },
     "modal": {
       "module": "M11",
@@ -2897,7 +2947,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12467-15528@1x.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "modal",
+        "variant": null,
+        "page": "modal"
+      }
     },
     "pagination": {
       "module": "M12",
@@ -3312,7 +3367,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12328-9612@1x.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "pagination",
+        "variant": null,
+        "page": "pagination"
+      }
     },
     "search-bar": {
       "module": "M13",
@@ -3356,7 +3416,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12686-17318@1x.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "search",
+        "variant": null,
+        "page": "search"
+      }
     },
     "slider": {
       "module": "M14",
@@ -3409,7 +3474,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12334-10106@1x.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "form",
+        "variant": null,
+        "page": "form"
+      }
     },
     "stepper": {
       "module": "M15",
@@ -3466,7 +3536,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13121-3072@1x.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "stepper",
+        "variant": null,
+        "page": "stepper"
+      }
     },
     "tab-nav": {
       "module": "M16",
@@ -3529,7 +3604,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12914-23208@1x.frame.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "tabs",
+        "variant": "nav",
+        "page": "tabs"
+      }
     },
     "tabs": {
       "module": "M17",
@@ -3615,7 +3695,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12305-9052@1x.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "tabs",
+        "variant": null,
+        "page": "tabs"
+      }
     },
     "tables": {
       "module": "M18",
@@ -3973,7 +4058,12 @@
           "texts": [],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12607-4573@1x.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "table",
+        "variant": null,
+        "page": "table"
+      }
     },
     "toggle": {
       "module": "M19",
@@ -4121,7 +4211,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12287-8729@1x.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "form",
+        "variant": null,
+        "page": "form"
+      }
     },
     "tooltip": {
       "module": "M20",
@@ -4195,7 +4290,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12334-9959@1x.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "tooltip",
+        "variant": null,
+        "page": "tooltip"
+      }
     },
     "account": {
       "module": "M21",
@@ -4330,7 +4430,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12693-19254@1x.frame.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "account",
+        "variant": null,
+        "page": "account"
+      }
     },
     "block-content": {
       "module": "M22",
@@ -4384,7 +4489,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12601-4859@1x.frame.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": null,
+        "variant": null,
+        "page": "block-content"
+      }
     },
     "cta-banner": {
       "module": "M23",
@@ -4462,7 +4572,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13370-2088@1x.frame.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "cta-banner",
+        "variant": null,
+        "page": "cta-banner"
+      }
     },
     "calculator": {
       "module": "M24",
@@ -4950,7 +5065,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/15170-18511@1x.frame.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "calculator",
+        "variant": null,
+        "page": "calculator"
+      }
     },
     "email": {
       "module": "M25",
@@ -5000,7 +5120,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12712-21043@1x.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": null,
+        "variant": null,
+        "page": "email"
+      }
     },
     "forms": {
       "module": "M26",
@@ -5129,7 +5254,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12682-15984@1x.frame.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "form",
+        "variant": null,
+        "page": "form"
+      }
     },
     "footer": {
       "module": "M27",
@@ -5207,7 +5337,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12406-12804@1x.frame.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "footer",
+        "variant": null,
+        "page": "footer"
+      }
     },
     "header": {
       "module": "M28",
@@ -5314,7 +5449,12 @@
           "texts": [],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13496-14572@1x.frame.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "header",
+        "variant": null,
+        "page": "header"
+      }
     },
     "home-hero-branded": {
       "module": "M29",
@@ -5371,7 +5511,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12950-24853@1x.frame.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "hero",
+        "variant": "branded",
+        "page": "hero"
+      }
     },
     "login": {
       "module": "M30",
@@ -5541,7 +5686,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12643-9924@1x.frame.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "form",
+        "variant": "login",
+        "page": "form"
+      }
     },
     "teaser": {
       "module": "M31",
@@ -5878,7 +6028,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12436-14800@1x.frame.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "cards",
+        "variant": "teaser",
+        "page": "cards"
+      }
     },
     "quiz": {
       "module": "M32",
@@ -6027,7 +6182,12 @@
           ],
           "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13424-4831@1x.frame.png"
         }
-      ]
+      ],
+      "eds": {
+        "block": "quiz",
+        "variant": null,
+        "page": "quiz"
+      }
     }
   },
   "failed": []
