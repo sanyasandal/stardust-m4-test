@@ -1,13 +1,14 @@
 {
-  "generated": "2026-10-26T10:49:18.469Z",
+  "generated": "2026-10-26T16:36:23.522Z",
   "source": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60/One-AZ-v3.2 (v2413431205561424165)",
-  "method": "figma-gate exact (pages, per breakpoint 1440/768/375, 3% pixel + height bar) and library (per kit variant, 3% pixel + \u00b12px); similarity = 100 - mismatch %",
+  "method": "figma-gate exact (pages, per breakpoint 1440/768/375, 3% pixel + height bar) and library (per kit variant, 3% pixel + ±2px); similarity = 100 - mismatch %",
   "pages": {
     "livePreview": {
-      "base": "https://oneaz-pages--stardust-m4-test--sanyasandal.aem.page/",
+      "base": "https://oneaz-pages--stardust-m4-test--sanyasandal.aem.page/ (main code identical, 78f9dd3)",
       "frames": 93,
       "gated": 93,
       "passed": 92,
+      "pagesPassed": 30,
       "similarity": 99.24,
       "byBreakpoint": {
         "desktop": 99.67,
@@ -549,277 +550,874 @@
       "frames": 93,
       "gated": 93,
       "passed": 92,
+      "pagesPassed": 30,
       "similarity": 99.24,
       "byBreakpoint": {
         "desktop": 99.68,
         "tablet": 99.09,
         "mobile": 98.96
+      },
+      "detail": {
+        "login-landing": {
+          "desktop": {
+            "similarity": 99.13,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 99.04,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 99.47,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "registration": {
+          "desktop": {
+            "similarity": 99.75,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 99.48,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 99.42,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "channel-consent": {
+          "desktop": {
+            "similarity": 99.6,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 99.39,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 99.17,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "email-verification": {
+          "desktop": {
+            "similarity": 99.88,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 98.42,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 99.51,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "email-verified": {
+          "desktop": {
+            "similarity": 99.86,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 99.77,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 99.7,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "profile-review": {
+          "desktop": {
+            "similarity": 99.9,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 99.16,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 99.61,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "link-expired": {
+          "desktop": {
+            "similarity": 99.89,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 98.91,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 99.07,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "resend-verification-email": {
+          "desktop": {
+            "similarity": 99.81,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 99.21,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 99.47,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "forgot-password": {
+          "desktop": {
+            "similarity": 99.81,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 99.58,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 99.57,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "waiting-confirmation": {
+          "desktop": {
+            "similarity": 99.82,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 98.33,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 98.42,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "login-without-pass": {
+          "desktop": {
+            "similarity": 99.79,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 99.37,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 99.44,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "reset-link-expired": {
+          "desktop": {
+            "similarity": 99.15,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 99.46,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 99.19,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "reset-pass-sent": {
+          "desktop": {
+            "similarity": 99.85,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 99.26,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 99.24,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "account-inactive": {
+          "desktop": {
+            "similarity": 99.79,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 98.53,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 98.85,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "account-found": {
+          "desktop": {
+            "similarity": 99.85,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 98.27,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 98.78,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "account-not-found": {
+          "desktop": {
+            "similarity": 99.81,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 99.09,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 99.24,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "pending-validation": {
+          "desktop": {
+            "similarity": 99.85,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 99.23,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 99.03,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "session-lost": {
+          "desktop": {
+            "similarity": 99.85,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 99.2,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 98.73,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "reset-password": {
+          "desktop": {
+            "similarity": 99.87,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 99.68,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 99.58,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "change-password": {
+          "desktop": {
+            "similarity": 99.76,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 99.51,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 99.51,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "forgot-password-resend": {
+          "desktop": {
+            "similarity": 99.85,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 99.75,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 99.65,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "reset-succesful": {
+          "desktop": {
+            "similarity": 99.85,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 99.65,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 99.6,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "pass-successfully-changed": {
+          "desktop": {
+            "similarity": 99.84,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 99.33,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 99.56,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "verify-email": {
+          "desktop": {
+            "similarity": 99.26,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 98.5,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 97.38,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "password-reset": {
+          "desktop": {
+            "similarity": 99.22,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 98.41,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 97.23,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "account-activated": {
+          "desktop": {
+            "similarity": 99.19,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 98.37,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 97.18,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "new-user-registretion": {
+          "desktop": {
+            "similarity": 99.05,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 98.01,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 96.57,
+            "pass": false,
+            "heightDelta": 0
+          }
+        },
+        "magic-link": {
+          "desktop": {
+            "similarity": 99.42,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 98.83,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 97.35,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "inactivity": {
+          "desktop": {
+            "similarity": 99.83,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 99.36,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 99.49,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "logged-out": {
+          "desktop": {
+            "similarity": 99.87,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 99.5,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 99.82,
+            "pass": true,
+            "heightDelta": 0
+          }
+        },
+        "3rd-party-login": {
+          "desktop": {
+            "similarity": 99.81,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "tablet": {
+            "similarity": 99.15,
+            "pass": true,
+            "heightDelta": 0
+          },
+          "mobile": {
+            "similarity": 98.95,
+            "pass": true,
+            "heightDelta": 0
+          }
+        }
       }
     }
   },
   "library": {
-    "blocks": 32,
-    "built": 32,
+    "modules": 32,
+    "edsBlocks": 21,
+    "defaultContent": 4,
     "variants": 248,
     "gated": 248,
-    "passed": 225,
-    "similarity": 98.79,
+    "passed": 230,
+    "modulesPassed": 23,
+    "similarity": 98.81,
+    "naming": "deploy Step 2 (D1/D11), stardust/reskin/eds-map.json",
     "detail": {
       "accordion": {
+        "eds": {
+          "block": "accordion",
+          "variant": null
+        },
         "variants": 6,
         "gated": 6,
         "passed": 4,
-        "similarity": 97.72,
-        "built": true,
-        "libraryPage": true
+        "similarity": 97.72
       },
       "back-to-top": {
+        "eds": {
+          "block": "back-to-top",
+          "variant": null
+        },
         "variants": 6,
         "gated": 6,
         "passed": 6,
-        "similarity": 99.94,
-        "built": true,
-        "libraryPage": true
+        "similarity": 99.94
       },
       "button": {
+        "eds": {
+          "block": null,
+          "variant": null
+        },
         "variants": 24,
         "gated": 24,
-        "passed": 18,
-        "similarity": 98.43,
-        "built": true,
-        "libraryPage": true
+        "passed": 23,
+        "similarity": 99.16
       },
       "breadcrumb": {
+        "eds": {
+          "block": "breadcrumbs",
+          "variant": null
+        },
         "variants": 9,
         "gated": 9,
         "passed": 6,
-        "similarity": 96.48,
-        "built": true,
-        "libraryPage": true
+        "similarity": 96.48
       },
       "carousel": {
+        "eds": {
+          "block": "carousel",
+          "variant": null
+        },
         "variants": 3,
         "gated": 3,
         "passed": 3,
-        "similarity": 98.18,
-        "built": true,
-        "libraryPage": true
+        "similarity": 98.18
       },
       "checkbox-radio": {
+        "eds": {
+          "block": "form",
+          "variant": null
+        },
         "variants": 8,
         "gated": 8,
         "passed": 7,
-        "similarity": 99.45,
-        "built": true,
-        "libraryPage": true
+        "similarity": 99.45
       },
       "chips": {
+        "eds": {
+          "block": "chips",
+          "variant": null
+        },
         "variants": 6,
         "gated": 6,
         "passed": 3,
-        "similarity": 96.48,
-        "built": true,
-        "libraryPage": true
+        "similarity": 96.48
       },
       "dropdown": {
+        "eds": {
+          "block": "form",
+          "variant": null
+        },
         "variants": 10,
         "gated": 10,
         "passed": 10,
-        "similarity": 99.32,
-        "built": true,
-        "libraryPage": true
+        "similarity": 99.32
       },
       "input": {
+        "eds": {
+          "block": "form",
+          "variant": null
+        },
         "variants": 32,
         "gated": 32,
         "passed": 32,
-        "similarity": 99.25,
-        "built": true,
-        "libraryPage": true
+        "similarity": 99.43
       },
       "links": {
+        "eds": {
+          "block": null,
+          "variant": null
+        },
         "variants": 5,
         "gated": 5,
         "passed": 3,
-        "similarity": 96.33,
-        "built": true,
-        "libraryPage": true
+        "similarity": 96.33
       },
       "modal": {
+        "eds": {
+          "block": "modal",
+          "variant": null
+        },
         "variants": 6,
         "gated": 6,
         "passed": 6,
-        "similarity": 99.42,
-        "built": true,
-        "libraryPage": true
+        "similarity": 99.42
       },
       "pagination": {
+        "eds": {
+          "block": "pagination",
+          "variant": null
+        },
         "variants": 22,
         "gated": 22,
         "passed": 22,
-        "similarity": 99.38,
-        "built": true,
-        "libraryPage": true
+        "similarity": 99.38
       },
       "search-bar": {
+        "eds": {
+          "block": "search",
+          "variant": null
+        },
         "variants": 2,
         "gated": 2,
         "passed": 2,
-        "similarity": 99.95,
-        "built": true,
-        "libraryPage": true
+        "similarity": 99.95
       },
       "slider": {
+        "eds": {
+          "block": "form",
+          "variant": null
+        },
         "variants": 3,
         "gated": 3,
         "passed": 3,
-        "similarity": 99.9,
-        "built": true,
-        "libraryPage": true
+        "similarity": 99.9
       },
       "stepper": {
+        "eds": {
+          "block": "stepper",
+          "variant": null
+        },
         "variants": 3,
         "gated": 3,
         "passed": 3,
-        "similarity": 99.9,
-        "built": true,
-        "libraryPage": true
+        "similarity": 99.9
       },
       "tab-nav": {
+        "eds": {
+          "block": "tabs",
+          "variant": "nav"
+        },
         "variants": 3,
         "gated": 3,
         "passed": 1,
-        "similarity": 96.35,
-        "built": true,
-        "libraryPage": true
+        "similarity": 96.35
       },
       "tabs": {
+        "eds": {
+          "block": "tabs",
+          "variant": null
+        },
         "variants": 4,
         "gated": 4,
         "passed": 4,
-        "similarity": 99.36,
-        "built": true,
-        "libraryPage": true
+        "similarity": 99.36
       },
       "tables": {
+        "eds": {
+          "block": "table",
+          "variant": null
+        },
         "variants": 20,
         "gated": 20,
         "passed": 20,
-        "similarity": 97.87,
-        "built": true,
-        "libraryPage": true
+        "similarity": 97.87
       },
       "toggle": {
+        "eds": {
+          "block": "form",
+          "variant": null
+        },
         "variants": 8,
         "gated": 8,
         "passed": 8,
-        "similarity": 99.6,
-        "built": true,
-        "libraryPage": true
+        "similarity": 99.6
       },
       "tooltip": {
+        "eds": {
+          "block": "tooltip",
+          "variant": null
+        },
         "variants": 4,
         "gated": 4,
         "passed": 4,
-        "similarity": 99.72,
-        "built": true,
-        "libraryPage": true
+        "similarity": 99.72
       },
       "account": {
+        "eds": {
+          "block": "account",
+          "variant": null
+        },
         "variants": 3,
         "gated": 3,
         "passed": 3,
-        "similarity": 99.69,
-        "built": true,
-        "libraryPage": true
+        "similarity": 99.69
       },
       "block-content": {
+        "eds": {
+          "block": null,
+          "variant": null
+        },
         "variants": 3,
         "gated": 3,
         "passed": 3,
-        "similarity": 99.34,
-        "built": true,
-        "libraryPage": true
+        "similarity": 99.34
       },
       "cta-banner": {
+        "eds": {
+          "block": "cta-banner",
+          "variant": null
+        },
         "variants": 3,
         "gated": 3,
         "passed": 3,
-        "similarity": 99.22,
-        "built": true,
-        "libraryPage": true
+        "similarity": 99.22
       },
       "calculator": {
+        "eds": {
+          "block": "calculator",
+          "variant": null
+        },
         "variants": 9,
         "gated": 9,
         "passed": 9,
-        "similarity": 99.31,
-        "built": true,
-        "libraryPage": true
+        "similarity": 99.31
       },
       "email": {
+        "eds": {
+          "block": null,
+          "variant": null
+        },
         "variants": 2,
         "gated": 2,
         "passed": 2,
-        "similarity": 98.16,
-        "built": true,
-        "libraryPage": true
+        "similarity": 98.16
       },
       "forms": {
+        "eds": {
+          "block": "form",
+          "variant": null
+        },
         "variants": 3,
         "gated": 3,
         "passed": 3,
-        "similarity": 99.61,
-        "built": true,
-        "libraryPage": true
+        "similarity": 99.61
       },
       "footer": {
+        "eds": {
+          "block": "footer",
+          "variant": null
+        },
         "variants": 3,
         "gated": 3,
         "passed": 3,
-        "similarity": 99.83,
-        "built": true,
-        "libraryPage": true
+        "similarity": 99.83
       },
       "header": {
+        "eds": {
+          "block": "header",
+          "variant": null
+        },
         "variants": 6,
         "gated": 6,
         "passed": 6,
-        "similarity": 99.76,
-        "built": true,
-        "libraryPage": true
+        "similarity": 99.76
       },
       "home-hero-branded": {
+        "eds": {
+          "block": "hero",
+          "variant": "branded"
+        },
         "variants": 3,
         "gated": 3,
         "passed": 2,
-        "similarity": 97.12,
-        "built": true,
-        "libraryPage": true
+        "similarity": 97.12
       },
       "login": {
+        "eds": {
+          "block": "form",
+          "variant": "login"
+        },
         "variants": 6,
         "gated": 6,
         "passed": 6,
-        "similarity": 99.16,
-        "built": true,
-        "libraryPage": true
+        "similarity": 99.16
       },
       "teaser": {
+        "eds": {
+          "block": "cards",
+          "variant": "teaser"
+        },
         "variants": 17,
         "gated": 17,
         "passed": 14,
-        "similarity": 97.9,
-        "built": true,
-        "libraryPage": true
+        "similarity": 97.9
       },
       "quiz": {
+        "eds": {
+          "block": "quiz",
+          "variant": null
+        },
         "variants": 6,
         "gated": 6,
         "passed": 6,
-        "similarity": 99.03,
-        "built": true,
-        "libraryPage": true
+        "similarity": 99.03
       }
     }
   }

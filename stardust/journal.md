@@ -58,3 +58,11 @@ Similarity is `100 − mismatch %` from `figma-gate`. It compares against Figma'
 - The worktree branch name is longer than the 63-character DNS label limit. Code was also pushed to `oneaz-pages` for previews.
 - Push needs the `sanyasandal` account; `ssandal_adobe` gets 403.
 - Rotate the Figma personal access token used for this run.
+
+## EDS naming (D9)
+
+- Kit modules take EDS names by deploy Step 2 (D1 default content or block; D11 Block Collection name and content model). 32 Figma modules map to 21 kit blocks plus default content; see `reskin/eds-map.json`.
+- `form` follows the Block Collection model: one block, one row per field (`Label | value | type | state`). Input, checkbox, radio, select, toggle and range are row types, not variants.
+- DA block library built with excat `block-library-creator` (22 blocks).
+- Live-only regression found and fixed: the pipeline applies section metadata server-side, so `scripts.js` reads the section's data attributes as well.
+- Skill: the naming rule is committed in its lowest milestone (M1 eds-map, M2 gate join, M3 deploy/rollout, M4 kit library), and the higher branches are rebased on top.
