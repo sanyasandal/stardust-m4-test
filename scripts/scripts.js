@@ -172,12 +172,37 @@ function decorateSectionMetadata(main) {
   });
 }
 
+const BLOCK_LEVEL = 'P,H1,H2,H3,H4,H5,H6,UL,OL,DIV,TABLE,BLOCKQUOTE,PRE,HR'.split(',');
+
+/**
+ * The content pipeline unwraps a block cell's lone paragraph and drops sections
+ * that only held page metadata. Restore the authored shape so block decorators
+ * (and decorateButtons) can rely on `cell > p`.
+ * @param {Element} main The container element
+ */
+function normalizeContent(main) {
+  main.querySelectorAll(':scope > div').forEach((section) => {
+    if (!section.children.length && !section.textContent.trim()) section.remove();
+  });
+  main.querySelectorAll(':scope > div > div[class]').forEach((block) => {
+    if (block.matches('.section-metadata, .metadata')) return;
+    block.querySelectorAll(':scope > div > div').forEach((cell) => {
+      if (!cell.textContent.trim() && !cell.querySelector('img, picture')) return;
+      if ([...cell.children].some((el) => BLOCK_LEVEL.includes(el.tagName))) return;
+      const p = document.createElement('p');
+      p.append(...cell.childNodes);
+      cell.append(p);
+    });
+  });
+}
+
 /**
  * Decorates the main element.
  * @param {Element} main The main element
  */
 // eslint-disable-next-line import/prefer-default-export
 export function decorateMain(main) {
+  normalizeContent(main);
   decorateIcons(main);
   buildAutoBlocks(main);
   decorateSections(main);
