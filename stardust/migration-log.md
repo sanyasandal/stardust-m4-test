@@ -63,3 +63,6 @@
 - **Exactness bar:** "exactly as in Figma" is gated as a blocking pixel bar per page and per block variant against
   Figma's own PNG render at the frame's width (desktop 1440, mobile frame width), plus the B1 geometry and B3 type gates;
   the residual (font rasterisation, anti-aliasing) is reported, not hidden.
+| 41 | 16:08 | DA | content upload | 9 media files to `media/oneaz/`; nav, footer, nav-registration and all 31 page docs created via the DA Source API (converter `to-da.mjs`) and previewed on `oneaz-pages--stardust-m4-test--sanyasandal.aem.page` | `eds/da/` |
+| 42 | 16:12 | EDS | pipeline normalisation fix | live 3rd-party-login scored 94.07 % vs 99.30 % local: the DA/helix pipeline unwraps a lone `<p>` in a block cell and leaves an empty `<div>` where section-metadata was. `normalizeContent()` in `scripts.js` re-wraps inline-only cells and drops empty sections; local gate unchanged (no regression). Commit `7f14eb6` | `scripts/scripts.js` |
+| 43 | 16:19 | EDS | live preview gate | 31 pages × 3 breakpoints against the published preview: **30/31 pages, 92/93 frames PASS, 99.24 %** (desktop 99.67, tablet 99.08, mobile 98.96), the same as local. Fail: new-user-registretion mobile 3.43 % (Arial AA in the email body) | `reskin/fidelity-report.json` |
