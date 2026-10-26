@@ -258,6 +258,8 @@ function normalizeContent(main) {
  */
 // eslint-disable-next-line import/prefer-default-export
 export function decorateMain(main) {
+  // library-metadata names a DA Library sample (read from the source document); it never renders
+  main.querySelectorAll(':scope > div > .library-metadata').forEach((el) => el.remove());
   normalizeContent(main);
   decorateIcons(main);
   buildAutoBlocks(main);
