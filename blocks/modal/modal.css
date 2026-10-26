@@ -1,0 +1,212 @@
+/* Modal — kit "Modal" (12467:15529): white card, 1px #d8dada, radius 12, padding 24, gap 24 */
+.modal {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  padding: 23px; /* Figma's 24 includes the inside stroke */
+  border: 1px solid var(--az-grey-300);
+  border-radius: 12px;
+  background-color: var(--az-white);
+  color: var(--az-graphite);
+}
+
+.modal .modal-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 4px;
+  text-align: center;
+}
+
+.modal .modal-text p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.modal .modal-title {
+  margin: 0;
+  color: var(--az-mulberry);
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-m);
+  font-weight: 400;
+  line-height: var(--heading-line-height-m);
+}
+
+.modal .modal-close {
+  position: absolute;
+  top: 23px;
+  right: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius);
+  background: none;
+  cursor: pointer;
+}
+
+.modal .modal-close-icon,
+.modal .modal-arrow img {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.modal .modal-close-icon img {
+  display: block;
+}
+
+.modal .modal-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.modal .modal-buttons .button.link {
+  color: var(--az-graphite);
+}
+
+.modal .modal-media img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.modal .modal-arrows {
+  display: flex;
+  gap: 12px;
+}
+
+.modal .modal-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 2px solid var(--az-magenta);
+  border-radius: 50%;
+}
+
+/* vertical alignment: stacked full-width buttons */
+.modal.vertical .modal-buttons {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+/* slot component / image: left-aligned text, heading row with the close button */
+.modal.slot-component .modal-text,
+.modal.image .modal-text {
+  padding-top: 0;
+  text-align: left;
+}
+
+.modal.slot-component .modal-head,
+.modal.image .modal-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.modal.slot-component .modal-close,
+.modal.image .modal-close {
+  position: static;
+  flex: 0 0 42px;
+}
+
+.modal.slot-component.horizontal .modal-head {
+  align-items: center;
+}
+
+.modal.slot-component.horizontal .modal-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.modal.slot-component.horizontal .modal-arrows {
+  order: 2;
+}
+
+.modal.slot-component.vertical .modal-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.modal.slot-component.vertical .modal-arrows {
+  justify-content: space-between;
+}
+
+.modal.image .modal-buttons {
+  gap: 12px;
+}
+
+.modal.image.horizontal {
+  flex-direction: row;
+}
+
+.modal.image.horizontal .modal-media {
+  flex: 0 0 190px;
+}
+
+.modal.image.horizontal .modal-media img {
+  height: 248px;
+}
+
+.modal.image.horizontal .modal-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.modal.image.horizontal .modal-actions {
+  display: flex;
+  flex: 1;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.modal.image.vertical .modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.modal.image.vertical .modal-media img {
+  height: 180px;
+}
+
+.modal.image.vertical .modal-buttons {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+/* no alignment authored (overlay pages): vertical below 768 */
+@media (width < 768px) {
+  .modal:not(.horizontal, .vertical) {
+    padding: 15px;
+  }
+
+  .modal:not(.horizontal, .vertical) .modal-text {
+    padding-top: 12px;
+  }
+
+  .modal:not(.horizontal, .vertical) .modal-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

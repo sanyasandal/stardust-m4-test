@@ -1,0 +1,5249 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "command": "pages",
+    "writtenAt": "2026-10-26T09:17:22Z",
+    "version": 1,
+    "source": {
+      "kind": "figma",
+      "fileKey": "rsZQmpVzuyn0KhCDA3WN60",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60",
+      "fileVersion": "2413431205561424165",
+      "fileName": "One AZ v3.2"
+    }
+  },
+  "version": 1,
+  "canvases": [
+    {
+      "id": "12077:107331",
+      "name": "🕚 Changelog",
+      "group": null,
+      "how": null,
+      "marker": false
+    },
+    {
+      "id": "6926:7316",
+      "name": "---",
+      "group": null,
+      "how": null,
+      "marker": false
+    },
+    {
+      "id": "11974:36424",
+      "name": "FOUNDATIONS",
+      "group": "foundation",
+      "how": "marker",
+      "marker": true
+    },
+    {
+      "id": "11996:36510",
+      "name": "↪ Typography",
+      "group": "foundation",
+      "how": "prefix ↪",
+      "marker": false
+    },
+    {
+      "id": "12084:109339",
+      "name": "↪ Colors",
+      "group": "foundation",
+      "how": "prefix ↪",
+      "marker": false
+    },
+    {
+      "id": "11974:36425",
+      "name": "↪ Media",
+      "group": "foundation",
+      "how": "prefix ↪",
+      "marker": false
+    },
+    {
+      "id": "12072:107022",
+      "name": "↪ Spacing",
+      "group": "foundation",
+      "how": "prefix ↪",
+      "marker": false
+    },
+    {
+      "id": "11974:36426",
+      "name": "↪ In-file Components",
+      "group": "foundation",
+      "how": "prefix ↪",
+      "marker": false
+    },
+    {
+      "id": "1:55",
+      "name": "-------",
+      "group": null,
+      "how": null,
+      "marker": false
+    },
+    {
+      "id": "12077:109022",
+      "name": "COMPONENTS",
+      "group": "component",
+      "how": "marker",
+      "marker": true
+    },
+    {
+      "id": "12360:10285",
+      "name": "❖ Accordion",
+      "group": "component",
+      "how": "prefix ❖",
+      "marker": false
+    },
+    {
+      "id": "12522:1023",
+      "name": "❖ Back to Top",
+      "group": "component",
+      "how": "prefix ❖",
+      "marker": false
+    },
+    {
+      "id": "12077:109023",
+      "name": "❖ Button",
+      "group": "component",
+      "how": "prefix ❖",
+      "marker": false
+    },
+    {
+      "id": "12410:12837",
+      "name": "❖ Breadcrumb",
+      "group": "component",
+      "how": "prefix ❖",
+      "marker": false
+    },
+    {
+      "id": "6400:21997",
+      "name": "👋 WELCOME",
+      "group": null,
+      "how": null,
+      "marker": false
+    },
+    {
+      "id": "12473:15925",
+      "name": "❖ Carousel",
+      "group": "component",
+      "how": "prefix ❖",
+      "marker": false
+    },
+    {
+      "id": "12265:6339",
+      "name": "❖ Checkbox & Radio",
+      "group": "component",
+      "how": "prefix ❖",
+      "marker": false
+    },
+    {
+      "id": "12334:9614",
+      "name": "❖ Chips",
+      "group": "component",
+      "how": "prefix ❖",
+      "marker": false
+    },
+    {
+      "id": "12265:6155",
+      "name": "❖ DropDown",
+      "group": "component",
+      "how": "prefix ❖",
+      "marker": false
+    },
+    {
+      "id": "12128:3181",
+      "name": "❖ Input",
+      "group": "component",
+      "how": "prefix ❖",
+      "marker": false
+    },
+    {
+      "id": "12928:23404",
+      "name": "❖ Links",
+      "group": "component",
+      "how": "prefix ❖",
+      "marker": false
+    },
+    {
+      "id": "12473:15663",
+      "name": "❖ Modal",
+      "group": "component",
+      "how": "prefix ❖",
+      "marker": false
+    },
+    {
+      "id": "12328:9263",
+      "name": "❖ Pagination",
+      "group": "component",
+      "how": "prefix ❖",
+      "marker": false
+    },
+    {
+      "id": "12682:17148",
+      "name": "❖ Search Bar",
+      "group": "component",
+      "how": "prefix ❖",
+      "marker": false
+    },
+    {
+      "id": "12334:9879",
+      "name": "❖ Slider",
+      "group": "component",
+      "how": "prefix ❖",
+      "marker": false
+    },
+    {
+      "id": "13084:3039",
+      "name": "❖ Stepper",
+      "group": "component",
+      "how": "prefix ❖",
+      "marker": false
+    },
+    {
+      "id": "12914:22601",
+      "name": "❖ Tab Nav",
+      "group": "component",
+      "how": "prefix ❖",
+      "marker": false
+    },
+    {
+      "id": "12305:8795",
+      "name": "❖ Tabs",
+      "group": "component",
+      "how": "prefix ❖",
+      "marker": false
+    },
+    {
+      "id": "12607:2201",
+      "name": "❖ Tables",
+      "group": "component",
+      "how": "prefix ❖",
+      "marker": false
+    },
+    {
+      "id": "12287:8408",
+      "name": "❖ Toggle",
+      "group": "component",
+      "how": "prefix ❖",
+      "marker": false
+    },
+    {
+      "id": "12334:9880",
+      "name": "❖ Tooltip",
+      "group": "component",
+      "how": "prefix ❖",
+      "marker": false
+    },
+    {
+      "id": "3600:808",
+      "name": "---",
+      "group": null,
+      "how": null,
+      "marker": false
+    },
+    {
+      "id": "12346:10191",
+      "name": "TEMPLATE SECTIONS",
+      "group": "template",
+      "how": "marker",
+      "marker": true
+    },
+    {
+      "id": "12688:17578",
+      "name": "❏ Account",
+      "group": "template",
+      "how": "prefix ❏",
+      "marker": false
+    },
+    {
+      "id": "12436:15252",
+      "name": "❏ Block Content",
+      "group": "template",
+      "how": "prefix ❏",
+      "marker": false
+    },
+    {
+      "id": "13370:1452",
+      "name": "❏ CTA Banner",
+      "group": "template",
+      "how": "prefix ❏",
+      "marker": false
+    },
+    {
+      "id": "15017:9744",
+      "name": "❏ Calculator",
+      "group": "template",
+      "how": "prefix ❏",
+      "marker": false
+    },
+    {
+      "id": "12712:20994",
+      "name": "❏ Email",
+      "group": "template",
+      "how": "prefix ❏",
+      "marker": false
+    },
+    {
+      "id": "12655:10203",
+      "name": "❏ Forms",
+      "group": "template",
+      "how": "prefix ❏",
+      "marker": false
+    },
+    {
+      "id": "12387:11993",
+      "name": "❏ Footer",
+      "group": "template",
+      "how": "prefix ❏",
+      "marker": false
+    },
+    {
+      "id": "12349:10215",
+      "name": "❏ Header",
+      "group": "template",
+      "how": "prefix ❏",
+      "marker": false
+    },
+    {
+      "id": "12950:24783",
+      "name": "❏ Home Hero Branded",
+      "group": "template",
+      "how": "prefix ❏",
+      "marker": false
+    },
+    {
+      "id": "12643:8648",
+      "name": "❏ Login",
+      "group": "template",
+      "how": "prefix ❏",
+      "marker": false
+    },
+    {
+      "id": "12417:13114",
+      "name": "❏ Teaser",
+      "group": "template",
+      "how": "prefix ❏",
+      "marker": false
+    },
+    {
+      "id": "13422:2604",
+      "name": "❏ Quiz",
+      "group": "template",
+      "how": "prefix ❏",
+      "marker": false
+    },
+    {
+      "id": "13512:7956",
+      "name": "---",
+      "group": null,
+      "how": null,
+      "marker": false
+    },
+    {
+      "id": "13496:9589",
+      "name": "FULL PAGES",
+      "group": "pages",
+      "how": "marker",
+      "marker": true
+    },
+    {
+      "id": "13496:9590",
+      "name": "--- Login & Registration",
+      "group": "pages",
+      "how": "under marker",
+      "marker": false
+    },
+    {
+      "id": "13512:6482",
+      "name": "--- Emails",
+      "group": "pages",
+      "how": "under marker",
+      "marker": false
+    },
+    {
+      "id": "13512:6481",
+      "name": "--- Overlays",
+      "group": "pages",
+      "how": "under marker",
+      "marker": false
+    }
+  ],
+  "pages": [
+    {
+      "slug": "login-landing",
+      "title": "Login Landing",
+      "canvas": {
+        "id": "13496:9590",
+        "name": "--- Login & Registration"
+      },
+      "family": {
+        "id": "13496:19403",
+        "name": "Page: Login & Registration"
+      },
+      "template": "login-and-registration",
+      "variants": {
+        "desktop": {
+          "id": "13496:10760",
+          "name": "Type=Login Landing, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 1325
+        },
+        "tablet": {
+          "id": "13496:10761",
+          "name": "Type=Login Landing, Breakpoint=Tablet",
+          "width": 768,
+          "height": 1313
+        },
+        "mobile": {
+          "id": "13496:10762",
+          "name": "Type=Login Landing, Breakpoint=Mobile",
+          "width": 375,
+          "height": 1326
+        }
+      },
+      "frame": "13496:10760",
+      "responsive": "13496:10762",
+      "bindings": [
+        {
+          "node": "13496:9591",
+          "name": "Header",
+          "block": "header",
+          "variant": [
+            "full"
+          ],
+          "setId": "12387:11135",
+          "component": "Breakpoint=Desktop, Type=Full",
+          "module": "M28"
+        },
+        {
+          "node": "13496:9636",
+          "name": "Login",
+          "block": "login",
+          "variant": [
+            "full"
+          ],
+          "setId": "12643:9460",
+          "component": "Type=Full, Breakpoint=Desktop",
+          "module": "M30"
+        },
+        {
+          "node": "13496:9714",
+          "name": "Footer",
+          "block": "footer",
+          "variant": [],
+          "setId": "12406:12187",
+          "component": "Breakpoint=Desktop",
+          "module": "M27"
+        }
+      ]
+    },
+    {
+      "slug": "registration",
+      "title": "Registration",
+      "canvas": {
+        "id": "13496:9590",
+        "name": "--- Login & Registration"
+      },
+      "family": {
+        "id": "13496:19403",
+        "name": "Page: Login & Registration"
+      },
+      "template": "login-and-registration",
+      "variants": {
+        "desktop": {
+          "id": "13496:17255",
+          "name": "Type=Registration, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 1708
+        },
+        "tablet": {
+          "id": "13496:17256",
+          "name": "Type=Registration, Breakpoint=Tablet",
+          "width": 768,
+          "height": 1634
+        },
+        "mobile": {
+          "id": "13496:17257",
+          "name": "Type=Registration, Breakpoint=Mobile",
+          "width": 375,
+          "height": 2560
+        }
+      },
+      "frame": "13496:17255",
+      "responsive": "13496:17257",
+      "bindings": [
+        {
+          "node": "13496:10795",
+          "name": "Header",
+          "block": "header",
+          "variant": [
+            "registration"
+          ],
+          "setId": "12387:11135",
+          "component": "Breakpoint=Desktop, Type=Registration",
+          "module": "M28"
+        },
+        {
+          "node": "13496:14821",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13496:10840",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13496:10763",
+          "name": "Footer",
+          "block": "footer",
+          "variant": [],
+          "setId": "12406:12187",
+          "component": "Breakpoint=Desktop",
+          "module": "M27"
+        }
+      ]
+    },
+    {
+      "slug": "channel-consent",
+      "title": "Channel Consent",
+      "canvas": {
+        "id": "13496:9590",
+        "name": "--- Login & Registration"
+      },
+      "family": {
+        "id": "13496:19403",
+        "name": "Page: Login & Registration"
+      },
+      "template": "login-and-registration",
+      "variants": {
+        "desktop": {
+          "id": "13496:18714",
+          "name": "Type=Channel Consent, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 1024
+        },
+        "tablet": {
+          "id": "13496:18715",
+          "name": "Type=Channel Consent, Breakpoint=Tablet",
+          "width": 768,
+          "height": 1058
+        },
+        "mobile": {
+          "id": "13496:18716",
+          "name": "Type=Channel Consent, Breakpoint=Mobile",
+          "width": 375,
+          "height": 1464
+        }
+      },
+      "frame": "13496:18714",
+      "responsive": "13496:18716",
+      "bindings": [
+        {
+          "node": "13496:17744",
+          "name": "Header",
+          "block": "header",
+          "variant": [
+            "registration"
+          ],
+          "setId": "12387:11135",
+          "component": "Breakpoint=Desktop, Type=Registration",
+          "module": "M28"
+        },
+        {
+          "node": "13496:17745",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13496:17746",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13496:18166",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13496:17747",
+          "name": "Footer",
+          "block": "footer",
+          "variant": [],
+          "setId": "12406:12187",
+          "component": "Breakpoint=Desktop",
+          "module": "M27"
+        }
+      ]
+    },
+    {
+      "slug": "email-verification",
+      "title": "Email Verification",
+      "canvas": {
+        "id": "13496:9590",
+        "name": "--- Login & Registration"
+      },
+      "family": {
+        "id": "13496:19403",
+        "name": "Page: Login & Registration"
+      },
+      "template": "login-and-registration",
+      "variants": {
+        "desktop": {
+          "id": "13496:19400",
+          "name": "Type=Email Verification, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 1024
+        },
+        "tablet": {
+          "id": "13496:19401",
+          "name": "Type=Email Verification, Breakpoint=Tablet",
+          "width": 768,
+          "height": 724
+        },
+        "mobile": {
+          "id": "13496:19402",
+          "name": "Type=Email Verification, Breakpoint=Mobile",
+          "width": 375,
+          "height": 932
+        }
+      },
+      "frame": "13496:19400",
+      "responsive": "13496:19402",
+      "bindings": [
+        {
+          "node": "13496:18991",
+          "name": "Header",
+          "block": "header",
+          "variant": [
+            "registration"
+          ],
+          "setId": "12387:11135",
+          "component": "Breakpoint=Desktop, Type=Registration",
+          "module": "M28"
+        },
+        {
+          "node": "13496:18992",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13496:18994",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13496:18995",
+          "name": "Footer",
+          "block": "footer",
+          "variant": [],
+          "setId": "12406:12187",
+          "component": "Breakpoint=Desktop",
+          "module": "M27"
+        }
+      ]
+    },
+    {
+      "slug": "email-verified",
+      "title": "Email Verified",
+      "canvas": {
+        "id": "13496:9590",
+        "name": "--- Login & Registration"
+      },
+      "family": {
+        "id": "13496:19403",
+        "name": "Page: Login & Registration"
+      },
+      "template": "login-and-registration",
+      "variants": {
+        "desktop": {
+          "id": "13527:9171",
+          "name": "Type=Email Verified, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 1024
+        },
+        "tablet": {
+          "id": "13527:9177",
+          "name": "Type=Email Verified, Breakpoint=Tablet",
+          "width": 768,
+          "height": 674
+        },
+        "mobile": {
+          "id": "13527:9183",
+          "name": "Type=Email Verified, Breakpoint=Mobile",
+          "width": 375,
+          "height": 776
+        }
+      },
+      "frame": "13527:9171",
+      "responsive": "13527:9183",
+      "bindings": [
+        {
+          "node": "13527:9172",
+          "name": "Header",
+          "block": "header",
+          "variant": [
+            "registration"
+          ],
+          "setId": "12387:11135",
+          "component": "Breakpoint=Desktop, Type=Registration",
+          "module": "M28"
+        },
+        {
+          "node": "13527:9173",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13527:9175",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13527:9176",
+          "name": "Footer",
+          "block": "footer",
+          "variant": [],
+          "setId": "12406:12187",
+          "component": "Breakpoint=Desktop",
+          "module": "M27"
+        }
+      ]
+    },
+    {
+      "slug": "profile-review",
+      "title": "Profile Review",
+      "canvas": {
+        "id": "13496:9590",
+        "name": "--- Login & Registration"
+      },
+      "family": {
+        "id": "13496:19403",
+        "name": "Page: Login & Registration"
+      },
+      "template": "login-and-registration",
+      "variants": {
+        "desktop": {
+          "id": "13527:9366",
+          "name": "Type=Profile Review, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 1024
+        },
+        "tablet": {
+          "id": "13527:9372",
+          "name": "Type=Profile Review, Breakpoint=Tablet",
+          "width": 768,
+          "height": 748
+        },
+        "mobile": {
+          "id": "13527:9378",
+          "name": "Type=Profile Review, Breakpoint=Mobile",
+          "width": 375,
+          "height": 928
+        }
+      },
+      "frame": "13527:9366",
+      "responsive": "13527:9378",
+      "bindings": [
+        {
+          "node": "13527:9367",
+          "name": "Header",
+          "block": "header",
+          "variant": [
+            "registration"
+          ],
+          "setId": "12387:11135",
+          "component": "Breakpoint=Desktop, Type=Registration",
+          "module": "M28"
+        },
+        {
+          "node": "13527:9368",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13527:9370",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13527:9371",
+          "name": "Footer",
+          "block": "footer",
+          "variant": [],
+          "setId": "12406:12187",
+          "component": "Breakpoint=Desktop",
+          "module": "M27"
+        }
+      ]
+    },
+    {
+      "slug": "link-expired",
+      "title": "Link Expired",
+      "canvas": {
+        "id": "13496:9590",
+        "name": "--- Login & Registration"
+      },
+      "family": {
+        "id": "13496:19403",
+        "name": "Page: Login & Registration"
+      },
+      "template": "login-and-registration",
+      "variants": {
+        "desktop": {
+          "id": "13527:9552",
+          "name": "Type=Link Expired, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 1024
+        },
+        "tablet": {
+          "id": "13527:9558",
+          "name": "Type=Link Expired, Breakpoint=Tablet",
+          "width": 768,
+          "height": 748
+        },
+        "mobile": {
+          "id": "13527:9564",
+          "name": "Type=Link Expired, Breakpoint=Mobile",
+          "width": 375,
+          "height": 888
+        }
+      },
+      "frame": "13527:9552",
+      "responsive": "13527:9564",
+      "bindings": [
+        {
+          "node": "13527:9553",
+          "name": "Header",
+          "block": "header",
+          "variant": [
+            "registration"
+          ],
+          "setId": "12387:11135",
+          "component": "Breakpoint=Desktop, Type=Registration",
+          "module": "M28"
+        },
+        {
+          "node": "13527:9554",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13527:9556",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13527:9557",
+          "name": "Footer",
+          "block": "footer",
+          "variant": [],
+          "setId": "12406:12187",
+          "component": "Breakpoint=Desktop",
+          "module": "M27"
+        }
+      ]
+    },
+    {
+      "slug": "resend-verification-email",
+      "title": "Resend Verification Email",
+      "canvas": {
+        "id": "13496:9590",
+        "name": "--- Login & Registration"
+      },
+      "family": {
+        "id": "13496:19403",
+        "name": "Page: Login & Registration"
+      },
+      "template": "login-and-registration",
+      "variants": {
+        "desktop": {
+          "id": "13527:9738",
+          "name": "Type=Resend Verification Email, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 1024
+        },
+        "tablet": {
+          "id": "13527:9744",
+          "name": "Type=Resend Verification Email, Breakpoint=Tablet",
+          "width": 768,
+          "height": 748
+        },
+        "mobile": {
+          "id": "13527:9750",
+          "name": "Type=Resend Verification Email, Breakpoint=Mobile",
+          "width": 375,
+          "height": 930
+        }
+      },
+      "frame": "13527:9738",
+      "responsive": "13527:9750",
+      "bindings": [
+        {
+          "node": "13527:9739",
+          "name": "Header",
+          "block": "header",
+          "variant": [
+            "registration"
+          ],
+          "setId": "12387:11135",
+          "component": "Breakpoint=Desktop, Type=Registration",
+          "module": "M28"
+        },
+        {
+          "node": "13527:9740",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13527:9924",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13527:10315",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13527:9743",
+          "name": "Footer",
+          "block": "footer",
+          "variant": [],
+          "setId": "12406:12187",
+          "component": "Breakpoint=Desktop",
+          "module": "M27"
+        }
+      ]
+    },
+    {
+      "slug": "forgot-password",
+      "title": "Forgot Password",
+      "canvas": {
+        "id": "13496:9590",
+        "name": "--- Login & Registration"
+      },
+      "family": {
+        "id": "13496:19403",
+        "name": "Page: Login & Registration"
+      },
+      "template": "login-and-registration",
+      "variants": {
+        "desktop": {
+          "id": "13530:12110",
+          "name": "Type=Forgot Password, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 1024
+        },
+        "tablet": {
+          "id": "13530:12117",
+          "name": "Type=Forgot Password, Breakpoint=Tablet",
+          "width": 768,
+          "height": 748
+        },
+        "mobile": {
+          "id": "13530:12124",
+          "name": "Type=Forgot Password, Breakpoint=Mobile",
+          "width": 375,
+          "height": 890
+        }
+      },
+      "frame": "13530:12110",
+      "responsive": "13530:12124",
+      "bindings": [
+        {
+          "node": "13530:12111",
+          "name": "Header",
+          "block": "header",
+          "variant": [
+            "registration"
+          ],
+          "setId": "12387:11135",
+          "component": "Breakpoint=Desktop, Type=Registration",
+          "module": "M28"
+        },
+        {
+          "node": "13530:12112",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:12113",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:12115",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:12116",
+          "name": "Footer",
+          "block": "footer",
+          "variant": [],
+          "setId": "12406:12187",
+          "component": "Breakpoint=Desktop",
+          "module": "M27"
+        }
+      ]
+    },
+    {
+      "slug": "waiting-confirmation",
+      "title": "Waiting Confirmation",
+      "canvas": {
+        "id": "13496:9590",
+        "name": "--- Login & Registration"
+      },
+      "family": {
+        "id": "13496:19403",
+        "name": "Page: Login & Registration"
+      },
+      "template": "login-and-registration",
+      "variants": {
+        "desktop": {
+          "id": "13530:16259",
+          "name": "Type=Waiting Confirmation, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 1024
+        },
+        "tablet": {
+          "id": "13530:16266",
+          "name": "Type=Waiting Confirmation, Breakpoint=Tablet",
+          "width": 768,
+          "height": 892
+        },
+        "mobile": {
+          "id": "13530:16273",
+          "name": "Type=Waiting Confirmation, Breakpoint=Mobile",
+          "width": 375,
+          "height": 1044
+        }
+      },
+      "frame": "13530:16259",
+      "responsive": "13530:16273",
+      "bindings": [
+        {
+          "node": "13530:16260",
+          "name": "Header",
+          "block": "header",
+          "variant": [
+            "registration"
+          ],
+          "setId": "12387:11135",
+          "component": "Breakpoint=Desktop, Type=Registration",
+          "module": "M28"
+        },
+        {
+          "node": "13530:16261",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:16748",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:16754",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:16265",
+          "name": "Footer",
+          "block": "footer",
+          "variant": [],
+          "setId": "12406:12187",
+          "component": "Breakpoint=Desktop",
+          "module": "M27"
+        }
+      ]
+    },
+    {
+      "slug": "login-without-pass",
+      "title": "Login without pass",
+      "canvas": {
+        "id": "13496:9590",
+        "name": "--- Login & Registration"
+      },
+      "family": {
+        "id": "13496:19403",
+        "name": "Page: Login & Registration"
+      },
+      "template": "login-and-registration",
+      "variants": {
+        "desktop": {
+          "id": "13530:14671",
+          "name": "Type=Login without pass, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 1048
+        },
+        "tablet": {
+          "id": "13530:14678",
+          "name": "Type=Login without pass, Breakpoint=Tablet",
+          "width": 768,
+          "height": 788
+        },
+        "mobile": {
+          "id": "13530:14685",
+          "name": "Type=Login without pass, Breakpoint=Mobile",
+          "width": 375,
+          "height": 994
+        }
+      },
+      "frame": "13530:14671",
+      "responsive": "13530:14685",
+      "bindings": [
+        {
+          "node": "13530:14672",
+          "name": "Header",
+          "block": "header",
+          "variant": [
+            "registration"
+          ],
+          "setId": "12387:11135",
+          "component": "Breakpoint=Desktop, Type=Registration",
+          "module": "M28"
+        },
+        {
+          "node": "13530:14673",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:14674",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:14676",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:14677",
+          "name": "Footer",
+          "block": "footer",
+          "variant": [],
+          "setId": "12406:12187",
+          "component": "Breakpoint=Desktop",
+          "module": "M27"
+        }
+      ]
+    },
+    {
+      "slug": "reset-link-expired",
+      "title": "Reset link expired",
+      "canvas": {
+        "id": "13496:9590",
+        "name": "--- Login & Registration"
+      },
+      "family": {
+        "id": "13496:19403",
+        "name": "Page: Login & Registration"
+      },
+      "template": "login-and-registration",
+      "variants": {
+        "desktop": {
+          "id": "13530:14956",
+          "name": "Type=Reset link expired, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 1024
+        },
+        "tablet": {
+          "id": "13530:14963",
+          "name": "Type=Reset link expired, Breakpoint=Tablet",
+          "width": 768,
+          "height": 812
+        },
+        "mobile": {
+          "id": "13530:14970",
+          "name": "Type=Reset link expired, Breakpoint=Mobile",
+          "width": 375,
+          "height": 926
+        }
+      },
+      "frame": "13530:14956",
+      "responsive": "13530:14970",
+      "bindings": [
+        {
+          "node": "13530:14957",
+          "name": "Header",
+          "block": "header",
+          "variant": [
+            "registration"
+          ],
+          "setId": "12387:11135",
+          "component": "Breakpoint=Desktop, Type=Registration",
+          "module": "M28"
+        },
+        {
+          "node": "13530:14958",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:14959",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:14961",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:14962",
+          "name": "Footer",
+          "block": "footer",
+          "variant": [],
+          "setId": "12406:12187",
+          "component": "Breakpoint=Desktop",
+          "module": "M27"
+        }
+      ]
+    },
+    {
+      "slug": "reset-pass-sent",
+      "title": "Reset pass sent",
+      "canvas": {
+        "id": "13496:9590",
+        "name": "--- Login & Registration"
+      },
+      "family": {
+        "id": "13496:19403",
+        "name": "Page: Login & Registration"
+      },
+      "template": "login-and-registration",
+      "variants": {
+        "desktop": {
+          "id": "13530:15983",
+          "name": "Type=Reset pass sent, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 1024
+        },
+        "tablet": {
+          "id": "13530:15990",
+          "name": "Type=Reset pass sent, Breakpoint=Tablet",
+          "width": 768,
+          "height": 698
+        },
+        "mobile": {
+          "id": "13530:15997",
+          "name": "Type=Reset pass sent, Breakpoint=Mobile",
+          "width": 375,
+          "height": 864
+        }
+      },
+      "frame": "13530:15983",
+      "responsive": "13530:15997",
+      "bindings": [
+        {
+          "node": "13530:15984",
+          "name": "Header",
+          "block": "header",
+          "variant": [
+            "registration"
+          ],
+          "setId": "12387:11135",
+          "component": "Breakpoint=Desktop, Type=Registration",
+          "module": "M28"
+        },
+        {
+          "node": "13530:15985",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:15988",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:15989",
+          "name": "Footer",
+          "block": "footer",
+          "variant": [],
+          "setId": "12406:12187",
+          "component": "Breakpoint=Desktop",
+          "module": "M27"
+        }
+      ]
+    },
+    {
+      "slug": "account-inactive",
+      "title": "Account Inactive",
+      "canvas": {
+        "id": "13496:9590",
+        "name": "--- Login & Registration"
+      },
+      "family": {
+        "id": "13496:19403",
+        "name": "Page: Login & Registration"
+      },
+      "template": "login-and-registration",
+      "variants": {
+        "desktop": {
+          "id": "13530:16803",
+          "name": "Type=Account Inactive, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 1024
+        },
+        "tablet": {
+          "id": "13530:16809",
+          "name": "Type=Account Inactive, Breakpoint=Tablet",
+          "width": 768,
+          "height": 698
+        },
+        "mobile": {
+          "id": "13530:16815",
+          "name": "Type=Account Inactive, Breakpoint=Mobile",
+          "width": 375,
+          "height": 916
+        }
+      },
+      "frame": "13530:16803",
+      "responsive": "13530:16815",
+      "bindings": [
+        {
+          "node": "13530:16804",
+          "name": "Header",
+          "block": "header",
+          "variant": [
+            "registration"
+          ],
+          "setId": "12387:11135",
+          "component": "Breakpoint=Desktop, Type=Registration",
+          "module": "M28"
+        },
+        {
+          "node": "13530:16805",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:16807",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:16808",
+          "name": "Footer",
+          "block": "footer",
+          "variant": [],
+          "setId": "12406:12187",
+          "component": "Breakpoint=Desktop",
+          "module": "M27"
+        }
+      ]
+    },
+    {
+      "slug": "account-found",
+      "title": "Account Found",
+      "canvas": {
+        "id": "13496:9590",
+        "name": "--- Login & Registration"
+      },
+      "family": {
+        "id": "13496:19403",
+        "name": "Page: Login & Registration"
+      },
+      "template": "login-and-registration",
+      "variants": {
+        "desktop": {
+          "id": "15011:9054",
+          "name": "Type=Account Found, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 1024
+        },
+        "tablet": {
+          "id": "15011:9060",
+          "name": "Type=Account Found, Breakpoint=Tablet",
+          "width": 768,
+          "height": 748
+        },
+        "mobile": {
+          "id": "15011:9066",
+          "name": "Type=Account Found, Breakpoint=Mobile",
+          "width": 375,
+          "height": 1004
+        }
+      },
+      "frame": "15011:9054",
+      "responsive": "15011:9066",
+      "bindings": [
+        {
+          "node": "15011:9055",
+          "name": "Header",
+          "block": "header",
+          "variant": [
+            "registration"
+          ],
+          "setId": "12387:11135",
+          "component": "Breakpoint=Desktop, Type=Registration",
+          "module": "M28"
+        },
+        {
+          "node": "15011:9056",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "15011:9058",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "15011:9059",
+          "name": "Footer",
+          "block": "footer",
+          "variant": [],
+          "setId": "12406:12187",
+          "component": "Breakpoint=Desktop",
+          "module": "M27"
+        }
+      ]
+    },
+    {
+      "slug": "account-not-found",
+      "title": "Account Not Found",
+      "canvas": {
+        "id": "13496:9590",
+        "name": "--- Login & Registration"
+      },
+      "family": {
+        "id": "13496:19403",
+        "name": "Page: Login & Registration"
+      },
+      "template": "login-and-registration",
+      "variants": {
+        "desktop": {
+          "id": "13530:16998",
+          "name": "Type=Account Not Found, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 1024
+        },
+        "tablet": {
+          "id": "13530:17004",
+          "name": "Type=Account Not Found, Breakpoint=Tablet",
+          "width": 768,
+          "height": 698
+        },
+        "mobile": {
+          "id": "13530:17010",
+          "name": "Type=Account Not Found, Breakpoint=Mobile",
+          "width": 375,
+          "height": 876
+        }
+      },
+      "frame": "13530:16998",
+      "responsive": "13530:17010",
+      "bindings": [
+        {
+          "node": "13530:16999",
+          "name": "Header",
+          "block": "header",
+          "variant": [
+            "registration"
+          ],
+          "setId": "12387:11135",
+          "component": "Breakpoint=Desktop, Type=Registration",
+          "module": "M28"
+        },
+        {
+          "node": "13530:17000",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:17002",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:17003",
+          "name": "Footer",
+          "block": "footer",
+          "variant": [],
+          "setId": "12406:12187",
+          "component": "Breakpoint=Desktop",
+          "module": "M27"
+        }
+      ]
+    },
+    {
+      "slug": "pending-validation",
+      "title": "Pending Validation",
+      "canvas": {
+        "id": "13496:9590",
+        "name": "--- Login & Registration"
+      },
+      "family": {
+        "id": "13496:19403",
+        "name": "Page: Login & Registration"
+      },
+      "template": "login-and-registration",
+      "variants": {
+        "desktop": {
+          "id": "13530:17193",
+          "name": "Type=Pending Validation, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 1024
+        },
+        "tablet": {
+          "id": "13530:17199",
+          "name": "Type=Pending Validation, Breakpoint=Tablet",
+          "width": 768,
+          "height": 748
+        },
+        "mobile": {
+          "id": "13530:17205",
+          "name": "Type=Pending Validation, Breakpoint=Mobile",
+          "width": 375,
+          "height": 888
+        }
+      },
+      "frame": "13530:17193",
+      "responsive": "13530:17205",
+      "bindings": [
+        {
+          "node": "13530:17194",
+          "name": "Header",
+          "block": "header",
+          "variant": [
+            "registration"
+          ],
+          "setId": "12387:11135",
+          "component": "Breakpoint=Desktop, Type=Registration",
+          "module": "M28"
+        },
+        {
+          "node": "13530:17195",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:17197",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:17198",
+          "name": "Footer",
+          "block": "footer",
+          "variant": [],
+          "setId": "12406:12187",
+          "component": "Breakpoint=Desktop",
+          "module": "M27"
+        }
+      ]
+    },
+    {
+      "slug": "session-lost",
+      "title": "Session Lost",
+      "canvas": {
+        "id": "13496:9590",
+        "name": "--- Login & Registration"
+      },
+      "family": {
+        "id": "13496:19403",
+        "name": "Page: Login & Registration"
+      },
+      "template": "login-and-registration",
+      "variants": {
+        "desktop": {
+          "id": "13530:17388",
+          "name": "Type=Session Lost, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 1024
+        },
+        "tablet": {
+          "id": "13530:17394",
+          "name": "Type=Session Lost, Breakpoint=Tablet",
+          "width": 768,
+          "height": 698
+        },
+        "mobile": {
+          "id": "13530:17400",
+          "name": "Type=Session Lost, Breakpoint=Mobile",
+          "width": 375,
+          "height": 840
+        }
+      },
+      "frame": "13530:17388",
+      "responsive": "13530:17400",
+      "bindings": [
+        {
+          "node": "13530:17389",
+          "name": "Header",
+          "block": "header",
+          "variant": [
+            "registration"
+          ],
+          "setId": "12387:11135",
+          "component": "Breakpoint=Desktop, Type=Registration",
+          "module": "M28"
+        },
+        {
+          "node": "13530:17390",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:17392",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:17393",
+          "name": "Footer",
+          "block": "footer",
+          "variant": [],
+          "setId": "12406:12187",
+          "component": "Breakpoint=Desktop",
+          "module": "M27"
+        }
+      ]
+    },
+    {
+      "slug": "reset-password",
+      "title": "Reset Password",
+      "canvas": {
+        "id": "13496:9590",
+        "name": "--- Login & Registration"
+      },
+      "family": {
+        "id": "13496:19403",
+        "name": "Page: Login & Registration"
+      },
+      "template": "login-and-registration",
+      "variants": {
+        "desktop": {
+          "id": "13530:12695",
+          "name": "Type=Reset Password, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 1024
+        },
+        "tablet": {
+          "id": "13530:12702",
+          "name": "Type=Reset Password, Breakpoint=Tablet",
+          "width": 768,
+          "height": 854
+        },
+        "mobile": {
+          "id": "13530:12709",
+          "name": "Type=Reset Password, Breakpoint=Mobile",
+          "width": 375,
+          "height": 944
+        }
+      },
+      "frame": "13530:12695",
+      "responsive": "13530:12709",
+      "bindings": [
+        {
+          "node": "13530:12696",
+          "name": "Header",
+          "block": "header",
+          "variant": [
+            "registration"
+          ],
+          "setId": "12387:11135",
+          "component": "Breakpoint=Desktop, Type=Registration",
+          "module": "M28"
+        },
+        {
+          "node": "13530:12697",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:12698",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:12700",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:12701",
+          "name": "Footer",
+          "block": "footer",
+          "variant": [],
+          "setId": "12406:12187",
+          "component": "Breakpoint=Desktop",
+          "module": "M27"
+        }
+      ]
+    },
+    {
+      "slug": "change-password",
+      "title": "Change Password",
+      "canvas": {
+        "id": "13496:9590",
+        "name": "--- Login & Registration"
+      },
+      "family": {
+        "id": "13496:19403",
+        "name": "Page: Login & Registration"
+      },
+      "template": "login-and-registration",
+      "variants": {
+        "desktop": {
+          "id": "13530:14008",
+          "name": "Type=Change Password, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 1024
+        },
+        "tablet": {
+          "id": "13530:14015",
+          "name": "Type=Change Password, Breakpoint=Tablet",
+          "width": 768,
+          "height": 1024
+        },
+        "mobile": {
+          "id": "13530:14022",
+          "name": "Type=Change Password, Breakpoint=Mobile",
+          "width": 375,
+          "height": 1190
+        }
+      },
+      "frame": "13530:14008",
+      "responsive": "13530:14022",
+      "bindings": [
+        {
+          "node": "13530:14009",
+          "name": "Header",
+          "block": "header",
+          "variant": [
+            "registration"
+          ],
+          "setId": "12387:11135",
+          "component": "Breakpoint=Desktop, Type=Registration",
+          "module": "M28"
+        },
+        {
+          "node": "13530:14010",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:14011",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:14013",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:14014",
+          "name": "Footer",
+          "block": "footer",
+          "variant": [],
+          "setId": "12406:12187",
+          "component": "Breakpoint=Desktop",
+          "module": "M27"
+        }
+      ]
+    },
+    {
+      "slug": "forgot-password-resend",
+      "title": "Forgot Password Resend",
+      "canvas": {
+        "id": "13496:9590",
+        "name": "--- Login & Registration"
+      },
+      "family": {
+        "id": "13496:19403",
+        "name": "Page: Login & Registration"
+      },
+      "template": "login-and-registration",
+      "variants": {
+        "desktop": {
+          "id": "13530:12392",
+          "name": "Type=Forgot Password Resend, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 1024
+        },
+        "tablet": {
+          "id": "13530:12399",
+          "name": "Type=Forgot Password Resend, Breakpoint=Tablet",
+          "width": 768,
+          "height": 698
+        },
+        "mobile": {
+          "id": "13530:12406",
+          "name": "Type=Forgot Password Resend, Breakpoint=Mobile",
+          "width": 375,
+          "height": 800
+        }
+      },
+      "frame": "13530:12392",
+      "responsive": "13530:12406",
+      "bindings": [
+        {
+          "node": "13530:12393",
+          "name": "Header",
+          "block": "header",
+          "variant": [
+            "registration"
+          ],
+          "setId": "12387:11135",
+          "component": "Breakpoint=Desktop, Type=Registration",
+          "module": "M28"
+        },
+        {
+          "node": "13530:12674",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:12397",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:12398",
+          "name": "Footer",
+          "block": "footer",
+          "variant": [],
+          "setId": "12406:12187",
+          "component": "Breakpoint=Desktop",
+          "module": "M27"
+        }
+      ]
+    },
+    {
+      "slug": "reset-succesful",
+      "title": "Reset Succesful",
+      "canvas": {
+        "id": "13496:9590",
+        "name": "--- Login & Registration"
+      },
+      "family": {
+        "id": "13496:19403",
+        "name": "Page: Login & Registration"
+      },
+      "template": "login-and-registration",
+      "variants": {
+        "desktop": {
+          "id": "13530:13822",
+          "name": "Type=Reset Succesful, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 1024
+        },
+        "tablet": {
+          "id": "13530:13828",
+          "name": "Type=Reset Succesful, Breakpoint=Tablet",
+          "width": 768,
+          "height": 674
+        },
+        "mobile": {
+          "id": "13530:13834",
+          "name": "Type=Reset Succesful, Breakpoint=Mobile",
+          "width": 375,
+          "height": 776
+        }
+      },
+      "frame": "13530:13822",
+      "responsive": "13530:13834",
+      "bindings": [
+        {
+          "node": "13530:13823",
+          "name": "Header",
+          "block": "header",
+          "variant": [
+            "registration"
+          ],
+          "setId": "12387:11135",
+          "component": "Breakpoint=Desktop, Type=Registration",
+          "module": "M28"
+        },
+        {
+          "node": "13530:13824",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:13826",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:13827",
+          "name": "Footer",
+          "block": "footer",
+          "variant": [],
+          "setId": "12406:12187",
+          "component": "Breakpoint=Desktop",
+          "module": "M27"
+        }
+      ]
+    },
+    {
+      "slug": "pass-successfully-changed",
+      "title": "Pass Successfully Changed",
+      "canvas": {
+        "id": "13496:9590",
+        "name": "--- Login & Registration"
+      },
+      "family": {
+        "id": "13496:19403",
+        "name": "Page: Login & Registration"
+      },
+      "template": "login-and-registration",
+      "variants": {
+        "desktop": {
+          "id": "13530:14485",
+          "name": "Type=Pass Successfully Changed, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 1024
+        },
+        "tablet": {
+          "id": "13530:14491",
+          "name": "Type=Pass Successfully Changed, Breakpoint=Tablet",
+          "width": 768,
+          "height": 698
+        },
+        "mobile": {
+          "id": "13530:14497",
+          "name": "Type=Pass Successfully Changed, Breakpoint=Mobile",
+          "width": 375,
+          "height": 904
+        }
+      },
+      "frame": "13530:14485",
+      "responsive": "13530:14497",
+      "bindings": [
+        {
+          "node": "13530:14486",
+          "name": "Header",
+          "block": "header",
+          "variant": [
+            "registration"
+          ],
+          "setId": "12387:11135",
+          "component": "Breakpoint=Desktop, Type=Registration",
+          "module": "M28"
+        },
+        {
+          "node": "13530:14487",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:14489",
+          "name": "Block Content",
+          "block": "block-content",
+          "variant": [],
+          "setId": "12601:4831",
+          "component": "Breakpoint=Desktop",
+          "module": "M22"
+        },
+        {
+          "node": "13530:14490",
+          "name": "Footer",
+          "block": "footer",
+          "variant": [],
+          "setId": "12406:12187",
+          "component": "Breakpoint=Desktop",
+          "module": "M27"
+        }
+      ]
+    },
+    {
+      "slug": "verify-email",
+      "title": "Verify Email",
+      "canvas": {
+        "id": "13512:6482",
+        "name": "--- Emails"
+      },
+      "family": {
+        "id": "13512:6272",
+        "name": "Page: Emails"
+      },
+      "template": "emails",
+      "variants": {
+        "desktop": {
+          "id": "13512:6269",
+          "name": "Type=Verify Email, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 650
+        },
+        "tablet": {
+          "id": "13512:6270",
+          "name": "Type=Verify Email, Breakpoint=Tablet",
+          "width": 768,
+          "height": 602
+        },
+        "mobile": {
+          "id": "13512:6271",
+          "name": "Type=Verify Email, Breakpoint=Mobile",
+          "width": 375,
+          "height": 674
+        }
+      },
+      "frame": "13512:6269",
+      "responsive": "13512:6271",
+      "bindings": [
+        {
+          "node": "13512:6174",
+          "name": "Email",
+          "block": "email",
+          "variant": [],
+          "setId": "12712:21024",
+          "component": "Type=Desktop",
+          "module": "M25"
+        }
+      ]
+    },
+    {
+      "slug": "password-reset",
+      "title": "Password Reset",
+      "canvas": {
+        "id": "13512:6482",
+        "name": "--- Emails"
+      },
+      "family": {
+        "id": "13512:6272",
+        "name": "Page: Emails"
+      },
+      "template": "emails",
+      "variants": {
+        "desktop": {
+          "id": "13530:17869",
+          "name": "Type=Password Reset, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 626
+        },
+        "tablet": {
+          "id": "13530:17871",
+          "name": "Type=Password Reset, Breakpoint=Tablet",
+          "width": 768,
+          "height": 578
+        },
+        "mobile": {
+          "id": "13530:17873",
+          "name": "Type=Password Reset, Breakpoint=Mobile",
+          "width": 375,
+          "height": 650
+        }
+      },
+      "frame": "13530:17869",
+      "responsive": "13530:17873",
+      "bindings": [
+        {
+          "node": "13530:17870",
+          "name": "Email",
+          "block": "email",
+          "variant": [],
+          "setId": "12712:21024",
+          "component": "Type=Desktop",
+          "module": "M25"
+        }
+      ]
+    },
+    {
+      "slug": "account-activated",
+      "title": "Account Activated",
+      "canvas": {
+        "id": "13512:6482",
+        "name": "--- Emails"
+      },
+      "family": {
+        "id": "13512:6272",
+        "name": "Page: Emails"
+      },
+      "template": "emails",
+      "variants": {
+        "desktop": {
+          "id": "13530:17999",
+          "name": "Type=Account Activated, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 650
+        },
+        "tablet": {
+          "id": "13530:18001",
+          "name": "Type=Account Activated, Breakpoint=Tablet",
+          "width": 768,
+          "height": 602
+        },
+        "mobile": {
+          "id": "13530:18003",
+          "name": "Type=Account Activated, Breakpoint=Mobile",
+          "width": 375,
+          "height": 674
+        }
+      },
+      "frame": "13530:17999",
+      "responsive": "13530:18003",
+      "bindings": [
+        {
+          "node": "13530:18000",
+          "name": "Email",
+          "block": "email",
+          "variant": [],
+          "setId": "12712:21024",
+          "component": "Type=Desktop",
+          "module": "M25"
+        }
+      ]
+    },
+    {
+      "slug": "new-user-registretion",
+      "title": "New User Registretion",
+      "canvas": {
+        "id": "13512:6482",
+        "name": "--- Emails"
+      },
+      "family": {
+        "id": "13512:6272",
+        "name": "Page: Emails"
+      },
+      "template": "emails",
+      "variants": {
+        "desktop": {
+          "id": "13530:17934",
+          "name": "Type=New User Registretion, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 720
+        },
+        "tablet": {
+          "id": "13530:17936",
+          "name": "Type=New User Registretion, Breakpoint=Tablet",
+          "width": 768,
+          "height": 648
+        },
+        "mobile": {
+          "id": "13530:17938",
+          "name": "Type=New User Registretion, Breakpoint=Mobile",
+          "width": 375,
+          "height": 736
+        }
+      },
+      "frame": "13530:17934",
+      "responsive": "13530:17938",
+      "bindings": [
+        {
+          "node": "13530:17935",
+          "name": "Email",
+          "block": "email",
+          "variant": [],
+          "setId": "12712:21024",
+          "component": "Type=Desktop",
+          "module": "M25"
+        }
+      ]
+    },
+    {
+      "slug": "magic-link",
+      "title": "Magic Link",
+      "canvas": {
+        "id": "13512:6482",
+        "name": "--- Emails"
+      },
+      "family": {
+        "id": "13512:6272",
+        "name": "Page: Emails"
+      },
+      "template": "emails",
+      "variants": {
+        "desktop": {
+          "id": "13530:17800",
+          "name": "Type=Magic Link, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 650
+        },
+        "tablet": {
+          "id": "13530:17802",
+          "name": "Type=Magic Link, Breakpoint=Tablet",
+          "width": 768,
+          "height": 602
+        },
+        "mobile": {
+          "id": "13530:17804",
+          "name": "Type=Magic Link, Breakpoint=Mobile",
+          "width": 375,
+          "height": 650
+        }
+      },
+      "frame": "13530:17800",
+      "responsive": "13530:17804",
+      "bindings": [
+        {
+          "node": "13530:17801",
+          "name": "Email",
+          "block": "email",
+          "variant": [],
+          "setId": "12712:21024",
+          "component": "Type=Desktop",
+          "module": "M25"
+        }
+      ]
+    },
+    {
+      "slug": "inactivity",
+      "title": "Inactivity",
+      "canvas": {
+        "id": "13512:6481",
+        "name": "--- Overlays"
+      },
+      "family": {
+        "id": "13530:18828",
+        "name": "Page: Overlays"
+      },
+      "template": "overlays",
+      "variants": {
+        "desktop": {
+          "id": "13530:18497",
+          "name": "Type=Inactivity, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 1024
+        },
+        "tablet": {
+          "id": "13530:18763",
+          "name": "Type=Inactivity, Breakpoint=Tablet",
+          "width": 768,
+          "height": 500
+        },
+        "mobile": {
+          "id": "13530:18827",
+          "name": "Type=Inactivity, Breakpoint=Mobile",
+          "width": 375,
+          "height": 800
+        }
+      },
+      "frame": "13530:18497",
+      "responsive": "13530:18827",
+      "bindings": [
+        {
+          "node": "13530:18283",
+          "name": "Modal",
+          "block": "modal",
+          "variant": [
+            "text-only",
+            "horizontal"
+          ],
+          "setId": "12467:15529",
+          "component": "Type=Text Only, Alignment=Horizontal",
+          "module": "M11"
+        }
+      ]
+    },
+    {
+      "slug": "logged-out",
+      "title": "Logged Out",
+      "canvas": {
+        "id": "13512:6481",
+        "name": "--- Overlays"
+      },
+      "family": {
+        "id": "13530:18828",
+        "name": "Page: Overlays"
+      },
+      "template": "overlays",
+      "variants": {
+        "desktop": {
+          "id": "13530:18829",
+          "name": "Type=Logged Out, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 1024
+        },
+        "tablet": {
+          "id": "13530:18832",
+          "name": "Type=Logged Out, Breakpoint=Tablet",
+          "width": 768,
+          "height": 500
+        },
+        "mobile": {
+          "id": "13530:18835",
+          "name": "Type=Logged Out, Breakpoint=Mobile",
+          "width": 375,
+          "height": 800
+        }
+      },
+      "frame": "13530:18829",
+      "responsive": "13530:18835",
+      "bindings": [
+        {
+          "node": "13530:18831",
+          "name": "Modal",
+          "block": "modal",
+          "variant": [
+            "text-only",
+            "horizontal"
+          ],
+          "setId": "12467:15529",
+          "component": "Type=Text Only, Alignment=Horizontal",
+          "module": "M11"
+        }
+      ]
+    },
+    {
+      "slug": "3rd-party-login",
+      "title": "3rd Party Login",
+      "canvas": {
+        "id": "13512:6481",
+        "name": "--- Overlays"
+      },
+      "family": {
+        "id": "13530:18828",
+        "name": "Page: Overlays"
+      },
+      "template": "overlays",
+      "variants": {
+        "desktop": {
+          "id": "13530:18940",
+          "name": "Type=3rd Party Login, Breakpoint=Desktop",
+          "width": 1440,
+          "height": 1024
+        },
+        "tablet": {
+          "id": "13530:18943",
+          "name": "Type=3rd Party Login, Breakpoint=Tablet",
+          "width": 768,
+          "height": 541
+        },
+        "mobile": {
+          "id": "13530:18946",
+          "name": "Type=3rd Party Login, Breakpoint=Mobile",
+          "width": 375,
+          "height": 800
+        }
+      },
+      "frame": "13530:18940",
+      "responsive": "13530:18946",
+      "bindings": [
+        {
+          "node": "13530:18997",
+          "name": "Button",
+          "block": "button",
+          "variant": [
+            "medium",
+            "link",
+            "icon-only"
+          ],
+          "setId": "12084:109164",
+          "component": "Size=Medium, Type=Link, Property=Icon Only",
+          "module": "M3"
+        },
+        {
+          "node": "13530:19018",
+          "name": "Input Field",
+          "block": "input",
+          "variant": [],
+          "setId": "12160:3287",
+          "component": "Type=Default, State=Default",
+          "module": "M9"
+        },
+        {
+          "node": "13530:19042",
+          "name": "Input Field",
+          "block": "input",
+          "variant": [
+            "password"
+          ],
+          "setId": "12160:3287",
+          "component": "Type=Password, State=Default",
+          "module": "M9"
+        },
+        {
+          "node": "13530:18996",
+          "name": ".Buttons Collage",
+          "block": "block-content",
+          "variant": [
+            "buttons-collage",
+            "center"
+          ],
+          "setId": "13028:2133",
+          "component": "Alignment=Center",
+          "part": true,
+          "module": "M22"
+        },
+        {
+          "node": "13530:19100",
+          "name": "Checkbox Form",
+          "block": "checkbox-radio",
+          "variant": [
+            "checkbox-form",
+            "initial"
+          ],
+          "setId": "12274:6373",
+          "component": "Type=Default, Status=Initial",
+          "module": "M6"
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "node": "13496:19404",
+      "name": "Page: Login & Registration",
+      "canvas": "13496:9590",
+      "why": "a frame beside the page component set (documentation)"
+    },
+    {
+      "node": "13512:6483",
+      "name": "Page: Emails",
+      "canvas": "13512:6482",
+      "why": "a frame beside the page component set (documentation)"
+    },
+    {
+      "node": "13530:18064",
+      "name": "Page: Login & Registration",
+      "canvas": "13512:6481",
+      "why": "a frame beside the page component set (documentation)"
+    }
+  ],
+  "kit": {
+    "version": 1,
+    "blockPer": "canvas",
+    "blocks": [
+      {
+        "block": "accordion",
+        "module": "M1",
+        "canvas": {
+          "id": "12360:10285",
+          "name": "❖ Accordion"
+        },
+        "group": "component",
+        "home": {
+          "canvasId": "12360:10285",
+          "canvasName": "❖ Accordion",
+          "group": "component"
+        },
+        "set": {
+          "id": "12360:10305",
+          "name": "Accordion",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12360:10305",
+            "name": "Accordion",
+            "kind": "COMPONENT_SET",
+            "count": 6,
+            "props": [
+              "Type",
+              "State"
+            ],
+            "class": null
+          }
+        ],
+        "parts": [],
+        "variants": [],
+        "used": false,
+        "usedBy": [],
+        "instances": 0
+      },
+      {
+        "block": "back-to-top",
+        "module": "M2",
+        "canvas": {
+          "id": "12522:1023",
+          "name": "❖ Back to Top"
+        },
+        "group": "component",
+        "home": {
+          "canvasId": "12522:1023",
+          "canvasName": "❖ Back to Top",
+          "group": "component"
+        },
+        "set": {
+          "id": "12522:1041",
+          "name": "Back-to-top",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12522:1041",
+            "name": "Back-to-top",
+            "kind": "COMPONENT_SET",
+            "count": 6,
+            "props": [
+              "Background",
+              "Breakpoint"
+            ],
+            "class": null
+          }
+        ],
+        "parts": [],
+        "variants": [],
+        "used": false,
+        "usedBy": [],
+        "instances": 0
+      },
+      {
+        "block": "button",
+        "module": "M3",
+        "canvas": {
+          "id": "12077:109023",
+          "name": "❖ Button"
+        },
+        "group": "component",
+        "home": {
+          "canvasId": "12077:109023",
+          "canvasName": "❖ Button",
+          "group": "component"
+        },
+        "set": {
+          "id": "12084:109164",
+          "name": "Button",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12084:109164",
+            "name": "Button",
+            "kind": "COMPONENT_SET",
+            "count": 24,
+            "props": [
+              "Size",
+              "Type",
+              "Property"
+            ],
+            "class": null
+          }
+        ],
+        "parts": [],
+        "variants": [
+          [
+            "medium",
+            "link",
+            "icon-only"
+          ]
+        ],
+        "used": true,
+        "usedBy": [
+          "3rd-party-login"
+        ],
+        "instances": 1
+      },
+      {
+        "block": "breadcrumb",
+        "module": "M4",
+        "canvas": {
+          "id": "12410:12837",
+          "name": "❖ Breadcrumb"
+        },
+        "group": "component",
+        "home": {
+          "canvasId": "12410:12837",
+          "canvasName": "❖ Breadcrumb",
+          "group": "component"
+        },
+        "set": {
+          "id": "12410:12840",
+          "name": "Breadcrumb label",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12410:12840",
+            "name": "Breadcrumb label",
+            "kind": "COMPONENT_SET",
+            "count": 6,
+            "props": [
+              "State",
+              "Breakpoint"
+            ],
+            "class": "label"
+          },
+          {
+            "id": "12410:12887",
+            "name": "Breadcrumble example",
+            "kind": "COMPONENT_SET",
+            "count": 3,
+            "props": [
+              "Breackpoint"
+            ],
+            "class": "breadcrumble-example"
+          }
+        ],
+        "parts": [],
+        "variants": [],
+        "used": false,
+        "usedBy": [],
+        "instances": 0
+      },
+      {
+        "block": "carousel",
+        "module": "M5",
+        "canvas": {
+          "id": "12473:15925",
+          "name": "❖ Carousel"
+        },
+        "group": "component",
+        "home": {
+          "canvasId": "12473:15925",
+          "canvasName": "❖ Carousel",
+          "group": "component"
+        },
+        "set": {
+          "id": "12473:16100",
+          "name": "Carousel",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12473:16100",
+            "name": "Carousel",
+            "kind": "COMPONENT_SET",
+            "count": 3,
+            "props": [
+              "Breakpoint"
+            ],
+            "class": null
+          }
+        ],
+        "parts": [
+          {
+            "id": "12473:15944",
+            "name": ".Carousel / Arrows",
+            "kind": "COMPONENT_SET",
+            "count": 4,
+            "class": "arrows"
+          },
+          {
+            "id": "12473:15949",
+            "name": ".Carousel / Dots",
+            "kind": "COMPONENT_SET",
+            "count": 2,
+            "class": "dots"
+          }
+        ],
+        "variants": [],
+        "used": false,
+        "usedBy": [],
+        "instances": 0
+      },
+      {
+        "block": "checkbox-radio",
+        "module": "M6",
+        "canvas": {
+          "id": "12265:6339",
+          "name": "❖ Checkbox & Radio"
+        },
+        "group": "component",
+        "home": {
+          "canvasId": "12265:6339",
+          "canvasName": "❖ Checkbox & Radio",
+          "group": "component"
+        },
+        "set": {
+          "id": "12265:6347",
+          "name": "Checkbox Input",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12265:6347",
+            "name": "Checkbox Input",
+            "kind": "COMPONENT_SET",
+            "count": 4,
+            "props": [
+              "Type",
+              "Status"
+            ],
+            "class": "checkbox-input"
+          },
+          {
+            "id": "12274:6373",
+            "name": "Checkbox Form",
+            "kind": "COMPONENT_SET",
+            "count": 4,
+            "props": [
+              "Type",
+              "Status"
+            ],
+            "class": "checkbox-form"
+          }
+        ],
+        "parts": [],
+        "variants": [
+          [
+            "checkbox-form",
+            "initial"
+          ]
+        ],
+        "used": true,
+        "usedBy": [
+          "3rd-party-login"
+        ],
+        "instances": 1
+      },
+      {
+        "block": "chips",
+        "module": "M7",
+        "canvas": {
+          "id": "12334:9614",
+          "name": "❖ Chips"
+        },
+        "group": "component",
+        "home": {
+          "canvasId": "12334:9614",
+          "canvasName": "❖ Chips",
+          "group": "component"
+        },
+        "set": {
+          "id": "12334:9625",
+          "name": "Chips",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12334:9625",
+            "name": "Chips",
+            "kind": "COMPONENT_SET",
+            "count": 6,
+            "props": [
+              "Size",
+              "State"
+            ],
+            "class": null
+          }
+        ],
+        "parts": [],
+        "variants": [],
+        "used": false,
+        "usedBy": [],
+        "instances": 0
+      },
+      {
+        "block": "dropdown",
+        "module": "M8",
+        "canvas": {
+          "id": "12265:6155",
+          "name": "❖ DropDown"
+        },
+        "group": "component",
+        "home": {
+          "canvasId": "12265:6155",
+          "canvasName": "❖ DropDown",
+          "group": "component"
+        },
+        "set": {
+          "id": "12277:7181",
+          "name": "Dropdown",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12277:7181",
+            "name": "Dropdown",
+            "kind": "COMPONENT_SET",
+            "count": 10,
+            "props": [
+              "Type",
+              "State"
+            ],
+            "class": null
+          }
+        ],
+        "parts": [
+          {
+            "id": "12265:6318",
+            "name": ".Dropdown-Listitem",
+            "kind": "COMPONENT_SET",
+            "count": 15,
+            "class": "listitem"
+          }
+        ],
+        "variants": [],
+        "used": false,
+        "usedBy": [],
+        "instances": 0
+      },
+      {
+        "block": "input",
+        "module": "M9",
+        "canvas": {
+          "id": "12128:3181",
+          "name": "❖ Input"
+        },
+        "group": "component",
+        "home": {
+          "canvasId": "12128:3181",
+          "canvasName": "❖ Input",
+          "group": "component"
+        },
+        "set": {
+          "id": "12160:3287",
+          "name": "Input Field",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12160:3287",
+            "name": "Input Field",
+            "kind": "COMPONENT_SET",
+            "count": 32,
+            "props": [
+              "Type",
+              "State"
+            ],
+            "class": null
+          }
+        ],
+        "parts": [],
+        "variants": [
+          [],
+          [
+            "password"
+          ]
+        ],
+        "used": true,
+        "usedBy": [
+          "3rd-party-login"
+        ],
+        "instances": 2
+      },
+      {
+        "block": "links",
+        "module": "M10",
+        "canvas": {
+          "id": "12928:23404",
+          "name": "❖ Links"
+        },
+        "group": "component",
+        "home": {
+          "canvasId": "12928:23404",
+          "canvasName": "❖ Links",
+          "group": "component"
+        },
+        "set": {
+          "id": "12929:23477",
+          "name": "Links",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12929:23477",
+            "name": "Links",
+            "kind": "COMPONENT_SET",
+            "count": 5,
+            "props": [
+              "Breakpoint",
+              "Style"
+            ],
+            "class": null
+          }
+        ],
+        "parts": [
+          {
+            "id": "12928:23420",
+            "name": ".Link",
+            "kind": "COMPONENT_SET",
+            "count": 4,
+            "class": "link"
+          }
+        ],
+        "variants": [],
+        "used": false,
+        "usedBy": [],
+        "instances": 0
+      },
+      {
+        "block": "modal",
+        "module": "M11",
+        "canvas": {
+          "id": "12473:15663",
+          "name": "❖ Modal"
+        },
+        "group": "component",
+        "home": {
+          "canvasId": "12473:15663",
+          "canvasName": "❖ Modal",
+          "group": "component"
+        },
+        "set": {
+          "id": "12467:15529",
+          "name": "Modal",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12467:15529",
+            "name": "Modal",
+            "kind": "COMPONENT_SET",
+            "count": 6,
+            "props": [
+              "Type",
+              "Alignment"
+            ],
+            "class": null
+          }
+        ],
+        "parts": [],
+        "variants": [
+          [
+            "text-only",
+            "horizontal"
+          ]
+        ],
+        "used": true,
+        "usedBy": [
+          "inactivity",
+          "logged-out"
+        ],
+        "instances": 2
+      },
+      {
+        "block": "pagination",
+        "module": "M12",
+        "canvas": {
+          "id": "12328:9263",
+          "name": "❖ Pagination"
+        },
+        "group": "component",
+        "home": {
+          "canvasId": "12328:9263",
+          "canvasName": "❖ Pagination",
+          "group": "component"
+        },
+        "set": {
+          "id": "12328:9443",
+          "name": "Pagination / Base",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12328:9443",
+            "name": "Pagination / Base",
+            "kind": "COMPONENT_SET",
+            "count": 20,
+            "props": [
+              "Type",
+              "State"
+            ],
+            "class": "base"
+          },
+          {
+            "id": "12328:9613",
+            "name": "Pagination / Group",
+            "kind": "COMPONENT_SET",
+            "count": 2,
+            "props": [
+              "Type"
+            ],
+            "class": "group"
+          }
+        ],
+        "parts": [],
+        "variants": [],
+        "used": false,
+        "usedBy": [],
+        "instances": 0
+      },
+      {
+        "block": "search-bar",
+        "module": "M13",
+        "canvas": {
+          "id": "12682:17148",
+          "name": "❖ Search Bar"
+        },
+        "group": "component",
+        "home": {
+          "canvasId": "12682:17148",
+          "canvasName": "❖ Search Bar",
+          "group": "component"
+        },
+        "set": {
+          "id": "12686:17319",
+          "name": "Search bar",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12686:17319",
+            "name": "Search bar",
+            "kind": "COMPONENT_SET",
+            "count": 2,
+            "props": [
+              "State"
+            ],
+            "class": null
+          }
+        ],
+        "parts": [],
+        "variants": [],
+        "used": false,
+        "usedBy": [],
+        "instances": 0
+      },
+      {
+        "block": "slider",
+        "module": "M14",
+        "canvas": {
+          "id": "12334:9879",
+          "name": "❖ Slider"
+        },
+        "group": "component",
+        "home": {
+          "canvasId": "12334:9879",
+          "canvasName": "❖ Slider",
+          "group": "component"
+        },
+        "set": {
+          "id": "12334:10073",
+          "name": "Range Slider thumb",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12334:10073",
+            "name": "Range Slider thumb",
+            "kind": "COMPONENT_SET",
+            "count": 2,
+            "props": [
+              "State"
+            ],
+            "class": "range-slider-thumb"
+          },
+          {
+            "id": "12334:10106",
+            "name": "Slider",
+            "kind": "COMPONENT",
+            "count": 1,
+            "props": [],
+            "class": null
+          }
+        ],
+        "parts": [],
+        "variants": [],
+        "used": false,
+        "usedBy": [],
+        "instances": 0
+      },
+      {
+        "block": "stepper",
+        "module": "M15",
+        "canvas": {
+          "id": "13084:3039",
+          "name": "❖ Stepper"
+        },
+        "group": "component",
+        "home": {
+          "canvasId": "13084:3039",
+          "canvasName": "❖ Stepper",
+          "group": "component"
+        },
+        "set": {
+          "id": "13121:3064",
+          "name": "Stepper",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "13121:3064",
+            "name": "Stepper",
+            "kind": "COMPONENT_SET",
+            "count": 3,
+            "props": [
+              "Step"
+            ],
+            "class": null
+          }
+        ],
+        "parts": [],
+        "variants": [],
+        "used": false,
+        "usedBy": [],
+        "instances": 0
+      },
+      {
+        "block": "tab-nav",
+        "module": "M16",
+        "canvas": {
+          "id": "12914:22601",
+          "name": "❖ Tab Nav"
+        },
+        "group": "component",
+        "home": {
+          "canvasId": "12914:22601",
+          "canvasName": "❖ Tab Nav",
+          "group": "component"
+        },
+        "set": {
+          "id": "12914:23169",
+          "name": "Tab Nav",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12914:23169",
+            "name": "Tab Nav",
+            "kind": "COMPONENT_SET",
+            "count": 3,
+            "props": [
+              "Breakpoint"
+            ],
+            "class": null
+          }
+        ],
+        "parts": [
+          {
+            "id": "12914:22615",
+            "name": ".Tab Nav Elements",
+            "kind": "COMPONENT_SET",
+            "count": 8,
+            "class": "elements"
+          },
+          {
+            "id": "12914:22673",
+            "name": ".Tab Nav Items",
+            "kind": "COMPONENT_SET",
+            "count": 4,
+            "class": "items"
+          }
+        ],
+        "variants": [],
+        "used": false,
+        "usedBy": [],
+        "instances": 0
+      },
+      {
+        "block": "tabs",
+        "module": "M17",
+        "canvas": {
+          "id": "12305:8795",
+          "name": "❖ Tabs"
+        },
+        "group": "component",
+        "home": {
+          "canvasId": "12305:8795",
+          "canvasName": "❖ Tabs",
+          "group": "component"
+        },
+        "set": {
+          "id": "12305:8988",
+          "name": "Tabs Group",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12305:8988",
+            "name": "Tabs Group",
+            "kind": "COMPONENT_SET",
+            "count": 4,
+            "props": [
+              "Type",
+              "Size"
+            ],
+            "class": null
+          }
+        ],
+        "parts": [
+          {
+            "id": "12305:8819",
+            "name": ".Tabs base",
+            "kind": "COMPONENT_SET",
+            "count": 4,
+            "class": "base"
+          }
+        ],
+        "variants": [],
+        "used": false,
+        "usedBy": [],
+        "instances": 0
+      },
+      {
+        "block": "tables",
+        "module": "M18",
+        "canvas": {
+          "id": "12607:2201",
+          "name": "❖ Tables"
+        },
+        "group": "component",
+        "home": {
+          "canvasId": "12607:2201",
+          "canvasName": "❖ Tables",
+          "group": "component"
+        },
+        "set": {
+          "id": "12607:4086",
+          "name": "Table / Cell",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12607:4086",
+            "name": "Table / Cell",
+            "kind": "COMPONENT_SET",
+            "count": 20,
+            "props": [
+              "Type",
+              "Position"
+            ],
+            "class": null
+          }
+        ],
+        "parts": [],
+        "variants": [],
+        "used": false,
+        "usedBy": [],
+        "instances": 0
+      },
+      {
+        "block": "toggle",
+        "module": "M19",
+        "canvas": {
+          "id": "12287:8408",
+          "name": "❖ Toggle"
+        },
+        "group": "component",
+        "home": {
+          "canvasId": "12287:8408",
+          "canvasName": "❖ Toggle",
+          "group": "component"
+        },
+        "set": {
+          "id": "12287:8487",
+          "name": "Toggle switches",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12287:8487",
+            "name": "Toggle switches",
+            "kind": "COMPONENT_SET",
+            "count": 4,
+            "props": [
+              "Checked",
+              "Status"
+            ],
+            "class": "switches"
+          },
+          {
+            "id": "12287:8716",
+            "name": "Toggle group",
+            "kind": "COMPONENT_SET",
+            "count": 4,
+            "props": [
+              "Alignment",
+              "Type"
+            ],
+            "class": "group"
+          }
+        ],
+        "parts": [],
+        "variants": [],
+        "used": false,
+        "usedBy": [],
+        "instances": 0
+      },
+      {
+        "block": "tooltip",
+        "module": "M20",
+        "canvas": {
+          "id": "12334:9880",
+          "name": "❖ Tooltip"
+        },
+        "group": "component",
+        "home": {
+          "canvasId": "12334:9880",
+          "canvasName": "❖ Tooltip",
+          "group": "component"
+        },
+        "set": {
+          "id": "12334:9961",
+          "name": "Tooltip",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12334:9961",
+            "name": "Tooltip",
+            "kind": "COMPONENT_SET",
+            "count": 4,
+            "props": [
+              "Position"
+            ],
+            "class": null
+          }
+        ],
+        "parts": [],
+        "variants": [],
+        "used": false,
+        "usedBy": [],
+        "instances": 0
+      },
+      {
+        "block": "account",
+        "module": "M21",
+        "canvas": {
+          "id": "12688:17578",
+          "name": "❏ Account"
+        },
+        "group": "template",
+        "home": {
+          "canvasId": "12688:17578",
+          "canvasName": "❏ Account",
+          "group": "template"
+        },
+        "set": {
+          "id": "12693:19253",
+          "name": "Account Summary",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12693:19253",
+            "name": "Account Summary",
+            "kind": "COMPONENT_SET",
+            "count": 3,
+            "props": [
+              "Breakpoint"
+            ],
+            "class": null
+          }
+        ],
+        "parts": [
+          {
+            "id": "12691:19070",
+            "name": ".Account summary",
+            "kind": "COMPONENT_SET",
+            "count": 3,
+            "class": "summary"
+          }
+        ],
+        "variants": [],
+        "used": false,
+        "usedBy": [],
+        "instances": 0
+      },
+      {
+        "block": "block-content",
+        "module": "M22",
+        "canvas": {
+          "id": "12436:15252",
+          "name": "❏ Block Content"
+        },
+        "group": "template",
+        "home": {
+          "canvasId": "12436:15252",
+          "canvasName": "❏ Block Content",
+          "group": "template"
+        },
+        "set": {
+          "id": "12601:4831",
+          "name": "Block Content",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12601:4831",
+            "name": "Block Content",
+            "kind": "COMPONENT_SET",
+            "count": 3,
+            "props": [
+              "Breakpoint"
+            ],
+            "class": null
+          }
+        ],
+        "parts": [
+          {
+            "id": "12529:1213",
+            "name": ".Title",
+            "kind": "COMPONENT_SET",
+            "count": 9,
+            "class": "title"
+          },
+          {
+            "id": "12534:1263",
+            "name": ".Text",
+            "kind": "COMPONENT_SET",
+            "count": 3,
+            "class": "text"
+          },
+          {
+            "id": "13028:2133",
+            "name": ".Buttons Collage",
+            "kind": "COMPONENT_SET",
+            "count": 4,
+            "class": "buttons-collage"
+          },
+          {
+            "id": "12534:1413",
+            "name": ".Block Element",
+            "kind": "COMPONENT_SET",
+            "count": 48,
+            "class": "block-element"
+          }
+        ],
+        "variants": [
+          [],
+          [
+            "buttons-collage",
+            "center"
+          ]
+        ],
+        "used": true,
+        "usedBy": [
+          "registration",
+          "channel-consent",
+          "email-verification",
+          "email-verified",
+          "profile-review",
+          "link-expired",
+          "resend-verification-email",
+          "forgot-password",
+          "waiting-confirmation",
+          "login-without-pass",
+          "reset-link-expired",
+          "reset-pass-sent",
+          "account-inactive",
+          "account-found",
+          "account-not-found",
+          "pending-validation",
+          "session-lost",
+          "reset-password",
+          "change-password",
+          "forgot-password-resend",
+          "reset-succesful",
+          "pass-successfully-changed",
+          "3rd-party-login"
+        ],
+        "instances": 53
+      },
+      {
+        "block": "cta-banner",
+        "module": "M23",
+        "canvas": {
+          "id": "13370:1452",
+          "name": "❏ CTA Banner"
+        },
+        "group": "template",
+        "home": {
+          "canvasId": "13370:1452",
+          "canvasName": "❏ CTA Banner",
+          "group": "template"
+        },
+        "set": {
+          "id": "13370:2040",
+          "name": "CTA Banner",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "13370:2040",
+            "name": "CTA Banner",
+            "kind": "COMPONENT_SET",
+            "count": 3,
+            "props": [
+              "Breakpoint"
+            ],
+            "class": null
+          }
+        ],
+        "parts": [],
+        "variants": [],
+        "used": false,
+        "usedBy": [],
+        "instances": 0
+      },
+      {
+        "block": "calculator",
+        "module": "M24",
+        "canvas": {
+          "id": "15017:9744",
+          "name": "❏ Calculator"
+        },
+        "group": "template",
+        "home": {
+          "canvasId": "15017:9744",
+          "canvasName": "❏ Calculator",
+          "group": "template"
+        },
+        "set": {
+          "id": "15163:14798",
+          "name": "Weight Conversion",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "15163:14798",
+            "name": "Weight Conversion",
+            "kind": "COMPONENT_SET",
+            "count": 3,
+            "props": [
+              "Breakpoint"
+            ],
+            "class": "weight-conversion"
+          },
+          {
+            "id": "15021:13523",
+            "name": "Dosing Calculator",
+            "kind": "COMPONENT_SET",
+            "count": 3,
+            "props": [
+              "Breakpoint"
+            ],
+            "class": "dosing-calculator"
+          },
+          {
+            "id": "15170:17991",
+            "name": "Risk Calculator",
+            "kind": "COMPONENT_SET",
+            "count": 3,
+            "props": [
+              "Breakpoint"
+            ],
+            "class": "risk-calculator"
+          }
+        ],
+        "parts": [
+          {
+            "id": "15017:9908",
+            "name": ".Calculator: Metric Display",
+            "kind": "COMPONENT_SET",
+            "count": 2,
+            "class": "metric-display"
+          },
+          {
+            "id": "15021:12042",
+            "name": ".Calculator: Slot",
+            "kind": "COMPONENT_SET",
+            "count": 9,
+            "class": "slot"
+          },
+          {
+            "id": "15021:12214",
+            "name": ".Calculator: Column",
+            "kind": "COMPONENT",
+            "count": 1,
+            "class": "column"
+          }
+        ],
+        "variants": [],
+        "used": false,
+        "usedBy": [],
+        "instances": 0
+      },
+      {
+        "block": "email",
+        "module": "M25",
+        "canvas": {
+          "id": "12712:20994",
+          "name": "❏ Email"
+        },
+        "group": "template",
+        "home": {
+          "canvasId": "12712:20994",
+          "canvasName": "❏ Email",
+          "group": "template"
+        },
+        "set": {
+          "id": "12712:21024",
+          "name": "Email",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12712:21024",
+            "name": "Email",
+            "kind": "COMPONENT_SET",
+            "count": 2,
+            "props": [
+              "Type"
+            ],
+            "class": null
+          }
+        ],
+        "parts": [],
+        "variants": [
+          []
+        ],
+        "used": true,
+        "usedBy": [
+          "verify-email",
+          "password-reset",
+          "account-activated",
+          "new-user-registretion",
+          "magic-link"
+        ],
+        "instances": 5
+      },
+      {
+        "block": "forms",
+        "module": "M26",
+        "canvas": {
+          "id": "12655:10203",
+          "name": "❏ Forms"
+        },
+        "group": "template",
+        "home": {
+          "canvasId": "12655:10203",
+          "canvasName": "❏ Forms",
+          "group": "template"
+        },
+        "set": {
+          "id": "12682:15985",
+          "name": "Form Content",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12682:15985",
+            "name": "Form Content",
+            "kind": "COMPONENT_SET",
+            "count": 3,
+            "props": [
+              "Breakpoint"
+            ],
+            "class": null
+          }
+        ],
+        "parts": [
+          {
+            "id": "12679:11503",
+            "name": ".Forms",
+            "kind": "COMPONENT_SET",
+            "count": 9,
+            "class": null
+          }
+        ],
+        "variants": [],
+        "used": false,
+        "usedBy": [],
+        "instances": 0
+      },
+      {
+        "block": "footer",
+        "module": "M27",
+        "canvas": {
+          "id": "12387:11993",
+          "name": "❏ Footer"
+        },
+        "group": "template",
+        "home": {
+          "canvasId": "12387:11993",
+          "canvasName": "❏ Footer",
+          "group": "template"
+        },
+        "set": {
+          "id": "12406:12187",
+          "name": "Footer",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12406:12187",
+            "name": "Footer",
+            "kind": "COMPONENT_SET",
+            "count": 3,
+            "props": [
+              "Breakpoint"
+            ],
+            "class": null
+          }
+        ],
+        "parts": [],
+        "variants": [
+          []
+        ],
+        "used": true,
+        "usedBy": [
+          "login-landing",
+          "registration",
+          "channel-consent",
+          "email-verification",
+          "email-verified",
+          "profile-review",
+          "link-expired",
+          "resend-verification-email",
+          "forgot-password",
+          "waiting-confirmation",
+          "login-without-pass",
+          "reset-link-expired",
+          "reset-pass-sent",
+          "account-inactive",
+          "account-found",
+          "account-not-found",
+          "pending-validation",
+          "session-lost",
+          "reset-password",
+          "change-password",
+          "forgot-password-resend",
+          "reset-succesful",
+          "pass-successfully-changed"
+        ],
+        "instances": 23
+      },
+      {
+        "block": "header",
+        "module": "M28",
+        "canvas": {
+          "id": "12349:10215",
+          "name": "❏ Header"
+        },
+        "group": "template",
+        "home": {
+          "canvasId": "12349:10215",
+          "canvasName": "❏ Header",
+          "group": "template"
+        },
+        "set": {
+          "id": "12387:11135",
+          "name": "Header",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12387:11135",
+            "name": "Header",
+            "kind": "COMPONENT_SET",
+            "count": 6,
+            "props": [
+              "Breakpoint",
+              "Type"
+            ],
+            "class": null
+          }
+        ],
+        "parts": [
+          {
+            "id": "12370:10624",
+            "name": ".Header / Actions",
+            "kind": "COMPONENT_SET",
+            "count": 2,
+            "class": "actions"
+          },
+          {
+            "id": "12370:10635",
+            "name": ".Header / Navigation Item",
+            "kind": "COMPONENT_SET",
+            "count": 4,
+            "class": "navigation-item"
+          },
+          {
+            "id": "12379:10704",
+            "name": ".Header / Contact Selecter Item",
+            "kind": "COMPONENT_SET",
+            "count": 2,
+            "class": "contact-selecter-item"
+          },
+          {
+            "id": "12379:10721",
+            "name": ".Header / Disclaimer",
+            "kind": "COMPONENT_SET",
+            "count": 3,
+            "class": "disclaimer"
+          },
+          {
+            "id": "12379:10725",
+            "name": ".Header / Prescribing Info",
+            "kind": "COMPONENT_SET",
+            "count": 3,
+            "class": "prescribing-info"
+          },
+          {
+            "id": "12379:11025",
+            "name": ". Header / Language Selector",
+            "kind": "COMPONENT_SET",
+            "count": 3,
+            "class": "language-selector"
+          },
+          {
+            "id": "12385:11070",
+            "name": ".Header / Links Selector",
+            "kind": "COMPONENT_SET",
+            "count": 2,
+            "class": "links-selector"
+          }
+        ],
+        "variants": [
+          [
+            "full"
+          ],
+          [
+            "registration"
+          ]
+        ],
+        "used": true,
+        "usedBy": [
+          "login-landing",
+          "registration",
+          "channel-consent",
+          "email-verification",
+          "email-verified",
+          "profile-review",
+          "link-expired",
+          "resend-verification-email",
+          "forgot-password",
+          "waiting-confirmation",
+          "login-without-pass",
+          "reset-link-expired",
+          "reset-pass-sent",
+          "account-inactive",
+          "account-found",
+          "account-not-found",
+          "pending-validation",
+          "session-lost",
+          "reset-password",
+          "change-password",
+          "forgot-password-resend",
+          "reset-succesful",
+          "pass-successfully-changed"
+        ],
+        "instances": 23
+      },
+      {
+        "block": "home-hero-branded",
+        "module": "M29",
+        "canvas": {
+          "id": "12950:24783",
+          "name": "❏ Home Hero Branded"
+        },
+        "group": "template",
+        "home": {
+          "canvasId": "12950:24783",
+          "canvasName": "❏ Home Hero Branded",
+          "group": "template"
+        },
+        "set": {
+          "id": "12950:24836",
+          "name": "Home Hero Branded",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12950:24836",
+            "name": "Home Hero Branded",
+            "kind": "COMPONENT_SET",
+            "count": 3,
+            "props": [
+              "Breakpoint"
+            ],
+            "class": null
+          }
+        ],
+        "parts": [],
+        "variants": [],
+        "used": false,
+        "usedBy": [],
+        "instances": 0
+      },
+      {
+        "block": "login",
+        "module": "M30",
+        "canvas": {
+          "id": "12643:8648",
+          "name": "❏ Login"
+        },
+        "group": "template",
+        "home": {
+          "canvasId": "12643:8648",
+          "canvasName": "❏ Login",
+          "group": "template"
+        },
+        "set": {
+          "id": "12643:9460",
+          "name": "Login",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12643:9460",
+            "name": "Login",
+            "kind": "COMPONENT_SET",
+            "count": 6,
+            "props": [
+              "Type",
+              "Breakpoint"
+            ],
+            "class": null
+          }
+        ],
+        "parts": [],
+        "variants": [
+          [
+            "full"
+          ]
+        ],
+        "used": true,
+        "usedBy": [
+          "login-landing"
+        ],
+        "instances": 1
+      },
+      {
+        "block": "teaser",
+        "module": "M31",
+        "canvas": {
+          "id": "12417:13114",
+          "name": "❏ Teaser"
+        },
+        "group": "template",
+        "home": {
+          "canvasId": "12417:13114",
+          "canvasName": "❏ Teaser",
+          "group": "template"
+        },
+        "set": {
+          "id": "12421:13846",
+          "name": "Teaser",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "12421:13846",
+            "name": "Teaser",
+            "kind": "COMPONENT_SET",
+            "count": 9,
+            "props": [
+              "Size",
+              "Breakpoint"
+            ],
+            "class": null
+          },
+          {
+            "id": "12431:14282",
+            "name": "Teaser / Text + Image",
+            "kind": "COMPONENT_SET",
+            "count": 5,
+            "props": [
+              "Breakpoint",
+              "Alignment"
+            ],
+            "class": "text-image"
+          },
+          {
+            "id": "12436:14752",
+            "name": "Teaser / Card",
+            "kind": "COMPONENT_SET",
+            "count": 3,
+            "props": [
+              "Breakpoint"
+            ],
+            "class": "card"
+          }
+        ],
+        "parts": [
+          {
+            "id": "12418:13125",
+            "name": ".Teaser / Hero Content",
+            "kind": "COMPONENT_SET",
+            "count": 3,
+            "class": "hero-content"
+          },
+          {
+            "id": "12436:14977",
+            "name": ".Teaser / Blocked Content",
+            "kind": "COMPONENT",
+            "count": 1,
+            "class": "blocked-content"
+          },
+          {
+            "id": "12436:14681",
+            "name": ".Teaser / Card content",
+            "kind": "COMPONENT_SET",
+            "count": 3,
+            "class": "card-content"
+          },
+          {
+            "id": "13024:837",
+            "name": ".Teaser / Card Tag",
+            "kind": "COMPONENT_SET",
+            "count": 4,
+            "class": "card-tag"
+          },
+          {
+            "id": "13032:2302",
+            "name": ".Teaser / Card Chip",
+            "kind": "COMPONENT_SET",
+            "count": 3,
+            "class": "card-chip"
+          }
+        ],
+        "variants": [],
+        "used": false,
+        "usedBy": [],
+        "instances": 0
+      },
+      {
+        "block": "quiz",
+        "module": "M32",
+        "canvas": {
+          "id": "13422:2604",
+          "name": "❏ Quiz"
+        },
+        "group": "template",
+        "home": {
+          "canvasId": "13422:2604",
+          "canvasName": "❏ Quiz",
+          "group": "template"
+        },
+        "set": {
+          "id": "13422:2864",
+          "name": "Quiz",
+          "kind": "COMPONENT_SET"
+        },
+        "sets": [
+          {
+            "id": "13422:2864",
+            "name": "Quiz",
+            "kind": "COMPONENT_SET",
+            "count": 6,
+            "props": [
+              "Type",
+              "Breakpoint"
+            ],
+            "class": null
+          }
+        ],
+        "parts": [],
+        "variants": [],
+        "used": false,
+        "usedBy": [],
+        "instances": 0
+      }
+    ],
+    "index": {
+      "12360:10305": {
+        "block": "accordion",
+        "class": null,
+        "part": false
+      },
+      "12522:1041": {
+        "block": "back-to-top",
+        "class": null,
+        "part": false
+      },
+      "12084:109164": {
+        "block": "button",
+        "class": null,
+        "part": false
+      },
+      "12410:12840": {
+        "block": "breadcrumb",
+        "class": "label",
+        "part": false
+      },
+      "12410:12887": {
+        "block": "breadcrumb",
+        "class": "breadcrumble-example",
+        "part": false
+      },
+      "12473:15944": {
+        "block": "carousel",
+        "class": "arrows",
+        "part": true
+      },
+      "12473:15949": {
+        "block": "carousel",
+        "class": "dots",
+        "part": true
+      },
+      "12473:16100": {
+        "block": "carousel",
+        "class": null,
+        "part": false
+      },
+      "12265:6347": {
+        "block": "checkbox-radio",
+        "class": "checkbox-input",
+        "part": false
+      },
+      "12274:6373": {
+        "block": "checkbox-radio",
+        "class": "checkbox-form",
+        "part": false
+      },
+      "12334:9625": {
+        "block": "chips",
+        "class": null,
+        "part": false
+      },
+      "12265:6318": {
+        "block": "dropdown",
+        "class": "listitem",
+        "part": true
+      },
+      "12277:7181": {
+        "block": "dropdown",
+        "class": null,
+        "part": false
+      },
+      "12160:3287": {
+        "block": "input",
+        "class": null,
+        "part": false
+      },
+      "12928:23420": {
+        "block": "links",
+        "class": "link",
+        "part": true
+      },
+      "12929:23477": {
+        "block": "links",
+        "class": null,
+        "part": false
+      },
+      "12467:15529": {
+        "block": "modal",
+        "class": null,
+        "part": false
+      },
+      "12328:9443": {
+        "block": "pagination",
+        "class": "base",
+        "part": false
+      },
+      "12328:9613": {
+        "block": "pagination",
+        "class": "group",
+        "part": false
+      },
+      "12686:17319": {
+        "block": "search-bar",
+        "class": null,
+        "part": false
+      },
+      "12334:10073": {
+        "block": "slider",
+        "class": "range-slider-thumb",
+        "part": false
+      },
+      "12334:10106": {
+        "block": "slider",
+        "class": null,
+        "part": false
+      },
+      "13121:3064": {
+        "block": "stepper",
+        "class": null,
+        "part": false
+      },
+      "12914:22615": {
+        "block": "tab-nav",
+        "class": "elements",
+        "part": true
+      },
+      "12914:22673": {
+        "block": "tab-nav",
+        "class": "items",
+        "part": true
+      },
+      "12914:23169": {
+        "block": "tab-nav",
+        "class": null,
+        "part": false
+      },
+      "12305:8819": {
+        "block": "tabs",
+        "class": "base",
+        "part": true
+      },
+      "12305:8988": {
+        "block": "tabs",
+        "class": null,
+        "part": false
+      },
+      "12607:4086": {
+        "block": "tables",
+        "class": null,
+        "part": false
+      },
+      "12287:8487": {
+        "block": "toggle",
+        "class": "switches",
+        "part": false
+      },
+      "12287:8716": {
+        "block": "toggle",
+        "class": "group",
+        "part": false
+      },
+      "12334:9961": {
+        "block": "tooltip",
+        "class": null,
+        "part": false
+      },
+      "12691:19070": {
+        "block": "account",
+        "class": "summary",
+        "part": true
+      },
+      "12693:19253": {
+        "block": "account",
+        "class": null,
+        "part": false
+      },
+      "12529:1213": {
+        "block": "block-content",
+        "class": "title",
+        "part": true
+      },
+      "12534:1263": {
+        "block": "block-content",
+        "class": "text",
+        "part": true
+      },
+      "13028:2133": {
+        "block": "block-content",
+        "class": "buttons-collage",
+        "part": true
+      },
+      "12534:1413": {
+        "block": "block-content",
+        "class": "block-element",
+        "part": true
+      },
+      "12601:4831": {
+        "block": "block-content",
+        "class": null,
+        "part": false
+      },
+      "13370:2040": {
+        "block": "cta-banner",
+        "class": null,
+        "part": false
+      },
+      "15017:9908": {
+        "block": "calculator",
+        "class": "metric-display",
+        "part": true
+      },
+      "15021:12042": {
+        "block": "calculator",
+        "class": "slot",
+        "part": true
+      },
+      "15021:12214": {
+        "block": "calculator",
+        "class": "column",
+        "part": true
+      },
+      "15163:14798": {
+        "block": "calculator",
+        "class": "weight-conversion",
+        "part": false
+      },
+      "15021:13523": {
+        "block": "calculator",
+        "class": "dosing-calculator",
+        "part": false
+      },
+      "15170:17991": {
+        "block": "calculator",
+        "class": "risk-calculator",
+        "part": false
+      },
+      "12712:21024": {
+        "block": "email",
+        "class": null,
+        "part": false
+      },
+      "12679:11503": {
+        "block": "forms",
+        "class": null,
+        "part": true
+      },
+      "12682:15985": {
+        "block": "forms",
+        "class": null,
+        "part": false
+      },
+      "12406:12187": {
+        "block": "footer",
+        "class": null,
+        "part": false
+      },
+      "12370:10624": {
+        "block": "header",
+        "class": "actions",
+        "part": true
+      },
+      "12370:10635": {
+        "block": "header",
+        "class": "navigation-item",
+        "part": true
+      },
+      "12379:10704": {
+        "block": "header",
+        "class": "contact-selecter-item",
+        "part": true
+      },
+      "12379:10721": {
+        "block": "header",
+        "class": "disclaimer",
+        "part": true
+      },
+      "12379:10725": {
+        "block": "header",
+        "class": "prescribing-info",
+        "part": true
+      },
+      "12379:11025": {
+        "block": "header",
+        "class": "language-selector",
+        "part": true
+      },
+      "12385:11070": {
+        "block": "header",
+        "class": "links-selector",
+        "part": true
+      },
+      "12387:11135": {
+        "block": "header",
+        "class": null,
+        "part": false
+      },
+      "12950:24836": {
+        "block": "home-hero-branded",
+        "class": null,
+        "part": false
+      },
+      "12643:9460": {
+        "block": "login",
+        "class": null,
+        "part": false
+      },
+      "12418:13125": {
+        "block": "teaser",
+        "class": "hero-content",
+        "part": true
+      },
+      "12436:14977": {
+        "block": "teaser",
+        "class": "blocked-content",
+        "part": true
+      },
+      "12421:13846": {
+        "block": "teaser",
+        "class": null,
+        "part": false
+      },
+      "12431:14282": {
+        "block": "teaser",
+        "class": "text-image",
+        "part": false
+      },
+      "12436:14681": {
+        "block": "teaser",
+        "class": "card-content",
+        "part": true
+      },
+      "13024:837": {
+        "block": "teaser",
+        "class": "card-tag",
+        "part": true
+      },
+      "13032:2302": {
+        "block": "teaser",
+        "class": "card-chip",
+        "part": true
+      },
+      "12436:14752": {
+        "block": "teaser",
+        "class": "card",
+        "part": false
+      },
+      "13422:2864": {
+        "block": "quiz",
+        "class": null,
+        "part": false
+      }
+    },
+    "offKit": [],
+    "unused": [
+      {
+        "block": "accordion",
+        "module": "M1",
+        "canvas": "❖ Accordion",
+        "group": "component"
+      },
+      {
+        "block": "back-to-top",
+        "module": "M2",
+        "canvas": "❖ Back to Top",
+        "group": "component"
+      },
+      {
+        "block": "breadcrumb",
+        "module": "M4",
+        "canvas": "❖ Breadcrumb",
+        "group": "component"
+      },
+      {
+        "block": "carousel",
+        "module": "M5",
+        "canvas": "❖ Carousel",
+        "group": "component"
+      },
+      {
+        "block": "chips",
+        "module": "M7",
+        "canvas": "❖ Chips",
+        "group": "component"
+      },
+      {
+        "block": "dropdown",
+        "module": "M8",
+        "canvas": "❖ DropDown",
+        "group": "component"
+      },
+      {
+        "block": "links",
+        "module": "M10",
+        "canvas": "❖ Links",
+        "group": "component"
+      },
+      {
+        "block": "pagination",
+        "module": "M12",
+        "canvas": "❖ Pagination",
+        "group": "component"
+      },
+      {
+        "block": "search-bar",
+        "module": "M13",
+        "canvas": "❖ Search Bar",
+        "group": "component"
+      },
+      {
+        "block": "slider",
+        "module": "M14",
+        "canvas": "❖ Slider",
+        "group": "component"
+      },
+      {
+        "block": "stepper",
+        "module": "M15",
+        "canvas": "❖ Stepper",
+        "group": "component"
+      },
+      {
+        "block": "tab-nav",
+        "module": "M16",
+        "canvas": "❖ Tab Nav",
+        "group": "component"
+      },
+      {
+        "block": "tabs",
+        "module": "M17",
+        "canvas": "❖ Tabs",
+        "group": "component"
+      },
+      {
+        "block": "tables",
+        "module": "M18",
+        "canvas": "❖ Tables",
+        "group": "component"
+      },
+      {
+        "block": "toggle",
+        "module": "M19",
+        "canvas": "❖ Toggle",
+        "group": "component"
+      },
+      {
+        "block": "tooltip",
+        "module": "M20",
+        "canvas": "❖ Tooltip",
+        "group": "component"
+      },
+      {
+        "block": "account",
+        "module": "M21",
+        "canvas": "❏ Account",
+        "group": "template"
+      },
+      {
+        "block": "cta-banner",
+        "module": "M23",
+        "canvas": "❏ CTA Banner",
+        "group": "template"
+      },
+      {
+        "block": "calculator",
+        "module": "M24",
+        "canvas": "❏ Calculator",
+        "group": "template"
+      },
+      {
+        "block": "forms",
+        "module": "M26",
+        "canvas": "❏ Forms",
+        "group": "template"
+      },
+      {
+        "block": "home-hero-branded",
+        "module": "M29",
+        "canvas": "❏ Home Hero Branded",
+        "group": "template"
+      },
+      {
+        "block": "teaser",
+        "module": "M31",
+        "canvas": "❏ Teaser",
+        "group": "template"
+      },
+      {
+        "block": "quiz",
+        "module": "M32",
+        "canvas": "❏ Quiz",
+        "group": "template"
+      }
+    ],
+    "emptyCanvases": []
+  },
+  "chromeSource": "registration",
+  "links": {
+    "13496:10760": "login-landing",
+    "13496:10761": "login-landing",
+    "13496:10762": "login-landing",
+    "13496:17255": "registration",
+    "13496:17256": "registration",
+    "13496:17257": "registration",
+    "13496:18714": "channel-consent",
+    "13496:18715": "channel-consent",
+    "13496:18716": "channel-consent",
+    "13496:19400": "email-verification",
+    "13496:19401": "email-verification",
+    "13496:19402": "email-verification",
+    "13527:9171": "email-verified",
+    "13527:9177": "email-verified",
+    "13527:9183": "email-verified",
+    "13527:9366": "profile-review",
+    "13527:9372": "profile-review",
+    "13527:9378": "profile-review",
+    "13527:9552": "link-expired",
+    "13527:9558": "link-expired",
+    "13527:9564": "link-expired",
+    "13527:9738": "resend-verification-email",
+    "13527:9744": "resend-verification-email",
+    "13527:9750": "resend-verification-email",
+    "13530:12110": "forgot-password",
+    "13530:12117": "forgot-password",
+    "13530:12124": "forgot-password",
+    "13530:16259": "waiting-confirmation",
+    "13530:16266": "waiting-confirmation",
+    "13530:16273": "waiting-confirmation",
+    "13530:14671": "login-without-pass",
+    "13530:14678": "login-without-pass",
+    "13530:14685": "login-without-pass",
+    "13530:14956": "reset-link-expired",
+    "13530:14963": "reset-link-expired",
+    "13530:14970": "reset-link-expired",
+    "13530:15983": "reset-pass-sent",
+    "13530:15990": "reset-pass-sent",
+    "13530:15997": "reset-pass-sent",
+    "13530:16803": "account-inactive",
+    "13530:16809": "account-inactive",
+    "13530:16815": "account-inactive",
+    "15011:9054": "account-found",
+    "15011:9060": "account-found",
+    "15011:9066": "account-found",
+    "13530:16998": "account-not-found",
+    "13530:17004": "account-not-found",
+    "13530:17010": "account-not-found",
+    "13530:17193": "pending-validation",
+    "13530:17199": "pending-validation",
+    "13530:17205": "pending-validation",
+    "13530:17388": "session-lost",
+    "13530:17394": "session-lost",
+    "13530:17400": "session-lost",
+    "13530:12695": "reset-password",
+    "13530:12702": "reset-password",
+    "13530:12709": "reset-password",
+    "13530:14008": "change-password",
+    "13530:14015": "change-password",
+    "13530:14022": "change-password",
+    "13530:12392": "forgot-password-resend",
+    "13530:12399": "forgot-password-resend",
+    "13530:12406": "forgot-password-resend",
+    "13530:13822": "reset-succesful",
+    "13530:13828": "reset-succesful",
+    "13530:13834": "reset-succesful",
+    "13530:14485": "pass-successfully-changed",
+    "13530:14491": "pass-successfully-changed",
+    "13530:14497": "pass-successfully-changed",
+    "13512:6269": "verify-email",
+    "13512:6270": "verify-email",
+    "13512:6271": "verify-email",
+    "13530:17869": "password-reset",
+    "13530:17871": "password-reset",
+    "13530:17873": "password-reset",
+    "13530:17999": "account-activated",
+    "13530:18001": "account-activated",
+    "13530:18003": "account-activated",
+    "13530:17934": "new-user-registretion",
+    "13530:17936": "new-user-registretion",
+    "13530:17938": "new-user-registretion",
+    "13530:17800": "magic-link",
+    "13530:17802": "magic-link",
+    "13530:17804": "magic-link",
+    "13530:18497": "inactivity",
+    "13530:18763": "inactivity",
+    "13530:18827": "inactivity",
+    "13530:18829": "logged-out",
+    "13530:18832": "logged-out",
+    "13530:18835": "logged-out",
+    "13530:18940": "3rd-party-login",
+    "13530:18943": "3rd-party-login",
+    "13530:18946": "3rd-party-login"
+  },
+  "captureFrames": [
+    "12360:10305",
+    "12522:1041",
+    "12084:109164",
+    "12410:12840",
+    "12473:16100",
+    "12265:6347",
+    "12334:9625",
+    "12277:7181",
+    "12160:3287",
+    "12929:23477",
+    "12467:15529",
+    "12328:9443",
+    "12686:17319",
+    "12334:10073",
+    "13121:3064",
+    "12914:23169",
+    "12305:8988",
+    "12607:4086",
+    "12287:8487",
+    "12334:9961",
+    "12693:19253",
+    "12601:4831",
+    "13370:2040",
+    "15163:14798",
+    "12712:21024",
+    "12682:15985",
+    "12406:12187",
+    "12387:11135",
+    "12950:24836",
+    "12643:9460",
+    "12421:13846",
+    "13422:2864"
+  ],
+  "modules": [
+    {
+      "id": "M1",
+      "name": "Accordion",
+      "frame": "12360:10305",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Accordion\": set Accordion; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include",
+      "block": "accordion",
+      "used": false
+    },
+    {
+      "id": "M2",
+      "name": "Back To Top",
+      "frame": "12522:1041",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Back to Top\": set Back-to-top; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include",
+      "block": "back-to-top",
+      "used": false
+    },
+    {
+      "id": "M3",
+      "name": "Button",
+      "frame": "12084:109164",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Button\": set Button; instanced 1× on 1 page(s) — refine with the slots it carries",
+      "variants": [
+        "medium link icon-only"
+      ],
+      "components": [],
+      "status": "include",
+      "block": "button",
+      "used": true
+    },
+    {
+      "id": "M4",
+      "name": "Breadcrumb",
+      "frame": "12410:12840",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Breadcrumb\": sets Breadcrumb label, Breadcrumble example; on no page (library block) — refine with the slots it carries",
+      "variants": [
+        "label",
+        "breadcrumble-example"
+      ],
+      "components": [],
+      "status": "include",
+      "block": "breadcrumb",
+      "used": false
+    },
+    {
+      "id": "M5",
+      "name": "Carousel",
+      "frame": "12473:16100",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Carousel\": set Carousel; parts .Carousel / Arrows, .Carousel / Dots; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include",
+      "block": "carousel",
+      "used": false
+    },
+    {
+      "id": "M6",
+      "name": "Checkbox Radio",
+      "frame": "12265:6347",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Checkbox & Radio\": sets Checkbox Input, Checkbox Form; instanced 1× on 1 page(s) — refine with the slots it carries",
+      "variants": [
+        "checkbox-input",
+        "checkbox-form",
+        "checkbox-form initial"
+      ],
+      "components": [],
+      "status": "include",
+      "block": "checkbox-radio",
+      "used": true
+    },
+    {
+      "id": "M7",
+      "name": "Chips",
+      "frame": "12334:9625",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Chips\": set Chips; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include",
+      "block": "chips",
+      "used": false
+    },
+    {
+      "id": "M8",
+      "name": "Dropdown",
+      "frame": "12277:7181",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ DropDown\": set Dropdown; parts .Dropdown-Listitem; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include",
+      "block": "dropdown",
+      "used": false
+    },
+    {
+      "id": "M9",
+      "name": "Input",
+      "frame": "12160:3287",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Input\": set Input Field; instanced 2× on 1 page(s) — refine with the slots it carries",
+      "variants": [
+        "password"
+      ],
+      "components": [],
+      "status": "include",
+      "block": "input",
+      "used": true
+    },
+    {
+      "id": "M10",
+      "name": "Links",
+      "frame": "12929:23477",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Links\": set Links; parts .Link; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include",
+      "block": "links",
+      "used": false
+    },
+    {
+      "id": "M11",
+      "name": "Modal",
+      "frame": "12467:15529",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Modal\": set Modal; instanced 2× on 2 page(s) — refine with the slots it carries",
+      "variants": [
+        "text-only horizontal"
+      ],
+      "components": [],
+      "status": "include",
+      "block": "modal",
+      "used": true
+    },
+    {
+      "id": "M12",
+      "name": "Pagination",
+      "frame": "12328:9443",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Pagination\": sets Pagination / Base, Pagination / Group; on no page (library block) — refine with the slots it carries",
+      "variants": [
+        "base",
+        "group"
+      ],
+      "components": [],
+      "status": "include",
+      "block": "pagination",
+      "used": false
+    },
+    {
+      "id": "M13",
+      "name": "Search Bar",
+      "frame": "12686:17319",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Search Bar\": set Search bar; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include",
+      "block": "search-bar",
+      "used": false
+    },
+    {
+      "id": "M14",
+      "name": "Slider",
+      "frame": "12334:10073",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Slider\": sets Range Slider thumb, Slider; on no page (library block) — refine with the slots it carries",
+      "variants": [
+        "range-slider-thumb"
+      ],
+      "components": [],
+      "status": "include",
+      "block": "slider",
+      "used": false
+    },
+    {
+      "id": "M15",
+      "name": "Stepper",
+      "frame": "13121:3064",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Stepper\": set Stepper; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include",
+      "block": "stepper",
+      "used": false
+    },
+    {
+      "id": "M16",
+      "name": "Tab Nav",
+      "frame": "12914:23169",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Tab Nav\": set Tab Nav; parts .Tab Nav Elements, .Tab Nav Items; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include",
+      "block": "tab-nav",
+      "used": false
+    },
+    {
+      "id": "M17",
+      "name": "Tabs",
+      "frame": "12305:8988",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Tabs\": set Tabs Group; parts .Tabs base; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include",
+      "block": "tabs",
+      "used": false
+    },
+    {
+      "id": "M18",
+      "name": "Tables",
+      "frame": "12607:4086",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Tables\": set Table / Cell; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include",
+      "block": "tables",
+      "used": false
+    },
+    {
+      "id": "M19",
+      "name": "Toggle",
+      "frame": "12287:8487",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Toggle\": sets Toggle switches, Toggle group; on no page (library block) — refine with the slots it carries",
+      "variants": [
+        "switches",
+        "group"
+      ],
+      "components": [],
+      "status": "include",
+      "block": "toggle",
+      "used": false
+    },
+    {
+      "id": "M20",
+      "name": "Tooltip",
+      "frame": "12334:9961",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Tooltip\": set Tooltip; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include",
+      "block": "tooltip",
+      "used": false
+    },
+    {
+      "id": "M21",
+      "name": "Account",
+      "frame": "12693:19253",
+      "family": "template",
+      "anatomy": "Figma kit template \"❏ Account\": set Account Summary; parts .Account summary; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include",
+      "block": "account",
+      "used": false
+    },
+    {
+      "id": "M22",
+      "name": "Block Content",
+      "frame": "12601:4831",
+      "family": "template",
+      "anatomy": "Figma kit template \"❏ Block Content\": set Block Content; parts .Title, .Text, .Buttons Collage, .Block Element; instanced 53× on 23 page(s) — refine with the slots it carries",
+      "variants": [
+        "buttons-collage center"
+      ],
+      "components": [],
+      "status": "include",
+      "block": "block-content",
+      "used": true
+    },
+    {
+      "id": "M23",
+      "name": "Cta Banner",
+      "frame": "13370:2040",
+      "family": "template",
+      "anatomy": "Figma kit template \"❏ CTA Banner\": set CTA Banner; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include",
+      "block": "cta-banner",
+      "used": false
+    },
+    {
+      "id": "M24",
+      "name": "Calculator",
+      "frame": "15163:14798",
+      "family": "template",
+      "anatomy": "Figma kit template \"❏ Calculator\": sets Weight Conversion, Dosing Calculator, Risk Calculator; parts .Calculator: Metric Display, .Calculator: Slot, .Calculator: Column; on no page (library block) — refine with the slots it carries",
+      "variants": [
+        "weight-conversion",
+        "dosing-calculator",
+        "risk-calculator"
+      ],
+      "components": [],
+      "status": "include",
+      "block": "calculator",
+      "used": false
+    },
+    {
+      "id": "M25",
+      "name": "Email",
+      "frame": "12712:21024",
+      "family": "template",
+      "anatomy": "Figma kit template \"❏ Email\": set Email; instanced 5× on 5 page(s) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include",
+      "block": "email",
+      "used": true
+    },
+    {
+      "id": "M26",
+      "name": "Forms",
+      "frame": "12682:15985",
+      "family": "template",
+      "anatomy": "Figma kit template \"❏ Forms\": set Form Content; parts .Forms; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include",
+      "block": "forms",
+      "used": false
+    },
+    {
+      "id": "M27",
+      "name": "Footer",
+      "frame": "12406:12187",
+      "family": "template",
+      "anatomy": "Figma kit template \"❏ Footer\": set Footer; instanced 23× on 23 page(s) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include",
+      "block": "footer",
+      "used": true
+    },
+    {
+      "id": "M28",
+      "name": "Header",
+      "frame": "12387:11135",
+      "family": "template",
+      "anatomy": "Figma kit template \"❏ Header\": set Header; parts .Header / Actions, .Header / Navigation Item, .Header / Contact Selecter Item, .Header / Disclaimer, .Header / Prescribing Info, . Header / Language Selector, .Header / Links Selector; instanced 23× on 23 page(s) — refine with the slots it carries",
+      "variants": [
+        "full",
+        "registration"
+      ],
+      "components": [],
+      "status": "include",
+      "block": "header",
+      "used": true
+    },
+    {
+      "id": "M29",
+      "name": "Home Hero Branded",
+      "frame": "12950:24836",
+      "family": "template",
+      "anatomy": "Figma kit template \"❏ Home Hero Branded\": set Home Hero Branded; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include",
+      "block": "home-hero-branded",
+      "used": false
+    },
+    {
+      "id": "M30",
+      "name": "Login",
+      "frame": "12643:9460",
+      "family": "template",
+      "anatomy": "Figma kit template \"❏ Login\": set Login; instanced 1× on 1 page(s) — refine with the slots it carries",
+      "variants": [
+        "full"
+      ],
+      "components": [],
+      "status": "include",
+      "block": "login",
+      "used": true
+    },
+    {
+      "id": "M31",
+      "name": "Teaser",
+      "frame": "12421:13846",
+      "family": "template",
+      "anatomy": "Figma kit template \"❏ Teaser\": sets Teaser, Teaser / Text + Image, Teaser / Card; parts .Teaser / Hero Content, .Teaser / Blocked Content, .Teaser / Card content, .Teaser / Card Tag, .Teaser / Card Chip; on no page (library block) — refine with the slots it carries",
+      "variants": [
+        "text-image",
+        "card"
+      ],
+      "components": [],
+      "status": "include",
+      "block": "teaser",
+      "used": false
+    },
+    {
+      "id": "M32",
+      "name": "Quiz",
+      "frame": "13422:2864",
+      "family": "template",
+      "anatomy": "Figma kit template \"❏ Quiz\": set Quiz; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include",
+      "block": "quiz",
+      "used": false
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "command": "content",
+    "modelVersion": 2,
+    "capturedAt": "2026-10-26T09:25:00Z",
+    "source": {
+      "kind": "figma",
+      "figma": {
+        "fileKey": "rsZQmpVzuyn0KhCDA3WN60",
+        "node": "13496:17255",
+        "version": "2413431205561424165",
+        "name": "Type=Registration, Breakpoint=Desktop",
+        "fileKeyHash": "a32f5f25d34d"
+      }
+    },
+    "viewport": "1440x1708",
+    "scope": "chrome",
+    "visibility": "effective: hidden when the node or any ancestor is visible:false",
+    "readingOrder": {
+      "rule": "auto-layout: child order (absolute children after, geometric); otherwise geometric: rows by vertical overlap >= 50%, then x",
+      "frames": {
+        "auto-layout": 286
+      },
+      "ambiguous": []
+    },
+    "segmentation": {
+      "rule": "top-level children by y; chrome by name leaves the body; content-less layers fold; overlapping bands merge; a single wrapper with >= 2 content bands is descended",
+      "sections": [
+        {
+          "slot": "s01",
+          "y": 60,
+          "h": 154,
+          "nodes": [
+            "13496:14821"
+          ]
+        },
+        {
+          "slot": "s02",
+          "y": 214,
+          "h": 1202,
+          "nodes": [
+            "13496:10840"
+          ]
+        }
+      ],
+      "chrome": {
+        "header": [
+          "13496:10795"
+        ],
+        "footer": [
+          "13496:10763"
+        ]
+      },
+      "folded": [],
+      "descended": 0
+    },
+    "responsive": {
+      "node": "13496:17257",
+      "name": "Type=Registration, Breakpoint=Mobile"
+    },
+    "kit": {
+      "rule": "a section is the outermost template-section or component instance above its nodes, else the instances inside them; one block per section (kit.mixed when several, kit.unbound when none)",
+      "registry": 1
+    },
+    "decorative": [
+      "I13496:10763;12406:12170"
+    ]
+  },
+  "metadata": {
+    "title": "Registration",
+    "description": "",
+    "canonical": null,
+    "ogTags": {},
+    "twitterTags": {},
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null,
+    "declaredAbsent": [
+      "description",
+      "canonical",
+      "ogTags",
+      "twitterTags",
+      "jsonLd"
+    ],
+    "derived": {
+      "title": "frame name"
+    }
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "role": "header",
+      "node": "13496:10795",
+      "visibleText": "",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "assets/13496-10795.svg",
+          "alt": null,
+          "w": 1440,
+          "h": 60
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "image",
+          "currentSrc": "assets/13496-10795.svg",
+          "alt": null,
+          "w": 1440,
+          "h": 60,
+          "node": "13496:10795"
+        }
+      ],
+      "orderedVerified": true,
+      "kit": {
+        "block": "header",
+        "module": "M28",
+        "variant": [
+          "registration"
+        ],
+        "set": "Header",
+        "group": "template",
+        "home": "❏ Header",
+        "instance": "13496:10795",
+        "instances": [
+          "13496:10795"
+        ]
+      }
+    },
+    {
+      "slot": "s02",
+      "role": "footer",
+      "node": "13496:10763",
+      "visibleText": "The AstraZeneca portal was created with the intention of proposing a space for digital dialogue between doctors, specialists and the company. Privacy Notice Cookie Notice Prescribing Information Important Safety Information Legal Statement Site Map AstraZeneca Contact Us XX-XXXX-01/2025",
+      "headings": [],
+      "paragraphs": [
+        "The AstraZeneca portal was created with the intention of proposing a space for digital dialogue between doctors, specialists and the company."
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Privacy Notice",
+          "href": "#",
+          "absHref": "#",
+          "classes": "link"
+        },
+        {
+          "text": "Cookie Notice",
+          "href": "#",
+          "absHref": "#",
+          "classes": "link"
+        },
+        {
+          "text": "Prescribing Information",
+          "href": "#",
+          "absHref": "#",
+          "classes": "link"
+        },
+        {
+          "text": "Important Safety Information",
+          "href": "#",
+          "absHref": "#",
+          "classes": "link"
+        },
+        {
+          "text": "Legal Statement",
+          "href": "#",
+          "absHref": "#",
+          "classes": "link"
+        },
+        {
+          "text": "Site Map",
+          "href": "#",
+          "absHref": "#",
+          "classes": "link"
+        },
+        {
+          "text": "AstraZeneca",
+          "href": "#",
+          "absHref": "#",
+          "classes": "link"
+        },
+        {
+          "text": "Contact Us",
+          "href": "#",
+          "absHref": "#",
+          "classes": "link"
+        },
+        {
+          "text": "XX-XXXX-01/2025",
+          "href": "#",
+          "absHref": "#",
+          "classes": "link"
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "assets/I13496-10763-12406-12140.svg",
+          "alt": null,
+          "w": 126,
+          "h": 30
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "image",
+          "currentSrc": "assets/I13496-10763-12406-12140.svg",
+          "alt": null,
+          "w": 126,
+          "h": 30,
+          "node": "I13496:10763;12406:12140"
+        },
+        {
+          "kind": "paragraph",
+          "text": "The AstraZeneca portal was created with the intention of proposing a space for digital dialogue between doctors, specialists and the company.",
+          "node": "I13496:10763;12406:12143",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Privacy Notice",
+          "node": "I13496:10763;12406:12149",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Cookie Notice",
+          "node": "I13496:10763;12406:12150",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Prescribing Information",
+          "node": "I13496:10763;12406:12151",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Important Safety Information",
+          "node": "I13496:10763;12406:12152",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Legal Statement",
+          "node": "I13496:10763;12406:12160",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Site Map",
+          "node": "I13496:10763;12406:12161",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "AstraZeneca",
+          "node": "I13496:10763;12406:12162",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Contact Us",
+          "node": "I13496:10763;12406:12163",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "XX-XXXX-01/2025",
+          "node": "I13496:10763;12406:12181",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "kit": {
+        "block": "footer",
+        "module": "M27",
+        "variant": [],
+        "set": "Footer",
+        "group": "template",
+        "home": "❏ Footer",
+        "instance": "13496:10763",
+        "instances": [
+          "13496:10763"
+        ]
+      }
+    }
+  ],
+  "flags": []
+}

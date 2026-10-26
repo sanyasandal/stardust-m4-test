@@ -1,0 +1,282 @@
+/* kit "Input Field" (12160:3287): 384×102 = label row 24 + 4 + control 54 + 4 + supportive 16 */
+.input {
+  width: 100%;
+}
+
+.input .field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+}
+
+.input .field-top {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  min-height: 24px;
+}
+
+.input .field-top .label {
+  color: var(--az-graphite);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.input .field .required {
+  margin-left: 2px;
+  color: var(--az-magenta);
+  font-weight: 400;
+}
+
+.input .field-tooltip {
+  flex: none;
+  width: 16px;
+  height: 16px;
+  background-color: var(--az-sage);
+  mask: url('../../icons/question-circle.svg') center / 16px 16px no-repeat;
+}
+
+.input a.field-link:any-link {
+  margin-left: auto;
+  color: var(--az-magenta);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: underline;
+  text-underline-offset: auto;
+}
+
+.input a.field-link:hover {
+  color: var(--az-mulberry);
+}
+
+.input .field-control {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 54px;
+  padding: 0 16px;
+  border: 1px solid var(--az-grey-300);
+  border-radius: var(--radius);
+  background-color: var(--az-white);
+  color: var(--az-graphite);
+}
+
+.input .field-control input,
+.input .field-control select {
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  background: none;
+  color: var(--az-graphite);
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  caret-color: var(--az-magenta);
+  appearance: none;
+}
+
+.input .field-control select {
+  cursor: pointer;
+}
+
+.input .field-control input::placeholder {
+  color: var(--az-grey-400);
+  opacity: 1;
+}
+
+/* the chevron overlays the native select so the whole box opens it */
+.input .field-select .field-control select {
+  position: absolute;
+  inset: 0;
+  height: auto;
+  padding: 0 44px 0 16px;
+}
+
+.input .field-select .field-control.has-icon select {
+  padding-left: 44px;
+}
+
+.input .field-icon {
+  position: relative;
+  flex: none;
+  width: 20px;
+  height: 20px;
+  background-color: currentcolor;
+  mask: var(--icon) center / 20px 20px no-repeat;
+}
+
+.input .field-icon-user { --icon: url('../../icons/user.svg'); }
+.input .field-icon-chevron-down { --icon: url('../../icons/chevron-down.svg'); }
+.input .field-icon-eye { --icon: url('../../icons/eye.svg'); }
+.input .field-icon-eye-slash { --icon: url('../../icons/eye-slash.svg'); }
+
+.input .field-select .field-icon-chevron-down {
+  margin-left: auto;
+  pointer-events: none;
+}
+
+.input .field-eye {
+  display: flex;
+  flex: none;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.input .field-eye:focus-visible {
+  outline: 2px solid var(--az-magenta);
+  outline-offset: 2px;
+}
+
+.input .field-eye:disabled {
+  cursor: not-allowed;
+}
+
+.input .field-unit {
+  flex: none;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.input .field-help {
+  margin: 0;
+  color: var(--az-grey-600);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+/* states — real interaction plus the kit's static state variants */
+.input .field-control:hover {
+  border-color: var(--az-graphite);
+}
+
+.input .field-control:focus-within {
+  border-color: var(--az-magenta);
+}
+
+.input .field.hovered .field-control {
+  border-color: var(--az-graphite);
+}
+
+.input .field.focus-typing .field-control {
+  border-color: var(--az-magenta);
+}
+
+.input .field-control:focus-within .field-icon,
+.input .field.focus-typing .field-icon {
+  color: var(--az-magenta);
+}
+
+.input .field-mirror {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  display: flex;
+  align-items: center;
+  color: transparent;
+  font-size: 16px;
+  line-height: 24px;
+  white-space: pre;
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+
+.input .field-control:focus-within .field-mirror {
+  display: none;
+}
+
+.input .field-control.has-icon .field-mirror {
+  left: 44px;
+}
+
+.input .field-mirror::after {
+  content: '';
+  width: 2px;
+  height: 24px;
+  margin-left: 2px;
+  background-color: var(--az-magenta);
+}
+
+.input .field.focus-typing input::placeholder,
+.input .field.active input::placeholder,
+.input .field.read-only input::placeholder {
+  color: var(--az-graphite);
+}
+
+.input .field.read-only .field-control {
+  border-color: var(--az-grey-300);
+  background-color: var(--az-grey-100);
+}
+
+.input .field.disabled .field-control {
+  border-color: var(--az-grey-300);
+  background-color: var(--az-white);
+  color: var(--az-grey-500);
+}
+
+.input .field.disabled .field-control input,
+.input .field.disabled .field-control select,
+.input .field.disabled .field-control input::placeholder {
+  color: var(--az-grey-500);
+  -webkit-text-fill-color: var(--az-grey-500);
+  cursor: not-allowed;
+}
+
+/* non-editable: value shown as text, no box */
+.input .field.non-editable-vertical .field-control,
+.input .field.non-editable-horizontal .field-control {
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+.input .field-value {
+  margin: 0;
+  color: var(--az-grey-500);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.input .field.non-editable-horizontal {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.input .field.non-editable-horizontal .field-top,
+.input .field.non-editable-horizontal .field-control {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.input .field.non-editable-horizontal .field-control {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  height: auto;
+}
+
+.input .field.non-editable-horizontal a.field-link:any-link {
+  margin-left: 0;
+}
+
+.input .field-control select:enabled:has(option[value=""]:checked) {
+  color: var(--az-grey-400);
+}

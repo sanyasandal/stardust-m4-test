@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "metadata": {
+    "absent": [
+      "description",
+      "canonical"
+    ]
+  }
+}

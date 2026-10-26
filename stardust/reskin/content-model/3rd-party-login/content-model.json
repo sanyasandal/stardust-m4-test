@@ -1,0 +1,407 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "command": "content",
+    "modelVersion": 2,
+    "capturedAt": "2026-10-26T09:25:00Z",
+    "source": {
+      "kind": "figma",
+      "figma": {
+        "fileKey": "rsZQmpVzuyn0KhCDA3WN60",
+        "node": "13530:18940",
+        "version": "2413431205561424165",
+        "name": "Type=3rd Party Login, Breakpoint=Desktop",
+        "fileKeyHash": "a32f5f25d34d"
+      }
+    },
+    "viewport": "1440x1024",
+    "scope": "figma:13530:18940",
+    "visibility": "effective: hidden when the node or any ancestor is visible:false",
+    "readingOrder": {
+      "rule": "auto-layout: child order (absolute children after, geometric); otherwise geometric: rows by vertical overlap >= 50%, then x",
+      "frames": {
+        "auto-layout": 37
+      },
+      "ambiguous": []
+    },
+    "segmentation": {
+      "rule": "top-level children by y; chrome by name leaves the body; content-less layers fold; overlapping bands merge; a single wrapper with >= 2 content bands is descended",
+      "sections": [
+        {
+          "slot": "s01",
+          "y": 310,
+          "h": 290,
+          "nodes": [
+            "13530:18992"
+          ]
+        },
+        {
+          "slot": "s02",
+          "y": 624,
+          "h": 42,
+          "nodes": [
+            "13530:18996"
+          ]
+        },
+        {
+          "slot": "s03",
+          "y": 690,
+          "h": 24,
+          "nodes": [
+            "13530:19100"
+          ]
+        }
+      ],
+      "chrome": {
+        "header": [],
+        "footer": []
+      },
+      "folded": [
+        "13530:18941"
+      ],
+      "descended": 1
+    },
+    "responsive": {
+      "node": "13530:18946",
+      "name": "Type=3rd Party Login, Breakpoint=Mobile"
+    },
+    "kit": {
+      "rule": "a section is the outermost template-section or component instance above its nodes, else the instances inside them; one block per section (kit.mixed when several, kit.unbound when none)",
+      "registry": 1
+    },
+    "decorative": []
+  },
+  "metadata": {
+    "title": "3rd Party Login",
+    "description": "",
+    "canonical": null,
+    "ogTags": {},
+    "twitterTags": {},
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null,
+    "declaredAbsent": [
+      "description",
+      "canonical",
+      "ogTags",
+      "twitterTags",
+      "jsonLd"
+    ],
+    "derived": {
+      "title": "frame name"
+    }
+  },
+  "scope": [
+    {
+      "sel": "figma:13530:18940",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Third Party login Don’t have an account? Register here Email * Password * Forgot your password? Login using DocCheck Remember me on this device",
+  "coverage": {
+    "bodyTextLen": 143,
+    "scopeTextLen": 143,
+    "ratio": 1,
+    "h1Text": "Third Party login",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": null,
+      "rootClass": "",
+      "node": "13530:18992",
+      "nodes": [
+        "13530:18992"
+      ],
+      "visibleText": "Third Party login Don’t have an account? Register here Email * Password * Forgot your password?",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Third Party login"
+        }
+      ],
+      "paragraphs": [
+        "Don’t have an account? Register here"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Forgot your password?",
+          "href": "#",
+          "absHref": "#",
+          "classes": "link"
+        }
+      ],
+      "images": [],
+      "formControls": [
+        {
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "Placeholder text"
+        },
+        {
+          "control": "input",
+          "inputType": "password",
+          "name": "",
+          "text": "",
+          "placeholder": "*************"
+        }
+      ],
+      "leftovers": [
+        {
+          "text": "Email *",
+          "parentTag": "label",
+          "parentClass": ""
+        },
+        {
+          "text": "Password *",
+          "parentTag": "label",
+          "parentClass": ""
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "heading",
+          "level": "h1",
+          "role": null,
+          "text": "Third Party login",
+          "node": "13530:18994",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Don’t have an account? Register here",
+          "node": "13530:18995",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Email *",
+          "parentTag": "label",
+          "parentClass": "",
+          "node": "I13530:19018;12128:3182",
+          "sep": " "
+        },
+        {
+          "kind": "formControl",
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "Placeholder text",
+          "node": "13530:19018",
+          "textNodes": [
+            "I13530:19018;12128:3187"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Password *",
+          "parentTag": "label",
+          "parentClass": "",
+          "node": "I13530:19042;12160:3652",
+          "sep": " "
+        },
+        {
+          "kind": "cta",
+          "text": "Forgot your password?",
+          "href": "#",
+          "absHref": "#",
+          "classes": "link",
+          "node": "I13530:19042;12160:3655",
+          "sep": " "
+        },
+        {
+          "kind": "formControl",
+          "control": "input",
+          "inputType": "password",
+          "name": "",
+          "text": "",
+          "placeholder": "*************",
+          "node": "13530:19042",
+          "textNodes": [
+            "I13530:19042;12160:3663"
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "kit": {
+        "block": "input",
+        "module": "M9",
+        "variant": [],
+        "set": "Input Field",
+        "group": "component",
+        "home": "❖ Input",
+        "instance": null,
+        "instances": [
+          "13530:19018",
+          "13530:19042"
+        ]
+      }
+    },
+    {
+      "slot": "s02",
+      "rootTag": null,
+      "rootClass": "",
+      "node": "13530:18996",
+      "nodes": [
+        "13530:18996"
+      ],
+      "visibleText": "Login using DocCheck",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [
+        {
+          "text": "Login using DocCheck",
+          "parentTag": "button",
+          "parentClass": ""
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "text",
+          "text": "Login using DocCheck",
+          "parentTag": "button",
+          "parentClass": "",
+          "inButton": true,
+          "node": "I13530:18996;13028:2135",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "kit": {
+        "block": "block-content",
+        "module": "M22",
+        "variant": [
+          "buttons-collage",
+          "center"
+        ],
+        "set": ".Buttons Collage",
+        "group": "template",
+        "home": "❏ Block Content",
+        "instance": "13530:18996",
+        "instances": [
+          "13530:18996"
+        ]
+      }
+    },
+    {
+      "slot": "s03",
+      "rootTag": null,
+      "rootClass": "",
+      "node": "13530:19100",
+      "nodes": [
+        "13530:19100"
+      ],
+      "visibleText": "Remember me on this device",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [
+        {
+          "control": "input",
+          "inputType": "checkbox",
+          "name": "",
+          "text": ""
+        }
+      ],
+      "leftovers": [
+        {
+          "text": "Remember me on this device",
+          "parentTag": "label",
+          "parentClass": ""
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "formControl",
+          "control": "input",
+          "inputType": "checkbox",
+          "name": "",
+          "text": "",
+          "node": "13530:19100",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Remember me on this device",
+          "parentTag": "label",
+          "parentClass": "",
+          "node": "13530:19100",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "kit": {
+        "block": "checkbox-radio",
+        "module": "M6",
+        "variant": [
+          "checkbox-form",
+          "initial"
+        ],
+        "set": "Checkbox Form",
+        "group": "component",
+        "home": "❖ Checkbox & Radio",
+        "instance": "13530:19100",
+        "instances": [
+          "13530:19100"
+        ]
+      }
+    }
+  ],
+  "flags": [
+    {
+      "id": "heading.ambiguous",
+      "severity": "review",
+      "node": "13530:18994",
+      "slot": "s01",
+      "detail": "26px matches no donor type role; no heading roles in donor-tokens"
+    },
+    {
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "13530:19018",
+      "slot": "s01",
+      "detail": "drawn field: label \"Email *\", placeholder \"Placeholder text\""
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "review",
+      "node": "I13530:19042;12160:3655",
+      "slot": "s01",
+      "detail": "\"Forgot your password?\" is drawn as a link with no target"
+    },
+    {
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "13530:19042",
+      "slot": "s01",
+      "detail": "drawn field: label \"Password *\", masked value (password)"
+    },
+    {
+      "id": "heading.level",
+      "severity": "info",
+      "node": "13530:18994",
+      "slot": "s01",
+      "detail": "size heading set to h1 (was h2): the first heading is the page h1"
+    },
+    {
+      "id": "metadata.title-derived",
+      "severity": "review",
+      "node": "13530:18940",
+      "slot": null,
+      "detail": "title \"3rd Party Login\" derived from the frame name; description, canonical, OG and Twitter tags are absent"
+    }
+  ]
+}

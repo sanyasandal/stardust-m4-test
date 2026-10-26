@@ -1,0 +1,157 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "writtenAt": "2026-10-26T09:24:13Z",
+    "readArtifacts": [
+      "stardust/.work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/2413431205561424165/nodes.json"
+    ],
+    "synthesizedInputs": []
+  },
+  "shadow-0-4-6-0-x2": {
+    "value": "rgba(0, 0, 0, 0.05) 0px 4px 6px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px 0px",
+    "figma": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.05000000074505806
+        },
+        "blendMode": "NORMAL",
+        "offset": {
+          "x": 0,
+          "y": 4
+        },
+        "radius": 6,
+        "showShadowBehindNode": true
+      },
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.10000000149011612
+        },
+        "blendMode": "NORMAL",
+        "offset": {
+          "x": 0,
+          "y": 10
+        },
+        "radius": 15,
+        "showShadowBehindNode": true
+      }
+    ],
+    "node": "12277:7169",
+    "count": 10,
+    "nodes": [
+      "12277:7169",
+      "12277:7435",
+      "12277:7184",
+      "12277:7443",
+      "12277:7233"
+    ],
+    "styles": []
+  },
+  "shadow-0-2-4-2-x2": {
+    "value": "rgba(0, 0, 0, 0.05) 0px 2px 4px -2px, rgba(0, 0, 0, 0.1) 0px 4px 6px -1px",
+    "figma": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.05000000074505806
+        },
+        "blendMode": "NORMAL",
+        "offset": {
+          "x": 0,
+          "y": 2
+        },
+        "radius": 4,
+        "spread": -2,
+        "showShadowBehindNode": true
+      },
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "color": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.10000000149011612
+        },
+        "blendMode": "NORMAL",
+        "offset": {
+          "x": 0,
+          "y": 4
+        },
+        "radius": 6,
+        "spread": -1,
+        "showShadowBehindNode": true
+      }
+    ],
+    "node": "12334:10071",
+    "count": 2,
+    "nodes": [
+      "12334:10071",
+      "12334:10072"
+    ],
+    "styles": []
+  },
+  "shadow-0-4-6-1-x2": {
+    "value": "rgba(29, 41, 61, 0.1) 0px 4px 6px -1px, rgba(29, 41, 61, 0.1) 0px 2px 4px -2px",
+    "figma": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "color": {
+          "r": 0.11372549086809158,
+          "g": 0.16078431904315948,
+          "b": 0.239215686917305,
+          "a": 0.10000000149011612
+        },
+        "blendMode": "NORMAL",
+        "offset": {
+          "x": 0,
+          "y": 4
+        },
+        "radius": 6,
+        "spread": -1,
+        "showShadowBehindNode": true
+      },
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "color": {
+          "r": 0.11372549086809158,
+          "g": 0.16078431904315948,
+          "b": 0.239215686917305,
+          "a": 0.10000000149011612
+        },
+        "blendMode": "NORMAL",
+        "offset": {
+          "x": 0,
+          "y": 2
+        },
+        "radius": 4,
+        "spread": -2,
+        "showShadowBehindNode": true
+      }
+    ],
+    "node": "12334:9957",
+    "count": 4,
+    "nodes": [
+      "12334:9957",
+      "12334:9958",
+      "12334:9960",
+      "12334:9959"
+    ],
+    "styles": []
+  }
+}

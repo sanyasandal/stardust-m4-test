@@ -1,0 +1,522 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs content",
+    "writtenAt": "2026-10-26T09:25:00Z"
+  },
+  "site": {
+    "originUrl": null,
+    "deployUrl": null,
+    "contentSource": {
+      "kind": "figma",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=6400-21997"
+    }
+  },
+  "designSource": {
+    "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60",
+    "capturedAt": "2026-10-26T09:24:13Z",
+    "path": "stardust/canon-source/"
+  },
+  "direction": null,
+  "handsOff": false,
+  "flow": "reskin",
+  "flowChosenAt": "2026-10-26T09:17:22Z",
+  "flowSource": "figma-only",
+  "pages": [
+    {
+      "slug": "registration",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13496-17255",
+      "title": "Registration",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/registration/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "login-landing",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13496-10760",
+      "title": "Login Landing",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/login-landing/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "channel-consent",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13496-18714",
+      "title": "Channel Consent",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/channel-consent/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "email-verification",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13496-19400",
+      "title": "Email Verification",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/email-verification/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "email-verified",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13527-9171",
+      "title": "Email Verified",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/email-verified/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "profile-review",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13527-9366",
+      "title": "Profile Review",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/profile-review/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "link-expired",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13527-9552",
+      "title": "Link Expired",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/link-expired/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "resend-verification-email",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13527-9738",
+      "title": "Resend Verification Email",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/resend-verification-email/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "forgot-password",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13530-12110",
+      "title": "Forgot Password",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/forgot-password/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "waiting-confirmation",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13530-16259",
+      "title": "Waiting Confirmation",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/waiting-confirmation/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "login-without-pass",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13530-14671",
+      "title": "Login without pass",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/login-without-pass/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "reset-link-expired",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13530-14956",
+      "title": "Reset link expired",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/reset-link-expired/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "reset-pass-sent",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13530-15983",
+      "title": "Reset pass sent",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/reset-pass-sent/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "account-inactive",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13530-16803",
+      "title": "Account Inactive",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/account-inactive/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "account-found",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=15011-9054",
+      "title": "Account Found",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/account-found/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "account-not-found",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13530-16998",
+      "title": "Account Not Found",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/account-not-found/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "pending-validation",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13530-17193",
+      "title": "Pending Validation",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/pending-validation/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "session-lost",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13530-17388",
+      "title": "Session Lost",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/session-lost/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "reset-password",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13530-12695",
+      "title": "Reset Password",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/reset-password/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "change-password",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13530-14008",
+      "title": "Change Password",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/change-password/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "forgot-password-resend",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13530-12392",
+      "title": "Forgot Password Resend",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/forgot-password-resend/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "reset-succesful",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13530-13822",
+      "title": "Reset Succesful",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/reset-succesful/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "pass-successfully-changed",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13530-14485",
+      "title": "Pass Successfully Changed",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/pass-successfully-changed/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "verify-email",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13512-6269",
+      "title": "Verify Email",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/verify-email/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "password-reset",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13530-17869",
+      "title": "Password Reset",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/password-reset/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "account-activated",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13530-17999",
+      "title": "Account Activated",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/account-activated/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "new-user-registretion",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13530-17934",
+      "title": "New User Registretion",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/new-user-registretion/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "magic-link",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13530-17800",
+      "title": "Magic Link",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/magic-link/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "inactivity",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13530-18497",
+      "title": "Inactivity",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/inactivity/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "logged-out",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13530-18829",
+      "title": "Logged Out",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/logged-out/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    },
+    {
+      "slug": "3rd-party-login",
+      "url": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60?node-id=13530-18940",
+      "title": "3rd Party Login",
+      "source": "figma",
+      "contentModel": "stardust/reskin/content-model/3rd-party-login/content-model.json",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-10-26T09:25:00Z",
+          "by": "figma-donor content"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "command": "content",
+    "writtenAt": "2026-10-26T09:25:00Z"
+  },
+  "chrome": "outside the text gate (header/footer are separate slots)",
+  "text": []
+}

@@ -1,0 +1,95 @@
+/* stylelint-disable no-descending-specificity */
+
+/* Toggle — kit "Toggle switches" 12287:8485/8488/8486/8490 and "Toggle group" 12287:8715/8725/8717/8729 */
+.toggle .toggle-control {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  color: var(--az-graphite);
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.toggle .toggle-control input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  opacity: 0;
+}
+
+.toggle .toggle-switch {
+  position: relative;
+  flex: none;
+  width: 28px;
+  height: 16px;
+  border: 1px solid var(--az-grey-300);
+  border-radius: 9999px;
+  background-color: var(--az-grey-100);
+  transition: background-color 0.15s, border-color 0.15s;
+}
+
+.toggle .toggle-switch::after {
+  content: '';
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--az-white);
+  transition: left 0.15s;
+}
+
+.toggle input:checked + .toggle-switch {
+  border-color: var(--az-magenta);
+  background-color: var(--az-magenta);
+}
+
+.toggle input:checked + .toggle-switch::after {
+  left: 13px;
+}
+
+.toggle input:disabled + .toggle-switch {
+  border-color: var(--az-grey-100);
+  background-color: var(--az-grey-100);
+}
+
+.toggle input:disabled ~ .toggle-text,
+.toggle .toggle-control:has(input:disabled) {
+  cursor: not-allowed;
+}
+
+.toggle input:focus-visible + .toggle-switch {
+  outline: 2px solid var(--az-magenta);
+  outline-offset: 2px;
+}
+
+.toggle .toggle-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.toggle .toggle-heading {
+  font-weight: 500;
+}
+
+/* group: switch sits in a 36×24 slot (4px top inset), 12px gap left / 16px gap right */
+.toggle .toggle-text + input + .toggle-switch,
+.toggle input + .toggle-switch:has(+ .toggle-text) {
+  margin: 4px 8px 4px 0;
+}
+
+.toggle input + .toggle-switch:has(+ .toggle-text) {
+  margin-right: 20px;
+}
+
+.toggle .toggle-text + input + .toggle-switch {
+  margin-left: 16px;
+}
+
+.toggle.right .toggle-text {
+  flex: 1 1 auto;
+}

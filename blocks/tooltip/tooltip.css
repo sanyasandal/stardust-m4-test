@@ -1,0 +1,147 @@
+/* stylelint-disable no-descending-specificity */
+
+/* Tooltip — kit 12334:9957 (top) / 9958 (bottom) / 9960 (left) / 9959 (right) */
+.tooltip {
+  --tooltip-bg: var(--az-graphite);
+  --tooltip-shadow: 0 4px 6px -1px rgb(29 41 61 / 10%), 0 2px 4px -2px rgb(29 41 61 / 10%);
+}
+
+.tooltip .tooltip-bubble {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tooltip.bottom .tooltip-bubble {
+  flex-direction: column-reverse;
+}
+
+.tooltip.left .tooltip-bubble {
+  flex-direction: row-reverse;
+}
+
+.tooltip.right .tooltip-bubble {
+  flex-direction: row;
+}
+
+.tooltip .tooltip-text {
+  max-width: 280px;
+  padding: 8px 12px;
+  border-radius: 12px;
+  background-color: var(--tooltip-bg);
+  box-shadow: var(--tooltip-shadow);
+  color: var(--az-white);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* arrow: 18×8 rounded chevron from the kit vector, rotated per side; overlaps the bubble by 1px */
+.tooltip .tooltip-arrow {
+  flex: none;
+  width: 18px;
+  height: 8px;
+  margin-top: -1px;
+  background-color: var(--tooltip-bg);
+  clip-path: path('M7.558 6.714L1.442 0.597C1.059 0.215 0.541 0 0 0H18C17.459 0 16.941 0.215 16.558 0.597L10.442 6.714C9.645 7.51 8.355 7.51 7.558 6.714Z');
+}
+
+.tooltip.bottom .tooltip-arrow {
+  margin: 0 0 -1px;
+  transform: rotate(180deg);
+}
+
+.tooltip.left .tooltip-arrow {
+  margin: 0 -6px 0 -5px;
+  transform: rotate(90deg);
+}
+
+.tooltip.right .tooltip-arrow {
+  margin: 0 -5px 0 -6px;
+  transform: rotate(-90deg);
+}
+
+/* swatch: bubble alone, padded for its shadow bleed */
+.tooltip.static {
+  width: max-content;
+  padding: 1px 5px 9px;
+}
+
+.tooltip.static.bottom {
+  padding: 0 5px 10px;
+}
+
+.tooltip.static.left {
+  padding: 1px 6px 9px 4px;
+}
+
+.tooltip.static .tooltip-bubble {
+  display: flex;
+}
+
+/* kit swatch bubble is 134px wide (110px text box) */
+.tooltip.static .tooltip-text {
+  min-width: 134px;
+}
+
+/* interactive: anchored to its trigger, shown on hover / focus */
+.tooltip .tooltip-anchor {
+  display: inline-flex;
+  position: relative;
+}
+
+.tooltip .tooltip-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.tooltip .tooltip-trigger:focus-visible {
+  outline: 2px solid var(--az-magenta);
+  outline-offset: 2px;
+}
+
+.tooltip .tooltip-anchor .tooltip-bubble {
+  position: absolute;
+  z-index: 3;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.tooltip .tooltip-anchor.visible .tooltip-bubble {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip.top .tooltip-anchor .tooltip-bubble {
+  bottom: calc(100% + 4px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tooltip.bottom .tooltip-anchor .tooltip-bubble {
+  top: calc(100% + 4px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tooltip.left .tooltip-anchor .tooltip-bubble {
+  top: 50%;
+  left: calc(100% + 4px);
+  transform: translateY(-50%);
+}
+
+.tooltip.right .tooltip-anchor .tooltip-bubble {
+  top: 50%;
+  right: calc(100% + 4px);
+  transform: translateY(-50%);
+}

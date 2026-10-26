@@ -1,0 +1,117 @@
+/* CTA Banner — kit 13370:1909 (desktop) / 13370:2041 (tablet) / 13370:2088 (mobile) */
+.cta-banner {
+  container-type: inline-size;
+  color: var(--az-graphite);
+}
+
+.cta-banner .cta-banner-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background: var(--az-white);
+  box-shadow: inset 0 0 0 4px var(--az-grey-400);
+}
+
+.cta-banner .cta-banner-media {
+  flex: none;
+  width: 120px;
+  height: 120px;
+}
+
+.cta-banner .cta-banner-media picture,
+.cta-banner .cta-banner-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cta-banner .cta-banner-content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+.cta-banner :is(h2, h3, h4) {
+  color: var(--az-mulberry);
+  font-family: var(--heading-font-family);
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.cta-banner .cta-banner-content > p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.cta-banner .field label {
+  display: flex;
+  align-items: center;
+}
+
+.cta-banner .cta-banner-help {
+  width: 16px;
+  height: 16px;
+  margin-left: 2px;
+}
+
+.cta-banner .cta-banner-control {
+  position: relative;
+}
+
+.cta-banner .cta-banner-leading {
+  position: absolute;
+  top: 17px;
+  left: 16px;
+  pointer-events: none;
+}
+
+.cta-banner .cta-banner-control.has-leading :is(input, select) {
+  padding-left: 44px;
+}
+
+.cta-banner .cta-banner-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cta-banner .cta-banner-actions .button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.cta-banner .cta-banner-actions .button {
+  width: 100%;
+}
+
+.cta-banner .cta-banner-actions .button.link {
+  width: auto;
+}
+
+@container (width >= 600px) {
+  .cta-banner .cta-banner-inner {
+    flex-direction: row;
+    padding: 32px;
+  }
+
+  .cta-banner .cta-banner-actions {
+    flex-flow: row wrap;
+    align-items: center;
+  }
+
+  .cta-banner .cta-banner-actions .button {
+    width: auto;
+  }
+}
+
+@container (width >= 1200px) {
+  .cta-banner .cta-banner-inner {
+    padding: 40px;
+  }
+}

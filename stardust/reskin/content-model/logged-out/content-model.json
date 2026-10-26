@@ -1,0 +1,231 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "command": "content",
+    "modelVersion": 2,
+    "capturedAt": "2026-10-26T09:25:00Z",
+    "source": {
+      "kind": "figma",
+      "figma": {
+        "fileKey": "rsZQmpVzuyn0KhCDA3WN60",
+        "node": "13530:18829",
+        "version": "2413431205561424165",
+        "name": "Type=Logged Out, Breakpoint=Desktop",
+        "fileKeyHash": "a32f5f25d34d"
+      }
+    },
+    "viewport": "1440x1024",
+    "scope": "figma:13530:18829",
+    "visibility": "effective: hidden when the node or any ancestor is visible:false",
+    "readingOrder": {
+      "rule": "auto-layout: child order (absolute children after, geometric); otherwise geometric: rows by vertical overlap >= 50%, then x",
+      "frames": {
+        "auto-layout": 4
+      },
+      "ambiguous": []
+    },
+    "segmentation": {
+      "rule": "top-level children by y; chrome by name leaves the body; content-less layers fold; overlapping bands merge; a single wrapper with >= 2 content bands is descended",
+      "sections": [
+        {
+          "slot": "s01",
+          "y": 420,
+          "h": 118,
+          "nodes": [
+            "I13530:18831;12467:15513"
+          ]
+        },
+        {
+          "slot": "s02",
+          "y": 562,
+          "h": 42,
+          "nodes": [
+            "I13530:18831;13530:18403"
+          ]
+        }
+      ],
+      "chrome": {
+        "header": [],
+        "footer": []
+      },
+      "folded": [
+        "13530:18830"
+      ],
+      "descended": 1
+    },
+    "responsive": {
+      "node": "13530:18835",
+      "name": "Type=Logged Out, Breakpoint=Mobile"
+    },
+    "kit": {
+      "rule": "a section is the outermost template-section or component instance above its nodes, else the instances inside them; one block per section (kit.mixed when several, kit.unbound when none)",
+      "registry": 1
+    },
+    "decorative": []
+  },
+  "metadata": {
+    "title": "Logged Out",
+    "description": "",
+    "canonical": null,
+    "ogTags": {},
+    "twitterTags": {},
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null,
+    "declaredAbsent": [
+      "description",
+      "canonical",
+      "ogTags",
+      "twitterTags",
+      "jsonLd"
+    ],
+    "derived": {
+      "title": "frame name"
+    }
+  },
+  "scope": [
+    {
+      "sel": "figma:13530:18829",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "You have been logged out We’ve logged you out due to inactivity. This is for your security as it will protect your account from others accessing it in case you left your computer unattended. Login",
+  "coverage": {
+    "bodyTextLen": 196,
+    "scopeTextLen": 196,
+    "ratio": 1,
+    "h1Text": "You have been logged out",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": null,
+      "rootClass": "",
+      "node": "I13530:18831;12467:15513",
+      "nodes": [
+        "I13530:18831;12467:15513"
+      ],
+      "visibleText": "You have been logged out We’ve logged you out due to inactivity. This is for your security as it will protect your account from others accessing it in case you left your computer unattended.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "You have been logged out"
+        }
+      ],
+      "paragraphs": [
+        "We’ve logged you out due to inactivity. This is for your security as it will protect your account from others accessing it in case you left your computer unattended."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "level": "h1",
+          "role": null,
+          "text": "You have been logged out",
+          "node": "I13530:18831;12467:15509",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "We’ve logged you out due to inactivity. This is for your security as it will protect your account from others accessing it in case you left your computer unattended.",
+          "node": "I13530:18831;12467:15471",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "kit": {
+        "block": "modal",
+        "module": "M11",
+        "variant": [
+          "text-only",
+          "horizontal"
+        ],
+        "set": "Modal",
+        "group": "component",
+        "home": "❖ Modal",
+        "instance": "13530:18831",
+        "instances": [
+          "13530:18831"
+        ]
+      }
+    },
+    {
+      "slot": "s02",
+      "rootTag": null,
+      "rootClass": "",
+      "node": "I13530:18831;13530:18403",
+      "nodes": [
+        "I13530:18831;13530:18403"
+      ],
+      "visibleText": "Login",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [
+        {
+          "text": "Login",
+          "parentTag": "button",
+          "parentClass": ""
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "text",
+          "text": "Login",
+          "parentTag": "button",
+          "parentClass": "",
+          "inButton": true,
+          "node": "I13530:18831;13530:18403;13028:2135",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "kit": {
+        "block": "modal",
+        "module": "M11",
+        "variant": [
+          "text-only",
+          "horizontal"
+        ],
+        "set": "Modal",
+        "group": "component",
+        "home": "❖ Modal",
+        "instance": "13530:18831",
+        "instances": [
+          "13530:18831"
+        ]
+      }
+    }
+  ],
+  "flags": [
+    {
+      "id": "heading.ambiguous",
+      "severity": "review",
+      "node": "I13530:18831;12467:15509",
+      "slot": "s01",
+      "detail": "26px matches no donor type role; no heading roles in donor-tokens"
+    },
+    {
+      "id": "heading.level",
+      "severity": "info",
+      "node": "I13530:18831;12467:15509",
+      "slot": "s01",
+      "detail": "size heading set to h1 (was h2): the first heading is the page h1"
+    },
+    {
+      "id": "metadata.title-derived",
+      "severity": "review",
+      "node": "13530:18829",
+      "slot": null,
+      "detail": "title \"Logged Out\" derived from the frame name; description, canonical, OG and Twitter tags are absent"
+    }
+  ]
+}

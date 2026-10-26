@@ -1,0 +1,12 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "writtenAt": "2026-10-26T09:24:13Z",
+    "readArtifacts": [
+      "stardust/.work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/2413431205561424165/nodes.json"
+    ],
+    "synthesizedInputs": [],
+    "note": "TEXT nodes whose characters parse as a JSON object"
+  },
+  "tables": []
+}

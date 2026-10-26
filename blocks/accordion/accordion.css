@@ -1,0 +1,101 @@
+/* Accordion — kit "Accordion" (12360:10305). Layout follows the block's own width (container queries):
+   desktop ≥ 1200: 1180 measure centred; tablet 768–1199: 32 inset; mobile < 768: 16 inset */
+.accordion {
+  --accordion-inset: 16px;
+  --accordion-gap: 12px;
+
+  container-type: inline-size;
+}
+
+.accordion .accordion-item + .accordion-item {
+  margin-top: var(--accordion-gap);
+}
+
+.accordion .accordion-item-label {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 0 var(--accordion-inset) var(--accordion-gap);
+  border-bottom: 1px solid var(--az-grey-100);
+  list-style: none;
+  cursor: pointer;
+}
+
+.accordion .accordion-item-label::-webkit-details-marker {
+  display: none;
+}
+
+.accordion .accordion-item-label:focus-visible {
+  outline: 2px solid var(--az-magenta);
+  outline-offset: 2px;
+}
+
+.accordion .accordion-item-title {
+  flex: 1 1 auto;
+  min-width: 0;
+  color: var(--az-mulberry);
+  font-family: var(--heading-font-family);
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.accordion .accordion-item-icon {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  background: url('../../icons/angle-down.svg') no-repeat center / 20px 20px;
+}
+
+.accordion .accordion-item[open] .accordion-item-icon {
+  background-image: url('../../icons/angle-up.svg');
+}
+
+.accordion .accordion-item-label:hover .accordion-item-title {
+  color: var(--az-mulberry-dark);
+}
+
+.accordion .accordion-item-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: var(--accordion-gap) var(--accordion-inset) 0;
+  color: var(--az-graphite);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.accordion .accordion-item-body :is(h1, h2, h3, h4, h5, h6) {
+  color: var(--az-mulberry);
+  font-family: var(--heading-font-family);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.accordion .accordion-item-body p {
+  margin: 0;
+}
+
+@container (width >= 768px) {
+  .accordion .accordion-item {
+    --accordion-inset: 32px;
+    --accordion-gap: 20px;
+  }
+
+  .accordion .accordion-item-title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .accordion .accordion-item-body :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 46px;
+    line-height: 50px;
+  }
+}
+
+@container (width >= 1200px) {
+  .accordion .accordion-item {
+    --accordion-inset: max(130px, calc((100cqw - 1180px) / 2));
+  }
+}

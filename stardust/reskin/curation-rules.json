@@ -1,0 +1,460 @@
+{
+  "version": 1,
+  "reference": {
+    "kit": {
+      "frame": "12084:109164",
+      "mode": null,
+      "breakpoint": 1440
+    },
+    "foundation": {
+      "frame": "12042:106827",
+      "mode": null,
+      "breakpoint": 1440
+    }
+  },
+  "roles": {
+    "palette.pageBg": {
+      "from": "colors/rgb-255-255-255",
+      "evidence": "12042:106827"
+    },
+    "palette.bodyFg": {
+      "from": "colors/rgb-60-66-66",
+      "evidence": "I12042:106828;11974:36429"
+    },
+    "palette.headingFg": {
+      "from": "colors/rgb-60-66-66",
+      "evidence": "I12042:106828;11974:36427"
+    },
+    "type.family": {
+      "from": "typography/body-body",
+      "field": "fontFamily",
+      "evidence": "I12042:106828;11974:36428"
+    },
+    "type.body.fontSize": {
+      "from": "typography/body-body",
+      "field": "fontSize",
+      "evidence": "I12042:106828;11974:36428"
+    },
+    "type.display.fontWeight": {
+      "from": "typography/headings-h1",
+      "field": "fontWeight",
+      "evidence": "12072:106958"
+    },
+    "buttons.primary": {
+      "component": "button-medium-primary-with-text",
+      "evidence": "12084:109155"
+    },
+    "layout.containerMaxWidth": {
+      "from": "spacing/max-width-1180",
+      "evidence": "12360:10289"
+    },
+    "layout.sectionPaddingY": {
+      "from": "spacing/pad-40",
+      "evidence": "12042:106828"
+    },
+    "layout.mobile.gutter": {
+      "from": "spacing/pad-16",
+      "evidence": "12607:4085"
+    },
+    "cards.primary.background": {
+      "absent": "the kit has no card component; teaser and block-content carry their own surfaces"
+    },
+    "cards.primary.borderRadius": {
+      "absent": "no card component in the kit"
+    },
+    "cards.primary.padding": {
+      "absent": "no card component in the kit"
+    },
+    "cards.primary.titleColor": {
+      "absent": "no card component in the kit"
+    },
+    "layout.mobile.sectionPaddingY": {
+      "absent": "mobile page frames use the desktop section rhythm; read per block from the responsive frames"
+    }
+  },
+  "normalizations": [
+    {
+      "id": "family-inter",
+      "kind": "familyEquivalence",
+      "params": {
+        "map": {
+          "Inter": "Inter, \"Helvetica Neue\", Arial, sans-serif",
+          "Lexia": "Lexia, \"Roboto Slab\", Georgia, serif"
+        }
+      },
+      "why": "Inter is served from Google Fonts; Lexia is a licensed Dalton Maag face not available to the build, Roboto Slab is the open slab-serif stand-in (named assumption)"
+    },
+    {
+      "id": "lh-px",
+      "kind": "lineHeightUnitless",
+      "params": {},
+      "why": "Figma line heights are pixel values; CSS keeps them as computed px"
+    }
+  ],
+  "curations": [],
+  "suspect": [],
+  "modules": [
+    {
+      "id": "M1",
+      "name": "Accordion",
+      "frame": "12360:10305",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Accordion\": set Accordion; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M2",
+      "name": "Back To Top",
+      "frame": "12522:1041",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Back to Top\": set Back-to-top; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M3",
+      "name": "Button",
+      "frame": "12084:109164",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Button\": set Button; instanced 1× on 1 page(s) — refine with the slots it carries",
+      "variants": [
+        "medium link icon-only"
+      ],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M4",
+      "name": "Breadcrumb",
+      "frame": "12410:12840",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Breadcrumb\": sets Breadcrumb label, Breadcrumble example; on no page (library block) — refine with the slots it carries",
+      "variants": [
+        "label",
+        "breadcrumble-example"
+      ],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M5",
+      "name": "Carousel",
+      "frame": "12473:16100",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Carousel\": set Carousel; parts .Carousel / Arrows, .Carousel / Dots; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M6",
+      "name": "Checkbox Radio",
+      "frame": "12265:6347",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Checkbox & Radio\": sets Checkbox Input, Checkbox Form; instanced 1× on 1 page(s) — refine with the slots it carries",
+      "variants": [
+        "checkbox-input",
+        "checkbox-form",
+        "checkbox-form initial"
+      ],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M7",
+      "name": "Chips",
+      "frame": "12334:9625",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Chips\": set Chips; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M8",
+      "name": "Dropdown",
+      "frame": "12277:7181",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ DropDown\": set Dropdown; parts .Dropdown-Listitem; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M9",
+      "name": "Input",
+      "frame": "12160:3287",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Input\": set Input Field; instanced 2× on 1 page(s) — refine with the slots it carries",
+      "variants": [
+        "password"
+      ],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M10",
+      "name": "Links",
+      "frame": "12929:23477",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Links\": set Links; parts .Link; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M11",
+      "name": "Modal",
+      "frame": "12467:15529",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Modal\": set Modal; instanced 2× on 2 page(s) — refine with the slots it carries",
+      "variants": [
+        "text-only horizontal"
+      ],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M12",
+      "name": "Pagination",
+      "frame": "12328:9443",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Pagination\": sets Pagination / Base, Pagination / Group; on no page (library block) — refine with the slots it carries",
+      "variants": [
+        "base",
+        "group"
+      ],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M13",
+      "name": "Search Bar",
+      "frame": "12686:17319",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Search Bar\": set Search bar; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M14",
+      "name": "Slider",
+      "frame": "12334:10073",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Slider\": sets Range Slider thumb, Slider; on no page (library block) — refine with the slots it carries",
+      "variants": [
+        "range-slider-thumb"
+      ],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M15",
+      "name": "Stepper",
+      "frame": "13121:3064",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Stepper\": set Stepper; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M16",
+      "name": "Tab Nav",
+      "frame": "12914:23169",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Tab Nav\": set Tab Nav; parts .Tab Nav Elements, .Tab Nav Items; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M17",
+      "name": "Tabs",
+      "frame": "12305:8988",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Tabs\": set Tabs Group; parts .Tabs base; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M18",
+      "name": "Tables",
+      "frame": "12607:4086",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Tables\": set Table / Cell; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M19",
+      "name": "Toggle",
+      "frame": "12287:8487",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Toggle\": sets Toggle switches, Toggle group; on no page (library block) — refine with the slots it carries",
+      "variants": [
+        "switches",
+        "group"
+      ],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M20",
+      "name": "Tooltip",
+      "frame": "12334:9961",
+      "family": "component",
+      "anatomy": "Figma kit component \"❖ Tooltip\": set Tooltip; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M21",
+      "name": "Account",
+      "frame": "12693:19253",
+      "family": "template",
+      "anatomy": "Figma kit template \"❏ Account\": set Account Summary; parts .Account summary; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M22",
+      "name": "Block Content",
+      "frame": "12601:4831",
+      "family": "template",
+      "anatomy": "Figma kit template \"❏ Block Content\": set Block Content; parts .Title, .Text, .Buttons Collage, .Block Element; instanced 53× on 23 page(s) — refine with the slots it carries",
+      "variants": [
+        "buttons-collage center"
+      ],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M23",
+      "name": "Cta Banner",
+      "frame": "13370:2040",
+      "family": "template",
+      "anatomy": "Figma kit template \"❏ CTA Banner\": set CTA Banner; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M24",
+      "name": "Calculator",
+      "frame": "15163:14798",
+      "family": "template",
+      "anatomy": "Figma kit template \"❏ Calculator\": sets Weight Conversion, Dosing Calculator, Risk Calculator; parts .Calculator: Metric Display, .Calculator: Slot, .Calculator: Column; on no page (library block) — refine with the slots it carries",
+      "variants": [
+        "weight-conversion",
+        "dosing-calculator",
+        "risk-calculator"
+      ],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M25",
+      "name": "Email",
+      "frame": "12712:21024",
+      "family": "template",
+      "anatomy": "Figma kit template \"❏ Email\": set Email; instanced 5× on 5 page(s) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M26",
+      "name": "Forms",
+      "frame": "12682:15985",
+      "family": "template",
+      "anatomy": "Figma kit template \"❏ Forms\": set Form Content; parts .Forms; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M27",
+      "name": "Footer",
+      "frame": "12406:12187",
+      "family": "template",
+      "anatomy": "Figma kit template \"❏ Footer\": set Footer; instanced 23× on 23 page(s) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M28",
+      "name": "Header",
+      "frame": "12387:11135",
+      "family": "template",
+      "anatomy": "Figma kit template \"❏ Header\": set Header; parts .Header / Actions, .Header / Navigation Item, .Header / Contact Selecter Item, .Header / Disclaimer, .Header / Prescribing Info, . Header / Language Selector, .Header / Links Selector; instanced 23× on 23 page(s) — refine with the slots it carries",
+      "variants": [
+        "full",
+        "registration"
+      ],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M29",
+      "name": "Home Hero Branded",
+      "frame": "12950:24836",
+      "family": "template",
+      "anatomy": "Figma kit template \"❏ Home Hero Branded\": set Home Hero Branded; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M30",
+      "name": "Login",
+      "frame": "12643:9460",
+      "family": "template",
+      "anatomy": "Figma kit template \"❏ Login\": set Login; instanced 1× on 1 page(s) — refine with the slots it carries",
+      "variants": [
+        "full"
+      ],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M31",
+      "name": "Teaser",
+      "frame": "12421:13846",
+      "family": "template",
+      "anatomy": "Figma kit template \"❏ Teaser\": sets Teaser, Teaser / Text + Image, Teaser / Card; parts .Teaser / Hero Content, .Teaser / Blocked Content, .Teaser / Card content, .Teaser / Card Tag, .Teaser / Card Chip; on no page (library block) — refine with the slots it carries",
+      "variants": [
+        "text-image",
+        "card"
+      ],
+      "components": [],
+      "status": "include"
+    },
+    {
+      "id": "M32",
+      "name": "Quiz",
+      "frame": "13422:2864",
+      "family": "template",
+      "anatomy": "Figma kit template \"❏ Quiz\": set Quiz; on no page (library block) — refine with the slots it carries",
+      "variants": [],
+      "components": [],
+      "status": "include"
+    }
+  ],
+  "notesForReskin": "Headings are Lexia (slab serif) in #3c4242 or the core magenta #830051; body Inter 16/24 #3c4242. Primary button #d0006f, 4px radius, 42px tall, Inter 16/700. Desktop frames 1440 wide, content measure 1180.",
+  "motifs": [
+    "AstraZeneca One AZ: magenta core (#830051, #d0006f), gold accent (#f0ab00), mineral greys (#ebefee, #9db0ac); flat surfaces, 4px radii"
+  ],
+  "design": {
+    "displayName": "One AZ v3.2"
+  }
+}

@@ -1,0 +1,26 @@
+/* One AZ email page template — Figma "Email" frames (13512:6269 …): #ebefee canvas, no site chrome,
+   the 674-wide email centred with 40 / 32 / 16×20 frame padding */
+body.email header,
+body.email footer {
+  display: none;
+}
+
+body.email main {
+  padding: 16px 20px;
+}
+
+body.email main > .section > div {
+  max-width: none;
+}
+
+@media (width >= 768px) {
+  body.email main {
+    padding: 32px 0;
+  }
+}
+
+@media (width >= 1200px) {
+  body.email main {
+    padding: 40px 0;
+  }
+}

@@ -1,0 +1,125 @@
+/* stylelint-disable no-descending-specificity */
+
+/* Tabs — kit "Tabs Group" 12305:8986 / 12305:8987 (default), 12305:9043 / 12305:9052 (compact) */
+.tabs .tabs-bar {
+  display: flex;
+  position: relative;
+  gap: 2px;
+  border-bottom: 2px solid var(--az-magenta);
+}
+
+.tabs .tabs-list {
+  display: flex;
+  flex: 1 1 auto;
+  gap: 2px;
+  min-width: 0;
+}
+
+.tabs .tabs-tab,
+.tabs .tabs-more {
+  display: flex;
+  flex: 1 1 0;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  margin: 0;
+  padding: 0 16px;
+  border: 0;
+  border-radius: 4px 4px 0 0;
+  background-color: var(--az-grey-100);
+  color: var(--az-graphite);
+  font-family: var(--body-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.tabs.medium .tabs-tab,
+.tabs.medium .tabs-more {
+  flex-basis: auto;
+  height: 26px;
+}
+
+.tabs .tabs-tab:hover {
+  color: var(--az-magenta);
+}
+
+.tabs .tabs-tab[aria-selected="true"] {
+  background-color: var(--az-magenta);
+  color: var(--az-white);
+  font-weight: 700;
+}
+
+.tabs .tabs-tab:focus-visible,
+.tabs .tabs-more:focus-visible {
+  outline: 2px solid var(--az-mulberry);
+  outline-offset: -2px;
+}
+
+/* compact: selected tab + menu button */
+.tabs.compact .tabs-tab:not([aria-selected="true"]) {
+  display: none;
+}
+
+.tabs .tabs-more {
+  flex: none;
+  width: 52px;
+}
+
+.tabs .tabs-more::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-color: var(--az-graphite);
+  mask: url('../../icons/chevron-down.svg') no-repeat center / 20px 20px;
+}
+
+.tabs .tabs-more[aria-expanded="true"]::before {
+  transform: rotate(180deg);
+}
+
+.tabs .tabs-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 2;
+  min-width: 200px;
+  margin: 2px 0 0;
+  padding: 8px 0;
+  background-color: var(--az-white);
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -2px rgb(0 0 0 / 10%);
+  list-style: none;
+}
+
+.tabs .tabs-more[aria-expanded="true"] + .tabs-menu {
+  display: block;
+}
+
+.tabs .tabs-menu button {
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  border: 0;
+  background: none;
+  color: var(--az-graphite);
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.tabs .tabs-menu button:hover,
+.tabs .tabs-menu button:focus-visible {
+  color: var(--az-magenta);
+}
+
+.tabs .tabs-panel {
+  padding: 24px 0 0;
+}
+
+.tabs .tabs-panel[hidden] {
+  display: none;
+}

@@ -1,0 +1,114 @@
+/* Email — kit "Email" (12712:21024): Arial, 674 wide (mobile 343), logo 202×48, white card, gap 24 */
+main .email {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  max-width: 674px;
+  margin: 0 auto;
+  color: var(--az-graphite);
+  font-family: var(--email-font-family);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+main .email .email-logo,
+main .email .email-logo .icon {
+  display: block;
+  height: 48px;
+}
+
+main .email .email-logo .icon,
+main .email .email-logo img {
+  display: block;
+  width: 202px;
+  height: 48px;
+}
+
+main .email .email-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 40px;
+  background-color: var(--az-white);
+}
+
+main .email .email-card > * {
+  margin: 0;
+}
+
+main .email .email-card > :is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: 24px;
+  color: var(--az-graphite);
+  font-family: var(--email-font-family);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+main .email .email-card > .button-wrapper {
+  align-self: flex-start;
+}
+
+main .email .email-image img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+
+main .email .email-links ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+main .email .email-links a:any-link {
+  color: var(--az-graphite);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+main .email .email-card a:any-link:not(.button) {
+  color: var(--az-magenta);
+}
+
+main .email.mobile {
+  max-width: 343px;
+}
+
+main .email.mobile .email-card {
+  gap: 16px;
+  padding: 16px;
+}
+
+main .email.mobile .email-image img {
+  height: 160px;
+}
+
+main .email.mobile .email-card > :is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: 8px;
+  font-size: 26px;
+  line-height: 32px;
+}
+
+@media (width < 1200px) {
+  main .email:not(.mobile) .email-card {
+    padding: 24px;
+  }
+}
+
+@media (width < 768px) {
+  main .email:not(.mobile) .email-card > :is(h1, h2, h3, h4, h5, h6) {
+    margin-bottom: 8px;
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  main .email:not(.mobile) .email-image img {
+    height: 160px;
+  }
+}

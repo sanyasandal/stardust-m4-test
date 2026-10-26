@@ -1,0 +1,42 @@
+/* Back to top — 64 tall bar, right-aligned link on the 1180 measure (inset 16 / 32 / 130) */
+.back-to-top {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-sizing: border-box;
+  height: 64px;
+  padding: 20px 16px;
+}
+
+.back-to-top .back-to-top-link {
+  font-family: var(--body-font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: var(--az-magenta);
+  text-decoration: underline;
+}
+
+.back-to-top .back-to-top-link:hover {
+  color: var(--az-mulberry);
+}
+
+.back-to-top.dark .back-to-top-link {
+  color: var(--az-white);
+}
+
+.back-to-top.dark .back-to-top-link:hover {
+  color: var(--az-grey-100);
+}
+
+@media (width >= 768px) {
+  .back-to-top {
+    padding-inline: 32px;
+  }
+}
+
+@media (width >= 1200px) {
+  .back-to-top {
+    padding-inline: max(130px, calc((100% - 1180px) / 2));
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "command": "content",
+    "writtenAt": "2026-10-26T09:25:00Z"
+  },
+  "slug": "channel-consent",
+  "counts": {
+    "block": 0,
+    "review": 4,
+    "info": 12,
+    "open": 4
+  },
+  "placeholderOnly": false,
+  "items": [
+    {
+      "key": "heading.ambiguous@I13496:17745;12534:1406;12534:1395;12529:1207",
+      "id": "heading.ambiguous",
+      "severity": "review",
+      "node": "I13496:17745;12534:1406;12534:1395;12529:1207",
+      "slot": "s01",
+      "detail": "46px matches no donor type role; no heading roles in donor-tokens"
+    },
+    {
+      "key": "heading.level@I13496:17745;12534:1406;12534:1395;12529:1207",
+      "id": "heading.level",
+      "severity": "info",
+      "node": "I13496:17745;12534:1406;12534:1395;12529:1207",
+      "slot": "s01",
+      "detail": "size heading set to h1 (was h2): the first heading is the page h1"
+    },
+    {
+      "key": "image.alt@13496:17744",
+      "id": "image.alt",
+      "severity": "info",
+      "node": "13496:17744",
+      "slot": null,
+      "detail": "no alt text in Figma: write it or mark the image decorative"
+    },
+    {
+      "key": "image.alt@I13496:17747;12406:12140",
+      "id": "image.alt",
+      "severity": "info",
+      "node": "I13496:17747;12406:12140",
+      "slot": null,
+      "detail": "logo: alt text from the brand name is the author's call"
+    },
+    {
+      "key": "link.unresolved@I13496:17747;12406:12149",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:17747;12406:12149",
+      "slot": "s02",
+      "detail": "chrome \"Privacy Notice\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:17747;12406:12150",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:17747;12406:12150",
+      "slot": "s02",
+      "detail": "chrome \"Cookie Notice\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:17747;12406:12151",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:17747;12406:12151",
+      "slot": "s02",
+      "detail": "chrome \"Prescribing Information\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:17747;12406:12152",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:17747;12406:12152",
+      "slot": "s02",
+      "detail": "chrome \"Important Safety Information\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:17747;12406:12160",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:17747;12406:12160",
+      "slot": "s02",
+      "detail": "chrome \"Legal Statement\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:17747;12406:12161",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:17747;12406:12161",
+      "slot": "s02",
+      "detail": "chrome \"Site Map\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:17747;12406:12162",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:17747;12406:12162",
+      "slot": "s02",
+      "detail": "chrome \"AstraZeneca\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:17747;12406:12163",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:17747;12406:12163",
+      "slot": "s02",
+      "detail": "chrome \"Contact Us\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:17747;12406:12181",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:17747;12406:12181",
+      "slot": "s02",
+      "detail": "chrome \"XX-XXXX-01/2025\" has no link target in the design"
+    },
+    {
+      "key": "placeholder.suspect@I13496:17745;12534:1406;12534:1395;12529:1207",
+      "id": "placeholder.suspect",
+      "severity": "review",
+      "node": "I13496:17745;12534:1406;12534:1395;12529:1207",
+      "slot": "s01",
+      "detail": "\"The most inspiring heading\" reads like kit copy"
+    },
+    {
+      "key": "variant.text-differs@13496:18716",
+      "id": "variant.text-differs",
+      "severity": "review",
+      "node": "13496:18716",
+      "slot": null,
+      "detail": "the responsive variant differs: 2 text(s) only here (\"The most inspiring heading\"…), 2 only there (\"Channel consent\"…)"
+    },
+    {
+      "key": "metadata.title-derived@13496:18714",
+      "id": "metadata.title-derived",
+      "severity": "review",
+      "node": "13496:18714",
+      "slot": null,
+      "detail": "title \"Channel Consent\" derived from the frame name; description, canonical, OG and Twitter tags are absent"
+    }
+  ],
+  "acknowledged": []
+}

@@ -1,0 +1,220 @@
+/* Login — kit "Login" (12643:9460): 550-wide card over a full-bleed image (941 / 869 tall), image-less below 768 */
+main .login {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: var(--az-graphite);
+}
+
+main .login .login-media {
+  display: none;
+}
+
+main .login .login-card {
+  position: relative;
+  width: 100%;
+}
+
+main .login .login-main {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px 16px;
+  border-radius: 8px 8px 0 0;
+  background-color: var(--az-white);
+}
+
+main .login .login-head {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+}
+
+main .login .login-head > * {
+  margin: 0;
+}
+
+main .login .login-head :is(h1, h2, h3, h4, h5, h6) {
+  color: var(--az-mulberry);
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-m);
+  font-weight: 400;
+  line-height: var(--heading-line-height-m);
+}
+
+main .login .login-head p {
+  display: none;
+}
+
+main .login .login-form,
+main .login .login-alt {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+main .login .login-alt {
+  gap: 16px;
+}
+
+main .login .login-label-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+main .login .login-label-row label {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+main .login .login-label-row .required {
+  margin: 0;
+}
+
+main .login a.login-aside:any-link {
+  color: var(--az-magenta);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+main .login .login-input {
+  position: relative;
+}
+
+main .login .login-input input[type="password"],
+main .login .login-input:has(.login-eye) input {
+  padding-right: 52px;
+}
+
+main .login .login-eye {
+  position: absolute;
+  top: 17px;
+  right: 16px;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+main .login .button-wrapper {
+  display: flex;
+}
+
+main .login .button-wrapper a.button {
+  width: 100%;
+}
+
+main .login .login-check {
+  display: flex;
+}
+
+main .login .login-link {
+  margin: 0;
+  text-align: center;
+}
+
+main .login .login-link a:any-link {
+  font-weight: 700;
+}
+
+main .login .login-divider {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+}
+
+main .login .login-divider::before,
+main .login .login-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background-color: #d8dfde;
+}
+
+main .login .login-band {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 0 0 8px 8px;
+  background-color: var(--az-grey-100);
+}
+
+main .login .login-band a:any-link {
+  color: var(--az-magenta);
+}
+
+@media (width >= 768px) {
+  main .login {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 869px;
+  }
+
+  main .login .login-media {
+    position: absolute;
+    inset: 0;
+    display: block;
+  }
+
+  main .login .login-media picture,
+  main .login .login-media img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  main .login .login-card {
+    width: 550px;
+  }
+
+  main .login .login-main {
+    gap: 40px;
+    padding: 40px;
+    border-radius: 8px;
+  }
+
+  main .login.has-band .login-main {
+    border-radius: 8px 8px 0 0;
+  }
+
+  main .login .login-head :is(h1, h2, h3, h4, h5, h6) {
+    font-size: var(--heading-font-size-l);
+    line-height: var(--heading-line-height-l);
+  }
+
+  main .login .login-head p {
+    display: block;
+  }
+
+  main .login .login-check {
+    justify-content: center;
+  }
+
+  main .login .login-band {
+    flex-direction: row;
+    justify-content: center;
+    padding: 24px 0;
+  }
+}
+
+@media (width >= 1200px) {
+  main .login {
+    justify-content: flex-start;
+    height: 941px;
+    padding: 0 80px;
+  }
+}

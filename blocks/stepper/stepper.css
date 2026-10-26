@@ -1,0 +1,29 @@
+/* Stepper — kit 13121:3063 (step 1) / 13121:3065 (step 2) / 13121:3072 (step 3) */
+.stepper .stepper-track {
+  height: 24px;
+  background-color: #f6cee7;
+}
+
+.stepper .stepper-fill {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: calc(var(--progress) * 100%);
+  height: 100%;
+  padding-right: 18px;
+  background-color: var(--az-magenta);
+  clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 50%, calc(100% - 15px) 100%, 0 100%);
+}
+
+.stepper .stepper-fill.complete {
+  padding-right: 3px;
+  clip-path: none;
+}
+
+.stepper .stepper-label {
+  width: 20px;
+  color: var(--az-white);
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}

@@ -1,0 +1,212 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "command": "content",
+    "modelVersion": 2,
+    "capturedAt": "2026-10-26T09:25:00Z",
+    "source": {
+      "kind": "figma",
+      "figma": {
+        "fileKey": "rsZQmpVzuyn0KhCDA3WN60",
+        "node": "13512:6269",
+        "version": "2413431205561424165",
+        "name": "Type=Verify Email, Breakpoint=Desktop",
+        "fileKeyHash": "a32f5f25d34d"
+      }
+    },
+    "viewport": "1440x650",
+    "scope": "figma:13512:6269",
+    "visibility": "effective: hidden when the node or any ancestor is visible:false",
+    "readingOrder": {
+      "rule": "auto-layout: child order (absolute children after, geometric); otherwise geometric: rows by vertical overlap >= 50%, then x",
+      "frames": {
+        "auto-layout": 4
+      },
+      "ambiguous": []
+    },
+    "segmentation": {
+      "rule": "top-level children by y; chrome by name leaves the body; content-less layers fold; overlapping bands merge; a single wrapper with >= 2 content bands is descended",
+      "sections": [
+        {
+          "slot": "s01",
+          "y": 40,
+          "h": 570,
+          "nodes": [
+            "13512:6174"
+          ]
+        }
+      ],
+      "chrome": {
+        "header": [],
+        "footer": []
+      },
+      "folded": [],
+      "descended": 0
+    },
+    "responsive": {
+      "node": "13512:6271",
+      "name": "Type=Verify Email, Breakpoint=Mobile"
+    },
+    "kit": {
+      "rule": "a section is the outermost template-section or component instance above its nodes, else the instances inside them; one block per section (kit.mixed when several, kit.unbound when none)",
+      "registry": 1
+    },
+    "decorative": []
+  },
+  "metadata": {
+    "title": "Verify Email",
+    "description": "",
+    "canonical": null,
+    "ogTags": {},
+    "twitterTags": {},
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null,
+    "declaredAbsent": [
+      "description",
+      "canonical",
+      "ogTags",
+      "twitterTags",
+      "jsonLd"
+    ],
+    "derived": {
+      "title": "frame name"
+    }
+  },
+  "scope": [
+    {
+      "sel": "figma:13512:6269",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Please verify your email Dear [Customer's Name], Thank you for registering with AstraZeneca. Please click the link below to verify your email address: Verify E-mail For any assistance or concerns, feel free to contact our support team at [Your Support Email or Contact Number]. Thank you for choosing Astrazeneca. Best Regards, [Your Support Email or Contact Number].",
+  "coverage": {
+    "bodyTextLen": 367,
+    "scopeTextLen": 367,
+    "ratio": 1,
+    "h1Text": "Please verify your email",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": null,
+      "rootClass": "",
+      "node": "13512:6174",
+      "nodes": [
+        "13512:6174"
+      ],
+      "visibleText": "Please verify your email Dear [Customer's Name], Thank you for registering with AstraZeneca. Please click the link below to verify your email address: Verify E-mail For any assistance or concerns, feel free to contact our support team at [Your Support Email or Contact Number]. Thank you for choosing Astrazeneca. Best Regards, [Your Support Email or Contact Number].",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Please verify your email"
+        }
+      ],
+      "paragraphs": [
+        "Dear [Customer's Name], Thank you for registering with AstraZeneca. Please click the link below to verify your email address:",
+        "For any assistance or concerns, feel free to contact our support team at [Your Support Email or Contact Number]. Thank you for choosing Astrazeneca. Best Regards, [Your Support Email or Contact Number]."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "assets/I13512-6174-12712-21044.svg",
+          "alt": null,
+          "w": 674,
+          "h": 48
+        }
+      ],
+      "formControls": [],
+      "leftovers": [
+        {
+          "text": "Verify E-mail",
+          "parentTag": "button",
+          "parentClass": ""
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "image",
+          "currentSrc": "assets/I13512-6174-12712-21044.svg",
+          "alt": null,
+          "w": 674,
+          "h": 48,
+          "node": "I13512:6174;12712:21044"
+        },
+        {
+          "kind": "heading",
+          "level": "h1",
+          "role": null,
+          "text": "Please verify your email",
+          "node": "I13512:6174;12712:21067",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Dear [Customer's Name], Thank you for registering with AstraZeneca. Please click the link below to verify your email address:",
+          "node": "I13512:6174;12712:21049",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Verify E-mail",
+          "parentTag": "button",
+          "parentClass": "",
+          "inButton": true,
+          "node": "I13512:6174;12712:21068",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "For any assistance or concerns, feel free to contact our support team at [Your Support Email or Contact Number]. Thank you for choosing Astrazeneca. Best Regards, [Your Support Email or Contact Number].",
+          "node": "I13512:6174;12712:21053",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "kit": {
+        "block": "email",
+        "module": "M25",
+        "variant": [],
+        "set": "Email",
+        "group": "template",
+        "home": "❏ Email",
+        "instance": "13512:6174",
+        "instances": [
+          "13512:6174"
+        ]
+      }
+    }
+  ],
+  "flags": [
+    {
+      "id": "image.alt",
+      "severity": "review",
+      "node": "I13512:6174;12712:21044",
+      "slot": "s01",
+      "detail": "no alt text in Figma: write it or mark the image decorative"
+    },
+    {
+      "id": "heading.ambiguous",
+      "severity": "review",
+      "node": "I13512:6174;12712:21067",
+      "slot": "s01",
+      "detail": "32px matches no donor type role; no heading roles in donor-tokens"
+    },
+    {
+      "id": "heading.level",
+      "severity": "info",
+      "node": "I13512:6174;12712:21067",
+      "slot": "s01",
+      "detail": "size heading set to h1 (was h2): the first heading is the page h1"
+    },
+    {
+      "id": "metadata.title-derived",
+      "severity": "review",
+      "node": "13512:6269",
+      "slot": null,
+      "detail": "title \"Verify Email\" derived from the frame name; description, canonical, OG and Twitter tags are absent"
+    }
+  ]
+}

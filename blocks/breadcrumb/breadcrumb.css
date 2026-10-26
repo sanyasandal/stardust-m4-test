@@ -1,0 +1,108 @@
+/* Breadcrumb — Inter 14/16 (12/16 mobile), NavArrow-Right separators, current crumb magenta */
+.breadcrumb ol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumb li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.breadcrumb .breadcrumb-separator {
+  width: 20px;
+  height: 20px;
+}
+
+.breadcrumb .breadcrumb-label {
+  font-family: var(--body-font-family);
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--az-graphite);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.breadcrumb a.breadcrumb-label:hover,
+.breadcrumb.hover .breadcrumb-label {
+  color: var(--az-magenta);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.breadcrumb .breadcrumb-label[aria-current="page"] {
+  color: var(--az-magenta);
+  text-decoration: none;
+}
+
+/* full trail: white bar with a bottom rule, content on the 1180 measure */
+.breadcrumb:not(.label) {
+  container-type: inline-size;
+  background: var(--az-white);
+  border-bottom: 1px solid var(--az-grey-100);
+}
+
+.breadcrumb:not(.label) nav {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 6px 16px;
+}
+
+.breadcrumb:not(.label) ol,
+.breadcrumb:not(.label) li {
+  gap: 2px;
+}
+
+.breadcrumb:not(.label) .breadcrumb-label {
+  font-size: 12px;
+}
+
+@container (width >= 768px) {
+  .breadcrumb:not(.label) nav {
+    min-height: 40px;
+    padding: 10px 32px;
+  }
+
+  .breadcrumb:not(.label) ol,
+  .breadcrumb:not(.label) li {
+    gap: 8px;
+  }
+
+  .breadcrumb:not(.label) .breadcrumb-label {
+    font-size: 14px;
+  }
+}
+
+@container (width >= 1200px) {
+  .breadcrumb:not(.label) nav {
+    padding-inline: max(130px, calc((100cqw - 1180px) / 2));
+  }
+}
+
+.breadcrumb.label {
+  display: inline-flex;
+}
+
+/* static hover state: the kit draws the 14px underline in a 17px box */
+.breadcrumb.label.hover .breadcrumb-label {
+  display: block;
+  padding-bottom: 1px;
+}
+
+@media (width < 768px) {
+  .breadcrumb.label .breadcrumb-label {
+    font-size: 12px;
+  }
+
+  .breadcrumb.label.hover .breadcrumb-label {
+    padding-bottom: 0;
+  }
+}

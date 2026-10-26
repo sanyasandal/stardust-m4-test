@@ -1,0 +1,245 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "command": "content",
+    "modelVersion": 2,
+    "capturedAt": "2026-10-26T09:25:00Z",
+    "source": {
+      "kind": "figma",
+      "figma": {
+        "fileKey": "rsZQmpVzuyn0KhCDA3WN60",
+        "node": "13530:18497",
+        "version": "2413431205561424165",
+        "name": "Type=Inactivity, Breakpoint=Desktop",
+        "fileKeyHash": "a32f5f25d34d"
+      }
+    },
+    "viewport": "1440x1024",
+    "scope": "figma:13530:18497",
+    "visibility": "effective: hidden when the node or any ancestor is visible:false",
+    "readingOrder": {
+      "rule": "auto-layout: child order (absolute children after, geometric); otherwise geometric: rows by vertical overlap >= 50%, then x",
+      "frames": {
+        "auto-layout": 5
+      },
+      "ambiguous": []
+    },
+    "segmentation": {
+      "rule": "top-level children by y; chrome by name leaves the body; content-less layers fold; overlapping bands merge; a single wrapper with >= 2 content bands is descended",
+      "sections": [
+        {
+          "slot": "s01",
+          "y": 403,
+          "h": 152,
+          "nodes": [
+            "I13530:18283;12467:15513"
+          ]
+        },
+        {
+          "slot": "s02",
+          "y": 579,
+          "h": 42,
+          "nodes": [
+            "I13530:18283;13530:18403"
+          ]
+        }
+      ],
+      "chrome": {
+        "header": [],
+        "footer": []
+      },
+      "folded": [
+        "13530:18273"
+      ],
+      "descended": 1
+    },
+    "responsive": {
+      "node": "13530:18827",
+      "name": "Type=Inactivity, Breakpoint=Mobile"
+    },
+    "kit": {
+      "rule": "a section is the outermost template-section or component instance above its nodes, else the instances inside them; one block per section (kit.mixed when several, kit.unbound when none)",
+      "registry": 1
+    },
+    "decorative": []
+  },
+  "metadata": {
+    "title": "Inactivity",
+    "description": "",
+    "canonical": null,
+    "ogTags": {},
+    "twitterTags": {},
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null,
+    "declaredAbsent": [
+      "description",
+      "canonical",
+      "ogTags",
+      "twitterTags",
+      "jsonLd"
+    ],
+    "derived": {
+      "title": "frame name"
+    }
+  },
+  "scope": [
+    {
+      "sel": "figma:13530:18497",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Due to inactivity you will be logged out soon For security reasons, we will automatically log you out in two minutes. If you wish to continue your session, please interact with the application. Thank you for your understanding! Stay logged in Logout now",
+  "coverage": {
+    "bodyTextLen": 253,
+    "scopeTextLen": 253,
+    "ratio": 1,
+    "h1Text": "Due to inactivity you will be logged out soon",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": null,
+      "rootClass": "",
+      "node": "I13530:18283;12467:15513",
+      "nodes": [
+        "I13530:18283;12467:15513"
+      ],
+      "visibleText": "Due to inactivity you will be logged out soon For security reasons, we will automatically log you out in two minutes. If you wish to continue your session, please interact with the application. Thank you for your understanding!",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Due to inactivity you will be logged out soon"
+        }
+      ],
+      "paragraphs": [
+        "For security reasons, we will automatically log you out in two minutes. If you wish to continue your session, please interact with the application. Thank you for your understanding!"
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "level": "h1",
+          "role": null,
+          "text": "Due to inactivity you will be logged out soon",
+          "node": "I13530:18283;12467:15509",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "For security reasons, we will automatically log you out in two minutes. If you wish to continue your session, please interact with the application. Thank you for your understanding!",
+          "node": "I13530:18283;12467:15471",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "kit": {
+        "block": "modal",
+        "module": "M11",
+        "variant": [
+          "text-only",
+          "horizontal"
+        ],
+        "set": "Modal",
+        "group": "component",
+        "home": "❖ Modal",
+        "instance": "13530:18283",
+        "instances": [
+          "13530:18283"
+        ]
+      }
+    },
+    {
+      "slot": "s02",
+      "rootTag": null,
+      "rootClass": "",
+      "node": "I13530:18283;13530:18403",
+      "nodes": [
+        "I13530:18283;13530:18403"
+      ],
+      "visibleText": "Stay logged in Logout now",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [
+        {
+          "text": "Stay logged in",
+          "parentTag": "button",
+          "parentClass": ""
+        },
+        {
+          "text": "Logout now",
+          "parentTag": "button",
+          "parentClass": ""
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "text",
+          "text": "Stay logged in",
+          "parentTag": "button",
+          "parentClass": "",
+          "inButton": true,
+          "node": "I13530:18283;13530:18403;13028:2135",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Logout now",
+          "parentTag": "button",
+          "parentClass": "",
+          "inButton": true,
+          "node": "I13530:18283;13530:18403;13028:2136",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "kit": {
+        "block": "modal",
+        "module": "M11",
+        "variant": [
+          "text-only",
+          "horizontal"
+        ],
+        "set": "Modal",
+        "group": "component",
+        "home": "❖ Modal",
+        "instance": "13530:18283",
+        "instances": [
+          "13530:18283"
+        ]
+      }
+    }
+  ],
+  "flags": [
+    {
+      "id": "heading.ambiguous",
+      "severity": "review",
+      "node": "I13530:18283;12467:15509",
+      "slot": "s01",
+      "detail": "26px matches no donor type role; no heading roles in donor-tokens"
+    },
+    {
+      "id": "heading.level",
+      "severity": "info",
+      "node": "I13530:18283;12467:15509",
+      "slot": "s01",
+      "detail": "size heading set to h1 (was h2): the first heading is the page h1"
+    },
+    {
+      "id": "metadata.title-derived",
+      "severity": "review",
+      "node": "13530:18497",
+      "slot": null,
+      "detail": "title \"Inactivity\" derived from the frame name; description, canonical, OG and Twitter tags are absent"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+/* One AZ form page template — owned by the form builder (B)
+ * Pages: Header Registration + Block Content sections + Footer.
+ * Desktop frames are min 1024 tall; tablet and mobile frames hug their content.
+ * Sections carry per-breakpoint overrides from block-content.js:
+ *   --bc-pt-{d,t,m} top padding, --bc-pb-{d,t,m} bottom padding, --bc-h-{d,t,m} frame height.
+ * Sections styled bp-desktop / bp-tablet / bp-mobile only show at those breakpoints.
+ */
+body.form.appear {
+  min-height: 0;
+}
+
+body.form main > .section {
+  min-height: var(--bc-h-m, 0);
+  padding: var(--bc-pt-m, var(--section-padding)) var(--gutter) var(--bc-pb-m, 0);
+}
+
+body.form main > .section[class*="bp-"] {
+  display: none;
+}
+
+body.form main > .section.bp-mobile {
+  display: block;
+}
+
+@media (width >= 768px) {
+  body.form main > .section {
+    min-height: var(--bc-h-t, 0);
+    padding: var(--bc-pt-t, var(--section-padding)) var(--gutter) var(--bc-pb-t, 0);
+  }
+
+  body.form main > .section.bp-mobile {
+    display: none;
+  }
+
+  body.form main > .section.bp-tablet {
+    display: block;
+  }
+}
+
+@media (width >= 1200px) {
+  body.form.appear {
+    min-height: 1024px;
+  }
+
+  body.form main > .section {
+    min-height: var(--bc-h-d, 0);
+    padding: var(--bc-pt-d, var(--section-padding)) var(--gutter) var(--bc-pb-d, 0);
+  }
+
+  body.form main > .section.bp-tablet {
+    display: none;
+  }
+
+  body.form main > .section.bp-desktop {
+    display: block;
+  }
+}
+
+/* 3rd party login: the login modal over the 60% black scrim, no page chrome */
+body.form:has(main > .section.modal) {
+  min-height: 800px;
+  background-color: rgb(102 102 102);
+}
+
+body.form:has(main > .section.modal) header,
+body.form:has(main > .section.modal) footer {
+  display: none;
+}
+
+body.form:has(main > .section.modal) main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+body.form main > .section.modal {
+  padding: 0 16px;
+  background: none;
+}
+
+@media (width >= 768px) {
+  body.form:has(main > .section.modal) {
+    min-height: 541px;
+  }
+}
+
+@media (width >= 1200px) {
+  body.form:has(main > .section.modal) {
+    min-height: 1024px;
+  }
+}

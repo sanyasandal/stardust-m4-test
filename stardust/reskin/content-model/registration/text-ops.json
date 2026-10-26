@@ -1,0 +1,130 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "command": "content",
+    "writtenAt": "2026-10-26T09:25:00Z"
+  },
+  "chrome": "outside the text gate (header/footer are separate slots)",
+  "text": [
+    {
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11128;12160:3618",
+      "field": "I13496:10840;12534:1406;13496:12041;12679:11128",
+      "op": "attr",
+      "to": "placeholder",
+      "text": "e.g. John",
+      "why": "a drawn field renders its value as the placeholder attribute"
+    },
+    {
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11129;12160:3618",
+      "field": "I13496:10840;12534:1406;13496:12041;12679:11129",
+      "op": "attr",
+      "to": "placeholder",
+      "text": "e.g. Dowry",
+      "why": "a drawn field renders its value as the placeholder attribute"
+    },
+    {
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11131;12160:3618",
+      "field": "I13496:10840;12534:1406;13496:12041;12679:11131",
+      "op": "attr",
+      "to": "placeholder",
+      "text": "e.g. Doctor",
+      "why": "a drawn field renders its value as the placeholder attribute"
+    },
+    {
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11132;12128:3187",
+      "field": "I13496:10840;12534:1406;13496:12041;12679:11132",
+      "op": "attr",
+      "to": "placeholder",
+      "text": "Select an option",
+      "why": "a drawn field renders its value as the placeholder attribute"
+    },
+    {
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11317;12160:3618",
+      "field": "I13496:10840;12534:1406;13496:12041;12679:11317",
+      "op": "attr",
+      "to": "placeholder",
+      "text": "e.g. St Thomas’ Hospital",
+      "why": "a drawn field renders its value as the placeholder attribute"
+    },
+    {
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11318;12128:3187",
+      "field": "I13496:10840;12534:1406;13496:12041;12679:11318",
+      "op": "attr",
+      "to": "placeholder",
+      "text": "Select an option",
+      "why": "a drawn field renders its value as the placeholder attribute"
+    },
+    {
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11135;12160:3618",
+      "field": "I13496:10840;12534:1406;13496:12041;12679:11135",
+      "op": "attr",
+      "to": "placeholder",
+      "text": "e.g. 123456789",
+      "why": "a drawn field renders its value as the placeholder attribute"
+    },
+    {
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11361;12160:3618",
+      "field": "I13496:10840;12534:1406;13496:12041;12679:11361",
+      "op": "attr",
+      "to": "placeholder",
+      "text": "e.g. +44 7700 900123",
+      "why": "a drawn field renders its value as the placeholder attribute"
+    },
+    {
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11362;12160:3618",
+      "field": "I13496:10840;12534:1406;13496:12041;12679:11362",
+      "op": "attr",
+      "to": "placeholder",
+      "text": "e.g. john.dowry@example.com",
+      "why": "a drawn field renders its value as the placeholder attribute"
+    },
+    {
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11404;12160:3618",
+      "field": "I13496:10840;12534:1406;13496:12041;12679:11404",
+      "op": "attr",
+      "to": "placeholder",
+      "text": "e.g. Oxford Street, 45",
+      "why": "a drawn field renders its value as the placeholder attribute"
+    },
+    {
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11405;12160:3618",
+      "field": "I13496:10840;12534:1406;13496:12041;12679:11405",
+      "op": "attr",
+      "to": "placeholder",
+      "text": "e.g. Avenue/Road/Lane",
+      "why": "a drawn field renders its value as the placeholder attribute"
+    },
+    {
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11453;12160:3618",
+      "field": "I13496:10840;12534:1406;13496:12041;12679:11453",
+      "op": "attr",
+      "to": "placeholder",
+      "text": "e.g. PO16 7",
+      "why": "a drawn field renders its value as the placeholder attribute"
+    },
+    {
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11454;12160:3618",
+      "field": "I13496:10840;12534:1406;13496:12041;12679:11454",
+      "op": "attr",
+      "to": "placeholder",
+      "text": "e.g. London",
+      "why": "a drawn field renders its value as the placeholder attribute"
+    },
+    {
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11137;12160:3663",
+      "field": "I13496:10840;12534:1406;13496:12041;12679:11137",
+      "op": "attr",
+      "to": "placeholder",
+      "text": "*************",
+      "why": "a drawn field renders its value as the placeholder attribute"
+    },
+    {
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11138;12160:3663",
+      "field": "I13496:10840;12534:1406;13496:12041;12679:11138",
+      "op": "attr",
+      "to": "placeholder",
+      "text": "*************",
+      "why": "a drawn field renders its value as the placeholder attribute"
+    }
+  ]
+}

@@ -1,0 +1,539 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "writtenAt": "2026-10-26T09:24:13Z",
+    "readArtifacts": [
+      "stardust/reskin/curation-rules.json",
+      "stardust/canon-source/foundation/",
+      "stardust/canon-source/module-candidates.json",
+      "stardust/canon-source/assets/screenshots/index.json"
+    ],
+    "synthesizedInputs": []
+  },
+  "donor": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60",
+  "curatedFrom": "reskin/curation-rules.json@v1; canon-source/foundation (figma version 2413431205561424165)",
+  "note": "Pinned reference per module family: kit: Button (node 12084:109164, 1440px); foundation: Font Styles (node 12042:106827, 1440px). Other frames corroborate.",
+  "palette": {
+    "pageBg": "rgb(255, 255, 255)",
+    "bodyFg": "rgb(60, 66, 66)",
+    "headingFg": "rgb(60, 66, 66)"
+  },
+  "type": {
+    "family": "Inter, \"Helvetica Neue\", Arial, sans-serif",
+    "familyNote": "adopted as a token string with a local fallback; no font files from Figma; family equivalence applied: \"Inter\" → \"Inter, \"Helvetica Neue\", Arial, sans-serif\", \"Lexia\" → \"Lexia, \"Roboto Slab\", Georgia, serif\"",
+    "body": {
+      "fontSize": "16px"
+    },
+    "display": {
+      "fontWeight": "400",
+      "textAlign": "left"
+    }
+  },
+  "layout": {
+    "containerMaxWidth": "1180px",
+    "sectionPaddingY": "40px",
+    "mobile": {
+      "gutter": "16px"
+    },
+    "navAlign": "center"
+  },
+  "buttons": {
+    "primary": {
+      "background": "rgb(208, 0, 111)",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "Inter, \"Helvetica Neue\", Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "lineHeight": "1.5",
+      "letterSpacing": "normal",
+      "borderRadius": "4px",
+      "padding": "0px 16px",
+      "border": "1px solid rgb(208, 0, 111)",
+      "height": "42px"
+    }
+  },
+  "cards": {},
+  "radii": {
+    "radius-32": "32px",
+    "radius-2": "2px",
+    "radius-8": "8px",
+    "radius-1": "1px",
+    "radius-5": "5px",
+    "radius-4": "4px",
+    "radius-9999": "9999px",
+    "radius-12": "12px",
+    "radius-4-4-0-0": "4px 4px 0px 0px",
+    "radius-8-8-0-0": "8px 8px 0px 0px",
+    "radius-0-0-8-8": "0px 0px 8px 8px",
+    "radius-48": "48px"
+  },
+  "shadows": {
+    "shadow-0-4-6-0-x2": "rgba(0, 0, 0, 0.05) 0px 4px 6px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px 0px",
+    "shadow-0-2-4-2-x2": "rgba(0, 0, 0, 0.05) 0px 2px 4px -2px, rgba(0, 0, 0, 0.1) 0px 4px 6px -1px",
+    "shadow-0-4-6-1-x2": "rgba(29, 41, 61, 0.1) 0px 4px 6px -1px, rgba(29, 41, 61, 0.1) 0px 2px 4px -2px"
+  },
+  "motifs": [
+    "AstraZeneca One AZ: magenta core (#830051, #d0006f), gold accent (#f0ab00), mineral greys (#ebefee, #9db0ac); flat surfaces, 4px radii"
+  ],
+  "nodeRefs": {
+    "palette.pageBg": {
+      "node": "12042:106827",
+      "figma": {
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "opacity": 1
+      },
+      "via": "rest"
+    },
+    "palette.bodyFg": {
+      "node": "I12042:106828;11974:36427",
+      "figma": {
+        "color": {
+          "r": 0.23529411852359772,
+          "g": 0.25882354378700256,
+          "b": 0.25882354378700256,
+          "a": 1
+        },
+        "opacity": 1
+      },
+      "via": "rest"
+    },
+    "palette.headingFg": {
+      "node": "I12042:106828;11974:36427",
+      "figma": {
+        "color": {
+          "r": 0.23529411852359772,
+          "g": 0.25882354378700256,
+          "b": 0.25882354378700256,
+          "a": 1
+        },
+        "opacity": 1
+      },
+      "via": "rest"
+    },
+    "type.family": {
+      "node": "I12042:106828;11974:36428",
+      "figma": "Inter",
+      "via": "rest",
+      "normalizedBy": [
+        "family-inter"
+      ]
+    },
+    "buttons.primary.background": {
+      "node": "12084:109155",
+      "figma": {
+        "blendMode": "NORMAL",
+        "type": "SOLID",
+        "color": {
+          "r": 0.8156862854957581,
+          "g": 0,
+          "b": 0.43529412150382996,
+          "a": 1
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2056:1220"
+          }
+        }
+      },
+      "via": "rest"
+    },
+    "buttons.primary.color": {
+      "node": "12077:109144",
+      "figma": {
+        "blendMode": "NORMAL",
+        "type": "SOLID",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2056:1222"
+          }
+        }
+      },
+      "via": "rest"
+    },
+    "buttons.primary.fontFamily": {
+      "node": "12077:109144",
+      "figma": "Inter",
+      "via": "rest",
+      "normalizedBy": [
+        "family-inter"
+      ]
+    },
+    "buttons.primary.fontSize": {
+      "node": "12077:109144",
+      "figma": 16,
+      "via": "rest"
+    },
+    "buttons.primary.fontWeight": {
+      "node": "12077:109144",
+      "figma": 700,
+      "via": "rest"
+    },
+    "buttons.primary.lineHeight": {
+      "node": "12077:109144",
+      "figma": {
+        "lineHeightPx": 24,
+        "lineHeightUnit": "PIXELS",
+        "fontSize": 16
+      },
+      "via": "rest",
+      "normalizedBy": [
+        "lh-px"
+      ]
+    },
+    "buttons.primary.letterSpacing": {
+      "node": "12077:109144",
+      "figma": {
+        "letterSpacing": 0,
+        "fontSize": 16
+      },
+      "via": "rest"
+    },
+    "buttons.primary.borderRadius": {
+      "node": "12084:109155",
+      "figma": 4,
+      "via": "rest"
+    },
+    "buttons.primary.padding": {
+      "node": "12084:109155",
+      "figma": [
+        0,
+        16,
+        0,
+        16
+      ],
+      "via": "rest"
+    },
+    "buttons.primary.border": {
+      "node": "12084:109155",
+      "figma": {
+        "strokeWeight": 1,
+        "paint": {
+          "blendMode": "NORMAL",
+          "type": "SOLID",
+          "color": {
+            "r": 0.8156862854957581,
+            "g": 0,
+            "b": 0.43529412150382996,
+            "a": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2056:1221"
+            }
+          }
+        }
+      },
+      "via": "rest"
+    },
+    "buttons.primary.height": {
+      "node": "12084:109155",
+      "figma": 42,
+      "via": "rest"
+    },
+    "layout.containerMaxWidth": {
+      "node": "12360:10289",
+      "figma": {
+        "kind": "max-width",
+        "px": 1180
+      },
+      "via": "rest"
+    },
+    "layout.sectionPaddingY": {
+      "node": "12042:106827",
+      "figma": {
+        "kind": "padding",
+        "px": 40
+      },
+      "via": "rest"
+    },
+    "type.body.fontSize": {
+      "node": "I12042:106828;11974:36428",
+      "figma": 16,
+      "via": "rest"
+    },
+    "type.display.fontWeight": {
+      "node": "12072:106958",
+      "figma": 400,
+      "via": "rest"
+    },
+    "layout.mobile.gutter": {
+      "node": "12850:22465",
+      "figma": {
+        "kind": "padding",
+        "px": 16
+      },
+      "via": "rest"
+    },
+    "radii.radius-32": {
+      "node": "12042:106827",
+      "figma": 32,
+      "via": "rest"
+    },
+    "radii.radius-2": {
+      "node": "12108:510",
+      "figma": 2,
+      "via": "rest"
+    },
+    "radii.radius-8": {
+      "node": "11974:36519",
+      "figma": 8,
+      "via": "rest"
+    },
+    "radii.radius-1": {
+      "node": "11974:36678",
+      "figma": 1,
+      "via": "rest"
+    },
+    "radii.radius-5": {
+      "node": "12360:10305",
+      "figma": 5,
+      "via": "rest"
+    },
+    "radii.radius-4": {
+      "node": "12522:1025",
+      "figma": 4,
+      "via": "rest"
+    },
+    "radii.radius-9999": {
+      "node": "12473:16074",
+      "figma": 9999,
+      "via": "rest"
+    },
+    "radii.radius-12": {
+      "node": "12467:15525",
+      "figma": 12,
+      "via": "rest"
+    },
+    "radii.radius-4-4-0-0": {
+      "node": "12305:8856",
+      "figma": [
+        4,
+        4,
+        0,
+        0
+      ],
+      "via": "rest"
+    },
+    "radii.radius-8-8-0-0": {
+      "node": "12643:9381",
+      "figma": [
+        8,
+        8,
+        0,
+        0
+      ],
+      "via": "rest"
+    },
+    "radii.radius-0-0-8-8": {
+      "node": "12643:9396",
+      "figma": [
+        0,
+        0,
+        8,
+        8
+      ],
+      "via": "rest"
+    },
+    "radii.radius-48": {
+      "node": "13422:2883",
+      "figma": 48,
+      "via": "rest"
+    },
+    "shadows.shadow-0-4-6-0-x2": {
+      "node": "12277:7169",
+      "figma": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05000000074505806
+          },
+          "blendMode": "NORMAL",
+          "offset": {
+            "x": 0,
+            "y": 4
+          },
+          "radius": 6,
+          "showShadowBehindNode": true
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "blendMode": "NORMAL",
+          "offset": {
+            "x": 0,
+            "y": 10
+          },
+          "radius": 15,
+          "showShadowBehindNode": true
+        }
+      ],
+      "via": "rest"
+    },
+    "shadows.shadow-0-2-4-2-x2": {
+      "node": "12334:10071",
+      "figma": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.05000000074505806
+          },
+          "blendMode": "NORMAL",
+          "offset": {
+            "x": 0,
+            "y": 2
+          },
+          "radius": 4,
+          "spread": -2,
+          "showShadowBehindNode": true
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "blendMode": "NORMAL",
+          "offset": {
+            "x": 0,
+            "y": 4
+          },
+          "radius": 6,
+          "spread": -1,
+          "showShadowBehindNode": true
+        }
+      ],
+      "via": "rest"
+    },
+    "shadows.shadow-0-4-6-1-x2": {
+      "node": "12334:9957",
+      "figma": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "color": {
+            "r": 0.11372549086809158,
+            "g": 0.16078431904315948,
+            "b": 0.239215686917305,
+            "a": 0.10000000149011612
+          },
+          "blendMode": "NORMAL",
+          "offset": {
+            "x": 0,
+            "y": 4
+          },
+          "radius": 6,
+          "spread": -1,
+          "showShadowBehindNode": true
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "color": {
+            "r": 0.11372549086809158,
+            "g": 0.16078431904315948,
+            "b": 0.239215686917305,
+            "a": 0.10000000149011612
+          },
+          "blendMode": "NORMAL",
+          "offset": {
+            "x": 0,
+            "y": 2
+          },
+          "radius": 4,
+          "spread": -2,
+          "showShadowBehindNode": true
+        }
+      ],
+      "via": "rest"
+    },
+    "type.display.textAlign": {
+      "node": "12072:106958",
+      "figma": {
+        "textAlignHorizontal": {
+          "left": 181
+        }
+      },
+      "via": "rest",
+      "derived": "majority by characters"
+    },
+    "layout.navAlign": {
+      "node": "12379:10768",
+      "figma": {
+        "headerRows": {
+          "center": 1
+        }
+      },
+      "via": "rest",
+      "derived": "majority of desktop header rows"
+    }
+  },
+  "coverage": {
+    "asserted": 13,
+    "absent": [
+      {
+        "path": "cards.primary.background",
+        "why": "the kit has no card component; teaser and block-content carry their own surfaces",
+        "probe": false
+      },
+      {
+        "path": "cards.primary.borderRadius",
+        "why": "no card component in the kit",
+        "probe": false
+      },
+      {
+        "path": "cards.primary.padding",
+        "why": "no card component in the kit",
+        "probe": false
+      },
+      {
+        "path": "cards.primary.titleColor",
+        "why": "no card component in the kit",
+        "probe": false
+      },
+      {
+        "path": "layout.mobile.sectionPaddingY",
+        "why": "mobile page frames use the desktop section rhythm; read per block from the responsive frames",
+        "probe": false
+      }
+    ],
+    "suspect": [],
+    "recommended": {
+      "curated": [
+        "buttons.primary.height",
+        "layout.mobile.gutter"
+      ],
+      "missing": []
+    }
+  }
+}

@@ -1,0 +1,1861 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "writtenAt": "2026-10-26T09:24:13Z",
+    "readArtifacts": [
+      "stardust/canon-source/foundation/",
+      "stardust/reskin/donor-tokens.json",
+      "stardust/reskin/curation-rules.json"
+    ],
+    "synthesizedInputs": [],
+    "note": "DESCRIPTIVE capture of a Figma design system (REST), not browser-rendered"
+  },
+  "site": null,
+  "origins": [
+    {
+      "origin": "https://www.figma.com/design/rsZQmpVzuyn0KhCDA3WN60",
+      "role": "design-source",
+      "pagesCaptured": 38,
+      "contributedSignals": [
+        "palette",
+        "type",
+        "motifs"
+      ]
+    }
+  ],
+  "logo": null,
+  "palette": [
+    {
+      "role": "pageBg",
+      "value": "#ffffff",
+      "occurrences": 399,
+      "sourceSelectors": [],
+      "sources": [
+        "12042:106827",
+        "12194:4769",
+        "12084:109340",
+        "12108:564",
+        "12108:611"
+      ],
+      "usedAs": [
+        "background",
+        "text"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#ebefee",
+      "occurrences": 83,
+      "sourceSelectors": [],
+      "sources": [
+        "12042:106828",
+        "12194:4770",
+        "12084:109341",
+        "12108:510",
+        "12108:735"
+      ],
+      "usedAs": [
+        "background",
+        "border"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#b2b4b4",
+      "occurrences": 113,
+      "sourceSelectors": [],
+      "sources": [
+        "I12042:106828;11974:36428",
+        "I12042:106828;11974:36684",
+        "I12194:4770;11974:36428",
+        "I12194:4770;11974:36684",
+        "I12084:109341;11974:36428"
+      ],
+      "usedAs": [
+        "background",
+        "text",
+        "border"
+      ]
+    },
+    {
+      "role": "bodyFg, headingFg",
+      "value": "#3c4242",
+      "occurrences": 1528,
+      "sourceSelectors": [],
+      "sources": [
+        "I12042:106828;11974:36427",
+        "I12042:106828;11974:36429",
+        "12072:106982",
+        "12042:106830",
+        "12072:106958"
+      ],
+      "usedAs": [
+        "background",
+        "text",
+        "border"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#c4cfcd",
+      "occurrences": 158,
+      "sourceSelectors": [],
+      "sources": [
+        "I12042:106828;11974:36821;11974:36690",
+        "I12042:106828;11974:36821;11974:36691",
+        "I12042:106828;11974:36821;11974:36692",
+        "I12042:106828;11974:36821;11974:36693",
+        "I12042:106828;11974:36821;11974:36694"
+      ],
+      "usedAs": [
+        "background",
+        "border"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#8d8f8f",
+      "occurrences": 331,
+      "sourceSelectors": [],
+      "sources": [
+        "I12042:106828;11974:36467",
+        "12072:106954",
+        "12072:106967",
+        "12072:106973",
+        "12072:106979"
+      ],
+      "usedAs": [
+        "background",
+        "text"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#d8dfde",
+      "occurrences": 95,
+      "sourceSelectors": [],
+      "sources": [
+        "12072:106961",
+        "12072:106968",
+        "12072:106974",
+        "12072:106980",
+        "12072:106988"
+      ],
+      "usedAs": [
+        "background",
+        "border"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#656969",
+      "occurrences": 78,
+      "sourceSelectors": [],
+      "sources": [
+        "12108:634",
+        "12108:854",
+        "12168:4356",
+        "12168:4335",
+        "12168:4314"
+      ],
+      "usedAs": [
+        "background",
+        "text"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#d0006f",
+      "occurrences": 483,
+      "sourceSelectors": [],
+      "sources": [
+        "12108:652",
+        "12108:753",
+        "12108:836",
+        "12108:1168",
+        "12108:1215"
+      ],
+      "usedAs": [
+        "background",
+        "text",
+        "border"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#f6cee7",
+      "occurrences": 35,
+      "sourceSelectors": [],
+      "sources": [
+        "12108:744",
+        "12072:107137",
+        "12077:107142",
+        "12157:3274",
+        "12077:107146"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#d8dada",
+      "occurrences": 137,
+      "sourceSelectors": [],
+      "sources": [
+        "12108:809",
+        "12265:6346",
+        "12265:6366",
+        "12334:9626",
+        "12334:9696"
+      ],
+      "usedAs": [
+        "background",
+        "border"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#e366a9",
+      "occurrences": 1,
+      "sourceSelectors": [],
+      "sources": [
+        "12108:892"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#830051",
+      "occurrences": 63,
+      "sourceSelectors": [],
+      "sources": [
+        "12108:1154",
+        "12108:1207",
+        "12077:108447",
+        "12360:10286",
+        "12473:15783"
+      ],
+      "usedAs": [
+        "background",
+        "text",
+        "border"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#4f0031",
+      "occurrences": 1,
+      "sourceSelectors": [],
+      "sources": [
+        "12108:1161"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#f0ab00",
+      "occurrences": 64,
+      "sourceSelectors": [],
+      "sources": [
+        "12108:1175",
+        "12077:108448",
+        "12928:23452",
+        "12928:23453",
+        "12928:23454"
+      ],
+      "usedAs": [
+        "background",
+        "border"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#9db0ac",
+      "occurrences": 36,
+      "sourceSelectors": [],
+      "sources": [
+        "12108:1182",
+        "I12168:4343;12126:3171",
+        "I13402:7406;12126:3171",
+        "I13402:9076;12126:3171",
+        "I12168:4322;12126:3171"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#d3d3de",
+      "occurrences": 18,
+      "sourceSelectors": [],
+      "sources": [
+        "12108:1303",
+        "12108:1310",
+        "12108:1317",
+        "12108:1324",
+        "12108:1331"
+      ],
+      "usedAs": [
+        "background",
+        "border"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#252359",
+      "occurrences": 3,
+      "sourceSelectors": [],
+      "sources": [
+        "12108:1309",
+        "12108:1344",
+        "12108:1352"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#c4007a",
+      "occurrences": 7,
+      "sourceSelectors": [],
+      "sources": [
+        "12108:1316",
+        "12108:1359",
+        "12108:1366",
+        "12108:1374",
+        "12108:1381"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#f0b323",
+      "occurrences": 15,
+      "sourceSelectors": [],
+      "sources": [
+        "12108:1323",
+        "12108:1330",
+        "12122:2676",
+        "12122:2683",
+        "12122:2727"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#007260",
+      "occurrences": 19,
+      "sourceSelectors": [],
+      "sources": [
+        "12108:1508",
+        "12108:1515",
+        "12108:1522",
+        "12108:1528",
+        "12108:1529"
+      ],
+      "usedAs": [
+        "background",
+        "border"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#ae2573",
+      "occurrences": 12,
+      "sourceSelectors": [],
+      "sources": [
+        "12108:1514",
+        "12108:1549",
+        "12108:1557",
+        "12108:1571",
+        "12108:1579"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#00b398",
+      "occurrences": 5,
+      "sourceSelectors": [],
+      "sources": [
+        "12108:1521",
+        "12108:1535",
+        "12077:108575",
+        "12077:108576",
+        "12077:108577"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#e5f7f5",
+      "occurrences": 1,
+      "sourceSelectors": [],
+      "sources": [
+        "12108:1542"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#c6edf9",
+      "occurrences": 18,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:1644",
+        "12122:1651",
+        "12122:1658",
+        "12122:1665",
+        "12122:1672"
+      ],
+      "usedAs": [
+        "background",
+        "border"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#001663",
+      "occurrences": 6,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:1650",
+        "12122:1685",
+        "12122:1693",
+        "12122:1729",
+        "12122:1737"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#0074e0",
+      "occurrences": 3,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:1657",
+        "12122:1700",
+        "12122:1707"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#a1e602",
+      "occurrences": 4,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:1664",
+        "12122:1671",
+        "12122:1715",
+        "12122:1722"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#fcd9d6",
+      "occurrences": 17,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:1772",
+        "12122:1779",
+        "12122:1786",
+        "12122:1793",
+        "12122:1800"
+      ],
+      "usedAs": [
+        "border"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#ef4130",
+      "occurrences": 6,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:1778",
+        "12122:1813",
+        "12122:1821",
+        "12122:1835",
+        "12122:1843"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#005589",
+      "occurrences": 4,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:1785",
+        "12122:1828",
+        "12122:1865",
+        "12122:1872"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#cbdb2a",
+      "occurrences": 1,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:1792"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#00a5e2",
+      "occurrences": 1,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:1799"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#fdecea",
+      "occurrences": 1,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:1806"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#f5e8ea",
+      "occurrences": 18,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:1898",
+        "12122:1905",
+        "12122:1912",
+        "12122:1919",
+        "12122:1926"
+      ],
+      "usedAs": [
+        "background",
+        "border"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#003262",
+      "occurrences": 4,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:1904",
+        "12122:1939",
+        "12122:1947",
+        "12122:2417"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#ac182e",
+      "occurrences": 5,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:1911",
+        "12122:1954",
+        "12122:1961",
+        "12122:1969",
+        "12122:1976"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#00ae9b",
+      "occurrences": 3,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:1918",
+        "12122:1991",
+        "12122:1998"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#7099d3",
+      "occurrences": 1,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:1925"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#e5f4f2",
+      "occurrences": 18,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2026",
+        "12122:2033",
+        "12122:2040",
+        "12122:2047",
+        "12122:2054"
+      ],
+      "usedAs": [
+        "background",
+        "border"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#003b45",
+      "occurrences": 3,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2032",
+        "12122:2075",
+        "12122:2119"
+      ],
+      "usedAs": [
+        "background",
+        "border"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#00927c",
+      "occurrences": 3,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2039",
+        "12122:2053",
+        "12122:2082"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#c72263",
+      "occurrences": 7,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2046",
+        "12122:2067",
+        "12122:2089",
+        "12122:2097",
+        "12122:2104"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#6810d4",
+      "occurrences": 20,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2152",
+        "12122:2159",
+        "12122:2165",
+        "12122:2166",
+        "12122:2173"
+      ],
+      "usedAs": [
+        "background",
+        "border"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#373a36",
+      "occurrences": 8,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2158",
+        "12122:2201",
+        "12122:2245",
+        "12122:2662",
+        "12122:2705"
+      ],
+      "usedAs": [
+        "background",
+        "border"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#004d74",
+      "occurrences": 5,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2172",
+        "12122:2193",
+        "12122:2215",
+        "12122:2223",
+        "12122:2230"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#b2d234",
+      "occurrences": 2,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2179",
+        "12122:2252"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#e8dbf9",
+      "occurrences": 1,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2186"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#2f5475",
+      "occurrences": 4,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2284",
+        "12122:2319",
+        "12122:2327",
+        "12122:2341"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#ff0000",
+      "occurrences": 8,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2291",
+        "12122:2305",
+        "12122:2334",
+        "12122:2349",
+        "12122:2356"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#97989b",
+      "occurrences": 1,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2298"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#fee5e4",
+      "occurrences": 1,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2312"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#e5f3f4",
+      "occurrences": 17,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2404",
+        "12122:2411",
+        "12122:2418",
+        "12122:2425",
+        "12122:2432"
+      ],
+      "usedAs": [
+        "border"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#56335c",
+      "occurrences": 7,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2410",
+        "12122:2445",
+        "12122:2453",
+        "12122:2467",
+        "12122:2475"
+      ],
+      "usedAs": [
+        "background",
+        "border"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#00838a",
+      "occurrences": 5,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2424",
+        "12122:2431",
+        "12122:2460",
+        "12122:2497",
+        "12122:2504"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#efeaef",
+      "occurrences": 1,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2438"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#003865",
+      "occurrences": 31,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2530",
+        "12122:2536",
+        "12122:2537",
+        "12122:2544",
+        "12122:2551"
+      ],
+      "usedAs": [
+        "background",
+        "border"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#ef6f22",
+      "occurrences": 3,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2543",
+        "12122:2571",
+        "12122:2586"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#dd305d",
+      "occurrences": 6,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2550",
+        "12122:2593",
+        "12122:2601",
+        "12122:2608",
+        "12122:2630"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#e6ecf0",
+      "occurrences": 1,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2564"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#d5f7f3",
+      "occurrences": 18,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2656",
+        "12122:2663",
+        "12122:2670",
+        "12122:2677",
+        "12122:2684"
+      ],
+      "usedAs": [
+        "background",
+        "border"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#2cd5c4",
+      "occurrences": 4,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2669",
+        "12122:2697",
+        "12077:108454",
+        "12077:108455"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#20a295",
+      "occurrences": 1,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2712"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#8083c7",
+      "occurrences": 17,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2782",
+        "12122:2789",
+        "12122:2796",
+        "12122:2803",
+        "12122:2810"
+      ],
+      "usedAs": [
+        "border"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#250e62",
+      "occurrences": 11,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2788",
+        "12122:2823",
+        "12122:2831",
+        "12122:2845",
+        "12122:2853"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#1da4b0",
+      "occurrences": 5,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2795",
+        "12122:2809",
+        "12122:2838",
+        "12122:2875",
+        "12122:2882"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#f8485e",
+      "occurrences": 2,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2802",
+        "12077:108995"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#effcff",
+      "occurrences": 1,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2816"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#e5f0eb",
+      "occurrences": 18,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2908",
+        "12122:2915",
+        "12122:2922",
+        "12122:2929",
+        "12122:2936"
+      ],
+      "usedAs": [
+        "background",
+        "border"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#004122",
+      "occurrences": 5,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2914",
+        "12122:2957",
+        "12122:2993",
+        "12122:3001",
+        "12122:3008"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#fff33b",
+      "occurrences": 3,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2921",
+        "12122:2979",
+        "12122:2986"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#006838",
+      "occurrences": 3,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2928",
+        "12122:2935",
+        "12122:2964"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#f26522",
+      "occurrences": 2,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:2949",
+        "12122:2971"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#dc4405",
+      "occurrences": 20,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:3034",
+        "12122:3040",
+        "12122:3041",
+        "12122:3048",
+        "12122:3055"
+      ],
+      "usedAs": [
+        "background",
+        "border"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#337079",
+      "occurrences": 7,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:3047",
+        "12122:3075",
+        "12122:3097",
+        "12122:3105",
+        "12122:3112"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#ffc72c",
+      "occurrences": 1,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:3054"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#173c54",
+      "occurrences": 2,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:3061",
+        "12122:3090"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#fff9ea",
+      "occurrences": 1,
+      "sourceSelectors": [],
+      "sources": [
+        "12122:3068"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#000000",
+      "occurrences": 72,
+      "sourceSelectors": [],
+      "sources": [
+        "15163:3648",
+        "15163:3649",
+        "12077:109000",
+        "12077:108987",
+        "12077:108990"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#2cccd3",
+      "occurrences": 1,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108994"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#52bbb5",
+      "occurrences": 2,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108892",
+        "12077:108893"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#fbb800",
+      "occurrences": 9,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108894",
+        "12077:108977",
+        "12077:108978",
+        "12077:108979",
+        "12077:108980"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#1e1e1c",
+      "occurrences": 169,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108901",
+        "12077:108902",
+        "12077:108903",
+        "12077:108904",
+        "12077:108905"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#ef426f",
+      "occurrences": 1,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108843"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#ff7f32",
+      "occurrences": 1,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108844"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#4f5050",
+      "occurrences": 35,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108845",
+        "12077:108846",
+        "12077:108847",
+        "12077:108848",
+        "12077:108849"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#008d95",
+      "occurrences": 2,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108725",
+        "12077:108745"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#5c315e",
+      "occurrences": 2,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108729",
+        "12077:108749"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#cddc29",
+      "occurrences": 2,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108733",
+        "12077:108753"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#009e4d",
+      "occurrences": 2,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108737",
+        "12077:108757"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#272941",
+      "occurrences": 2,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108741",
+        "12077:108761"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#535862",
+      "occurrences": 6,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108709",
+        "12077:108710",
+        "12077:108711",
+        "12077:108712",
+        "12077:108713"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#003a44",
+      "occurrences": 2,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108641",
+        "12077:108642"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#68c6b7",
+      "occurrences": 4,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108644",
+        "12077:108645",
+        "12077:108650",
+        "12077:108651"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#0b9681",
+      "occurrences": 4,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108646",
+        "12077:108647",
+        "12077:108648",
+        "12077:108649"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#316169",
+      "occurrences": 52,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108652",
+        "12077:108653",
+        "12077:108654",
+        "12077:108655",
+        "12077:108656"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#ad1f2f",
+      "occurrences": 9,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108618",
+        "12077:108619",
+        "12077:108620",
+        "12077:108621",
+        "12077:108622"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#7299d0",
+      "occurrences": 12,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108625",
+        "12077:108626",
+        "12077:108627",
+        "12077:108628",
+        "12077:108629"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#00a998",
+      "occurrences": 1,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108635"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#0099db",
+      "occurrences": 1,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108583"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#673e41",
+      "occurrences": 1,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108584"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#e63323",
+      "occurrences": 11,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108585",
+        "12077:108607",
+        "12077:108608",
+        "12077:108609",
+        "12077:108610"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#bf371d",
+      "occurrences": 2,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108586",
+        "12077:108587"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#d3d800",
+      "occurrences": 1,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108588"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#1d1d1b",
+      "occurrences": 18,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108589",
+        "12077:108590",
+        "12077:108591",
+        "12077:108592",
+        "12077:108593"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#333f48",
+      "occurrences": 1,
+      "sourceSelectors": [],
+      "sources": [
+        "12077:108578"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#9747ff",
+      "occurrences": 4,
+      "sourceSelectors": [],
+      "sources": [
+        "12522:1041",
+        "12410:12840",
+        "12277:7181",
+        "12607:4086"
+      ],
+      "usedAs": [
+        "border"
+      ]
+    },
+    {
+      "role": "unassigned",
+      "value": "#0000004d",
+      "occurrences": 6,
+      "sourceSelectors": [],
+      "sources": [
+        "13422:2883",
+        "13424:4812",
+        "13424:3552",
+        "13424:4830",
+        "13422:2902"
+      ],
+      "usedAs": [
+        "background"
+      ]
+    }
+  ],
+  "type": {
+    "headingFamily": {
+      "name": "Lexia",
+      "stack": "Lexia",
+      "weights": [
+        400,
+        500,
+        700
+      ],
+      "sizes": [
+        "56px",
+        "46px",
+        "36px",
+        "26px",
+        "24px",
+        "16px",
+        "14px",
+        "12px"
+      ],
+      "lineHeights": [
+        1.071,
+        1.087,
+        1.111,
+        1.308,
+        1.167,
+        1.5,
+        1.143,
+        1.333
+      ],
+      "letterSpacing": [
+        "normal"
+      ],
+      "sourceSelectors": []
+    },
+    "bodyFamily": {
+      "name": "Inter",
+      "stack": "Inter, \"Helvetica Neue\", Arial, sans-serif",
+      "weights": [
+        400,
+        500,
+        600,
+        700
+      ],
+      "sizes": [
+        "40px",
+        "18px",
+        "16px",
+        "14px",
+        "12px"
+      ],
+      "lineHeights": [
+        1.4,
+        1.556,
+        1.5,
+        1,
+        1.143,
+        1.333,
+        1.667
+      ],
+      "letterSpacing": [
+        "-1px",
+        "normal"
+      ],
+      "sourceSelectors": []
+    },
+    "monoFamily": null,
+    "scaleRatio": null,
+    "scaleAudit": null,
+    "loadStrategy": null,
+    "files": []
+  },
+  "spacing": null,
+  "motifs": {
+    "borderRadius": {
+      "primary": "4px",
+      "secondary": "2px",
+      "pill": "9999px"
+    },
+    "shadows": [
+      {
+        "value": "rgba(0, 0, 0, 0.05) 0px 4px 6px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px 0px",
+        "uses": "shadow-0-4-6-0-x2"
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.05) 0px 2px 4px -2px, rgba(0, 0, 0, 0.1) 0px 4px 6px -1px",
+        "uses": "shadow-0-2-4-2-x2"
+      },
+      {
+        "value": "rgba(29, 41, 61, 0.1) 0px 4px 6px -1px, rgba(29, 41, 61, 0.1) 0px 2px 4px -2px",
+        "uses": "shadow-0-4-6-1-x2"
+      }
+    ],
+    "gradients": [],
+    "patterns": [
+      {
+        "name": "Accordion",
+        "evidence": "canon-source/assets/screenshots/accordion.png · node 12360:10305: Figma kit component \"❖ Accordion\": set Accordion; on no page (library block) — refine with the slots it carries"
+      },
+      {
+        "name": "Back To Top",
+        "evidence": "canon-source/assets/screenshots/back-to-top.png · node 12522:1041: Figma kit component \"❖ Back to Top\": set Back-to-top; on no page (library block) — refine with the slots it carries"
+      },
+      {
+        "name": "Button",
+        "evidence": "canon-source/assets/screenshots/button.png · node 12084:109164: Figma kit component \"❖ Button\": set Button; instanced 1× on 1 page(s) — refine with the slots it carries"
+      },
+      {
+        "name": "Breadcrumb",
+        "evidence": "canon-source/assets/screenshots/breadcrumb-label.png · node 12410:12840: Figma kit component \"❖ Breadcrumb\": sets Breadcrumb label, Breadcrumble example; on no page (library block) — refine with the slots it carries"
+      },
+      {
+        "name": "Carousel",
+        "evidence": "canon-source/assets/screenshots/carousel.png · node 12473:16100: Figma kit component \"❖ Carousel\": set Carousel; parts .Carousel / Arrows, .Carousel / Dots; on no page (library block) — refine with the slots it carries"
+      },
+      {
+        "name": "Checkbox Radio",
+        "evidence": "canon-source/assets/screenshots/checkbox-input.png · node 12265:6347: Figma kit component \"❖ Checkbox & Radio\": sets Checkbox Input, Checkbox Form; instanced 1× on 1 page(s) — refine with the slots it carries"
+      },
+      {
+        "name": "Chips",
+        "evidence": "canon-source/assets/screenshots/chips.png · node 12334:9625: Figma kit component \"❖ Chips\": set Chips; on no page (library block) — refine with the slots it carries"
+      },
+      {
+        "name": "Dropdown",
+        "evidence": "canon-source/assets/screenshots/dropdown.png · node 12277:7181: Figma kit component \"❖ DropDown\": set Dropdown; parts .Dropdown-Listitem; on no page (library block) — refine with the slots it carries"
+      },
+      {
+        "name": "Input",
+        "evidence": "canon-source/assets/screenshots/input-field.png · node 12160:3287: Figma kit component \"❖ Input\": set Input Field; instanced 2× on 1 page(s) — refine with the slots it carries"
+      },
+      {
+        "name": "Links",
+        "evidence": "canon-source/assets/screenshots/links.png · node 12929:23477: Figma kit component \"❖ Links\": set Links; parts .Link; on no page (library block) — refine with the slots it carries"
+      },
+      {
+        "name": "Modal",
+        "evidence": "canon-source/assets/screenshots/modal.png · node 12467:15529: Figma kit component \"❖ Modal\": set Modal; instanced 2× on 2 page(s) — refine with the slots it carries"
+      },
+      {
+        "name": "Pagination",
+        "evidence": "canon-source/assets/screenshots/pagination-base.png · node 12328:9443: Figma kit component \"❖ Pagination\": sets Pagination / Base, Pagination / Group; on no page (library block) — refine with the slots it carries"
+      },
+      {
+        "name": "Search Bar",
+        "evidence": "canon-source/assets/screenshots/search-bar.png · node 12686:17319: Figma kit component \"❖ Search Bar\": set Search bar; on no page (library block) — refine with the slots it carries"
+      },
+      {
+        "name": "Slider",
+        "evidence": "canon-source/assets/screenshots/range-slider-thumb.png · node 12334:10073: Figma kit component \"❖ Slider\": sets Range Slider thumb, Slider; on no page (library block) — refine with the slots it carries"
+      },
+      {
+        "name": "Stepper",
+        "evidence": "canon-source/assets/screenshots/stepper.png · node 13121:3064: Figma kit component \"❖ Stepper\": set Stepper; on no page (library block) — refine with the slots it carries"
+      },
+      {
+        "name": "Tab Nav",
+        "evidence": "canon-source/assets/screenshots/tab-nav.png · node 12914:23169: Figma kit component \"❖ Tab Nav\": set Tab Nav; parts .Tab Nav Elements, .Tab Nav Items; on no page (library block) — refine with the slots it carries"
+      },
+      {
+        "name": "Tabs",
+        "evidence": "canon-source/assets/screenshots/tabs-group.png · node 12305:8988: Figma kit component \"❖ Tabs\": set Tabs Group; parts .Tabs base; on no page (library block) — refine with the slots it carries"
+      },
+      {
+        "name": "Tables",
+        "evidence": "canon-source/assets/screenshots/table-cell.png · node 12607:4086: Figma kit component \"❖ Tables\": set Table / Cell; on no page (library block) — refine with the slots it carries"
+      },
+      {
+        "name": "Toggle",
+        "evidence": "canon-source/assets/screenshots/toggle-switches.png · node 12287:8487: Figma kit component \"❖ Toggle\": sets Toggle switches, Toggle group; on no page (library block) — refine with the slots it carries"
+      },
+      {
+        "name": "Tooltip",
+        "evidence": "canon-source/assets/screenshots/tooltip.png · node 12334:9961: Figma kit component \"❖ Tooltip\": set Tooltip; on no page (library block) — refine with the slots it carries"
+      },
+      {
+        "name": "Account",
+        "evidence": "canon-source/assets/screenshots/account-summary.png · node 12693:19253: Figma kit template \"❏ Account\": set Account Summary; parts .Account summary; on no page (library block) — refine with the slots it carries"
+      },
+      {
+        "name": "Block Content",
+        "evidence": "canon-source/assets/screenshots/block-content.png · node 12601:4831: Figma kit template \"❏ Block Content\": set Block Content; parts .Title, .Text, .Buttons Collage, .Block Element; instanced 53× on 23 page(s) — refine with the slots it carries"
+      },
+      {
+        "name": "Cta Banner",
+        "evidence": "canon-source/assets/screenshots/cta-banner.png · node 13370:2040: Figma kit template \"❏ CTA Banner\": set CTA Banner; on no page (library block) — refine with the slots it carries"
+      },
+      {
+        "name": "Calculator",
+        "evidence": "canon-source/assets/screenshots/weight-conversion.png · node 15163:14798: Figma kit template \"❏ Calculator\": sets Weight Conversion, Dosing Calculator, Risk Calculator; parts .Calculator: Metric Display, .Calculator: Slot, .Calculator: Column; on no page (library block) — refine with the slots it carries"
+      },
+      {
+        "name": "Email",
+        "evidence": "canon-source/assets/screenshots/email.png · node 12712:21024: Figma kit template \"❏ Email\": set Email; instanced 5× on 5 page(s) — refine with the slots it carries"
+      },
+      {
+        "name": "Forms",
+        "evidence": "canon-source/assets/screenshots/form-content.png · node 12682:15985: Figma kit template \"❏ Forms\": set Form Content; parts .Forms; on no page (library block) — refine with the slots it carries"
+      },
+      {
+        "name": "Footer",
+        "evidence": "canon-source/assets/screenshots/footer.png · node 12406:12187: Figma kit template \"❏ Footer\": set Footer; instanced 23× on 23 page(s) — refine with the slots it carries"
+      },
+      {
+        "name": "Header",
+        "evidence": "canon-source/assets/screenshots/header.png · node 12387:11135: Figma kit template \"❏ Header\": set Header; parts .Header / Actions, .Header / Navigation Item, .Header / Contact Selecter Item, .Header / Disclaimer, .Header / Prescribing Info, . Header / Language Selector, .Header / Links Selector; instanced 23× on 23 page(s) — refine with the slots it carries"
+      },
+      {
+        "name": "Home Hero Branded",
+        "evidence": "canon-source/assets/screenshots/home-hero-branded.png · node 12950:24836: Figma kit template \"❏ Home Hero Branded\": set Home Hero Branded; on no page (library block) — refine with the slots it carries"
+      },
+      {
+        "name": "Login",
+        "evidence": "canon-source/assets/screenshots/login.png · node 12643:9460: Figma kit template \"❏ Login\": set Login; instanced 1× on 1 page(s) — refine with the slots it carries"
+      },
+      {
+        "name": "Teaser",
+        "evidence": "canon-source/assets/screenshots/teaser.png · node 12421:13846: Figma kit template \"❏ Teaser\": sets Teaser, Teaser / Text + Image, Teaser / Card; parts .Teaser / Hero Content, .Teaser / Blocked Content, .Teaser / Card content, .Teaser / Card Tag, .Teaser / Card Chip; on no page (library block) — refine with the slots it carries"
+      },
+      {
+        "name": "Quiz",
+        "evidence": "canon-source/assets/screenshots/quiz.png · node 13422:2864: Figma kit template \"❏ Quiz\": set Quiz; on no page (library block) — refine with the slots it carries"
+      }
+    ]
+  },
+  "componentStyle": null,
+  "systemComponents": [],
+  "iconFont": null,
+  "voice": null,
+  "voiceTable": null,
+  "crossPromo": null,
+  "register": null
+}

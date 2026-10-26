@@ -1,0 +1,3795 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "writtenAt": "2026-10-26T09:24:13Z",
+    "readArtifacts": [
+      "stardust/.work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/2413431205561424165/nodes.json"
+    ],
+    "synthesizedInputs": []
+  },
+  "button-medium-link-with-text": {
+    "value": {
+      "background": null,
+      "backgroundKind": "NONE",
+      "color": "rgb(208, 0, 111)",
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "4px",
+      "padding": "0px",
+      "border": null,
+      "boxShadow": null,
+      "height": "24px"
+    },
+    "figma": {
+      "componentId": "12084:109178",
+      "componentProperties": {
+        "Icon / Right": false,
+        "Icon / Left": false,
+        "Button Text": "Button text",
+        "Size": "Medium",
+        "Type": "Link",
+        "Property": "With text"
+      },
+      "box": [
+        "12522:1025"
+      ],
+      "fields": {
+        "color": {
+          "node": "I12522:1025;12084:109180",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.8156862854957581,
+              "g": 0,
+              "b": 0.43529412150382996,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2073:4016"
+              }
+            }
+          }
+        },
+        "fontFamily": {
+          "node": "I12522:1025;12084:109180",
+          "raw": "Inter"
+        },
+        "fontSize": {
+          "node": "I12522:1025;12084:109180",
+          "raw": 16
+        },
+        "fontWeight": {
+          "node": "I12522:1025;12084:109180",
+          "raw": 700
+        },
+        "lineHeight": {
+          "node": "I12522:1025;12084:109180",
+          "raw": {
+            "lineHeightPx": 24,
+            "lineHeightUnit": "PIXELS",
+            "fontSize": 16
+          }
+        },
+        "letterSpacing": {
+          "node": "I12522:1025;12084:109180",
+          "raw": {
+            "letterSpacing": 0,
+            "fontSize": 16
+          }
+        },
+        "borderRadius": {
+          "node": "12522:1025",
+          "raw": 4
+        },
+        "padding": {
+          "node": "12522:1025",
+          "raw": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "height": {
+          "node": "12522:1025",
+          "raw": 24
+        }
+      }
+    },
+    "node": "12522:1025",
+    "count": 18,
+    "nodes": [
+      "12522:1025",
+      "12522:1172",
+      "12522:1196",
+      "12522:1044",
+      "12522:1175"
+    ],
+    "set": "Button",
+    "variant": {
+      "Size": "Medium",
+      "Type": "Link",
+      "Property": "With text"
+    },
+    "divergent": [
+      {
+        "node": "12522:1044",
+        "fields": [
+          "color"
+        ]
+      },
+      {
+        "node": "12522:1175",
+        "fields": [
+          "color"
+        ]
+      },
+      {
+        "node": "12522:1199",
+        "fields": [
+          "color"
+        ]
+      },
+      {
+        "node": "12084:109178",
+        "fields": [
+          "color"
+        ]
+      },
+      {
+        "node": "I13530:18403;13028:2137",
+        "fields": [
+          "color"
+        ]
+      },
+      {
+        "node": "I13530:18465;13028:2193",
+        "fields": [
+          "color"
+        ]
+      },
+      {
+        "node": "I13370:1892;13028:1787",
+        "fields": [
+          "color"
+        ]
+      },
+      {
+        "node": "I13370:2047;13028:1787",
+        "fields": [
+          "color"
+        ]
+      },
+      {
+        "node": "I13370:2094;13028:2193",
+        "fields": [
+          "color"
+        ]
+      },
+      {
+        "node": "I13424:4810;13028:2150",
+        "fields": [
+          "color"
+        ]
+      },
+      {
+        "node": "I13424:4970;13028:2150",
+        "fields": [
+          "color"
+        ]
+      },
+      {
+        "node": "I13424:4992;13028:2193",
+        "fields": [
+          "color"
+        ]
+      }
+    ]
+  },
+  "button-medium-primary-with-text": {
+    "value": {
+      "background": "rgb(208, 0, 111)",
+      "backgroundKind": "SOLID",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "4px",
+      "padding": "0px 16px",
+      "border": "1px solid rgb(208, 0, 111)",
+      "boxShadow": null,
+      "height": "42px"
+    },
+    "figma": {
+      "componentId": "12084:109155",
+      "componentProperties": {},
+      "box": [
+        "12084:109155"
+      ],
+      "fields": {
+        "background": {
+          "node": "12084:109155",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.8156862854957581,
+              "g": 0,
+              "b": 0.43529412150382996,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1220"
+              }
+            }
+          }
+        },
+        "color": {
+          "node": "12077:109144",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1222"
+              }
+            }
+          }
+        },
+        "fontFamily": {
+          "node": "12077:109144",
+          "raw": "Inter"
+        },
+        "fontSize": {
+          "node": "12077:109144",
+          "raw": 16
+        },
+        "fontWeight": {
+          "node": "12077:109144",
+          "raw": 700
+        },
+        "lineHeight": {
+          "node": "12077:109144",
+          "raw": {
+            "lineHeightPx": 24,
+            "lineHeightUnit": "PIXELS",
+            "fontSize": 16
+          }
+        },
+        "letterSpacing": {
+          "node": "12077:109144",
+          "raw": {
+            "letterSpacing": 0,
+            "fontSize": 16
+          }
+        },
+        "borderRadius": {
+          "node": "12084:109155",
+          "raw": 4
+        },
+        "padding": {
+          "node": "12084:109155",
+          "raw": [
+            0,
+            16,
+            0,
+            16
+          ]
+        },
+        "border": {
+          "node": "12084:109155",
+          "raw": {
+            "strokeWeight": 1,
+            "paint": {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.8156862854957581,
+                "g": 0,
+                "b": 0.43529412150382996,
+                "a": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2056:1221"
+                }
+              }
+            }
+          }
+        },
+        "height": {
+          "node": "12084:109155",
+          "raw": 42
+        }
+      }
+    },
+    "node": "12084:109155",
+    "count": 42,
+    "nodes": [
+      "12084:109155",
+      "I12950:25096;12542:1571;12431:14252",
+      "I12950:25165;12552:4006;12431:14519",
+      "I12950:25219;12552:4533;12431:14299",
+      "I13073:2669;13028:1785"
+    ],
+    "set": "Button",
+    "variant": {
+      "Size": "Medium",
+      "Type": "Primary",
+      "Property": "With text"
+    },
+    "divergent": [
+      {
+        "node": "I13424:3132;13028:2148",
+        "fields": [
+          "fontWeight"
+        ]
+      },
+      {
+        "node": "I13424:3550;13028:2148",
+        "fields": [
+          "fontWeight"
+        ]
+      },
+      {
+        "node": "I13424:3336;13028:2195",
+        "fields": [
+          "fontWeight"
+        ]
+      }
+    ]
+  },
+  "button-large-primary-with-text": {
+    "value": {
+      "background": "rgb(208, 0, 111)",
+      "backgroundKind": "SOLID",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "4px",
+      "padding": "0px 16px",
+      "border": "1px solid rgb(208, 0, 111)",
+      "boxShadow": null,
+      "height": "54px"
+    },
+    "figma": {
+      "componentId": "15035:2204",
+      "componentProperties": {},
+      "box": [
+        "15035:2204"
+      ],
+      "fields": {
+        "background": {
+          "node": "15035:2204",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.8156862854957581,
+              "g": 0,
+              "b": 0.43529412150382996,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1220"
+              }
+            }
+          }
+        },
+        "color": {
+          "node": "15035:2206",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1222"
+              }
+            }
+          }
+        },
+        "fontFamily": {
+          "node": "15035:2206",
+          "raw": "Inter"
+        },
+        "fontSize": {
+          "node": "15035:2206",
+          "raw": 16
+        },
+        "fontWeight": {
+          "node": "15035:2206",
+          "raw": 700
+        },
+        "lineHeight": {
+          "node": "15035:2206",
+          "raw": {
+            "lineHeightPx": 24,
+            "lineHeightUnit": "PIXELS",
+            "fontSize": 16
+          }
+        },
+        "letterSpacing": {
+          "node": "15035:2206",
+          "raw": {
+            "letterSpacing": 0,
+            "fontSize": 16
+          }
+        },
+        "borderRadius": {
+          "node": "15035:2204",
+          "raw": 4
+        },
+        "padding": {
+          "node": "15035:2204",
+          "raw": [
+            0,
+            16,
+            0,
+            16
+          ]
+        },
+        "border": {
+          "node": "15035:2204",
+          "raw": {
+            "strokeWeight": 1,
+            "paint": {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.8156862854957581,
+                "g": 0,
+                "b": 0.43529412150382996,
+                "a": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2056:1221"
+                }
+              }
+            }
+          }
+        },
+        "height": {
+          "node": "15035:2204",
+          "raw": 54
+        }
+      }
+    },
+    "node": "15035:2204",
+    "count": 1,
+    "nodes": [
+      "15035:2204"
+    ],
+    "set": "Button",
+    "variant": {
+      "Size": "Large",
+      "Type": "Primary",
+      "Property": "With text"
+    },
+    "divergent": []
+  },
+  "button-small-primary-with-text": {
+    "value": {
+      "background": "rgb(208, 0, 111)",
+      "backgroundKind": "SOLID",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "Inter",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "borderRadius": "4px",
+      "padding": "0px 16px",
+      "border": "1px solid rgb(208, 0, 111)",
+      "boxShadow": null,
+      "height": "34px"
+    },
+    "figma": {
+      "componentId": "12084:109208",
+      "componentProperties": {},
+      "box": [
+        "12084:109208"
+      ],
+      "fields": {
+        "background": {
+          "node": "12084:109208",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.8156862854957581,
+              "g": 0,
+              "b": 0.43529412150382996,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1220"
+              }
+            }
+          }
+        },
+        "color": {
+          "node": "12084:109210",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1222"
+              }
+            }
+          }
+        },
+        "fontFamily": {
+          "node": "12084:109210",
+          "raw": "Inter"
+        },
+        "fontSize": {
+          "node": "12084:109210",
+          "raw": 12
+        },
+        "fontWeight": {
+          "node": "12084:109210",
+          "raw": 500
+        },
+        "lineHeight": {
+          "node": "12084:109210",
+          "raw": {
+            "lineHeightPx": 20,
+            "lineHeightUnit": "PIXELS",
+            "fontSize": 12
+          }
+        },
+        "letterSpacing": {
+          "node": "12084:109210",
+          "raw": {
+            "letterSpacing": 0,
+            "fontSize": 12
+          }
+        },
+        "borderRadius": {
+          "node": "12084:109208",
+          "raw": 4
+        },
+        "padding": {
+          "node": "12084:109208",
+          "raw": [
+            0,
+            16,
+            0,
+            16
+          ]
+        },
+        "border": {
+          "node": "12084:109208",
+          "raw": {
+            "strokeWeight": 1,
+            "paint": {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.8156862854957581,
+                "g": 0,
+                "b": 0.43529412150382996,
+                "a": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2056:1221"
+                }
+              }
+            }
+          }
+        },
+        "height": {
+          "node": "12084:109208",
+          "raw": 34
+        }
+      }
+    },
+    "node": "12084:109208",
+    "count": 1,
+    "nodes": [
+      "12084:109208"
+    ],
+    "set": "Button",
+    "variant": {
+      "Size": "Small",
+      "Type": "Primary",
+      "Property": "With text"
+    },
+    "divergent": []
+  },
+  "button-medium-primary-icon-only": {
+    "value": {
+      "background": "rgb(208, 0, 111)",
+      "backgroundKind": "SOLID",
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "lineHeight": null,
+      "letterSpacing": null,
+      "borderRadius": "4px",
+      "padding": "0px",
+      "border": "1px solid rgb(208, 0, 111)",
+      "boxShadow": null,
+      "height": "42px"
+    },
+    "figma": {
+      "componentId": "12084:109184",
+      "componentProperties": {},
+      "box": [
+        "12084:109184"
+      ],
+      "fields": {
+        "background": {
+          "node": "12084:109184",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.8156862854957581,
+              "g": 0,
+              "b": 0.43529412150382996,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1220"
+              }
+            }
+          }
+        },
+        "borderRadius": {
+          "node": "12084:109184",
+          "raw": 4
+        },
+        "padding": {
+          "node": "12084:109184",
+          "raw": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "border": {
+          "node": "12084:109184",
+          "raw": {
+            "strokeWeight": 1,
+            "paint": {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.8156862854957581,
+                "g": 0,
+                "b": 0.43529412150382996,
+                "a": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2056:1221"
+                }
+              }
+            }
+          }
+        },
+        "height": {
+          "node": "12084:109184",
+          "raw": 42
+        }
+      }
+    },
+    "node": "12084:109184",
+    "count": 1,
+    "nodes": [
+      "12084:109184"
+    ],
+    "set": "Button",
+    "variant": {
+      "Size": "Medium",
+      "Type": "Primary",
+      "Property": "Icon Only"
+    },
+    "divergent": []
+  },
+  "button-large-primary-icon-only": {
+    "value": {
+      "background": "rgb(208, 0, 111)",
+      "backgroundKind": "SOLID",
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "lineHeight": null,
+      "letterSpacing": null,
+      "borderRadius": "4px",
+      "padding": "0px",
+      "border": "1px solid rgb(208, 0, 111)",
+      "boxShadow": null,
+      "height": "54px"
+    },
+    "figma": {
+      "componentId": "15035:2208",
+      "componentProperties": {},
+      "box": [
+        "15035:2208"
+      ],
+      "fields": {
+        "background": {
+          "node": "15035:2208",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.8156862854957581,
+              "g": 0,
+              "b": 0.43529412150382996,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1220"
+              }
+            }
+          }
+        },
+        "borderRadius": {
+          "node": "15035:2208",
+          "raw": 4
+        },
+        "padding": {
+          "node": "15035:2208",
+          "raw": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "border": {
+          "node": "15035:2208",
+          "raw": {
+            "strokeWeight": 1,
+            "paint": {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.8156862854957581,
+                "g": 0,
+                "b": 0.43529412150382996,
+                "a": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2056:1221"
+                }
+              }
+            }
+          }
+        },
+        "height": {
+          "node": "15035:2208",
+          "raw": 54
+        }
+      }
+    },
+    "node": "15035:2208",
+    "count": 1,
+    "nodes": [
+      "15035:2208"
+    ],
+    "set": "Button",
+    "variant": {
+      "Size": "Large",
+      "Type": "Primary",
+      "Property": "Icon Only"
+    },
+    "divergent": []
+  },
+  "button-small-primary-icon-only": {
+    "value": {
+      "background": "rgb(208, 0, 111)",
+      "backgroundKind": "SOLID",
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "lineHeight": null,
+      "letterSpacing": null,
+      "borderRadius": "4px",
+      "padding": "0px",
+      "border": "1px solid rgb(208, 0, 111)",
+      "boxShadow": null,
+      "height": "34px"
+    },
+    "figma": {
+      "componentId": "12084:109212",
+      "componentProperties": {},
+      "box": [
+        "12084:109212"
+      ],
+      "fields": {
+        "background": {
+          "node": "12084:109212",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.8156862854957581,
+              "g": 0,
+              "b": 0.43529412150382996,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1220"
+              }
+            }
+          }
+        },
+        "borderRadius": {
+          "node": "12084:109212",
+          "raw": 4
+        },
+        "padding": {
+          "node": "12084:109212",
+          "raw": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "border": {
+          "node": "12084:109212",
+          "raw": {
+            "strokeWeight": 1,
+            "paint": {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.8156862854957581,
+                "g": 0,
+                "b": 0.43529412150382996,
+                "a": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2056:1221"
+                }
+              }
+            }
+          }
+        },
+        "height": {
+          "node": "12084:109212",
+          "raw": 34
+        }
+      }
+    },
+    "node": "12084:109212",
+    "count": 1,
+    "nodes": [
+      "12084:109212"
+    ],
+    "set": "Button",
+    "variant": {
+      "Size": "Small",
+      "Type": "Primary",
+      "Property": "Icon Only"
+    },
+    "divergent": []
+  },
+  "button-medium-secondary-with-text": {
+    "value": {
+      "background": "rgb(255, 255, 255)",
+      "backgroundKind": "SOLID",
+      "color": "rgb(208, 0, 111)",
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "4px",
+      "padding": "0px 16px",
+      "border": "1px solid rgb(208, 0, 111)",
+      "boxShadow": null,
+      "height": "42px"
+    },
+    "figma": {
+      "componentId": "12084:109165",
+      "componentProperties": {},
+      "box": [
+        "12084:109165"
+      ],
+      "fields": {
+        "background": {
+          "node": "12084:109165",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1223"
+              }
+            }
+          }
+        },
+        "color": {
+          "node": "12084:109167",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.8156862854957581,
+              "g": 0,
+              "b": 0.43529412150382996,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1225"
+              }
+            }
+          }
+        },
+        "fontFamily": {
+          "node": "12084:109167",
+          "raw": "Inter"
+        },
+        "fontSize": {
+          "node": "12084:109167",
+          "raw": 16
+        },
+        "fontWeight": {
+          "node": "12084:109167",
+          "raw": 700
+        },
+        "lineHeight": {
+          "node": "12084:109167",
+          "raw": {
+            "lineHeightPx": 24,
+            "lineHeightUnit": "PIXELS",
+            "fontSize": 16
+          }
+        },
+        "letterSpacing": {
+          "node": "12084:109167",
+          "raw": {
+            "letterSpacing": 0,
+            "fontSize": 16
+          }
+        },
+        "borderRadius": {
+          "node": "12084:109165",
+          "raw": 4
+        },
+        "padding": {
+          "node": "12084:109165",
+          "raw": [
+            0,
+            16,
+            0,
+            16
+          ]
+        },
+        "border": {
+          "node": "12084:109165",
+          "raw": {
+            "strokeWeight": 1,
+            "paint": {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.8156862854957581,
+                "g": 0,
+                "b": 0.43529412150382996,
+                "a": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2056:1221"
+                }
+              }
+            }
+          }
+        },
+        "height": {
+          "node": "12084:109165",
+          "raw": 42
+        }
+      }
+    },
+    "node": "12084:109165",
+    "count": 25,
+    "nodes": [
+      "12084:109165",
+      "I13073:2669;13028:1786",
+      "I13530:18403;13028:2136",
+      "I13073:2812;13028:2194",
+      "I13530:18465;13028:2194"
+    ],
+    "set": "Button",
+    "variant": {
+      "Size": "Medium",
+      "Type": "Secondary",
+      "Property": "With text"
+    },
+    "divergent": []
+  },
+  "button-large-secondary-with-text": {
+    "value": {
+      "background": "rgb(255, 255, 255)",
+      "backgroundKind": "SOLID",
+      "color": "rgb(208, 0, 111)",
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "4px",
+      "padding": "0px 16px",
+      "border": "1px solid rgb(208, 0, 111)",
+      "boxShadow": null,
+      "height": "54px"
+    },
+    "figma": {
+      "componentId": "15035:2210",
+      "componentProperties": {},
+      "box": [
+        "15035:2210"
+      ],
+      "fields": {
+        "background": {
+          "node": "15035:2210",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1223"
+              }
+            }
+          }
+        },
+        "color": {
+          "node": "15035:2212",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.8156862854957581,
+              "g": 0,
+              "b": 0.43529412150382996,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1225"
+              }
+            }
+          }
+        },
+        "fontFamily": {
+          "node": "15035:2212",
+          "raw": "Inter"
+        },
+        "fontSize": {
+          "node": "15035:2212",
+          "raw": 16
+        },
+        "fontWeight": {
+          "node": "15035:2212",
+          "raw": 700
+        },
+        "lineHeight": {
+          "node": "15035:2212",
+          "raw": {
+            "lineHeightPx": 24,
+            "lineHeightUnit": "PIXELS",
+            "fontSize": 16
+          }
+        },
+        "letterSpacing": {
+          "node": "15035:2212",
+          "raw": {
+            "letterSpacing": 0,
+            "fontSize": 16
+          }
+        },
+        "borderRadius": {
+          "node": "15035:2210",
+          "raw": 4
+        },
+        "padding": {
+          "node": "15035:2210",
+          "raw": [
+            0,
+            16,
+            0,
+            16
+          ]
+        },
+        "border": {
+          "node": "15035:2210",
+          "raw": {
+            "strokeWeight": 1,
+            "paint": {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.8156862854957581,
+                "g": 0,
+                "b": 0.43529412150382996,
+                "a": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2056:1221"
+                }
+              }
+            }
+          }
+        },
+        "height": {
+          "node": "15035:2210",
+          "raw": 54
+        }
+      }
+    },
+    "node": "15035:2210",
+    "count": 1,
+    "nodes": [
+      "15035:2210"
+    ],
+    "set": "Button",
+    "variant": {
+      "Size": "Large",
+      "Type": "Secondary",
+      "Property": "With text"
+    },
+    "divergent": []
+  },
+  "button-small-secondary-with-text": {
+    "value": {
+      "background": "rgb(255, 255, 255)",
+      "backgroundKind": "SOLID",
+      "color": "rgb(208, 0, 111)",
+      "fontFamily": "Inter",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "borderRadius": "4px",
+      "padding": "0px 16px",
+      "border": "1px solid rgb(208, 0, 111)",
+      "boxShadow": null,
+      "height": "34px"
+    },
+    "figma": {
+      "componentId": "12084:109214",
+      "componentProperties": {},
+      "box": [
+        "12084:109214"
+      ],
+      "fields": {
+        "background": {
+          "node": "12084:109214",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1223"
+              }
+            }
+          }
+        },
+        "color": {
+          "node": "12084:109216",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.8156862854957581,
+              "g": 0,
+              "b": 0.43529412150382996,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1225"
+              }
+            }
+          }
+        },
+        "fontFamily": {
+          "node": "12084:109216",
+          "raw": "Inter"
+        },
+        "fontSize": {
+          "node": "12084:109216",
+          "raw": 12
+        },
+        "fontWeight": {
+          "node": "12084:109216",
+          "raw": 500
+        },
+        "lineHeight": {
+          "node": "12084:109216",
+          "raw": {
+            "lineHeightPx": 20,
+            "lineHeightUnit": "PIXELS",
+            "fontSize": 12
+          }
+        },
+        "letterSpacing": {
+          "node": "12084:109216",
+          "raw": {
+            "letterSpacing": 0,
+            "fontSize": 12
+          }
+        },
+        "borderRadius": {
+          "node": "12084:109214",
+          "raw": 4
+        },
+        "padding": {
+          "node": "12084:109214",
+          "raw": [
+            0,
+            16,
+            0,
+            16
+          ]
+        },
+        "border": {
+          "node": "12084:109214",
+          "raw": {
+            "strokeWeight": 1,
+            "paint": {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.8156862854957581,
+                "g": 0,
+                "b": 0.43529412150382996,
+                "a": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2056:1221"
+                }
+              }
+            }
+          }
+        },
+        "height": {
+          "node": "12084:109214",
+          "raw": 34
+        }
+      }
+    },
+    "node": "12084:109214",
+    "count": 3,
+    "nodes": [
+      "12084:109214",
+      "12682:17279",
+      "I12379:10760;12370:10525"
+    ],
+    "set": "Button",
+    "variant": {
+      "Size": "Small",
+      "Type": "Secondary",
+      "Property": "With text"
+    },
+    "divergent": []
+  },
+  "button-medium-secondary-icon-only": {
+    "value": {
+      "background": "rgb(255, 255, 255)",
+      "backgroundKind": "SOLID",
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "lineHeight": null,
+      "letterSpacing": null,
+      "borderRadius": "4px",
+      "padding": "0px",
+      "border": "1px solid rgb(208, 0, 111)",
+      "boxShadow": null,
+      "height": "42px"
+    },
+    "figma": {
+      "componentId": "12084:109188",
+      "componentProperties": {},
+      "box": [
+        "12084:109188"
+      ],
+      "fields": {
+        "background": {
+          "node": "12084:109188",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1223"
+              }
+            }
+          }
+        },
+        "borderRadius": {
+          "node": "12084:109188",
+          "raw": 4
+        },
+        "padding": {
+          "node": "12084:109188",
+          "raw": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "border": {
+          "node": "12084:109188",
+          "raw": {
+            "strokeWeight": 1,
+            "paint": {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.8156862854957581,
+                "g": 0,
+                "b": 0.43529412150382996,
+                "a": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2056:1221"
+                }
+              }
+            }
+          }
+        },
+        "height": {
+          "node": "12084:109188",
+          "raw": 42
+        }
+      }
+    },
+    "node": "12084:109188",
+    "count": 1,
+    "nodes": [
+      "12084:109188"
+    ],
+    "set": "Button",
+    "variant": {
+      "Size": "Medium",
+      "Type": "Secondary",
+      "Property": "Icon Only"
+    },
+    "divergent": []
+  },
+  "button-large-secondary-icon-only": {
+    "value": {
+      "background": "rgb(255, 255, 255)",
+      "backgroundKind": "SOLID",
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "lineHeight": null,
+      "letterSpacing": null,
+      "borderRadius": "4px",
+      "padding": "0px",
+      "border": "1px solid rgb(208, 0, 111)",
+      "boxShadow": null,
+      "height": "54px"
+    },
+    "figma": {
+      "componentId": "15035:2214",
+      "componentProperties": {},
+      "box": [
+        "15035:2214"
+      ],
+      "fields": {
+        "background": {
+          "node": "15035:2214",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1223"
+              }
+            }
+          }
+        },
+        "borderRadius": {
+          "node": "15035:2214",
+          "raw": 4
+        },
+        "padding": {
+          "node": "15035:2214",
+          "raw": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "border": {
+          "node": "15035:2214",
+          "raw": {
+            "strokeWeight": 1,
+            "paint": {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.8156862854957581,
+                "g": 0,
+                "b": 0.43529412150382996,
+                "a": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2056:1221"
+                }
+              }
+            }
+          }
+        },
+        "height": {
+          "node": "15035:2214",
+          "raw": 54
+        }
+      }
+    },
+    "node": "15035:2214",
+    "count": 1,
+    "nodes": [
+      "15035:2214"
+    ],
+    "set": "Button",
+    "variant": {
+      "Size": "Large",
+      "Type": "Secondary",
+      "Property": "Icon Only"
+    },
+    "divergent": []
+  },
+  "button-small-secondary-icon-only": {
+    "value": {
+      "background": "rgb(255, 255, 255)",
+      "backgroundKind": "SOLID",
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "lineHeight": null,
+      "letterSpacing": null,
+      "borderRadius": "4px",
+      "padding": "0px",
+      "border": "1px solid rgb(208, 0, 111)",
+      "boxShadow": null,
+      "height": "34px"
+    },
+    "figma": {
+      "componentId": "12084:109218",
+      "componentProperties": {},
+      "box": [
+        "12084:109218"
+      ],
+      "fields": {
+        "background": {
+          "node": "12084:109218",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1223"
+              }
+            }
+          }
+        },
+        "borderRadius": {
+          "node": "12084:109218",
+          "raw": 4
+        },
+        "padding": {
+          "node": "12084:109218",
+          "raw": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "border": {
+          "node": "12084:109218",
+          "raw": {
+            "strokeWeight": 1,
+            "paint": {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.8156862854957581,
+                "g": 0,
+                "b": 0.43529412150382996,
+                "a": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2056:1221"
+                }
+              }
+            }
+          }
+        },
+        "height": {
+          "node": "12084:109218",
+          "raw": 34
+        }
+      }
+    },
+    "node": "12084:109218",
+    "count": 1,
+    "nodes": [
+      "12084:109218"
+    ],
+    "set": "Button",
+    "variant": {
+      "Size": "Small",
+      "Type": "Secondary",
+      "Property": "Icon Only"
+    },
+    "divergent": []
+  },
+  "button-medium-tertiary-with-text": {
+    "value": {
+      "background": "rgb(255, 255, 255)",
+      "backgroundKind": "SOLID",
+      "color": "rgb(60, 66, 66)",
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "4px",
+      "padding": "0px 16px",
+      "border": "1px solid rgb(60, 66, 66)",
+      "boxShadow": null,
+      "height": "42px"
+    },
+    "figma": {
+      "componentId": "12084:109172",
+      "componentProperties": {},
+      "box": [
+        "12084:109172"
+      ],
+      "fields": {
+        "background": {
+          "node": "12084:109172",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1226"
+              }
+            }
+          }
+        },
+        "color": {
+          "node": "12084:109174",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.25882354378700256,
+              "b": 0.25882354378700256,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1228"
+              }
+            }
+          }
+        },
+        "fontFamily": {
+          "node": "12084:109174",
+          "raw": "Inter"
+        },
+        "fontSize": {
+          "node": "12084:109174",
+          "raw": 16
+        },
+        "fontWeight": {
+          "node": "12084:109174",
+          "raw": 700
+        },
+        "lineHeight": {
+          "node": "12084:109174",
+          "raw": {
+            "lineHeightPx": 24,
+            "lineHeightUnit": "PIXELS",
+            "fontSize": 16
+          }
+        },
+        "letterSpacing": {
+          "node": "12084:109174",
+          "raw": {
+            "letterSpacing": 0,
+            "fontSize": 16
+          }
+        },
+        "borderRadius": {
+          "node": "12084:109172",
+          "raw": 4
+        },
+        "padding": {
+          "node": "12084:109172",
+          "raw": [
+            0,
+            16,
+            0,
+            16
+          ]
+        },
+        "border": {
+          "node": "12084:109172",
+          "raw": {
+            "strokeWeight": 1,
+            "paint": {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.23529411852359772,
+                "g": 0.25882354378700256,
+                "b": 0.25882354378700256,
+                "a": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2056:1227"
+                }
+              }
+            }
+          }
+        },
+        "height": {
+          "node": "12084:109172",
+          "raw": 42
+        }
+      }
+    },
+    "node": "12084:109172",
+    "count": 1,
+    "nodes": [
+      "12084:109172"
+    ],
+    "set": "Button",
+    "variant": {
+      "Size": "Medium",
+      "Type": "Tertiary",
+      "Property": "With text"
+    },
+    "divergent": []
+  },
+  "button-large-tertiary-with-text": {
+    "value": {
+      "background": "rgb(255, 255, 255)",
+      "backgroundKind": "SOLID",
+      "color": "rgb(60, 66, 66)",
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "4px",
+      "padding": "0px 16px",
+      "border": "1px solid rgb(60, 66, 66)",
+      "boxShadow": null,
+      "height": "54px"
+    },
+    "figma": {
+      "componentId": "15035:2216",
+      "componentProperties": {},
+      "box": [
+        "15035:2216"
+      ],
+      "fields": {
+        "background": {
+          "node": "15035:2216",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1226"
+              }
+            }
+          }
+        },
+        "color": {
+          "node": "15035:2218",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.25882354378700256,
+              "b": 0.25882354378700256,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1228"
+              }
+            }
+          }
+        },
+        "fontFamily": {
+          "node": "15035:2218",
+          "raw": "Inter"
+        },
+        "fontSize": {
+          "node": "15035:2218",
+          "raw": 16
+        },
+        "fontWeight": {
+          "node": "15035:2218",
+          "raw": 700
+        },
+        "lineHeight": {
+          "node": "15035:2218",
+          "raw": {
+            "lineHeightPx": 24,
+            "lineHeightUnit": "PIXELS",
+            "fontSize": 16
+          }
+        },
+        "letterSpacing": {
+          "node": "15035:2218",
+          "raw": {
+            "letterSpacing": 0,
+            "fontSize": 16
+          }
+        },
+        "borderRadius": {
+          "node": "15035:2216",
+          "raw": 4
+        },
+        "padding": {
+          "node": "15035:2216",
+          "raw": [
+            0,
+            16,
+            0,
+            16
+          ]
+        },
+        "border": {
+          "node": "15035:2216",
+          "raw": {
+            "strokeWeight": 1,
+            "paint": {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.23529411852359772,
+                "g": 0.25882354378700256,
+                "b": 0.25882354378700256,
+                "a": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2056:1227"
+                }
+              }
+            }
+          }
+        },
+        "height": {
+          "node": "15035:2216",
+          "raw": 54
+        }
+      }
+    },
+    "node": "15035:2216",
+    "count": 1,
+    "nodes": [
+      "15035:2216"
+    ],
+    "set": "Button",
+    "variant": {
+      "Size": "Large",
+      "Type": "Tertiary",
+      "Property": "With text"
+    },
+    "divergent": []
+  },
+  "button-small-tertiary-with-text": {
+    "value": {
+      "background": "rgb(255, 255, 255)",
+      "backgroundKind": "SOLID",
+      "color": "rgb(60, 66, 66)",
+      "fontFamily": "Inter",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "borderRadius": "4px",
+      "padding": "0px 16px",
+      "border": "1px solid rgb(60, 66, 66)",
+      "boxShadow": null,
+      "height": "34px"
+    },
+    "figma": {
+      "componentId": "12084:109220",
+      "componentProperties": {},
+      "box": [
+        "12084:109220"
+      ],
+      "fields": {
+        "background": {
+          "node": "12084:109220",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1226"
+              }
+            }
+          }
+        },
+        "color": {
+          "node": "12084:109222",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.25882354378700256,
+              "b": 0.25882354378700256,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1228"
+              }
+            }
+          }
+        },
+        "fontFamily": {
+          "node": "12084:109222",
+          "raw": "Inter"
+        },
+        "fontSize": {
+          "node": "12084:109222",
+          "raw": 12
+        },
+        "fontWeight": {
+          "node": "12084:109222",
+          "raw": 500
+        },
+        "lineHeight": {
+          "node": "12084:109222",
+          "raw": {
+            "lineHeightPx": 20,
+            "lineHeightUnit": "PIXELS",
+            "fontSize": 12
+          }
+        },
+        "letterSpacing": {
+          "node": "12084:109222",
+          "raw": {
+            "letterSpacing": 0,
+            "fontSize": 12
+          }
+        },
+        "borderRadius": {
+          "node": "12084:109220",
+          "raw": 4
+        },
+        "padding": {
+          "node": "12084:109220",
+          "raw": [
+            0,
+            16,
+            0,
+            16
+          ]
+        },
+        "border": {
+          "node": "12084:109220",
+          "raw": {
+            "strokeWeight": 1,
+            "paint": {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.23529411852359772,
+                "g": 0.25882354378700256,
+                "b": 0.25882354378700256,
+                "a": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2056:1227"
+                }
+              }
+            }
+          }
+        },
+        "height": {
+          "node": "12084:109220",
+          "raw": 34
+        }
+      }
+    },
+    "node": "12084:109220",
+    "count": 1,
+    "nodes": [
+      "12084:109220"
+    ],
+    "set": "Button",
+    "variant": {
+      "Size": "Small",
+      "Type": "Tertiary",
+      "Property": "With text"
+    },
+    "divergent": []
+  },
+  "button-medium-tertiary-icon-only": {
+    "value": {
+      "background": "rgb(255, 255, 255)",
+      "backgroundKind": "SOLID",
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "lineHeight": null,
+      "letterSpacing": null,
+      "borderRadius": "4px",
+      "padding": "0px",
+      "border": "1px solid rgb(60, 66, 66)",
+      "boxShadow": null,
+      "height": "42px"
+    },
+    "figma": {
+      "componentId": "12084:109192",
+      "componentProperties": {},
+      "box": [
+        "12084:109192"
+      ],
+      "fields": {
+        "background": {
+          "node": "12084:109192",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1226"
+              }
+            }
+          }
+        },
+        "borderRadius": {
+          "node": "12084:109192",
+          "raw": 4
+        },
+        "padding": {
+          "node": "12084:109192",
+          "raw": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "border": {
+          "node": "12084:109192",
+          "raw": {
+            "strokeWeight": 1,
+            "paint": {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.23529411852359772,
+                "g": 0.25882354378700256,
+                "b": 0.25882354378700256,
+                "a": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2056:1227"
+                }
+              }
+            }
+          }
+        },
+        "height": {
+          "node": "12084:109192",
+          "raw": 42
+        }
+      }
+    },
+    "node": "12084:109192",
+    "count": 1,
+    "nodes": [
+      "12084:109192"
+    ],
+    "set": "Button",
+    "variant": {
+      "Size": "Medium",
+      "Type": "Tertiary",
+      "Property": "Icon Only"
+    },
+    "divergent": []
+  },
+  "button-large-tertiary-icon-only": {
+    "value": {
+      "background": "rgb(255, 255, 255)",
+      "backgroundKind": "SOLID",
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "lineHeight": null,
+      "letterSpacing": null,
+      "borderRadius": "4px",
+      "padding": "0px",
+      "border": "1px solid rgb(60, 66, 66)",
+      "boxShadow": null,
+      "height": "54px"
+    },
+    "figma": {
+      "componentId": "15035:2220",
+      "componentProperties": {},
+      "box": [
+        "15035:2220"
+      ],
+      "fields": {
+        "background": {
+          "node": "15035:2220",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1226"
+              }
+            }
+          }
+        },
+        "borderRadius": {
+          "node": "15035:2220",
+          "raw": 4
+        },
+        "padding": {
+          "node": "15035:2220",
+          "raw": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "border": {
+          "node": "15035:2220",
+          "raw": {
+            "strokeWeight": 1,
+            "paint": {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.23529411852359772,
+                "g": 0.25882354378700256,
+                "b": 0.25882354378700256,
+                "a": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2056:1227"
+                }
+              }
+            }
+          }
+        },
+        "height": {
+          "node": "15035:2220",
+          "raw": 54
+        }
+      }
+    },
+    "node": "15035:2220",
+    "count": 1,
+    "nodes": [
+      "15035:2220"
+    ],
+    "set": "Button",
+    "variant": {
+      "Size": "Large",
+      "Type": "Tertiary",
+      "Property": "Icon Only"
+    },
+    "divergent": []
+  },
+  "button-small-tertiary-icon-only": {
+    "value": {
+      "background": "rgb(255, 255, 255)",
+      "backgroundKind": "SOLID",
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "lineHeight": null,
+      "letterSpacing": null,
+      "borderRadius": "4px",
+      "padding": "0px",
+      "border": "1px solid rgb(60, 66, 66)",
+      "boxShadow": null,
+      "height": "34px"
+    },
+    "figma": {
+      "componentId": "12084:109224",
+      "componentProperties": {},
+      "box": [
+        "12084:109224"
+      ],
+      "fields": {
+        "background": {
+          "node": "12084:109224",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1226"
+              }
+            }
+          }
+        },
+        "borderRadius": {
+          "node": "12084:109224",
+          "raw": 4
+        },
+        "padding": {
+          "node": "12084:109224",
+          "raw": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "border": {
+          "node": "12084:109224",
+          "raw": {
+            "strokeWeight": 1,
+            "paint": {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.23529411852359772,
+                "g": 0.25882354378700256,
+                "b": 0.25882354378700256,
+                "a": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2056:1227"
+                }
+              }
+            }
+          }
+        },
+        "height": {
+          "node": "12084:109224",
+          "raw": 34
+        }
+      }
+    },
+    "node": "12084:109224",
+    "count": 1,
+    "nodes": [
+      "12084:109224"
+    ],
+    "set": "Button",
+    "variant": {
+      "Size": "Small",
+      "Type": "Tertiary",
+      "Property": "Icon Only"
+    },
+    "divergent": []
+  },
+  "button-large-link-with-text": {
+    "value": {
+      "background": null,
+      "backgroundKind": "NONE",
+      "color": "rgb(60, 66, 66)",
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "4px",
+      "padding": "0px",
+      "border": null,
+      "boxShadow": null,
+      "height": "24px"
+    },
+    "figma": {
+      "componentId": "15035:2222",
+      "componentProperties": {},
+      "box": [
+        "15035:2222"
+      ],
+      "fields": {
+        "color": {
+          "node": "15035:2224",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.25882354378700256,
+              "b": 0.25882354378700256,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1228"
+              }
+            }
+          }
+        },
+        "fontFamily": {
+          "node": "15035:2224",
+          "raw": "Inter"
+        },
+        "fontSize": {
+          "node": "15035:2224",
+          "raw": 16
+        },
+        "fontWeight": {
+          "node": "15035:2224",
+          "raw": 700
+        },
+        "lineHeight": {
+          "node": "15035:2224",
+          "raw": {
+            "lineHeightPx": 24,
+            "lineHeightUnit": "PIXELS",
+            "fontSize": 16
+          }
+        },
+        "letterSpacing": {
+          "node": "15035:2224",
+          "raw": {
+            "letterSpacing": 0,
+            "fontSize": 16
+          }
+        },
+        "borderRadius": {
+          "node": "15035:2222",
+          "raw": 4
+        },
+        "padding": {
+          "node": "15035:2222",
+          "raw": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "height": {
+          "node": "15035:2222",
+          "raw": 24
+        }
+      }
+    },
+    "node": "15035:2222",
+    "count": 1,
+    "nodes": [
+      "15035:2222"
+    ],
+    "set": "Button",
+    "variant": {
+      "Size": "Large",
+      "Type": "Link",
+      "Property": "With text"
+    },
+    "divergent": []
+  },
+  "button-small-link-with-text": {
+    "value": {
+      "background": null,
+      "backgroundKind": "NONE",
+      "color": "rgb(60, 66, 66)",
+      "fontFamily": "Inter",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "lineHeight": "20px",
+      "letterSpacing": "normal",
+      "borderRadius": "4px",
+      "padding": "0px",
+      "border": null,
+      "boxShadow": null,
+      "height": "20px"
+    },
+    "figma": {
+      "componentId": "12084:109226",
+      "componentProperties": {},
+      "box": [
+        "12084:109226"
+      ],
+      "fields": {
+        "color": {
+          "node": "12084:109228",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.23529411852359772,
+              "g": 0.25882354378700256,
+              "b": 0.25882354378700256,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1228"
+              }
+            }
+          }
+        },
+        "fontFamily": {
+          "node": "12084:109228",
+          "raw": "Inter"
+        },
+        "fontSize": {
+          "node": "12084:109228",
+          "raw": 12
+        },
+        "fontWeight": {
+          "node": "12084:109228",
+          "raw": 500
+        },
+        "lineHeight": {
+          "node": "12084:109228",
+          "raw": {
+            "lineHeightPx": 20,
+            "lineHeightUnit": "PIXELS",
+            "fontSize": 12
+          }
+        },
+        "letterSpacing": {
+          "node": "12084:109228",
+          "raw": {
+            "letterSpacing": 0,
+            "fontSize": 12
+          }
+        },
+        "borderRadius": {
+          "node": "12084:109226",
+          "raw": 4
+        },
+        "padding": {
+          "node": "12084:109226",
+          "raw": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "height": {
+          "node": "12084:109226",
+          "raw": 20
+        }
+      }
+    },
+    "node": "12084:109226",
+    "count": 1,
+    "nodes": [
+      "12084:109226"
+    ],
+    "set": "Button",
+    "variant": {
+      "Size": "Small",
+      "Type": "Link",
+      "Property": "With text"
+    },
+    "divergent": []
+  },
+  "button-medium-link-icon-only": {
+    "value": {
+      "background": null,
+      "backgroundKind": "NONE",
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "lineHeight": null,
+      "letterSpacing": null,
+      "borderRadius": "4px",
+      "padding": "0px",
+      "border": null,
+      "boxShadow": null,
+      "height": "42px"
+    },
+    "figma": {
+      "componentId": "12084:109196",
+      "componentProperties": {},
+      "box": [
+        "12084:109196"
+      ],
+      "fields": {
+        "borderRadius": {
+          "node": "12084:109196",
+          "raw": 4
+        },
+        "padding": {
+          "node": "12084:109196",
+          "raw": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "height": {
+          "node": "12084:109196",
+          "raw": 42
+        }
+      }
+    },
+    "node": "12084:109196",
+    "count": 7,
+    "nodes": [
+      "12084:109196",
+      "12459:15264",
+      "13530:18729",
+      "12467:15434",
+      "13530:18739"
+    ],
+    "set": "Button",
+    "variant": {
+      "Size": "Medium",
+      "Type": "Link",
+      "Property": "Icon Only"
+    },
+    "divergent": []
+  },
+  "button-large-link-icon-only": {
+    "value": {
+      "background": null,
+      "backgroundKind": "NONE",
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "lineHeight": null,
+      "letterSpacing": null,
+      "borderRadius": "4px",
+      "padding": "0px",
+      "border": null,
+      "boxShadow": null,
+      "height": "54px"
+    },
+    "figma": {
+      "componentId": "15035:2226",
+      "componentProperties": {},
+      "box": [
+        "15035:2226"
+      ],
+      "fields": {
+        "borderRadius": {
+          "node": "15035:2226",
+          "raw": 4
+        },
+        "padding": {
+          "node": "15035:2226",
+          "raw": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "height": {
+          "node": "15035:2226",
+          "raw": 54
+        }
+      }
+    },
+    "node": "15035:2226",
+    "count": 1,
+    "nodes": [
+      "15035:2226"
+    ],
+    "set": "Button",
+    "variant": {
+      "Size": "Large",
+      "Type": "Link",
+      "Property": "Icon Only"
+    },
+    "divergent": []
+  },
+  "button-small-link-icon-only": {
+    "value": {
+      "background": null,
+      "backgroundKind": "NONE",
+      "color": null,
+      "fontFamily": null,
+      "fontSize": null,
+      "fontWeight": null,
+      "lineHeight": null,
+      "letterSpacing": null,
+      "borderRadius": "4px",
+      "padding": "0px",
+      "border": null,
+      "boxShadow": null,
+      "height": "34px"
+    },
+    "figma": {
+      "componentId": "12084:109230",
+      "componentProperties": {},
+      "box": [
+        "12084:109230"
+      ],
+      "fields": {
+        "borderRadius": {
+          "node": "12084:109230",
+          "raw": 4
+        },
+        "padding": {
+          "node": "12084:109230",
+          "raw": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "height": {
+          "node": "12084:109230",
+          "raw": 34
+        }
+      }
+    },
+    "node": "12084:109230",
+    "count": 6,
+    "nodes": [
+      "12084:109230",
+      "I12379:10760;12370:10538",
+      "12387:11182",
+      "12387:11183",
+      "12387:11408"
+    ],
+    "set": "Button",
+    "variant": {
+      "Size": "Small",
+      "Type": "Link",
+      "Property": "Icon Only"
+    },
+    "divergent": []
+  },
+  "buttons-collage-left": {
+    "value": {
+      "background": "rgb(208, 0, 111)",
+      "backgroundKind": "SOLID",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "4px",
+      "padding": "0px 16px",
+      "border": "1px solid rgb(208, 0, 111)",
+      "boxShadow": null,
+      "height": "42px"
+    },
+    "figma": {
+      "componentId": "13028:1798",
+      "componentProperties": {
+        "Secondary CTA": true,
+        "Link": false,
+        "Primary CTA": true,
+        "Alignment": "Left"
+      },
+      "box": [
+        "I13073:2669;13028:1785",
+        "13073:2669"
+      ],
+      "fields": {
+        "background": {
+          "node": "I13073:2669;13028:1785",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.8156862854957581,
+              "g": 0,
+              "b": 0.43529412150382996,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1220"
+              }
+            }
+          }
+        },
+        "color": {
+          "node": "I13073:2669;13028:1785;12077:109144",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1222"
+              }
+            }
+          }
+        },
+        "fontFamily": {
+          "node": "I13073:2669;13028:1785;12077:109144",
+          "raw": "Inter"
+        },
+        "fontSize": {
+          "node": "I13073:2669;13028:1785;12077:109144",
+          "raw": 16
+        },
+        "fontWeight": {
+          "node": "I13073:2669;13028:1785;12077:109144",
+          "raw": 700
+        },
+        "lineHeight": {
+          "node": "I13073:2669;13028:1785;12077:109144",
+          "raw": {
+            "lineHeightPx": 24,
+            "lineHeightUnit": "PIXELS",
+            "fontSize": 16
+          }
+        },
+        "letterSpacing": {
+          "node": "I13073:2669;13028:1785;12077:109144",
+          "raw": {
+            "letterSpacing": 0,
+            "fontSize": 16
+          }
+        },
+        "borderRadius": {
+          "node": "I13073:2669;13028:1785",
+          "raw": 4
+        },
+        "padding": {
+          "node": "I13073:2669;13028:1785",
+          "raw": [
+            0,
+            16,
+            0,
+            16
+          ]
+        },
+        "border": {
+          "node": "I13073:2669;13028:1785",
+          "raw": {
+            "strokeWeight": 1,
+            "paint": {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.8156862854957581,
+                "g": 0,
+                "b": 0.43529412150382996,
+                "a": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2056:1221"
+                }
+              }
+            }
+          }
+        },
+        "height": {
+          "node": "I13073:2669;13028:1785",
+          "raw": 42
+        }
+      }
+    },
+    "node": "13073:2669",
+    "count": 3,
+    "nodes": [
+      "13073:2669",
+      "13370:1892",
+      "13370:2047"
+    ],
+    "set": ".Buttons Collage",
+    "variant": {
+      "Alignment": "Left"
+    },
+    "divergent": []
+  },
+  "buttons-collage-center": {
+    "value": {
+      "background": "rgb(208, 0, 111)",
+      "backgroundKind": "SOLID",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "4px",
+      "padding": "0px 16px",
+      "border": "1px solid rgb(208, 0, 111)",
+      "boxShadow": null,
+      "height": "42px"
+    },
+    "figma": {
+      "componentId": "13028:2134",
+      "componentProperties": {
+        "Link": true,
+        "Secondary CTA": true,
+        "Primary CTA": true,
+        "Alignment": "Center"
+      },
+      "box": [
+        "I13530:18403;13028:2135",
+        "13530:18403"
+      ],
+      "fields": {
+        "background": {
+          "node": "I13530:18403;13028:2135",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.8156862854957581,
+              "g": 0,
+              "b": 0.43529412150382996,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1220"
+              }
+            }
+          }
+        },
+        "color": {
+          "node": "I13530:18403;13028:2135;12077:109144",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1222"
+              }
+            }
+          }
+        },
+        "fontFamily": {
+          "node": "I13530:18403;13028:2135;12077:109144",
+          "raw": "Inter"
+        },
+        "fontSize": {
+          "node": "I13530:18403;13028:2135;12077:109144",
+          "raw": 16
+        },
+        "fontWeight": {
+          "node": "I13530:18403;13028:2135;12077:109144",
+          "raw": 700
+        },
+        "lineHeight": {
+          "node": "I13530:18403;13028:2135;12077:109144",
+          "raw": {
+            "lineHeightPx": 24,
+            "lineHeightUnit": "PIXELS",
+            "fontSize": 16
+          }
+        },
+        "letterSpacing": {
+          "node": "I13530:18403;13028:2135;12077:109144",
+          "raw": {
+            "letterSpacing": 0,
+            "fontSize": 16
+          }
+        },
+        "borderRadius": {
+          "node": "I13530:18403;13028:2135",
+          "raw": 4
+        },
+        "padding": {
+          "node": "I13530:18403;13028:2135",
+          "raw": [
+            0,
+            16,
+            0,
+            16
+          ]
+        },
+        "border": {
+          "node": "I13530:18403;13028:2135",
+          "raw": {
+            "strokeWeight": 1,
+            "paint": {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.8156862854957581,
+                "g": 0,
+                "b": 0.43529412150382996,
+                "a": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2056:1221"
+                }
+              }
+            }
+          }
+        },
+        "height": {
+          "node": "I13530:18403;13028:2135",
+          "raw": 42
+        }
+      }
+    },
+    "node": "13530:18403",
+    "count": 1,
+    "nodes": [
+      "13530:18403"
+    ],
+    "set": ".Buttons Collage",
+    "variant": {
+      "Alignment": "Center"
+    },
+    "divergent": []
+  },
+  "buttons-collage-vertical": {
+    "value": {
+      "background": "rgb(208, 0, 111)",
+      "backgroundKind": "SOLID",
+      "color": "rgb(255, 255, 255)",
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "4px",
+      "padding": "0px 16px",
+      "border": "1px solid rgb(208, 0, 111)",
+      "boxShadow": null,
+      "height": "42px"
+    },
+    "figma": {
+      "componentId": "13028:2192",
+      "componentProperties": {
+        "Link": false,
+        "Secondary CTA": true,
+        "Primary CTA": true,
+        "Alignment": "Vertical"
+      },
+      "box": [
+        "I13073:2812;13028:2195",
+        "13073:2812"
+      ],
+      "fields": {
+        "background": {
+          "node": "I13073:2812;13028:2195",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.8156862854957581,
+              "g": 0,
+              "b": 0.43529412150382996,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1220"
+              }
+            }
+          }
+        },
+        "color": {
+          "node": "I13073:2812;13028:2195;12077:109144",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1222"
+              }
+            }
+          }
+        },
+        "fontFamily": {
+          "node": "I13073:2812;13028:2195;12077:109144",
+          "raw": "Inter"
+        },
+        "fontSize": {
+          "node": "I13073:2812;13028:2195;12077:109144",
+          "raw": 16
+        },
+        "fontWeight": {
+          "node": "I13073:2812;13028:2195;12077:109144",
+          "raw": 700
+        },
+        "lineHeight": {
+          "node": "I13073:2812;13028:2195;12077:109144",
+          "raw": {
+            "lineHeightPx": 24,
+            "lineHeightUnit": "PIXELS",
+            "fontSize": 16
+          }
+        },
+        "letterSpacing": {
+          "node": "I13073:2812;13028:2195;12077:109144",
+          "raw": {
+            "letterSpacing": 0,
+            "fontSize": 16
+          }
+        },
+        "borderRadius": {
+          "node": "I13073:2812;13028:2195",
+          "raw": 4
+        },
+        "padding": {
+          "node": "I13073:2812;13028:2195",
+          "raw": [
+            0,
+            16,
+            0,
+            16
+          ]
+        },
+        "border": {
+          "node": "I13073:2812;13028:2195",
+          "raw": {
+            "strokeWeight": 1,
+            "paint": {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.8156862854957581,
+                "g": 0,
+                "b": 0.43529412150382996,
+                "a": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2056:1221"
+                }
+              }
+            }
+          }
+        },
+        "height": {
+          "node": "I13073:2812;13028:2195",
+          "raw": 42
+        }
+      }
+    },
+    "node": "13073:2812",
+    "count": 5,
+    "nodes": [
+      "13073:2812",
+      "13530:18465",
+      "13370:2094",
+      "13424:3336",
+      "13424:4992"
+    ],
+    "set": ".Buttons Collage",
+    "variant": {
+      "Alignment": "Vertical"
+    },
+    "divergent": [
+      {
+        "node": "13424:3336",
+        "fields": [
+          "fontWeight"
+        ]
+      },
+      {
+        "node": "13424:4992",
+        "fields": [
+          "background",
+          "color"
+        ]
+      }
+    ]
+  },
+  "cta-banner-desktop": {
+    "value": {
+      "background": "rgb(255, 255, 255)",
+      "backgroundKind": "SOLID",
+      "color": "rgb(131, 0, 81)",
+      "fontFamily": "Lexia",
+      "fontSize": "26px",
+      "fontWeight": "400",
+      "lineHeight": "34px",
+      "letterSpacing": "normal",
+      "borderRadius": "8px",
+      "padding": "40px",
+      "border": "4px solid rgb(178, 180, 180)",
+      "boxShadow": null,
+      "height": "418px"
+    },
+    "figma": {
+      "componentId": "13370:1909",
+      "componentProperties": {},
+      "box": [
+        "13370:1456",
+        "13370:1867",
+        "13370:1909"
+      ],
+      "fields": {
+        "background": {
+          "node": "13370:1909",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2055:1211"
+              }
+            }
+          }
+        },
+        "color": {
+          "node": "I13370:1456;12529:1209",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.5137255191802979,
+              "g": 0,
+              "b": 0.3176470696926117,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2055:1215"
+              }
+            }
+          }
+        },
+        "fontFamily": {
+          "node": "I13370:1456;12529:1209",
+          "raw": "Lexia"
+        },
+        "fontSize": {
+          "node": "I13370:1456;12529:1209",
+          "raw": 26
+        },
+        "fontWeight": {
+          "node": "I13370:1456;12529:1209",
+          "raw": 400
+        },
+        "lineHeight": {
+          "node": "I13370:1456;12529:1209",
+          "raw": {
+            "lineHeightPx": 34,
+            "lineHeightUnit": "PIXELS",
+            "fontSize": 26
+          }
+        },
+        "letterSpacing": {
+          "node": "I13370:1456;12529:1209",
+          "raw": {
+            "letterSpacing": 0,
+            "fontSize": 26
+          }
+        },
+        "borderRadius": {
+          "node": "13370:1909",
+          "raw": 8
+        },
+        "padding": {
+          "node": "13370:1909",
+          "raw": [
+            40,
+            40,
+            40,
+            40
+          ]
+        },
+        "border": {
+          "node": "13370:1909",
+          "raw": {
+            "strokeWeight": 4,
+            "paint": {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.6980392336845398,
+                "g": 0.7058823704719543,
+                "b": 0.7058823704719543,
+                "a": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2060:3918"
+                }
+              }
+            }
+          }
+        },
+        "height": {
+          "node": "13370:1909",
+          "raw": 418
+        }
+      }
+    },
+    "node": "13370:1909",
+    "count": 1,
+    "nodes": [
+      "13370:1909"
+    ],
+    "set": "CTA Banner",
+    "variant": {
+      "Breakpoint": "Desktop"
+    },
+    "divergent": []
+  },
+  "cta-banner-tablet": {
+    "value": {
+      "background": "rgb(255, 255, 255)",
+      "backgroundKind": "SOLID",
+      "color": "rgb(131, 0, 81)",
+      "fontFamily": "Lexia",
+      "fontSize": "26px",
+      "fontWeight": "400",
+      "lineHeight": "34px",
+      "letterSpacing": "normal",
+      "borderRadius": "8px",
+      "padding": "32px",
+      "border": "4px solid rgb(178, 180, 180)",
+      "boxShadow": null,
+      "height": "450px"
+    },
+    "figma": {
+      "componentId": "13370:2041",
+      "componentProperties": {},
+      "box": [
+        "13370:2044",
+        "13370:2043",
+        "13370:2041"
+      ],
+      "fields": {
+        "background": {
+          "node": "13370:2041",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2055:1211"
+              }
+            }
+          }
+        },
+        "color": {
+          "node": "I13370:2044;12529:1209",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.5137255191802979,
+              "g": 0,
+              "b": 0.3176470696926117,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2055:1215"
+              }
+            }
+          }
+        },
+        "fontFamily": {
+          "node": "I13370:2044;12529:1209",
+          "raw": "Lexia"
+        },
+        "fontSize": {
+          "node": "I13370:2044;12529:1209",
+          "raw": 26
+        },
+        "fontWeight": {
+          "node": "I13370:2044;12529:1209",
+          "raw": 400
+        },
+        "lineHeight": {
+          "node": "I13370:2044;12529:1209",
+          "raw": {
+            "lineHeightPx": 34,
+            "lineHeightUnit": "PIXELS",
+            "fontSize": 26
+          }
+        },
+        "letterSpacing": {
+          "node": "I13370:2044;12529:1209",
+          "raw": {
+            "letterSpacing": 0,
+            "fontSize": 26
+          }
+        },
+        "borderRadius": {
+          "node": "13370:2041",
+          "raw": 8
+        },
+        "padding": {
+          "node": "13370:2041",
+          "raw": [
+            32,
+            32,
+            32,
+            32
+          ]
+        },
+        "border": {
+          "node": "13370:2041",
+          "raw": {
+            "strokeWeight": 4,
+            "paint": {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.6980392336845398,
+                "g": 0.7058823704719543,
+                "b": 0.7058823704719543,
+                "a": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2060:3918"
+                }
+              }
+            }
+          }
+        },
+        "height": {
+          "node": "13370:2041",
+          "raw": 450
+        }
+      }
+    },
+    "node": "13370:2041",
+    "count": 1,
+    "nodes": [
+      "13370:2041"
+    ],
+    "set": "CTA Banner",
+    "variant": {
+      "Breakpoint": "Tablet"
+    },
+    "divergent": []
+  },
+  "cta-banner-mobile": {
+    "value": {
+      "background": "rgb(255, 255, 255)",
+      "backgroundKind": "SOLID",
+      "color": "rgb(131, 0, 81)",
+      "fontFamily": "Lexia",
+      "fontSize": "26px",
+      "fontWeight": "400",
+      "lineHeight": "34px",
+      "letterSpacing": "normal",
+      "borderRadius": "8px",
+      "padding": "20px",
+      "border": "4px solid rgb(178, 180, 180)",
+      "boxShadow": null,
+      "height": "748px"
+    },
+    "figma": {
+      "componentId": "13370:2088",
+      "componentProperties": {},
+      "box": [
+        "13370:2091",
+        "13370:2090",
+        "13370:2088"
+      ],
+      "fields": {
+        "background": {
+          "node": "13370:2088",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2055:1211"
+              }
+            }
+          }
+        },
+        "color": {
+          "node": "I13370:2091;12529:1209",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.5137255191802979,
+              "g": 0,
+              "b": 0.3176470696926117,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2055:1215"
+              }
+            }
+          }
+        },
+        "fontFamily": {
+          "node": "I13370:2091;12529:1209",
+          "raw": "Lexia"
+        },
+        "fontSize": {
+          "node": "I13370:2091;12529:1209",
+          "raw": 26
+        },
+        "fontWeight": {
+          "node": "I13370:2091;12529:1209",
+          "raw": 400
+        },
+        "lineHeight": {
+          "node": "I13370:2091;12529:1209",
+          "raw": {
+            "lineHeightPx": 34,
+            "lineHeightUnit": "PIXELS",
+            "fontSize": 26
+          }
+        },
+        "letterSpacing": {
+          "node": "I13370:2091;12529:1209",
+          "raw": {
+            "letterSpacing": 0,
+            "fontSize": 26
+          }
+        },
+        "borderRadius": {
+          "node": "13370:2088",
+          "raw": 8
+        },
+        "padding": {
+          "node": "13370:2088",
+          "raw": [
+            20,
+            20,
+            20,
+            20
+          ]
+        },
+        "border": {
+          "node": "13370:2088",
+          "raw": {
+            "strokeWeight": 4,
+            "paint": {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.6980392336845398,
+                "g": 0.7058823704719543,
+                "b": 0.7058823704719543,
+                "a": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2060:3918"
+                }
+              }
+            }
+          }
+        },
+        "height": {
+          "node": "13370:2088",
+          "raw": 748
+        }
+      }
+    },
+    "node": "13370:2088",
+    "count": 1,
+    "nodes": [
+      "13370:2088"
+    ],
+    "set": "CTA Banner",
+    "variant": {
+      "Breakpoint": "Mobile"
+    },
+    "divergent": []
+  },
+  "buttons-collage-right": {
+    "value": {
+      "background": "rgb(255, 255, 255)",
+      "backgroundKind": "SOLID",
+      "color": "rgb(208, 0, 111)",
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "lineHeight": "24px",
+      "letterSpacing": "normal",
+      "borderRadius": "4px",
+      "padding": "0px 16px",
+      "border": "1px solid rgb(208, 0, 111)",
+      "boxShadow": null,
+      "height": "42px"
+    },
+    "figma": {
+      "componentId": "13028:2147",
+      "componentProperties": {
+        "Link": false,
+        "Secondary CTA": true,
+        "Primary CTA": true,
+        "Alignment": "Right"
+      },
+      "box": [
+        "I13424:3132;13028:2149",
+        "13424:3132"
+      ],
+      "fields": {
+        "background": {
+          "node": "I13424:3132;13028:2149",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1223"
+              }
+            }
+          }
+        },
+        "color": {
+          "node": "I13424:3132;13028:2149;12084:109167",
+          "raw": {
+            "blendMode": "NORMAL",
+            "type": "SOLID",
+            "color": {
+              "r": 0.8156862854957581,
+              "g": 0,
+              "b": 0.43529412150382996,
+              "a": 1
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2056:1225"
+              }
+            }
+          }
+        },
+        "fontFamily": {
+          "node": "I13424:3132;13028:2149;12084:109167",
+          "raw": "Inter"
+        },
+        "fontSize": {
+          "node": "I13424:3132;13028:2149;12084:109167",
+          "raw": 16
+        },
+        "fontWeight": {
+          "node": "I13424:3132;13028:2149;12084:109167",
+          "raw": 700
+        },
+        "lineHeight": {
+          "node": "I13424:3132;13028:2149;12084:109167",
+          "raw": {
+            "lineHeightPx": 24,
+            "lineHeightUnit": "PIXELS",
+            "fontSize": 16
+          }
+        },
+        "letterSpacing": {
+          "node": "I13424:3132;13028:2149;12084:109167",
+          "raw": {
+            "letterSpacing": 0,
+            "fontSize": 16
+          }
+        },
+        "borderRadius": {
+          "node": "I13424:3132;13028:2149",
+          "raw": 4
+        },
+        "padding": {
+          "node": "I13424:3132;13028:2149",
+          "raw": [
+            0,
+            16,
+            0,
+            16
+          ]
+        },
+        "border": {
+          "node": "I13424:3132;13028:2149",
+          "raw": {
+            "strokeWeight": 1,
+            "paint": {
+              "blendMode": "NORMAL",
+              "type": "SOLID",
+              "color": {
+                "r": 0.8156862854957581,
+                "g": 0,
+                "b": 0.43529412150382996,
+                "a": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2056:1221"
+                }
+              }
+            }
+          }
+        },
+        "height": {
+          "node": "I13424:3132;13028:2149",
+          "raw": 42
+        }
+      }
+    },
+    "node": "13424:3132",
+    "count": 4,
+    "nodes": [
+      "13424:3132",
+      "13424:4810",
+      "13424:3550",
+      "13424:4970"
+    ],
+    "set": ".Buttons Collage",
+    "variant": {
+      "Alignment": "Right"
+    },
+    "divergent": [
+      {
+        "node": "13424:4810",
+        "fields": [
+          "background",
+          "backgroundKind",
+          "color",
+          "padding",
+          "border"
+        ]
+      },
+      {
+        "node": "13424:4970",
+        "fields": [
+          "background",
+          "backgroundKind",
+          "color",
+          "padding",
+          "border"
+        ]
+      }
+    ]
+  }
+}

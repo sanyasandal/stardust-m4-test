@@ -1,0 +1,37 @@
+/* One AZ overlay page template — Figma "Overlay" frames (13530:18497 …): black 60% over white = #666,
+   no site chrome, the modal centred in a 1440×1024 / 768×500 / 375×800 frame */
+body.overlay {
+  height: 800px;
+  min-height: 0;
+  background-color: #666;
+}
+
+body.overlay header,
+body.overlay footer {
+  display: none;
+}
+
+body.overlay main > .section {
+  width: 100%;
+  max-width: 568px;
+}
+
+body.overlay main > .section > div {
+  max-width: none;
+}
+
+@media (width >= 768px) {
+  body.overlay {
+    height: 500px;
+  }
+
+  body.overlay .modal .modal-title br:first-of-type {
+    display: none;
+  }
+}
+
+@media (width >= 1200px) {
+  body.overlay {
+    height: 1024px;
+  }
+}

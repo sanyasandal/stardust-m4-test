@@ -1,0 +1,190 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "command": "content",
+    "modelVersion": 2,
+    "capturedAt": "2026-10-26T09:25:00Z",
+    "source": {
+      "kind": "figma",
+      "figma": {
+        "fileKey": "rsZQmpVzuyn0KhCDA3WN60",
+        "node": "13530:17934",
+        "version": "2413431205561424165",
+        "name": "Type=New User Registretion, Breakpoint=Desktop",
+        "fileKeyHash": "a32f5f25d34d"
+      }
+    },
+    "viewport": "1440x720",
+    "scope": "figma:13530:17934",
+    "visibility": "effective: hidden when the node or any ancestor is visible:false",
+    "readingOrder": {
+      "rule": "auto-layout: child order (absolute children after, geometric); otherwise geometric: rows by vertical overlap >= 50%, then x",
+      "frames": {
+        "auto-layout": 3
+      },
+      "ambiguous": []
+    },
+    "segmentation": {
+      "rule": "top-level children by y; chrome by name leaves the body; content-less layers fold; overlapping bands merge; a single wrapper with >= 2 content bands is descended",
+      "sections": [
+        {
+          "slot": "s01",
+          "y": 40,
+          "h": 640,
+          "nodes": [
+            "13530:17935"
+          ]
+        }
+      ],
+      "chrome": {
+        "header": [],
+        "footer": []
+      },
+      "folded": [],
+      "descended": 0
+    },
+    "responsive": {
+      "node": "13530:17938",
+      "name": "Type=New User Registretion, Breakpoint=Mobile"
+    },
+    "kit": {
+      "rule": "a section is the outermost template-section or component instance above its nodes, else the instances inside them; one block per section (kit.mixed when several, kit.unbound when none)",
+      "registry": 1
+    },
+    "decorative": []
+  },
+  "metadata": {
+    "title": "New User Registretion",
+    "description": "",
+    "canonical": null,
+    "ogTags": {},
+    "twitterTags": {},
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null,
+    "declaredAbsent": [
+      "description",
+      "canonical",
+      "ogTags",
+      "twitterTags",
+      "jsonLd"
+    ],
+    "derived": {
+      "title": "frame name"
+    }
+  },
+  "scope": [
+    {
+      "sel": "figma:13530:17934",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "New user registration Dear [Customer's Name], We received a request to reset the password associated with your account. To proceed with the password reset, please click the link below: • {First name…….} List of registration fields • {Last name…….} • Username: [User's Username] • Email: [User's Email Address] • Role: [User's Role/Permission Level] • {Etc……….} Please ensure the Data control request and the necessary onboarding process is taken. Best Regards, [Your Support Email or Contact Number].",
+  "coverage": {
+    "bodyTextLen": 500,
+    "scopeTextLen": 500,
+    "ratio": 1,
+    "h1Text": "New user registration",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": null,
+      "rootClass": "",
+      "node": "13530:17935",
+      "nodes": [
+        "13530:17935"
+      ],
+      "visibleText": "New user registration Dear [Customer's Name], We received a request to reset the password associated with your account. To proceed with the password reset, please click the link below: • {First name…….} List of registration fields • {Last name…….} • Username: [User's Username] • Email: [User's Email Address] • Role: [User's Role/Permission Level] • {Etc……….} Please ensure the Data control request and the necessary onboarding process is taken. Best Regards, [Your Support Email or Contact Number].",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "New user registration"
+        }
+      ],
+      "paragraphs": [
+        "Dear [Customer's Name], We received a request to reset the password associated with your account. To proceed with the password reset, please click the link below: • {First name…….} List of registration fields • {Last name…….} • Username: [User's Username] • Email: [User's Email Address] • Role: [User's Role/Permission Level] • {Etc……….} Please ensure the Data control request and the necessary onboarding process is taken. Best Regards, [Your Support Email or Contact Number]."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [
+        {
+          "currentSrc": "assets/I13530-17935-12712-21044.svg",
+          "alt": null,
+          "w": 674,
+          "h": 48
+        }
+      ],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "image",
+          "currentSrc": "assets/I13530-17935-12712-21044.svg",
+          "alt": null,
+          "w": 674,
+          "h": 48,
+          "node": "I13530:17935;12712:21044"
+        },
+        {
+          "kind": "heading",
+          "level": "h1",
+          "role": null,
+          "text": "New user registration",
+          "node": "I13530:17935;12712:21067",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Dear [Customer's Name], We received a request to reset the password associated with your account. To proceed with the password reset, please click the link below: • {First name…….} List of registration fields • {Last name…….} • Username: [User's Username] • Email: [User's Email Address] • Role: [User's Role/Permission Level] • {Etc……….} Please ensure the Data control request and the necessary onboarding process is taken. Best Regards, [Your Support Email or Contact Number].",
+          "node": "I13530:17935;12712:21049",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "kit": {
+        "block": "email",
+        "module": "M25",
+        "variant": [],
+        "set": "Email",
+        "group": "template",
+        "home": "❏ Email",
+        "instance": "13530:17935",
+        "instances": [
+          "13530:17935"
+        ]
+      }
+    }
+  ],
+  "flags": [
+    {
+      "id": "image.alt",
+      "severity": "review",
+      "node": "I13530:17935;12712:21044",
+      "slot": "s01",
+      "detail": "no alt text in Figma: write it or mark the image decorative"
+    },
+    {
+      "id": "heading.ambiguous",
+      "severity": "review",
+      "node": "I13530:17935;12712:21067",
+      "slot": "s01",
+      "detail": "32px matches no donor type role; no heading roles in donor-tokens"
+    },
+    {
+      "id": "heading.level",
+      "severity": "info",
+      "node": "I13530:17935;12712:21067",
+      "slot": "s01",
+      "detail": "size heading set to h1 (was h2): the first heading is the page h1"
+    },
+    {
+      "id": "metadata.title-derived",
+      "severity": "review",
+      "node": "13530:17934",
+      "slot": null,
+      "detail": "title \"New User Registretion\" derived from the frame name; description, canonical, OG and Twitter tags are absent"
+    }
+  ]
+}

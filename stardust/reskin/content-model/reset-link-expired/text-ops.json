@@ -1,0 +1,18 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "command": "content",
+    "writtenAt": "2026-10-26T09:25:00Z"
+  },
+  "chrome": "outside the text gate (header/footer are separate slots)",
+  "text": [
+    {
+      "node": "I13530:14959;12534:1406;13496:12041;13424:6057;12160:3618",
+      "field": "I13530:14959;12534:1406;13496:12041;13424:6057",
+      "op": "attr",
+      "to": "placeholder",
+      "text": "e.g. example@email.com",
+      "why": "a drawn field renders its value as the placeholder attribute"
+    }
+  ]
+}

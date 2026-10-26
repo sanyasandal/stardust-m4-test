@@ -1,0 +1,26 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "command": "content",
+    "writtenAt": "2026-10-26T09:25:00Z"
+  },
+  "chrome": "outside the text gate (header/footer are separate slots)",
+  "text": [
+    {
+      "node": "I13496:9636;12643:9384;12160:3618",
+      "field": "I13496:9636;12643:9384",
+      "op": "attr",
+      "to": "placeholder",
+      "text": "john.dowry@example.com",
+      "why": "a drawn field renders its value as the placeholder attribute"
+    },
+    {
+      "node": "I13496:9636;12643:9385;12160:3663",
+      "field": "I13496:9636;12643:9385",
+      "op": "attr",
+      "to": "placeholder",
+      "text": "*************",
+      "why": "a drawn field renders its value as the placeholder attribute"
+    }
+  ]
+}

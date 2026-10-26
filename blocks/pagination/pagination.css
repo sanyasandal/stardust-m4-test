@@ -1,0 +1,85 @@
+/* Pagination — 40px controls, Lexia 16/24; hover grey-600, current magenta + 1px rule, disabled grey-400 */
+.pagination {
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.pagination .pagination-list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pagination .pagination-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  box-sizing: border-box;
+  flex: none;
+  min-width: 40px;
+  height: 40px;
+  color: var(--az-graphite);
+  font-family: var(--heading-font-family);
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.pagination .pagination-item:is(.prev, .next):has(.pagination-label:not(.visually-hidden)) {
+  padding: 0 10px;
+}
+
+.pagination a.pagination-item:hover,
+.pagination .pagination-item.hover {
+  color: var(--az-grey-600);
+}
+
+.pagination a.pagination-item:focus-visible {
+  outline: 2px solid var(--az-magenta);
+  outline-offset: -2px;
+}
+
+.pagination .pagination-item[aria-current],
+.pagination .pagination-item.active {
+  color: var(--az-magenta);
+}
+
+.pagination .pagination-item[aria-current] {
+  box-shadow: inset 0 -1px 0 var(--az-magenta);
+}
+
+.pagination .pagination-item[aria-disabled] {
+  color: var(--az-grey-400);
+}
+
+.pagination .pagination-icon {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  background-color: currentcolor;
+  mask: var(--pagination-mask) center / 100% 100% no-repeat;
+}
+
+.pagination .pagination-icon.chevron-left {
+  --pagination-mask: url("/icons/chevron-left.svg");
+}
+
+.pagination .pagination-icon.chevron-right {
+  --pagination-mask: url("/icons/chevron-right.svg");
+}
+
+.pagination .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.pagination.base {
+  display: inline-flex;
+}

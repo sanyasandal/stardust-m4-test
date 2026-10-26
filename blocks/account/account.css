@@ -1,0 +1,105 @@
+/* Account — kit ".Account summary" 12693:19254 (desktop) / 12693:19256 (tablet) / 12693:19258 (mobile) */
+.account {
+  container-type: inline-size;
+  color: var(--az-graphite);
+}
+
+.account .account-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 20px 16px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.account .account-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0;
+}
+
+.account .account-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 265px;
+}
+
+.account .account-right {
+  order: 1;
+}
+
+.account .account-empty {
+  display: none;
+}
+
+.account dt {
+  color: var(--az-grey-500);
+  font-weight: 400;
+}
+
+.account dd {
+  margin: 0;
+  color: var(--az-grey-600);
+  font-weight: 700;
+}
+
+.account .account-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.account .account-actions .button-wrapper,
+.account .account-actions .button {
+  width: 100%;
+}
+
+@container (width >= 600px) {
+  .account .account-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px 32px;
+  }
+
+  .account .account-item {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+    max-width: none;
+  }
+
+  .account .account-right {
+    order: 0;
+  }
+
+  .account .account-empty {
+    display: block;
+  }
+
+  .account .account-actions .button-wrapper,
+  .account .account-actions .button {
+    width: auto;
+  }
+
+  .account .account-inner {
+    gap: 32px;
+    padding: 32px;
+  }
+}
+
+@container (width >= 1200px) {
+  .account .account-inner {
+    gap: 40px;
+    padding: 40px calc((100% - 1180px) / 2);
+  }
+
+  .account .account-list {
+    gap: 40px;
+  }
+
+  .account .account-item {
+    gap: 40px;
+  }
+}

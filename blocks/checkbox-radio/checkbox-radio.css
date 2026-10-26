@@ -1,0 +1,98 @@
+/* kit "Checkbox Input" (12265:6347) / "Checkbox Form" (12274:6373) */
+.checkbox-radio {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: fit-content;
+}
+
+.checkbox-radio .check {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--az-graphite);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.checkbox-radio .check input[type="checkbox"],
+.checkbox-radio .check input[type="radio"] {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  margin: 2px 0;
+  border: 1px solid var(--az-grey-300);
+  border-radius: var(--radius);
+  background: var(--az-white);
+  cursor: pointer;
+  appearance: none;
+}
+
+.checkbox-radio .check input[type="radio"] {
+  border-radius: 50%;
+}
+
+.checkbox-radio .check input[type="checkbox"]:checked {
+  border-color: var(--az-magenta);
+  background: var(--az-magenta) url('../../icons/check-white.svg') no-repeat center / 16px 16px;
+}
+
+/* Figma radio Active: white ground, magenta ring, 10px magenta dot */
+.checkbox-radio .check input[type="radio"]:checked {
+  border-color: var(--az-magenta);
+  background: var(--az-white) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 18 18'%3E%3Ccircle cx='9' cy='9' r='5' fill='%23d0006f'/%3E%3C/svg%3E") no-repeat center / 18px 18px;
+}
+
+.checkbox-radio .check input:hover {
+  border-color: var(--az-graphite);
+}
+
+.checkbox-radio .check input:focus-visible {
+  outline: 2px solid var(--az-magenta);
+  outline-offset: 2px;
+}
+
+.checkbox-radio .check input:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.checkbox-radio .check-text {
+  display: flex;
+  flex-direction: column;
+
+  /* sub-pixel slack: Inter's local metrics run ~0.3px wider than Figma's text boxes */
+  margin-inline-end: -1px;
+}
+
+.checkbox-radio .check.has-helper {
+  align-items: flex-start;
+}
+
+.checkbox-radio .check.has-helper .check-label {
+  font-weight: 500;
+}
+
+/* bare control (Checkbox Input): 20×20, label for screen readers only */
+.checkbox-radio.bare .check {
+  gap: 0;
+}
+
+.checkbox-radio.bare .check input {
+  margin: 0;
+}
+
+.checkbox-radio.bare .check-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.checkbox-radio .check input:checked:hover {
+  border-color: var(--az-magenta);
+}

@@ -1,0 +1,266 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "command": "content",
+    "writtenAt": "2026-10-26T09:25:00Z"
+  },
+  "slug": "registration",
+  "counts": {
+    "block": 0,
+    "review": 4,
+    "info": 27,
+    "open": 4
+  },
+  "placeholderOnly": false,
+  "items": [
+    {
+      "key": "heading.ambiguous@I13496:14821;12534:1406;12534:1395;12529:1207",
+      "id": "heading.ambiguous",
+      "severity": "review",
+      "node": "I13496:14821;12534:1406;12534:1395;12529:1207",
+      "slot": "s01",
+      "detail": "46px matches no donor type role; no heading roles in donor-tokens"
+    },
+    {
+      "key": "field.inferred@I13496:10840;12534:1406;13496:12041;12679:11128",
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11128",
+      "slot": "s02",
+      "detail": "drawn field: label \"First name *\", placeholder \"e.g. John\""
+    },
+    {
+      "key": "field.inferred@I13496:10840;12534:1406;13496:12041;12679:11129",
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11129",
+      "slot": "s02",
+      "detail": "drawn field: label \"First name *\", placeholder \"e.g. Dowry\""
+    },
+    {
+      "key": "field.inferred@I13496:10840;12534:1406;13496:12041;12679:11131",
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11131",
+      "slot": "s02",
+      "detail": "drawn field: label \"Title *\", placeholder \"e.g. Doctor\""
+    },
+    {
+      "key": "field.inferred@I13496:10840;12534:1406;13496:12041;12679:11132",
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11132",
+      "slot": "s02",
+      "detail": "drawn field: label \"HCP type *\", placeholder \"Select an option\""
+    },
+    {
+      "key": "field.inferred@I13496:10840;12534:1406;13496:12041;12679:11317",
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11317",
+      "slot": "s02",
+      "detail": "drawn field: label \"Hospital/Practice name *\", placeholder \"e.g. St Thomas’ Hospital\""
+    },
+    {
+      "key": "field.inferred@I13496:10840;12534:1406;13496:12041;12679:11318",
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11318",
+      "slot": "s02",
+      "detail": "drawn field: label \"Speciality *\", placeholder \"Select an option\""
+    },
+    {
+      "key": "field.inferred@I13496:10840;12534:1406;13496:12041;12679:11135",
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11135",
+      "slot": "s02",
+      "detail": "drawn field: label \"EFN (Uniform Training Number) *\", placeholder \"e.g. 123456789\""
+    },
+    {
+      "key": "field.inferred@I13496:10840;12534:1406;13496:12041;12679:11361",
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11361",
+      "slot": "s02",
+      "detail": "drawn field: label \"Telephone number\", placeholder \"e.g. +44 7700 900123\""
+    },
+    {
+      "key": "field.inferred@I13496:10840;12534:1406;13496:12041;12679:11362",
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11362",
+      "slot": "s02",
+      "detail": "drawn field: label \"Email *\", placeholder \"e.g. john.dowry@example.com\""
+    },
+    {
+      "key": "field.inferred@I13496:10840;12534:1406;13496:12041;12679:11404",
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11404",
+      "slot": "s02",
+      "detail": "drawn field: label \"House number and street *\", placeholder \"e.g. Oxford Street, 45\""
+    },
+    {
+      "key": "field.inferred@I13496:10840;12534:1406;13496:12041;12679:11405",
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11405",
+      "slot": "s02",
+      "detail": "drawn field: label \"Additional address field *\", placeholder \"e.g. Avenue/Road/Lane\""
+    },
+    {
+      "key": "field.inferred@I13496:10840;12534:1406;13496:12041;12679:11453",
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11453",
+      "slot": "s02",
+      "detail": "drawn field: label \"Zip code *\", placeholder \"e.g. PO16 7\""
+    },
+    {
+      "key": "field.inferred@I13496:10840;12534:1406;13496:12041;12679:11454",
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11454",
+      "slot": "s02",
+      "detail": "drawn field: label \"City *\", placeholder \"e.g. London\""
+    },
+    {
+      "key": "field.inferred@I13496:10840;12534:1406;13496:12041;12679:11137",
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11137",
+      "slot": "s02",
+      "detail": "drawn field: label \"Password *\", masked value (password)"
+    },
+    {
+      "key": "field.inferred@I13496:10840;12534:1406;13496:12041;12679:11138",
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11138",
+      "slot": "s02",
+      "detail": "drawn field: label \"Confirm Password *\", masked value (password)"
+    },
+    {
+      "key": "heading.level@I13496:14821;12534:1406;12534:1395;12529:1207",
+      "id": "heading.level",
+      "severity": "info",
+      "node": "I13496:14821;12534:1406;12534:1395;12529:1207",
+      "slot": "s01",
+      "detail": "size heading set to h1 (was h2): the first heading is the page h1"
+    },
+    {
+      "key": "image.alt@13496:10795",
+      "id": "image.alt",
+      "severity": "info",
+      "node": "13496:10795",
+      "slot": null,
+      "detail": "no alt text in Figma: write it or mark the image decorative"
+    },
+    {
+      "key": "image.alt@I13496:10763;12406:12140",
+      "id": "image.alt",
+      "severity": "info",
+      "node": "I13496:10763;12406:12140",
+      "slot": null,
+      "detail": "logo: alt text from the brand name is the author's call"
+    },
+    {
+      "key": "link.unresolved@I13496:10763;12406:12149",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:10763;12406:12149",
+      "slot": "s02",
+      "detail": "chrome \"Privacy Notice\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:10763;12406:12150",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:10763;12406:12150",
+      "slot": "s02",
+      "detail": "chrome \"Cookie Notice\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:10763;12406:12151",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:10763;12406:12151",
+      "slot": "s02",
+      "detail": "chrome \"Prescribing Information\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:10763;12406:12152",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:10763;12406:12152",
+      "slot": "s02",
+      "detail": "chrome \"Important Safety Information\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:10763;12406:12160",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:10763;12406:12160",
+      "slot": "s02",
+      "detail": "chrome \"Legal Statement\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:10763;12406:12161",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:10763;12406:12161",
+      "slot": "s02",
+      "detail": "chrome \"Site Map\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:10763;12406:12162",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:10763;12406:12162",
+      "slot": "s02",
+      "detail": "chrome \"AstraZeneca\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:10763;12406:12163",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:10763;12406:12163",
+      "slot": "s02",
+      "detail": "chrome \"Contact Us\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:10763;12406:12181",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:10763;12406:12181",
+      "slot": "s02",
+      "detail": "chrome \"XX-XXXX-01/2025\" has no link target in the design"
+    },
+    {
+      "key": "placeholder.suspect@I13496:14821;12534:1406;12534:1395;12529:1207",
+      "id": "placeholder.suspect",
+      "severity": "review",
+      "node": "I13496:14821;12534:1406;12534:1395;12529:1207",
+      "slot": "s01",
+      "detail": "\"The most inspiring heading\" reads like kit copy"
+    },
+    {
+      "key": "variant.text-differs@13496:17257",
+      "id": "variant.text-differs",
+      "severity": "review",
+      "node": "13496:17257",
+      "slot": null,
+      "detail": "the responsive variant differs: 2 text(s) only here (\"The most inspiring heading\"…), 2 only there (\"Registration\"…)"
+    },
+    {
+      "key": "metadata.title-derived@13496:17255",
+      "id": "metadata.title-derived",
+      "severity": "review",
+      "node": "13496:17255",
+      "slot": null,
+      "detail": "title \"Registration\" derived from the frame name; description, canonical, OG and Twitter tags are absent"
+    }
+  ],
+  "acknowledged": []
+}

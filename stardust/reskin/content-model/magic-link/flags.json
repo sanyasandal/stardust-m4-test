@@ -1,0 +1,58 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "command": "content",
+    "writtenAt": "2026-10-26T09:25:00Z"
+  },
+  "slug": "magic-link",
+  "counts": {
+    "block": 0,
+    "review": 4,
+    "info": 1,
+    "open": 4
+  },
+  "placeholderOnly": false,
+  "items": [
+    {
+      "key": "image.alt@I13530:17801;12712:21044",
+      "id": "image.alt",
+      "severity": "review",
+      "node": "I13530:17801;12712:21044",
+      "slot": "s01",
+      "detail": "no alt text in Figma: write it or mark the image decorative"
+    },
+    {
+      "key": "heading.ambiguous@I13530:17801;12712:21067",
+      "id": "heading.ambiguous",
+      "severity": "review",
+      "node": "I13530:17801;12712:21067",
+      "slot": "s01",
+      "detail": "32px matches no donor type role; no heading roles in donor-tokens"
+    },
+    {
+      "key": "heading.level@I13530:17801;12712:21067",
+      "id": "heading.level",
+      "severity": "info",
+      "node": "I13530:17801;12712:21067",
+      "slot": "s01",
+      "detail": "size heading set to h1 (was h2): the first heading is the page h1"
+    },
+    {
+      "key": "variant.text-differs@13530:17804",
+      "id": "variant.text-differs",
+      "severity": "review",
+      "node": "13530:17804",
+      "slot": null,
+      "detail": "the responsive variant differs: 1 text(s) only here (\"Confirm Access\"…), 1 only there (\"Verify E-mail\"…)"
+    },
+    {
+      "key": "metadata.title-derived@13530:17800",
+      "id": "metadata.title-derived",
+      "severity": "review",
+      "node": "13530:17800",
+      "slot": null,
+      "detail": "title \"Magic Link\" derived from the frame name; description, canonical, OG and Twitter tags are absent"
+    }
+  ],
+  "acknowledged": []
+}

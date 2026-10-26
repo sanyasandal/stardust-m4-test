@@ -1,0 +1,963 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "command": "content",
+    "modelVersion": 2,
+    "capturedAt": "2026-10-26T09:25:00Z",
+    "source": {
+      "kind": "figma",
+      "figma": {
+        "fileKey": "rsZQmpVzuyn0KhCDA3WN60",
+        "node": "13496:17255",
+        "version": "2413431205561424165",
+        "name": "Type=Registration, Breakpoint=Desktop",
+        "fileKeyHash": "a32f5f25d34d"
+      }
+    },
+    "viewport": "1440x1708",
+    "scope": "figma:13496:17255",
+    "visibility": "effective: hidden when the node or any ancestor is visible:false",
+    "readingOrder": {
+      "rule": "auto-layout: child order (absolute children after, geometric); otherwise geometric: rows by vertical overlap >= 50%, then x",
+      "frames": {
+        "auto-layout": 286
+      },
+      "ambiguous": []
+    },
+    "segmentation": {
+      "rule": "top-level children by y; chrome by name leaves the body; content-less layers fold; overlapping bands merge; a single wrapper with >= 2 content bands is descended",
+      "sections": [
+        {
+          "slot": "s01",
+          "y": 60,
+          "h": 154,
+          "nodes": [
+            "13496:14821"
+          ]
+        },
+        {
+          "slot": "s02",
+          "y": 214,
+          "h": 1202,
+          "nodes": [
+            "13496:10840"
+          ]
+        }
+      ],
+      "chrome": {
+        "header": [
+          "13496:10795"
+        ],
+        "footer": [
+          "13496:10763"
+        ]
+      },
+      "folded": [],
+      "descended": 0
+    },
+    "responsive": {
+      "node": "13496:17257",
+      "name": "Type=Registration, Breakpoint=Mobile"
+    },
+    "kit": {
+      "rule": "a section is the outermost template-section or component instance above its nodes, else the instances inside them; one block per section (kit.mixed when several, kit.unbound when none)",
+      "registry": 1
+    },
+    "decorative": [
+      "I13496:10763;12406:12170"
+    ]
+  },
+  "metadata": {
+    "title": "Registration",
+    "description": "",
+    "canonical": null,
+    "ogTags": {},
+    "twitterTags": {},
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null,
+    "declaredAbsent": [
+      "description",
+      "canonical",
+      "ogTags",
+      "twitterTags",
+      "jsonLd"
+    ],
+    "derived": {
+      "title": "frame name"
+    }
+  },
+  "scope": [
+    {
+      "sel": "figma:13496:17255",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "The most inspiring heading One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause. First name * First name * Title * HCP type * Hospital/Practice name * Speciality * EFN (Uniform Training Number) * Telephone number Email * House number and street * Additional address field * Zip code * City * Password * Confirm Password * Terms & Condition Privicy Policy Back Register",
+  "coverage": {
+    "bodyTextLen": 629,
+    "scopeTextLen": 629,
+    "ratio": 1,
+    "h1Text": "The most inspiring heading",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": null,
+      "rootClass": "",
+      "node": "13496:14821",
+      "nodes": [
+        "13496:14821"
+      ],
+      "visibleText": "The most inspiring heading One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "The most inspiring heading"
+        }
+      ],
+      "paragraphs": [
+        "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "level": "h1",
+          "role": null,
+          "text": "The most inspiring heading",
+          "node": "I13496:14821;12534:1406;12534:1395;12529:1207",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause.",
+          "node": "I13496:14821;12534:1406;12534:1397;12534:1254",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "kit": {
+        "block": "block-content",
+        "module": "M22",
+        "variant": [],
+        "set": "Block Content",
+        "group": "template",
+        "home": "❏ Block Content",
+        "instance": "13496:14821",
+        "instances": [
+          "13496:14821"
+        ]
+      }
+    },
+    {
+      "slot": "s02",
+      "rootTag": null,
+      "rootClass": "",
+      "node": "13496:10840",
+      "nodes": [
+        "13496:10840"
+      ],
+      "visibleText": "First name * First name * Title * HCP type * Hospital/Practice name * Speciality * EFN (Uniform Training Number) * Telephone number Email * House number and street * Additional address field * Zip code * City * Password * Confirm Password * Terms & Condition Privicy Policy Back Register",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [
+        {
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "e.g. John"
+        },
+        {
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "e.g. Dowry"
+        },
+        {
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "e.g. Doctor"
+        },
+        {
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "Select an option"
+        },
+        {
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "e.g. St Thomas’ Hospital"
+        },
+        {
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "Select an option"
+        },
+        {
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "e.g. 123456789"
+        },
+        {
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "e.g. +44 7700 900123"
+        },
+        {
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "e.g. john.dowry@example.com"
+        },
+        {
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "e.g. Oxford Street, 45"
+        },
+        {
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "e.g. Avenue/Road/Lane"
+        },
+        {
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "e.g. PO16 7"
+        },
+        {
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "e.g. London"
+        },
+        {
+          "control": "input",
+          "inputType": "password",
+          "name": "",
+          "text": "",
+          "placeholder": "*************"
+        },
+        {
+          "control": "input",
+          "inputType": "password",
+          "name": "",
+          "text": "",
+          "placeholder": "*************"
+        },
+        {
+          "control": "input",
+          "inputType": "checkbox",
+          "name": "",
+          "text": ""
+        }
+      ],
+      "leftovers": [
+        {
+          "text": "First name *",
+          "parentTag": "label",
+          "parentClass": ""
+        },
+        {
+          "text": "First name *",
+          "parentTag": "label",
+          "parentClass": ""
+        },
+        {
+          "text": "Title *",
+          "parentTag": "label",
+          "parentClass": ""
+        },
+        {
+          "text": "HCP type *",
+          "parentTag": "label",
+          "parentClass": ""
+        },
+        {
+          "text": "Hospital/Practice name *",
+          "parentTag": "label",
+          "parentClass": ""
+        },
+        {
+          "text": "Speciality *",
+          "parentTag": "label",
+          "parentClass": ""
+        },
+        {
+          "text": "EFN (Uniform Training Number) *",
+          "parentTag": "label",
+          "parentClass": ""
+        },
+        {
+          "text": "Telephone number",
+          "parentTag": "label",
+          "parentClass": ""
+        },
+        {
+          "text": "Email *",
+          "parentTag": "label",
+          "parentClass": ""
+        },
+        {
+          "text": "House number and street *",
+          "parentTag": "label",
+          "parentClass": ""
+        },
+        {
+          "text": "Additional address field *",
+          "parentTag": "label",
+          "parentClass": ""
+        },
+        {
+          "text": "Zip code *",
+          "parentTag": "label",
+          "parentClass": ""
+        },
+        {
+          "text": "City *",
+          "parentTag": "label",
+          "parentClass": ""
+        },
+        {
+          "text": "Password *",
+          "parentTag": "label",
+          "parentClass": ""
+        },
+        {
+          "text": "Confirm Password *",
+          "parentTag": "label",
+          "parentClass": ""
+        },
+        {
+          "text": "Terms & Condition Privicy Policy",
+          "parentTag": "label",
+          "parentClass": ""
+        },
+        {
+          "text": "Back",
+          "parentTag": "button",
+          "parentClass": ""
+        },
+        {
+          "text": "Register",
+          "parentTag": "button",
+          "parentClass": ""
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "text",
+          "text": "First name *",
+          "parentTag": "label",
+          "parentClass": "",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11128;12160:3607",
+          "sep": " "
+        },
+        {
+          "kind": "formControl",
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "e.g. John",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11128",
+          "textNodes": [
+            "I13496:10840;12534:1406;13496:12041;12679:11128;12160:3618"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "First name *",
+          "parentTag": "label",
+          "parentClass": "",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11129;12160:3607",
+          "sep": " "
+        },
+        {
+          "kind": "formControl",
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "e.g. Dowry",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11129",
+          "textNodes": [
+            "I13496:10840;12534:1406;13496:12041;12679:11129;12160:3618"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Title *",
+          "parentTag": "label",
+          "parentClass": "",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11131;12160:3607",
+          "sep": " "
+        },
+        {
+          "kind": "formControl",
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "e.g. Doctor",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11131",
+          "textNodes": [
+            "I13496:10840;12534:1406;13496:12041;12679:11131;12160:3618"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "HCP type *",
+          "parentTag": "label",
+          "parentClass": "",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11132;12128:3182",
+          "sep": " "
+        },
+        {
+          "kind": "formControl",
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "Select an option",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11132",
+          "textNodes": [
+            "I13496:10840;12534:1406;13496:12041;12679:11132;12128:3187"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Hospital/Practice name *",
+          "parentTag": "label",
+          "parentClass": "",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11317;12160:3607",
+          "sep": " "
+        },
+        {
+          "kind": "formControl",
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "e.g. St Thomas’ Hospital",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11317",
+          "textNodes": [
+            "I13496:10840;12534:1406;13496:12041;12679:11317;12160:3618"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Speciality *",
+          "parentTag": "label",
+          "parentClass": "",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11318;12128:3182",
+          "sep": " "
+        },
+        {
+          "kind": "formControl",
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "Select an option",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11318",
+          "textNodes": [
+            "I13496:10840;12534:1406;13496:12041;12679:11318;12128:3187"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "EFN (Uniform Training Number) *",
+          "parentTag": "label",
+          "parentClass": "",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11135;12160:3607",
+          "sep": " "
+        },
+        {
+          "kind": "formControl",
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "e.g. 123456789",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11135",
+          "textNodes": [
+            "I13496:10840;12534:1406;13496:12041;12679:11135;12160:3618"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Telephone number",
+          "parentTag": "label",
+          "parentClass": "",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11361;12160:3607",
+          "sep": " "
+        },
+        {
+          "kind": "formControl",
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "e.g. +44 7700 900123",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11361",
+          "textNodes": [
+            "I13496:10840;12534:1406;13496:12041;12679:11361;12160:3618"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Email *",
+          "parentTag": "label",
+          "parentClass": "",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11362;12160:3607",
+          "sep": " "
+        },
+        {
+          "kind": "formControl",
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "e.g. john.dowry@example.com",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11362",
+          "textNodes": [
+            "I13496:10840;12534:1406;13496:12041;12679:11362;12160:3618"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "House number and street *",
+          "parentTag": "label",
+          "parentClass": "",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11404;12160:3607",
+          "sep": " "
+        },
+        {
+          "kind": "formControl",
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "e.g. Oxford Street, 45",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11404",
+          "textNodes": [
+            "I13496:10840;12534:1406;13496:12041;12679:11404;12160:3618"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Additional address field *",
+          "parentTag": "label",
+          "parentClass": "",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11405;12160:3607",
+          "sep": " "
+        },
+        {
+          "kind": "formControl",
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "e.g. Avenue/Road/Lane",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11405",
+          "textNodes": [
+            "I13496:10840;12534:1406;13496:12041;12679:11405;12160:3618"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Zip code *",
+          "parentTag": "label",
+          "parentClass": "",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11453;12160:3607",
+          "sep": " "
+        },
+        {
+          "kind": "formControl",
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "e.g. PO16 7",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11453",
+          "textNodes": [
+            "I13496:10840;12534:1406;13496:12041;12679:11453;12160:3618"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "City *",
+          "parentTag": "label",
+          "parentClass": "",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11454;12160:3607",
+          "sep": " "
+        },
+        {
+          "kind": "formControl",
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "e.g. London",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11454",
+          "textNodes": [
+            "I13496:10840;12534:1406;13496:12041;12679:11454;12160:3618"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Password *",
+          "parentTag": "label",
+          "parentClass": "",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11137;12160:3652",
+          "sep": " "
+        },
+        {
+          "kind": "formControl",
+          "control": "input",
+          "inputType": "password",
+          "name": "",
+          "text": "",
+          "placeholder": "*************",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11137",
+          "textNodes": [
+            "I13496:10840;12534:1406;13496:12041;12679:11137;12160:3663"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Confirm Password *",
+          "parentTag": "label",
+          "parentClass": "",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11138;12160:3652",
+          "sep": " "
+        },
+        {
+          "kind": "formControl",
+          "control": "input",
+          "inputType": "password",
+          "name": "",
+          "text": "",
+          "placeholder": "*************",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11138",
+          "textNodes": [
+            "I13496:10840;12534:1406;13496:12041;12679:11138;12160:3663"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "formControl",
+          "control": "input",
+          "inputType": "checkbox",
+          "name": "",
+          "text": "",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11139",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Terms & Condition Privicy Policy",
+          "parentTag": "label",
+          "parentClass": "",
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11139",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Back",
+          "parentTag": "button",
+          "parentClass": "",
+          "inButton": true,
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11143",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Register",
+          "parentTag": "button",
+          "parentClass": "",
+          "inButton": true,
+          "node": "I13496:10840;12534:1406;13496:12041;12679:11495",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "kit": {
+        "block": "block-content",
+        "module": "M22",
+        "variant": [],
+        "set": "Block Content",
+        "group": "template",
+        "home": "❏ Block Content",
+        "instance": "13496:10840",
+        "instances": [
+          "13496:10840"
+        ]
+      }
+    }
+  ],
+  "flags": [
+    {
+      "id": "heading.ambiguous",
+      "severity": "review",
+      "node": "I13496:14821;12534:1406;12534:1395;12529:1207",
+      "slot": "s01",
+      "detail": "46px matches no donor type role; no heading roles in donor-tokens"
+    },
+    {
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11128",
+      "slot": "s02",
+      "detail": "drawn field: label \"First name *\", placeholder \"e.g. John\""
+    },
+    {
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11129",
+      "slot": "s02",
+      "detail": "drawn field: label \"First name *\", placeholder \"e.g. Dowry\""
+    },
+    {
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11131",
+      "slot": "s02",
+      "detail": "drawn field: label \"Title *\", placeholder \"e.g. Doctor\""
+    },
+    {
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11132",
+      "slot": "s02",
+      "detail": "drawn field: label \"HCP type *\", placeholder \"Select an option\""
+    },
+    {
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11317",
+      "slot": "s02",
+      "detail": "drawn field: label \"Hospital/Practice name *\", placeholder \"e.g. St Thomas’ Hospital\""
+    },
+    {
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11318",
+      "slot": "s02",
+      "detail": "drawn field: label \"Speciality *\", placeholder \"Select an option\""
+    },
+    {
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11135",
+      "slot": "s02",
+      "detail": "drawn field: label \"EFN (Uniform Training Number) *\", placeholder \"e.g. 123456789\""
+    },
+    {
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11361",
+      "slot": "s02",
+      "detail": "drawn field: label \"Telephone number\", placeholder \"e.g. +44 7700 900123\""
+    },
+    {
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11362",
+      "slot": "s02",
+      "detail": "drawn field: label \"Email *\", placeholder \"e.g. john.dowry@example.com\""
+    },
+    {
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11404",
+      "slot": "s02",
+      "detail": "drawn field: label \"House number and street *\", placeholder \"e.g. Oxford Street, 45\""
+    },
+    {
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11405",
+      "slot": "s02",
+      "detail": "drawn field: label \"Additional address field *\", placeholder \"e.g. Avenue/Road/Lane\""
+    },
+    {
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11453",
+      "slot": "s02",
+      "detail": "drawn field: label \"Zip code *\", placeholder \"e.g. PO16 7\""
+    },
+    {
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11454",
+      "slot": "s02",
+      "detail": "drawn field: label \"City *\", placeholder \"e.g. London\""
+    },
+    {
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11137",
+      "slot": "s02",
+      "detail": "drawn field: label \"Password *\", masked value (password)"
+    },
+    {
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:10840;12534:1406;13496:12041;12679:11138",
+      "slot": "s02",
+      "detail": "drawn field: label \"Confirm Password *\", masked value (password)"
+    },
+    {
+      "id": "heading.level",
+      "severity": "info",
+      "node": "I13496:14821;12534:1406;12534:1395;12529:1207",
+      "slot": "s01",
+      "detail": "size heading set to h1 (was h2): the first heading is the page h1"
+    },
+    {
+      "id": "image.alt",
+      "severity": "info",
+      "node": "13496:10795",
+      "slot": null,
+      "detail": "no alt text in Figma: write it or mark the image decorative"
+    },
+    {
+      "id": "image.alt",
+      "severity": "info",
+      "node": "I13496:10763;12406:12140",
+      "slot": null,
+      "detail": "logo: alt text from the brand name is the author's call"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:10763;12406:12149",
+      "slot": "s02",
+      "detail": "chrome \"Privacy Notice\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:10763;12406:12150",
+      "slot": "s02",
+      "detail": "chrome \"Cookie Notice\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:10763;12406:12151",
+      "slot": "s02",
+      "detail": "chrome \"Prescribing Information\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:10763;12406:12152",
+      "slot": "s02",
+      "detail": "chrome \"Important Safety Information\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:10763;12406:12160",
+      "slot": "s02",
+      "detail": "chrome \"Legal Statement\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:10763;12406:12161",
+      "slot": "s02",
+      "detail": "chrome \"Site Map\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:10763;12406:12162",
+      "slot": "s02",
+      "detail": "chrome \"AstraZeneca\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:10763;12406:12163",
+      "slot": "s02",
+      "detail": "chrome \"Contact Us\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:10763;12406:12181",
+      "slot": "s02",
+      "detail": "chrome \"XX-XXXX-01/2025\" has no link target in the design"
+    },
+    {
+      "id": "placeholder.suspect",
+      "severity": "review",
+      "node": "I13496:14821;12534:1406;12534:1395;12529:1207",
+      "slot": "s01",
+      "detail": "\"The most inspiring heading\" reads like kit copy"
+    },
+    {
+      "id": "variant.text-differs",
+      "severity": "review",
+      "node": "13496:17257",
+      "slot": null,
+      "detail": "the responsive variant differs: 2 text(s) only here (\"The most inspiring heading\"…), 2 only there (\"Registration\"…)"
+    },
+    {
+      "id": "metadata.title-derived",
+      "severity": "review",
+      "node": "13496:17255",
+      "slot": null,
+      "detail": "title \"Registration\" derived from the frame name; description, canonical, OG and Twitter tags are absent"
+    }
+  ]
+}

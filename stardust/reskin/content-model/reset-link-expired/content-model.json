@@ -1,0 +1,402 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "command": "content",
+    "modelVersion": 2,
+    "capturedAt": "2026-10-26T09:25:00Z",
+    "source": {
+      "kind": "figma",
+      "figma": {
+        "fileKey": "rsZQmpVzuyn0KhCDA3WN60",
+        "node": "13530:14956",
+        "version": "2413431205561424165",
+        "name": "Type=Reset link expired, Breakpoint=Desktop",
+        "fileKeyHash": "a32f5f25d34d"
+      }
+    },
+    "viewport": "1440x1024",
+    "scope": "figma:13530:14956",
+    "visibility": "effective: hidden when the node or any ancestor is visible:false",
+    "readingOrder": {
+      "rule": "auto-layout: child order (absolute children after, geometric); otherwise geometric: rows by vertical overlap >= 50%, then x",
+      "frames": {
+        "auto-layout": 40
+      },
+      "ambiguous": []
+    },
+    "segmentation": {
+      "rule": "top-level children by y; chrome by name leaves the body; content-less layers fold; overlapping bands merge; a single wrapper with >= 2 content bands is descended",
+      "sections": [
+        {
+          "slot": "s01",
+          "y": 60,
+          "h": 154,
+          "nodes": [
+            "13530:14958"
+          ]
+        },
+        {
+          "slot": "s02",
+          "y": 214,
+          "h": 122,
+          "nodes": [
+            "13530:14959"
+          ]
+        },
+        {
+          "slot": "s03",
+          "y": 336,
+          "h": 420,
+          "nodes": [
+            "13530:14961"
+          ]
+        }
+      ],
+      "chrome": {
+        "header": [
+          "13530:14957"
+        ],
+        "footer": [
+          "13530:14962"
+        ]
+      },
+      "folded": [],
+      "descended": 0
+    },
+    "responsive": {
+      "node": "13530:14970",
+      "name": "Type=Reset link expired, Breakpoint=Mobile"
+    },
+    "kit": {
+      "rule": "a section is the outermost template-section or component instance above its nodes, else the instances inside them; one block per section (kit.mixed when several, kit.unbound when none)",
+      "registry": 1
+    },
+    "decorative": [
+      "I13530:14962;12406:12170"
+    ]
+  },
+  "metadata": {
+    "title": "Reset link expired",
+    "description": "",
+    "canonical": null,
+    "ogTags": {},
+    "twitterTags": {},
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null,
+    "declaredAbsent": [
+      "description",
+      "canonical",
+      "ogTags",
+      "twitterTags",
+      "jsonLd"
+    ],
+    "derived": {
+      "title": "frame name"
+    }
+  },
+  "scope": [
+    {
+      "sel": "figma:13530:14956",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "The most inspiring heading One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause. Your email address * Send me the link",
+  "coverage": {
+    "bodyTextLen": 379,
+    "scopeTextLen": 379,
+    "ratio": 1,
+    "h1Text": "The most inspiring heading",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": null,
+      "rootClass": "",
+      "node": "13530:14958",
+      "nodes": [
+        "13530:14958"
+      ],
+      "visibleText": "The most inspiring heading One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "The most inspiring heading"
+        }
+      ],
+      "paragraphs": [
+        "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "level": "h1",
+          "role": null,
+          "text": "The most inspiring heading",
+          "node": "I13530:14958;12534:1406;12534:1395;12529:1207",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause.",
+          "node": "I13530:14958;12534:1406;12534:1397;12534:1254",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "kit": {
+        "block": "block-content",
+        "module": "M22",
+        "variant": [],
+        "set": "Block Content",
+        "group": "template",
+        "home": "❏ Block Content",
+        "instance": "13530:14958",
+        "instances": [
+          "13530:14958"
+        ]
+      }
+    },
+    {
+      "slot": "s02",
+      "rootTag": null,
+      "rootClass": "",
+      "node": "13530:14959",
+      "nodes": [
+        "13530:14959"
+      ],
+      "visibleText": "Your email address *",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [
+        {
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "e.g. example@email.com"
+        }
+      ],
+      "leftovers": [
+        {
+          "text": "Your email address *",
+          "parentTag": "label",
+          "parentClass": ""
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "text",
+          "text": "Your email address *",
+          "parentTag": "label",
+          "parentClass": "",
+          "node": "I13530:14959;12534:1406;13496:12041;13424:6057;12160:3607",
+          "sep": " "
+        },
+        {
+          "kind": "formControl",
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "e.g. example@email.com",
+          "node": "I13530:14959;12534:1406;13496:12041;13424:6057",
+          "textNodes": [
+            "I13530:14959;12534:1406;13496:12041;13424:6057;12160:3618"
+          ],
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "kit": {
+        "block": "block-content",
+        "module": "M22",
+        "variant": [],
+        "set": "Block Content",
+        "group": "template",
+        "home": "❏ Block Content",
+        "instance": "13530:14959",
+        "instances": [
+          "13530:14959"
+        ]
+      }
+    },
+    {
+      "slot": "s03",
+      "rootTag": null,
+      "rootClass": "",
+      "node": "13530:14961",
+      "nodes": [
+        "13530:14961"
+      ],
+      "visibleText": "Send me the link",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [
+        {
+          "text": "Send me the link",
+          "parentTag": "button",
+          "parentClass": ""
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "text",
+          "text": "Send me the link",
+          "parentTag": "button",
+          "parentClass": "",
+          "inButton": true,
+          "node": "I13530:14961;12534:1406;13028:2160;13028:2135",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "kit": {
+        "block": "block-content",
+        "module": "M22",
+        "variant": [],
+        "set": "Block Content",
+        "group": "template",
+        "home": "❏ Block Content",
+        "instance": "13530:14961",
+        "instances": [
+          "13530:14961"
+        ]
+      }
+    }
+  ],
+  "flags": [
+    {
+      "id": "heading.ambiguous",
+      "severity": "review",
+      "node": "I13530:14958;12534:1406;12534:1395;12529:1207",
+      "slot": "s01",
+      "detail": "46px matches no donor type role; no heading roles in donor-tokens"
+    },
+    {
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13530:14959;12534:1406;13496:12041;13424:6057",
+      "slot": "s02",
+      "detail": "drawn field: label \"Your email address *\", placeholder \"e.g. example@email.com\""
+    },
+    {
+      "id": "heading.level",
+      "severity": "info",
+      "node": "I13530:14958;12534:1406;12534:1395;12529:1207",
+      "slot": "s01",
+      "detail": "size heading set to h1 (was h2): the first heading is the page h1"
+    },
+    {
+      "id": "image.alt",
+      "severity": "info",
+      "node": "13530:14957",
+      "slot": null,
+      "detail": "no alt text in Figma: write it or mark the image decorative"
+    },
+    {
+      "id": "image.alt",
+      "severity": "info",
+      "node": "I13530:14962;12406:12140",
+      "slot": null,
+      "detail": "logo: alt text from the brand name is the author's call"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13530:14962;12406:12149",
+      "slot": "s02",
+      "detail": "chrome \"Privacy Notice\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13530:14962;12406:12150",
+      "slot": "s02",
+      "detail": "chrome \"Cookie Notice\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13530:14962;12406:12151",
+      "slot": "s02",
+      "detail": "chrome \"Prescribing Information\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13530:14962;12406:12152",
+      "slot": "s02",
+      "detail": "chrome \"Important Safety Information\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13530:14962;12406:12160",
+      "slot": "s02",
+      "detail": "chrome \"Legal Statement\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13530:14962;12406:12161",
+      "slot": "s02",
+      "detail": "chrome \"Site Map\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13530:14962;12406:12162",
+      "slot": "s02",
+      "detail": "chrome \"AstraZeneca\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13530:14962;12406:12163",
+      "slot": "s02",
+      "detail": "chrome \"Contact Us\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13530:14962;12406:12181",
+      "slot": "s02",
+      "detail": "chrome \"XX-XXXX-01/2025\" has no link target in the design"
+    },
+    {
+      "id": "placeholder.suspect",
+      "severity": "review",
+      "node": "I13530:14958;12534:1406;12534:1395;12529:1207",
+      "slot": "s01",
+      "detail": "\"The most inspiring heading\" reads like kit copy"
+    },
+    {
+      "id": "variant.text-differs",
+      "severity": "review",
+      "node": "13530:14970",
+      "slot": null,
+      "detail": "the responsive variant differs: 2 text(s) only here (\"The most inspiring heading\"…), 2 only there (\"Reset password\"…)"
+    },
+    {
+      "id": "metadata.title-derived",
+      "severity": "review",
+      "node": "13530:14956",
+      "slot": null,
+      "detail": "title \"Reset link expired\" derived from the frame name; description, canonical, OG and Twitter tags are absent"
+    }
+  ]
+}

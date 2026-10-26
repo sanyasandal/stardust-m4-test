@@ -1,0 +1,553 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "command": "content",
+    "modelVersion": 2,
+    "capturedAt": "2026-10-26T09:25:00Z",
+    "source": {
+      "kind": "figma",
+      "figma": {
+        "fileKey": "rsZQmpVzuyn0KhCDA3WN60",
+        "node": "13496:10760",
+        "version": "2413431205561424165",
+        "name": "Type=Login Landing, Breakpoint=Desktop",
+        "fileKeyHash": "a32f5f25d34d"
+      }
+    },
+    "viewport": "1440x1325",
+    "scope": "figma:13496:10760",
+    "visibility": "effective: hidden when the node or any ancestor is visible:false",
+    "readingOrder": {
+      "rule": "auto-layout: child order (absolute children after, geometric); otherwise geometric: rows by vertical overlap >= 50%, then x",
+      "frames": {
+        "geometric": 1,
+        "auto-layout": 76
+      },
+      "ambiguous": []
+    },
+    "segmentation": {
+      "rule": "top-level children by y; chrome by name leaves the body; content-less layers fold; overlapping bands merge; a single wrapper with >= 2 content bands is descended",
+      "sections": [
+        {
+          "slot": "s01",
+          "y": 92,
+          "h": 941,
+          "nodes": [
+            "13496:9636"
+          ]
+        }
+      ],
+      "chrome": {
+        "header": [
+          "13496:9591"
+        ],
+        "footer": [
+          "13496:9714"
+        ]
+      },
+      "folded": [],
+      "descended": 0
+    },
+    "responsive": {
+      "node": "13496:10762",
+      "name": "Type=Login Landing, Breakpoint=Mobile"
+    },
+    "kit": {
+      "rule": "a section is the outermost template-section or component instance above its nodes, else the instances inside them; one block per section (kit.mixed when several, kit.unbound when none)",
+      "registry": 1
+    },
+    "decorative": [
+      "I13496:9591;12379:10746;12370:10626",
+      "I13496:9591;12379:10750;12370:10626",
+      "I13496:9591;12379:10760;12370:10538",
+      "I13496:9714;12406:12170"
+    ]
+  },
+  "metadata": {
+    "title": "Login Landing",
+    "description": "",
+    "canonical": null,
+    "ogTags": {},
+    "twitterTags": {},
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null,
+    "declaredAbsent": [
+      "description",
+      "canonical",
+      "ogTags",
+      "twitterTags",
+      "jsonLd"
+    ],
+    "derived": {
+      "title": "frame name"
+    }
+  },
+  "scope": [
+    {
+      "sel": "figma:13496:10760",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "Login to your account Email * Password * Forgot your password? Login Remember me on this device Or Login with Magic Link Login using DocCheck Login with AZ Employee Email Don’t have an account? Create account",
+  "coverage": {
+    "bodyTextLen": 208,
+    "scopeTextLen": 208,
+    "ratio": 1,
+    "h1Text": "Login to your account",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": null,
+      "rootClass": "",
+      "node": "13496:9636",
+      "nodes": [
+        "13496:9636"
+      ],
+      "visibleText": "Login to your account Email * Password * Forgot your password? Login Remember me on this device Or Login with Magic Link Login using DocCheck Login with AZ Employee Email Don’t have an account? Create account",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Login to your account"
+        }
+      ],
+      "paragraphs": [
+        "Or",
+        "Don’t have an account?",
+        "Create account"
+      ],
+      "listItems": [],
+      "ctas": [
+        {
+          "text": "Forgot your password?",
+          "href": "#",
+          "absHref": "#",
+          "classes": "link"
+        }
+      ],
+      "images": [
+        {
+          "currentSrc": "assets/I13496-9636-12643-9301.jpg",
+          "alt": null,
+          "w": 1440,
+          "h": 941
+        }
+      ],
+      "formControls": [
+        {
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "john.dowry@example.com"
+        },
+        {
+          "control": "input",
+          "inputType": "password",
+          "name": "",
+          "text": "",
+          "placeholder": "*************"
+        },
+        {
+          "control": "input",
+          "inputType": "checkbox",
+          "name": "",
+          "text": ""
+        }
+      ],
+      "leftovers": [
+        {
+          "text": "Email *",
+          "parentTag": "label",
+          "parentClass": ""
+        },
+        {
+          "text": "Password *",
+          "parentTag": "label",
+          "parentClass": ""
+        },
+        {
+          "text": "Login",
+          "parentTag": "button",
+          "parentClass": ""
+        },
+        {
+          "text": "Remember me on this device",
+          "parentTag": "label",
+          "parentClass": ""
+        },
+        {
+          "text": "Login with Magic Link",
+          "parentTag": "button",
+          "parentClass": ""
+        },
+        {
+          "text": "Login using DocCheck",
+          "parentTag": "button",
+          "parentClass": ""
+        },
+        {
+          "text": "Login with AZ Employee Email",
+          "parentTag": "button",
+          "parentClass": ""
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "image",
+          "currentSrc": "assets/I13496-9636-12643-9301.jpg",
+          "alt": null,
+          "w": 1440,
+          "h": 941,
+          "node": "I13496:9636;12643:9301",
+          "scaleMode": "FILL"
+        },
+        {
+          "kind": "heading",
+          "level": "h1",
+          "role": null,
+          "text": "Login to your account",
+          "node": "I13496:9636;12643:9382",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Email *",
+          "parentTag": "label",
+          "parentClass": "",
+          "node": "I13496:9636;12643:9384;12160:3607",
+          "sep": " "
+        },
+        {
+          "kind": "formControl",
+          "control": "input",
+          "inputType": "text",
+          "name": "",
+          "text": "",
+          "placeholder": "john.dowry@example.com",
+          "node": "I13496:9636;12643:9384",
+          "textNodes": [
+            "I13496:9636;12643:9384;12160:3618"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Password *",
+          "parentTag": "label",
+          "parentClass": "",
+          "node": "I13496:9636;12643:9385;12160:3652",
+          "sep": " "
+        },
+        {
+          "kind": "cta",
+          "text": "Forgot your password?",
+          "href": "#",
+          "absHref": "#",
+          "classes": "link",
+          "node": "I13496:9636;12643:9385;12160:3655",
+          "sep": " "
+        },
+        {
+          "kind": "formControl",
+          "control": "input",
+          "inputType": "password",
+          "name": "",
+          "text": "",
+          "placeholder": "*************",
+          "node": "I13496:9636;12643:9385",
+          "textNodes": [
+            "I13496:9636;12643:9385;12160:3663"
+          ],
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Login",
+          "parentTag": "button",
+          "parentClass": "",
+          "inButton": true,
+          "node": "I13496:9636;12643:9386",
+          "sep": " "
+        },
+        {
+          "kind": "formControl",
+          "control": "input",
+          "inputType": "checkbox",
+          "name": "",
+          "text": "",
+          "node": "I13496:9636;12643:9387",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Remember me on this device",
+          "parentTag": "label",
+          "parentClass": "",
+          "node": "I13496:9636;12643:9387",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Or",
+          "node": "I13496:9636;12643:9390",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Login with Magic Link",
+          "parentTag": "button",
+          "parentClass": "",
+          "inButton": true,
+          "node": "I13496:9636;12643:9393",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Login using DocCheck",
+          "parentTag": "button",
+          "parentClass": "",
+          "inButton": true,
+          "node": "I13496:9636;12643:9394",
+          "sep": " "
+        },
+        {
+          "kind": "text",
+          "text": "Login with AZ Employee Email",
+          "parentTag": "button",
+          "parentClass": "",
+          "inButton": true,
+          "node": "I13496:9636;12643:9395",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Don’t have an account?",
+          "node": "I13496:9636;12643:9397",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "Create account",
+          "node": "I13496:9636;12643:9398",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "kit": {
+        "block": "login",
+        "module": "M30",
+        "variant": [
+          "full"
+        ],
+        "set": "Login",
+        "group": "template",
+        "home": "❏ Login",
+        "instance": "13496:9636",
+        "instances": [
+          "13496:9636"
+        ]
+      }
+    }
+  ],
+  "flags": [
+    {
+      "id": "image.alt",
+      "severity": "review",
+      "node": "I13496:9636;12643:9301",
+      "slot": "s01",
+      "detail": "no alt text in Figma: write it or mark the image decorative"
+    },
+    {
+      "id": "heading.ambiguous",
+      "severity": "review",
+      "node": "I13496:9636;12643:9382",
+      "slot": "s01",
+      "detail": "36px matches no donor type role; no heading roles in donor-tokens"
+    },
+    {
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:9636;12643:9384",
+      "slot": "s01",
+      "detail": "drawn field: label \"Email *\", placeholder \"john.dowry@example.com\""
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "review",
+      "node": "I13496:9636;12643:9385;12160:3655",
+      "slot": "s01",
+      "detail": "\"Forgot your password?\" is drawn as a link with no target"
+    },
+    {
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:9636;12643:9385",
+      "slot": "s01",
+      "detail": "drawn field: label \"Password *\", masked value (password)"
+    },
+    {
+      "id": "heading.level",
+      "severity": "info",
+      "node": "I13496:9636;12643:9382",
+      "slot": "s01",
+      "detail": "size heading set to h1 (was h2): the first heading is the page h1"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9591;12385:11076;12385:11064;12379:10693",
+      "slot": "s01",
+      "detail": "chrome \"Contact Us\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9591;12385:11076;12385:11065;12379:10693",
+      "slot": "s01",
+      "detail": "chrome \"AZ Employee Login\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9591;12385:11045;12379:11015;12379:10706",
+      "slot": "s01",
+      "detail": "chrome \"DE\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9591;12385:11045;12379:11016;12379:10693",
+      "slot": "s01",
+      "detail": "chrome \"EN\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9591;12385:11045;12379:11017;12379:10693",
+      "slot": "s01",
+      "detail": "chrome \"FR\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9591;12385:11045;12379:11018;12379:10693",
+      "slot": "s01",
+      "detail": "chrome \"IT\" has no link target in the design"
+    },
+    {
+      "id": "image.alt",
+      "severity": "info",
+      "node": "I13496:9591;12370:10522",
+      "slot": null,
+      "detail": "logo: alt text from the brand name is the author's call"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9591;12379:10746;12370:10625",
+      "slot": "s02",
+      "detail": "chrome \"Products\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9591;12379:10750;12370:10625",
+      "slot": "s02",
+      "detail": "chrome \"Therapeutic Areas\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9591;12379:10754;12370:10637",
+      "slot": "s02",
+      "detail": "chrome \"News\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9591;12379:10760;12370:10525",
+      "slot": "s02",
+      "detail": "chrome \"Login\" has no link target in the design"
+    },
+    {
+      "id": "image.alt",
+      "severity": "info",
+      "node": "I13496:9714;12406:12140",
+      "slot": null,
+      "detail": "logo: alt text from the brand name is the author's call"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9714;12406:12149",
+      "slot": "s03",
+      "detail": "chrome \"Privacy Notice\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9714;12406:12150",
+      "slot": "s03",
+      "detail": "chrome \"Cookie Notice\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9714;12406:12151",
+      "slot": "s03",
+      "detail": "chrome \"Prescribing Information\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9714;12406:12152",
+      "slot": "s03",
+      "detail": "chrome \"Important Safety Information\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9714;12406:12160",
+      "slot": "s03",
+      "detail": "chrome \"Legal Statement\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9714;12406:12161",
+      "slot": "s03",
+      "detail": "chrome \"Site Map\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9714;12406:12162",
+      "slot": "s03",
+      "detail": "chrome \"AstraZeneca\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9714;12406:12163",
+      "slot": "s03",
+      "detail": "chrome \"Contact Us\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9714;12406:12181",
+      "slot": "s03",
+      "detail": "chrome \"XX-XXXX-01/2025\" has no link target in the design"
+    },
+    {
+      "id": "metadata.title-derived",
+      "severity": "review",
+      "node": "13496:10760",
+      "slot": null,
+      "detail": "title \"Login Landing\" derived from the frame name; description, canonical, OG and Twitter tags are absent"
+    }
+  ]
+}

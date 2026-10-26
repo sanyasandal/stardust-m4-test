@@ -1,0 +1,179 @@
+#!/usr/bin/env node
+/**
+ * skills/reskin/scripts/source-normalize.mjs
+ *
+ * The shared, EXECUTABLE normalization ledger applied to the SOURCE page
+ * before any text/image capture or comparison. The exact same script string
+ * runs at capture time (capture-content.mjs) and at gate time
+ * (dom-equality.mjs) so the gate measures precisely the normalization the
+ * capture declared — the ledger is code, not prose.
+ *
+ * Default entries (generic, safe on most pages):
+ *   N-D1  cookie/consent chrome removal (OneTrust, Cookiebot, Usercentrics,
+ *         generic cookie-banner ids/classes, cookie/consent/gdpr-named overlay
+ *         elements) — overlay chrome, not content.
+ *   N-D2  de-carousel (slick / swiper / splide / glide): remove CLONE slides
+ *         (they duplicate text), force real slides visible + static (hidden
+ *         slides are absent from innerText), drop pager dots and arrows
+ *         (carousel UI chrome, not content). Rotating carousels break byte
+ *         determinism without this; the reskin side renders all slides as a
+ *         static stack in DOM order, so both sides compare deterministically.
+ *
+ * Page-specific ledgers EXTEND the default. A ledger is an ES module:
+ *
+ *   // stardust/reskin/normalize/<slug>.mjs
+ *   import { DEFAULT_NORMALIZE, DEFAULT_LEDGER } from '<path-to>/source-normalize.mjs';
+ *   export const LEDGER = [
+ *     ...DEFAULT_LEDGER,
+ *     { id: 'N1', what: 'remove #newsletter-popup', why: 'timed overlay, not page content' },
+ *   ];
+ *   export const NORMALIZE = `${DEFAULT_NORMALIZE};(() => {
+ *     // N1 — timed newsletter overlay
+ *     document.querySelector('#newsletter-popup')?.remove();
+ *   })()`;
+ *
+ * Every capture/gate invocation passes the SAME ledger file via
+ * --normalize <ledger.mjs>. Contract details:
+ * skills/reskin/reference/content-model.md § Normalization ledger.
+ *
+ * Run directly to print the default ledger:  node source-normalize.mjs
+ */
+import { pathToFileURL } from 'node:url';
+import { resolve } from 'node:path';
+
+export const DEFAULT_LEDGER = [
+  {
+    id: 'N-D1',
+    what: 'remove cookie/consent chrome (OneTrust, Cookiebot, Usercentrics, generic cookie-banner ids/classes, any cookie/consent/gdpr-named element inside a fixed/sticky/high-z overlay)',
+    why: 'overlay chrome injected by a CMP, not page content; re-added at deploy time',
+  },
+  {
+    id: 'N-D2',
+    what: 'de-carousel slick/swiper/splide/glide: remove clone slides, force real slides visible+static, drop dots/arrows',
+    why: 'hidden slides are absent from innerText and clones duplicate it — rotating carousels break byte determinism; the reskin renders all slides statically in DOM order',
+  },
+];
+
+export const DEFAULT_NORMALIZE = `(() => {
+  // N-D1 — cookie/consent chrome
+  document.querySelector('#onetrust-consent-sdk')?.remove();
+  document.querySelector('#CybotCookiebotDialog')?.remove();
+  document.querySelector('#usercentrics-root')?.remove();
+  document.querySelectorAll('[id*="cookie" i][id*="banner" i],[id*="cookie" i][id*="consent" i],[class*="cookie-banner" i],[class*="cookie-consent" i],[aria-label*="cookie" i][role="dialog"]')
+    .forEach((e) => e.remove());
+  // Overlay heuristic (field finding, M3 spike: a CMP panel id'd like '#CookieReportsPanel'
+  // slipped every name pattern above): an element whose id/class names cookie/consent/gdpr
+  // AND that sits in a fixed/sticky or high-z overlay is chrome. The overlay guard keeps an
+  // in-content "cookie policy" section from being pruned.
+  {
+    const NAME = /cookie|consent|gdpr/i;
+    const overlay = (el) => {
+      for (let n = el; n && n !== document.body && n !== document.documentElement; n = n.parentElement) {
+        const cs = getComputedStyle(n);
+        if (cs.position === 'fixed' || cs.position === 'sticky') return true;
+        if (cs.position !== 'static' && +cs.zIndex >= 100) return true;
+      }
+      return false;
+    };
+    for (const el of [...document.querySelectorAll('[id], [class]')]) {
+      if (!el.isConnected || el.closest('main article')) continue;
+      const name = (el.id || '') + ' ' + (typeof el.className === 'string' ? el.className : '');
+      if (NAME.test(name) && overlay(el)) el.remove();
+    }
+  }
+  // N-D2 — de-carousel
+  document.querySelectorAll('.slick-cloned, .swiper-slide-duplicate, .splide__slide--clone, .glide__slide--clone')
+    .forEach((e) => e.remove());
+  document.querySelectorAll('.slick-track, .swiper-wrapper, .splide__list, .glide__slides').forEach((t) => {
+    t.style.transform = 'none'; t.style.width = 'auto';
+  });
+  document.querySelectorAll('.slick-slide, .swiper-slide, .splide__slide, .glide__slide').forEach((s) => {
+    s.style.display = 'block'; s.style.width = 'auto';
+    s.removeAttribute('aria-hidden');
+    s.style.position = 'static'; s.style.opacity = '1'; s.style.visibility = 'visible';
+  });
+  document.querySelectorAll('.slick-dots, .slick-arrow, .swiper-pagination, .swiper-button-prev, .swiper-button-next, .splide__pagination, .splide__arrows, .glide__bullets, .glide__arrows')
+    .forEach((e) => e.remove());
+})()`;
+
+/**
+ * Disclosure rest state — the SINGLE definition of "collapsed at rest" both content gates use.
+ * DISCLOSURE_STATE is a function-source string (run inside page.evaluate() on a scope element) that
+ * counts the disclosures in it BEFORE any normalization or reveal: collapsed = a trigger with
+ * aria-expanded="false", a closed <details>, or a hidden="until-found" region; expanded = a trigger
+ * with aria-expanded="true" or an open <details>.
+ *
+ * REVEAL_DISCLOSURES is the RENDERED side's counterpart of a source ledger's "expand every
+ * accordion" entry: it opens every <details> and every hidden="until-found" region so the gate reads
+ * the panel text. It runs only after the rest state was recorded. A normalization is capture-only:
+ * it never describes how the delivered block behaves at rest (reference/content-model.md
+ * § Normalization ledger). A delivered block hides a collapsed panel with hidden="until-found" or a
+ * closed <details> — text hidden any other way (display:none on a class) stays unread and fails the
+ * text check, which is the point.
+ */
+export const DISCLOSURE_STATE = `((root) => {
+  const n = (sel) => root.querySelectorAll(sel).length;
+  return {
+    collapsed: n('[aria-expanded="false"]') + n('details:not([open])') + n('[hidden="until-found"]'),
+    expanded: n('[aria-expanded="true"]') + n('details[open]'),
+  };
+})`;
+
+export const REVEAL_DISCLOSURES = `(() => {
+  document.querySelectorAll('details:not([open])').forEach((d) => { d.open = true; });
+  document.querySelectorAll('[hidden="until-found"]').forEach((e) => { e.removeAttribute('hidden'); });
+})()`;
+
+/**
+ * Shared image-visibility predicate — the SINGLE definition used by both
+ * capture-content.mjs (model images) and dom-equality.mjs (gate images), so
+ * capture and gate can never drift on which images count as content
+ * (reference/gates.md § dom-equality). It is a function-source string
+ * because it runs inside page.evaluate() on both ends.
+ *
+ * Semantics:
+ *   - hidden by style (display:none / visibility:hidden on the img) → out,
+ *     lazy or not — a styled-away image is not visible content;
+ *   - rendered at more than 1×1 px → in (1px tracking pixels are not content);
+ *   - loading="lazy" and still zero-size (not yet intersected despite the
+ *     scroll pass) → in — below-fold lazy images are content.
+ */
+export const IMG_VISIBLE = `((img) => {
+  const st = getComputedStyle(img);
+  if (st.display === 'none' || st.visibility === 'hidden') return false;
+  const r = img.getBoundingClientRect();
+  if (r.width > 1 && r.height > 1) return true;
+  return img.loading === 'lazy';
+})`;
+
+/**
+ * Resolve the normalization to use: a page ledger module (--normalize path)
+ * or the default. Returns { script, ledger, source }.
+ * A ledger module MUST export NORMALIZE (string); LEDGER ([{id,what,why}])
+ * is strongly recommended — it feeds the mapping brief's deltas section.
+ */
+export async function loadNormalize(ledgerPath) {
+  if (!ledgerPath) return { script: DEFAULT_NORMALIZE, ledger: DEFAULT_LEDGER, source: 'default' };
+  const mod = await import(pathToFileURL(resolve(ledgerPath)).href);
+  if (typeof mod.NORMALIZE !== 'string') {
+    throw new Error(`normalize ledger ${ledgerPath} does not export a NORMALIZE string`);
+  }
+  return { script: mod.NORMALIZE, ledger: mod.LEDGER ?? null, source: resolve(ledgerPath) };
+}
+
+// Direct invocation: print the default ledger (handy for authoring page ledgers).
+if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
+  const arg = process.argv[2];
+  if (arg === '--help' || arg === '-h') {
+    console.log('source-normalize.mjs — shared executable normalization ledger (reskin).');
+    console.log('Usage: node source-normalize.mjs        # print default ledger entries + script');
+    console.log('As a module: import { DEFAULT_NORMALIZE, DEFAULT_LEDGER, loadNormalize, IMG_VISIBLE, DISCLOSURE_STATE, REVEAL_DISCLOSURES } from it.');
+    console.log('Page ledgers: export NORMALIZE (string) and LEDGER; pass via --normalize to');
+    console.log('capture-content.mjs and dom-equality.mjs — the SAME file to both.');
+    process.exit(0);
+  }
+  console.log('# Default ledger entries');
+  for (const e of DEFAULT_LEDGER) console.log(`- ${e.id}: ${e.what}\n    why: ${e.why}`);
+  console.log('\n# Default NORMALIZE script\n');
+  console.log(DEFAULT_NORMALIZE);
+}

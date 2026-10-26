@@ -1,0 +1,4800 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "writtenAt": "2026-10-26T09:24:13Z",
+    "readArtifacts": [
+      "stardust/.work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/2413431205561424165/file.json",
+      "stardust/.work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/2413431205561424165/nodes.json"
+    ],
+    "synthesizedInputs": []
+  },
+  "frames": [
+    {
+      "node": "12042:106827",
+      "name": "Font Styles",
+      "page": {
+        "node": "11996:36510",
+        "name": "    ↪ Typography"
+      },
+      "slug": "font-styles",
+      "width": 1440,
+      "height": 2122,
+      "sections": [
+        {
+          "node": "12042:106828",
+          "name": ".Page Header",
+          "type": "INSTANCE",
+          "y": 24,
+          "height": 260,
+          "background": "rgb(235, 239, 238)",
+          "backgroundKind": "SOLID",
+          "instanceOf": ".Page Header",
+          "componentProperties": {},
+          "components": [
+            ".Page Header",
+            ".Page Logo"
+          ]
+        },
+        {
+          "node": "12042:106829",
+          "name": "Frame 1",
+          "type": "FRAME",
+          "y": 324,
+          "height": 1758,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12194:4769",
+      "name": "Font Variables",
+      "page": {
+        "node": "11996:36510",
+        "name": "    ↪ Typography"
+      },
+      "slug": "font-variables",
+      "width": 1440,
+      "height": 2912,
+      "sections": [
+        {
+          "node": "12194:4770",
+          "name": ".Page Header",
+          "type": "INSTANCE",
+          "y": 24,
+          "height": 260,
+          "background": "rgb(235, 239, 238)",
+          "backgroundKind": "SOLID",
+          "instanceOf": ".Page Header",
+          "componentProperties": {},
+          "components": [
+            ".Page Header",
+            ".Page Logo"
+          ]
+        },
+        {
+          "node": "12194:5154",
+          "name": "Frame 2",
+          "type": "FRAME",
+          "y": 324,
+          "height": 2548,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12084:109340",
+      "name": "Colors",
+      "page": {
+        "node": "12084:109339",
+        "name": "    ↪ Colors"
+      },
+      "slug": "colors",
+      "width": 10888,
+      "height": 3636,
+      "sections": [
+        {
+          "node": "12084:109341",
+          "name": ".Page Header",
+          "type": "INSTANCE",
+          "y": 24,
+          "height": 260,
+          "background": "rgb(235, 239, 238)",
+          "backgroundKind": "SOLID",
+          "instanceOf": ".Page Header",
+          "componentProperties": {},
+          "components": [
+            ".Page Header",
+            ".Page Logo"
+          ]
+        },
+        {
+          "node": "12108:1147",
+          "name": "Frame 1",
+          "type": "FRAME",
+          "y": 324,
+          "height": 3272,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "11974:36897",
+      "name": "Icons",
+      "page": {
+        "node": "11974:36425",
+        "name": "    ↪ Media"
+      },
+      "slug": "icons",
+      "width": 1440,
+      "height": 732,
+      "sections": [
+        {
+          "node": "11974:36854",
+          "name": ".Page Header",
+          "type": "INSTANCE",
+          "y": 24,
+          "height": 260,
+          "background": "rgb(235, 239, 238)",
+          "backgroundKind": "SOLID",
+          "instanceOf": ".Page Header",
+          "componentProperties": {},
+          "components": [
+            ".Page Header",
+            ".Page Logo"
+          ]
+        },
+        {
+          "node": "11974:36900",
+          "name": "Frame 1",
+          "type": "FRAME",
+          "y": 324,
+          "height": 368,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12077:107203",
+      "name": "Brand logos",
+      "page": {
+        "node": "11974:36425",
+        "name": "    ↪ Media"
+      },
+      "slug": "brand-logos",
+      "width": 1440,
+      "height": 657,
+      "sections": [
+        {
+          "node": "12077:107204",
+          "name": ".Page Header",
+          "type": "INSTANCE",
+          "y": 24,
+          "height": 260,
+          "background": "rgb(235, 239, 238)",
+          "backgroundKind": "SOLID",
+          "instanceOf": ".Page Header",
+          "componentProperties": {},
+          "components": [
+            ".Page Header",
+            ".Page Logo"
+          ]
+        },
+        {
+          "node": "12077:107205",
+          "name": "Frame 1",
+          "type": "FRAME",
+          "y": 324,
+          "height": 293,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12072:107023",
+      "name": "Spacing",
+      "page": {
+        "node": "12072:107022",
+        "name": "    ↪ Spacing"
+      },
+      "slug": "spacing",
+      "width": 1440,
+      "height": 1261,
+      "sections": [
+        {
+          "node": "12072:107024",
+          "name": ".Page Header",
+          "type": "INSTANCE",
+          "y": 24,
+          "height": 260,
+          "background": "rgb(235, 239, 238)",
+          "backgroundKind": "SOLID",
+          "instanceOf": ".Page Header",
+          "componentProperties": {},
+          "components": [
+            ".Page Header",
+            ".Page Logo"
+          ]
+        },
+        {
+          "node": "12072:107025",
+          "name": "Frame 1",
+          "type": "FRAME",
+          "y": 324,
+          "height": 897,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12360:10305",
+      "name": "Accordion",
+      "page": null,
+      "slug": "accordion",
+      "width": 2823,
+      "height": 600,
+      "sections": [
+        {
+          "node": "12360:10292",
+          "name": "Type=Desktop, State=Closed",
+          "type": "COMPONENT",
+          "y": 140,
+          "height": 61,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12473:15781",
+          "name": "Type=Tablet, State=Closed",
+          "type": "COMPONENT",
+          "y": 140,
+          "height": 61,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12360:10306",
+          "name": "Type=Mobile, State=Closed",
+          "type": "COMPONENT",
+          "y": 140,
+          "height": 47,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12362:10353",
+          "name": "Type=Mobile, State=Expanded",
+          "type": "COMPONENT",
+          "y": 211,
+          "height": 347,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons",
+            ".Block Element",
+            ".Title",
+            ".Text"
+          ]
+        },
+        {
+          "node": "12362:10348",
+          "name": "Type=Desktop, State=Expanded",
+          "type": "COMPONENT",
+          "y": 225,
+          "height": 195,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons",
+            ".Block Element",
+            ".Title",
+            ".Text"
+          ]
+        },
+        {
+          "node": "12473:15786",
+          "name": "Type=Tablet, State=Expanded",
+          "type": "COMPONENT",
+          "y": 225,
+          "height": 243,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons",
+            ".Block Element",
+            ".Title",
+            ".Text"
+          ]
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12522:1041",
+      "name": "Back-to-top",
+      "page": null,
+      "slug": "back-to-top",
+      "width": 2823,
+      "height": 312,
+      "sections": [
+        {
+          "node": "12522:1040",
+          "name": "Background=Light, Breakpoint=Desktop",
+          "type": "COMPONENT",
+          "y": 128,
+          "height": 64,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Button"
+          ]
+        },
+        {
+          "node": "12522:1170",
+          "name": "Background=Light, Breakpoint=Tablet",
+          "type": "COMPONENT",
+          "y": 128,
+          "height": 64,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Button"
+          ]
+        },
+        {
+          "node": "12522:1194",
+          "name": "Background=Light, Breakpoint=Mobile",
+          "type": "COMPONENT",
+          "y": 128,
+          "height": 64,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Button"
+          ]
+        },
+        {
+          "node": "12522:1042",
+          "name": "Background=Dark, Breakpoint=Desktop",
+          "type": "COMPONENT",
+          "y": 212,
+          "height": 64,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Button"
+          ]
+        },
+        {
+          "node": "12522:1173",
+          "name": "Background=Dark, Breakpoint=Tablet",
+          "type": "COMPONENT",
+          "y": 212,
+          "height": 64,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Button"
+          ]
+        },
+        {
+          "node": "12522:1197",
+          "name": "Background=Dark, Breakpoint=Mobile",
+          "type": "COMPONENT",
+          "y": 212,
+          "height": 64,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Button"
+          ]
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12084:109164",
+      "name": "Button",
+      "page": null,
+      "slug": "button",
+      "width": 931,
+      "height": 288,
+      "sections": [
+        {
+          "node": "12084:109155",
+          "name": "Size=Medium, Type=Primary, Property=With text",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 42,
+          "background": "rgb(208, 0, 111)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "15035:2204",
+          "name": "Size=Large, Type=Primary, Property=With text",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 54,
+          "background": "rgb(208, 0, 111)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12084:109208",
+          "name": "Size=Small, Type=Primary, Property=With text",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 34,
+          "background": "rgb(208, 0, 111)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12084:109184",
+          "name": "Size=Medium, Type=Primary, Property=Icon Only",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 42,
+          "background": "rgb(208, 0, 111)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "15035:2208",
+          "name": "Size=Large, Type=Primary, Property=Icon Only",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 54,
+          "background": "rgb(208, 0, 111)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12084:109212",
+          "name": "Size=Small, Type=Primary, Property=Icon Only",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 34,
+          "background": "rgb(208, 0, 111)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12084:109165",
+          "name": "Size=Medium, Type=Secondary, Property=With text",
+          "type": "COMPONENT",
+          "y": 90,
+          "height": 42,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "15035:2210",
+          "name": "Size=Large, Type=Secondary, Property=With text",
+          "type": "COMPONENT",
+          "y": 90,
+          "height": 54,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12084:109214",
+          "name": "Size=Small, Type=Secondary, Property=With text",
+          "type": "COMPONENT",
+          "y": 90,
+          "height": 34,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12084:109188",
+          "name": "Size=Medium, Type=Secondary, Property=Icon Only",
+          "type": "COMPONENT",
+          "y": 90,
+          "height": 42,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "15035:2214",
+          "name": "Size=Large, Type=Secondary, Property=Icon Only",
+          "type": "COMPONENT",
+          "y": 90,
+          "height": 54,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12084:109218",
+          "name": "Size=Small, Type=Secondary, Property=Icon Only",
+          "type": "COMPONENT",
+          "y": 90,
+          "height": 34,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12084:109172",
+          "name": "Size=Medium, Type=Tertiary, Property=With text",
+          "type": "COMPONENT",
+          "y": 156,
+          "height": 42,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "15035:2216",
+          "name": "Size=Large, Type=Tertiary, Property=With text",
+          "type": "COMPONENT",
+          "y": 156,
+          "height": 54,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12084:109220",
+          "name": "Size=Small, Type=Tertiary, Property=With text",
+          "type": "COMPONENT",
+          "y": 156,
+          "height": 34,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12084:109192",
+          "name": "Size=Medium, Type=Tertiary, Property=Icon Only",
+          "type": "COMPONENT",
+          "y": 156,
+          "height": 42,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "15035:2220",
+          "name": "Size=Large, Type=Tertiary, Property=Icon Only",
+          "type": "COMPONENT",
+          "y": 156,
+          "height": 54,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12084:109224",
+          "name": "Size=Small, Type=Tertiary, Property=Icon Only",
+          "type": "COMPONENT",
+          "y": 156,
+          "height": 34,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12084:109178",
+          "name": "Size=Medium, Type=Link, Property=With text",
+          "type": "COMPONENT",
+          "y": 222,
+          "height": 24,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12084:109226",
+          "name": "Size=Small, Type=Link, Property=With text",
+          "type": "COMPONENT",
+          "y": 222,
+          "height": 20,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12084:109196",
+          "name": "Size=Medium, Type=Link, Property=Icon Only",
+          "type": "COMPONENT",
+          "y": 222,
+          "height": 42,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "15035:2226",
+          "name": "Size=Large, Type=Link, Property=Icon Only",
+          "type": "COMPONENT",
+          "y": 222,
+          "height": 54,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12084:109230",
+          "name": "Size=Small, Type=Link, Property=Icon Only",
+          "type": "COMPONENT",
+          "y": 222,
+          "height": 34,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "15035:2222",
+          "name": "Size=Large, Type=Link, Property=With text",
+          "type": "COMPONENT",
+          "y": 237,
+          "height": 24,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12410:12840",
+      "name": "Breadcrumb label",
+      "page": null,
+      "slug": "breadcrumb-label",
+      "width": 291,
+      "height": 128,
+      "sections": [
+        {
+          "node": "12410:12839",
+          "name": "State=Default, Breakpoint=Desktop",
+          "type": "COMPONENT",
+          "y": 20,
+          "height": 16,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        },
+        {
+          "node": "12410:12864",
+          "name": "State=Default, Breakpoint=Mobile",
+          "type": "COMPONENT",
+          "y": 20,
+          "height": 16,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        },
+        {
+          "node": "12410:12841",
+          "name": "State=Hover, Breakpoint=Desktop",
+          "type": "COMPONENT",
+          "y": 56,
+          "height": 16,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        },
+        {
+          "node": "12410:12866",
+          "name": "State=Hover, Breakpoint=Mobile",
+          "type": "COMPONENT",
+          "y": 56,
+          "height": 16,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        },
+        {
+          "node": "12410:12843",
+          "name": "State=Active, Breakpoint=Desktop",
+          "type": "COMPONENT",
+          "y": 92,
+          "height": 16,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        },
+        {
+          "node": "12410:12868",
+          "name": "State=Active, Breakpoint=Mobile",
+          "type": "COMPONENT",
+          "y": 92,
+          "height": 16,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12473:16100",
+      "name": "Carousel",
+      "page": null,
+      "slug": "carousel",
+      "width": 2825,
+      "height": 688,
+      "sections": [
+        {
+          "node": "12473:16099",
+          "name": "Breakpoint=Desktop",
+          "type": "COMPONENT",
+          "y": 128,
+          "height": 436,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Carousel / Arrows",
+            "General Icons",
+            ".Block Element",
+            "Teaser / Text + Image",
+            "Image Placeholder",
+            ".Title",
+            "Button",
+            ".Carousel / Dots"
+          ]
+        },
+        {
+          "node": "12473:16101",
+          "name": "Breakpoint=Tablet",
+          "type": "COMPONENT",
+          "y": 128,
+          "height": 312,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Block Element",
+            "Teaser / Text + Image",
+            "Image Placeholder",
+            ".Title",
+            "Button",
+            ".Carousel / Arrows",
+            "General Icons",
+            ".Carousel / Dots"
+          ]
+        },
+        {
+          "node": "12473:16145",
+          "name": "Breakpoint=Mobile",
+          "type": "COMPONENT",
+          "y": 128,
+          "height": 524,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Block Element",
+            "Teaser / Text + Image",
+            "Image Placeholder",
+            ".Title",
+            "Button",
+            ".Carousel / Arrows",
+            "General Icons",
+            ".Carousel / Dots"
+          ]
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12265:6347",
+      "name": "Checkbox Input",
+      "page": null,
+      "slug": "checkbox-input",
+      "width": 100,
+      "height": 92,
+      "sections": [
+        {
+          "node": "12265:6346",
+          "name": "Type=Checkbox, Status=Default",
+          "type": "COMPONENT",
+          "y": 20,
+          "height": 20,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        },
+        {
+          "node": "12265:6366",
+          "name": "Type=Radio, Status=Default",
+          "type": "COMPONENT",
+          "y": 20,
+          "height": 20,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        },
+        {
+          "node": "12265:6367",
+          "name": "Type=Radio, Status=Active",
+          "type": "COMPONENT",
+          "y": 56,
+          "height": 20,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        },
+        {
+          "node": "12265:6348",
+          "name": "Type=Checkbox, Status=Active",
+          "type": "COMPONENT",
+          "y": 56,
+          "height": 20,
+          "background": "rgb(208, 0, 111)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12334:9625",
+      "name": "Chips",
+      "page": null,
+      "slug": "chips",
+      "width": 497,
+      "height": 120,
+      "sections": [
+        {
+          "node": "12334:9624",
+          "name": "Size=Small, State=Dark",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 20,
+          "background": "rgb(131, 0, 81)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12334:9626",
+          "name": "Size=Small, State=Light",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 20,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12334:9664",
+          "name": "Size=Small, State=Active",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 20,
+          "background": "rgb(208, 0, 111)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12334:9692",
+          "name": "Size=Large, State=Dark",
+          "type": "COMPONENT",
+          "y": 68,
+          "height": 28,
+          "background": "rgb(131, 0, 81)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12334:9696",
+          "name": "Size=Large, State=Light",
+          "type": "COMPONENT",
+          "y": 68,
+          "height": 28,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12334:9700",
+          "name": "Size=Large, State=Active",
+          "type": "COMPONENT",
+          "y": 68,
+          "height": 28,
+          "background": "rgb(208, 0, 111)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12277:7181",
+      "name": "Dropdown",
+      "page": null,
+      "slug": "dropdown",
+      "width": 2128,
+      "height": 496,
+      "sections": [
+        {
+          "node": "12277:7433",
+          "name": "Type=Default, State=Default",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 86,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Input Field",
+            "General Icons",
+            ".Dropdown-Listitem"
+          ]
+        },
+        {
+          "node": "12277:7441",
+          "name": "Type=Icon, State=Default",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 86,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Input Field",
+            "General Icons",
+            ".Dropdown-Listitem"
+          ]
+        },
+        {
+          "node": "12277:7449",
+          "name": "Type=Secondary Text, State=Default",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 86,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Input Field",
+            "General Icons",
+            ".Dropdown-Listitem"
+          ]
+        },
+        {
+          "node": "12277:7457",
+          "name": "Type=With Arrow, State=Default",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 86,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Input Field",
+            "General Icons",
+            ".Dropdown-Listitem"
+          ]
+        },
+        {
+          "node": "12277:7465",
+          "name": "Type=Form, State=Default",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 86,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Input Field",
+            "General Icons",
+            ".Dropdown-Listitem",
+            "Checkbox Input"
+          ]
+        },
+        {
+          "node": "12277:7180",
+          "name": "Type=Default, State=Expanded",
+          "type": "COMPONENT",
+          "y": 150,
+          "height": 86,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Input Field",
+            "General Icons",
+            ".Dropdown-Listitem"
+          ]
+        },
+        {
+          "node": "12277:7182",
+          "name": "Type=Icon, State=Expanded",
+          "type": "COMPONENT",
+          "y": 150,
+          "height": 86,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Input Field",
+            "General Icons",
+            ".Dropdown-Listitem"
+          ]
+        },
+        {
+          "node": "12277:7231",
+          "name": "Type=Secondary Text, State=Expanded",
+          "type": "COMPONENT",
+          "y": 150,
+          "height": 86,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Input Field",
+            "General Icons",
+            ".Dropdown-Listitem"
+          ]
+        },
+        {
+          "node": "12277:7300",
+          "name": "Type=With Arrow, State=Expanded",
+          "type": "COMPONENT",
+          "y": 150,
+          "height": 86,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Input Field",
+            "General Icons",
+            ".Dropdown-Listitem"
+          ]
+        },
+        {
+          "node": "12277:7369",
+          "name": "Type=Form, State=Expanded",
+          "type": "COMPONENT",
+          "y": 150,
+          "height": 86,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Input Field",
+            "General Icons",
+            ".Dropdown-Listitem",
+            "Checkbox Input"
+          ]
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12160:3287",
+      "name": "Input Field",
+      "page": null,
+      "slug": "input-field",
+      "width": 3400,
+      "height": 608,
+      "sections": [
+        {
+          "node": "12168:4273",
+          "name": "Type=Default, State=Read-only",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 102,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "13402:7462",
+          "name": "Type=Default, State=Non-Editable Vertical",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 82,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "13402:9035",
+          "name": "Type=Default, State=Non-Editable Horizontal",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 24,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12168:4180",
+          "name": "Type=Default, State=Disabled",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 102,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12168:4063",
+          "name": "Type=Default, State=Active",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 102,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12168:3879",
+          "name": "Type=Default, State=Focus/Typing",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 102,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12168:3758",
+          "name": "Type=Default, State=Hovered",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 102,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12128:3261",
+          "name": "Type=Default, State=Default",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 102,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12168:4294",
+          "name": "Type=Amount, State=Read-only",
+          "type": "COMPONENT",
+          "y": 174,
+          "height": 102,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "13402:7441",
+          "name": "Type=Amount, State=Non-Editable Vertical",
+          "type": "COMPONENT",
+          "y": 174,
+          "height": 82,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "13402:9020",
+          "name": "Type=Amount, State=Non-Editable Horizontal",
+          "type": "COMPONENT",
+          "y": 174,
+          "height": 24,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12168:4201",
+          "name": "Type=Amount, State=Disabled",
+          "type": "COMPONENT",
+          "y": 174,
+          "height": 102,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12168:4084",
+          "name": "Type=Amount, State=Active",
+          "type": "COMPONENT",
+          "y": 174,
+          "height": 102,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12168:3900",
+          "name": "Type=Amount, State=Focus/Typing",
+          "type": "COMPONENT",
+          "y": 174,
+          "height": 102,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12168:3737",
+          "name": "Type=Amount, State=Hovered",
+          "type": "COMPONENT",
+          "y": 174,
+          "height": 102,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12160:3532",
+          "name": "Type=Amount, State=Default",
+          "type": "COMPONENT",
+          "y": 174,
+          "height": 102,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12168:4315",
+          "name": "Type=Simple, State=Read-only",
+          "type": "COMPONENT",
+          "y": 324,
+          "height": 102,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "13402:7420",
+          "name": "Type=Simple, State=Non-Editable Vertical",
+          "type": "COMPONENT",
+          "y": 324,
+          "height": 82,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "13402:9005",
+          "name": "Type=Simple, State=Non-Editable Horizontal",
+          "type": "COMPONENT",
+          "y": 324,
+          "height": 24,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12168:4222",
+          "name": "Type=Simple, State=Disabled",
+          "type": "COMPONENT",
+          "y": 324,
+          "height": 102,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12168:4105",
+          "name": "Type=Simple, State=Active",
+          "type": "COMPONENT",
+          "y": 324,
+          "height": 102,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12168:3921",
+          "name": "Type=Simple, State=Focus/Typing",
+          "type": "COMPONENT",
+          "y": 324,
+          "height": 102,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12168:3716",
+          "name": "Type=Simple, State=Hovered",
+          "type": "COMPONENT",
+          "y": 324,
+          "height": 102,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12160:3602",
+          "name": "Type=Simple, State=Default",
+          "type": "COMPONENT",
+          "y": 324,
+          "height": 102,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12168:4336",
+          "name": "Type=Password, State=Read-only",
+          "type": "COMPONENT",
+          "y": 474,
+          "height": 102,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "13402:7399",
+          "name": "Type=Password, State=Non-Editable Vertical",
+          "type": "COMPONENT",
+          "y": 474,
+          "height": 82,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "13402:8990",
+          "name": "Type=Password, State=Non-Editable Horizontal",
+          "type": "COMPONENT",
+          "y": 474,
+          "height": 50,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12168:4243",
+          "name": "Type=Password, State=Disabled",
+          "type": "COMPONENT",
+          "y": 474,
+          "height": 102,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12168:4126",
+          "name": "Type=Password, State=Active",
+          "type": "COMPONENT",
+          "y": 474,
+          "height": 102,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12168:3942",
+          "name": "Type=Password, State=Focus/Typing",
+          "type": "COMPONENT",
+          "y": 474,
+          "height": 102,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12168:3695",
+          "name": "Type=Password, State=Hovered",
+          "type": "COMPONENT",
+          "y": 474,
+          "height": 102,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12160:3647",
+          "name": "Type=Password, State=Default",
+          "type": "COMPONENT",
+          "y": 474,
+          "height": 102,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12929:23477",
+      "name": "Links",
+      "page": null,
+      "slug": "links",
+      "width": 2820,
+      "height": 540,
+      "sections": [
+        {
+          "node": "12928:23476",
+          "name": "Breakpoint=Desktop, Style=Horizontal",
+          "type": "COMPONENT",
+          "y": 128,
+          "height": 32,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Link"
+          ]
+        },
+        {
+          "node": "12929:23547",
+          "name": "Breakpoint=Tablet, Style=Horizontal",
+          "type": "COMPONENT",
+          "y": 128,
+          "height": 32,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Link"
+          ]
+        },
+        {
+          "node": "12929:23851",
+          "name": "Breakpoint=Mobile, Style=Vertical",
+          "type": "COMPONENT",
+          "y": 128,
+          "height": 320,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Link"
+          ]
+        },
+        {
+          "node": "12929:23478",
+          "name": "Breakpoint=Desktop, Style=Vertical",
+          "type": "COMPONENT",
+          "y": 200,
+          "height": 320,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Link"
+          ]
+        },
+        {
+          "node": "12929:23557",
+          "name": "Breakpoint=Tablet, Style=Vertical",
+          "type": "COMPONENT",
+          "y": 200,
+          "height": 320,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Link"
+          ]
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12467:15529",
+      "name": "Modal",
+      "page": null,
+      "slug": "modal",
+      "width": 1068,
+      "height": 1664,
+      "sections": [
+        {
+          "node": "12467:15523",
+          "name": "Type=Text Only, Alignment=Horizontal",
+          "type": "COMPONENT",
+          "y": 40,
+          "height": 242,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Buttons Collage",
+            "Button",
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12467:15524",
+          "name": "Type=Text Only, Alignment=Vertical",
+          "type": "COMPONENT",
+          "y": 40,
+          "height": 352,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Buttons Collage",
+            "Button",
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12467:15525",
+          "name": "Type=Slot component, Alignment=Horizontal",
+          "type": "COMPONENT",
+          "y": 469,
+          "height": 436,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Button",
+            "General Icons",
+            "Image Placeholder",
+            ".Buttons Collage",
+            ".Carousel / Arrows"
+          ]
+        },
+        {
+          "node": "12467:15526",
+          "name": "Type=Slot component, Alignment=Vertical",
+          "type": "COMPONENT",
+          "y": 469,
+          "height": 602,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Button",
+            "General Icons",
+            "Image Placeholder",
+            ".Carousel / Arrows",
+            ".Buttons Collage"
+          ]
+        },
+        {
+          "node": "12467:15527",
+          "name": "Type=Image, Alignment=Horizontal",
+          "type": "COMPONENT",
+          "y": 1088,
+          "height": 296,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Image Placeholder",
+            "Button",
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12467:15528",
+          "name": "Type=Image, Alignment=Vertical",
+          "type": "COMPONENT",
+          "y": 1088,
+          "height": 536,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Button",
+            "General Icons",
+            "Image Placeholder"
+          ]
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12328:9443",
+      "name": "Pagination / Base",
+      "page": null,
+      "slug": "pagination-base",
+      "width": 449,
+      "height": 280,
+      "sections": [
+        {
+          "node": "12328:9438",
+          "name": "Type=Page Number, State=Default",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 40,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        },
+        {
+          "node": "12328:9439",
+          "name": "Type=Left Icon, State=Default",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 40,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12328:9441",
+          "name": "Type=Previous Icon + Text, State=Default",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 40,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12328:9442",
+          "name": "Type=Next Icon + Text, State=Default",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 40,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12328:9440",
+          "name": "Type=Right Icon, State=Default",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 40,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12328:9460",
+          "name": "Type=Page Number, State=Hover",
+          "type": "COMPONENT",
+          "y": 88,
+          "height": 40,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        },
+        {
+          "node": "12328:9462",
+          "name": "Type=Left Icon, State=Hover",
+          "type": "COMPONENT",
+          "y": 88,
+          "height": 40,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12328:9464",
+          "name": "Type=Previous Icon + Text, State=Hover",
+          "type": "COMPONENT",
+          "y": 88,
+          "height": 40,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12328:9467",
+          "name": "Type=Next Icon + Text, State=Hover",
+          "type": "COMPONENT",
+          "y": 88,
+          "height": 40,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12328:9470",
+          "name": "Type=Right Icon, State=Hover",
+          "type": "COMPONENT",
+          "y": 88,
+          "height": 40,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12328:9492",
+          "name": "Type=Page Number, State=Active",
+          "type": "COMPONENT",
+          "y": 152,
+          "height": 40,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        },
+        {
+          "node": "12328:9494",
+          "name": "Type=Left Icon, State=Active",
+          "type": "COMPONENT",
+          "y": 152,
+          "height": 40,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12328:9496",
+          "name": "Type=Previous Icon + Text, State=Active",
+          "type": "COMPONENT",
+          "y": 152,
+          "height": 40,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12328:9499",
+          "name": "Type=Next Icon + Text, State=Active",
+          "type": "COMPONENT",
+          "y": 152,
+          "height": 40,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12328:9502",
+          "name": "Type=Right Icon, State=Active",
+          "type": "COMPONENT",
+          "y": 152,
+          "height": 40,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12328:9538",
+          "name": "Type=Page Number, State=Disabled",
+          "type": "COMPONENT",
+          "y": 216,
+          "height": 40,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        },
+        {
+          "node": "12328:9540",
+          "name": "Type=Left Icon, State=Disabled",
+          "type": "COMPONENT",
+          "y": 216,
+          "height": 40,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12328:9542",
+          "name": "Type=Previous Icon + Text, State=Disabled",
+          "type": "COMPONENT",
+          "y": 216,
+          "height": 40,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12328:9545",
+          "name": "Type=Next Icon + Text, State=Disabled",
+          "type": "COMPONENT",
+          "y": 216,
+          "height": 40,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12328:9548",
+          "name": "Type=Right Icon, State=Disabled",
+          "type": "COMPONENT",
+          "y": 216,
+          "height": 40,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12686:17319",
+      "name": "Search bar",
+      "page": null,
+      "slug": "search-bar",
+      "width": 1008,
+      "height": 536,
+      "sections": [
+        {
+          "node": "12686:17308",
+          "name": "State=Default",
+          "type": "COMPONENT",
+          "y": 40,
+          "height": 54,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Input Field",
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12686:17318",
+          "name": "State=Expanded",
+          "type": "COMPONENT",
+          "y": 124,
+          "height": 54,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons",
+            "Button"
+          ]
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12334:10073",
+      "name": "Range Slider thumb",
+      "page": null,
+      "slug": "range-slider-thumb",
+      "width": 98,
+      "height": 60,
+      "sections": [
+        {
+          "node": "12334:10071",
+          "name": "State=Default",
+          "type": "COMPONENT",
+          "y": 20,
+          "height": 20,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        },
+        {
+          "node": "12334:10072",
+          "name": "State=Active",
+          "type": "COMPONENT",
+          "y": 20,
+          "height": 20,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "13121:3064",
+      "name": "Stepper",
+      "page": null,
+      "slug": "stepper",
+      "width": 555,
+      "height": 152,
+      "sections": [
+        {
+          "node": "13121:3063",
+          "name": "Step=Step 1",
+          "type": "COMPONENT",
+          "y": 20,
+          "height": 24,
+          "background": "rgb(246, 206, 231)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        },
+        {
+          "node": "13121:3065",
+          "name": "Step=Step 2",
+          "type": "COMPONENT",
+          "y": 64,
+          "height": 24,
+          "background": "rgb(246, 206, 231)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        },
+        {
+          "node": "13121:3072",
+          "name": "Step=Step 3",
+          "type": "COMPONENT",
+          "y": 108,
+          "height": 24,
+          "background": "rgb(246, 206, 231)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12914:23169",
+      "name": "Tab Nav",
+      "page": null,
+      "slug": "tab-nav",
+      "width": 2822,
+      "height": 233,
+      "sections": [
+        {
+          "node": "12914:22783",
+          "name": "Breakpoint=Desktop",
+          "type": "COMPONENT",
+          "y": 128,
+          "height": 44,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Tab Nav Items",
+            ".Tab Nav Elements",
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12914:23170",
+          "name": "Breakpoint=Tablet",
+          "type": "COMPONENT",
+          "y": 128,
+          "height": 44,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Tab Nav Items",
+            ".Tab Nav Elements",
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12914:23208",
+          "name": "Breakpoint=Mobile",
+          "type": "COMPONENT",
+          "y": 128,
+          "height": 44,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Tab Nav Items",
+            ".Tab Nav Elements",
+            "General Icons"
+          ]
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12305:8988",
+      "name": "Tabs Group",
+      "page": null,
+      "slug": "tabs-group",
+      "width": 1045,
+      "height": 159,
+      "sections": [
+        {
+          "node": "12305:8986",
+          "name": "Type=Default, Size=Large",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 52,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Tabs base"
+          ]
+        },
+        {
+          "node": "12305:9043",
+          "name": "Type=Compact, Size=Large",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 52,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Tabs base",
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12305:8987",
+          "name": "Type=Default, Size=Medium",
+          "type": "COMPONENT",
+          "y": 107,
+          "height": 28,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Tabs base"
+          ]
+        },
+        {
+          "node": "12305:9052",
+          "name": "Type=Compact, Size=Medium",
+          "type": "COMPONENT",
+          "y": 107,
+          "height": 28,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Tabs base",
+            "General Icons"
+          ]
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12607:4086",
+      "name": "Table / Cell",
+      "page": null,
+      "slug": "table-cell",
+      "width": 994,
+      "height": 312,
+      "sections": [
+        {
+          "node": "12607:4085",
+          "name": "Type=Icon, Position=Header",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 48,
+          "background": "rgb(216, 223, 222)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12607:4087",
+          "name": "Type=Checkbox, Position=Header",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 52,
+          "background": "rgb(216, 223, 222)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Checkbox Input",
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12607:4097",
+          "name": "Type=Radio, Position=Header",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 52,
+          "background": "rgb(216, 223, 222)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Checkbox Input",
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12607:4108",
+          "name": "Type=Toggle, Position=Header",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 48,
+          "background": "rgb(216, 223, 222)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Toggle switches",
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12607:4122",
+          "name": "Type=Empty, Position=Header",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 48,
+          "background": "rgb(216, 223, 222)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        },
+        {
+          "node": "12607:4188",
+          "name": "Type=Icon, Position=Cell Light",
+          "type": "COMPONENT",
+          "y": 96,
+          "height": 48,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12607:4182",
+          "name": "Type=Checkbox, Position=Cell Light",
+          "type": "COMPONENT",
+          "y": 96,
+          "height": 52,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Checkbox Input",
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12607:4176",
+          "name": "Type=Radio, Position=Cell Light",
+          "type": "COMPONENT",
+          "y": 96,
+          "height": 52,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Checkbox Input",
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12607:4170",
+          "name": "Type=Toggle, Position=Cell Light",
+          "type": "COMPONENT",
+          "y": 96,
+          "height": 48,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Toggle switches",
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12607:4169",
+          "name": "Type=Empty, Position=Cell Light",
+          "type": "COMPONENT",
+          "y": 96,
+          "height": 48,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        },
+        {
+          "node": "12607:4207",
+          "name": "Type=Icon, Position=Cell Dark",
+          "type": "COMPONENT",
+          "y": 168,
+          "height": 48,
+          "background": "rgb(235, 239, 238)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12607:4213",
+          "name": "Type=Checkbox, Position=Cell Dark",
+          "type": "COMPONENT",
+          "y": 168,
+          "height": 52,
+          "background": "rgb(235, 239, 238)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Checkbox Input",
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12607:4219",
+          "name": "Type=Radio, Position=Cell Dark",
+          "type": "COMPONENT",
+          "y": 168,
+          "height": 52,
+          "background": "rgb(235, 239, 238)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Checkbox Input",
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12607:4225",
+          "name": "Type=Toggle, Position=Cell Dark",
+          "type": "COMPONENT",
+          "y": 168,
+          "height": 48,
+          "background": "rgb(235, 239, 238)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Toggle switches",
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12607:4231",
+          "name": "Type=Empty, Position=Cell Dark",
+          "type": "COMPONENT",
+          "y": 168,
+          "height": 48,
+          "background": "rgb(235, 239, 238)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        },
+        {
+          "node": "12607:4549",
+          "name": "Type=Icon, Position=Highlight",
+          "type": "COMPONENT",
+          "y": 240,
+          "height": 48,
+          "background": "rgb(246, 206, 231)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12607:4555",
+          "name": "Type=Checkbox, Position=Highlight",
+          "type": "COMPONENT",
+          "y": 240,
+          "height": 52,
+          "background": "rgb(246, 206, 231)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Checkbox Input",
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12607:4561",
+          "name": "Type=Radio, Position=Highlight",
+          "type": "COMPONENT",
+          "y": 240,
+          "height": 52,
+          "background": "rgb(246, 206, 231)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Checkbox Input",
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12607:4567",
+          "name": "Type=Toggle, Position=Highlight",
+          "type": "COMPONENT",
+          "y": 240,
+          "height": 48,
+          "background": "rgb(246, 206, 231)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Toggle switches",
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12607:4573",
+          "name": "Type=Empty, Position=Highlight",
+          "type": "COMPONENT",
+          "y": 240,
+          "height": 48,
+          "background": "rgb(246, 206, 231)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12287:8487",
+      "name": "Toggle switches",
+      "page": null,
+      "slug": "toggle-switches",
+      "width": 144,
+      "height": 112,
+      "sections": [
+        {
+          "node": "12287:8485",
+          "name": "Checked=False, Status=Default",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 16,
+          "background": "rgb(235, 239, 238)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        },
+        {
+          "node": "12287:8486",
+          "name": "Checked=True, Status=Default",
+          "type": "COMPONENT",
+          "y": 24,
+          "height": 16,
+          "background": "rgb(208, 0, 111)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        },
+        {
+          "node": "12287:8488",
+          "name": "Checked=False, Status=Disabled",
+          "type": "COMPONENT",
+          "y": 68,
+          "height": 16,
+          "background": "rgb(235, 239, 238)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        },
+        {
+          "node": "12287:8490",
+          "name": "Checked=True, Status=Disabled",
+          "type": "COMPONENT",
+          "y": 68,
+          "height": 16,
+          "background": "rgb(235, 239, 238)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12334:9961",
+      "name": "Tooltip",
+      "page": null,
+      "slug": "tooltip",
+      "width": 662,
+      "height": 86,
+      "sections": [
+        {
+          "node": "12334:9958",
+          "name": "Position=Bottom",
+          "type": "COMPONENT",
+          "y": 20,
+          "height": 39,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        },
+        {
+          "node": "12334:9960",
+          "name": "Position=Left",
+          "type": "COMPONENT",
+          "y": 26,
+          "height": 33.999996185302734,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        },
+        {
+          "node": "12334:9959",
+          "name": "Position=Right",
+          "type": "COMPONENT",
+          "y": 26,
+          "height": 33.999996185302734,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        },
+        {
+          "node": "12334:9957",
+          "name": "Position=Top",
+          "type": "COMPONENT",
+          "y": 27,
+          "height": 39,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": []
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12693:19253",
+      "name": "Account Summary",
+      "page": null,
+      "slug": "account-summary",
+      "width": 2845,
+      "height": 1277,
+      "sections": [
+        {
+          "node": "12693:19258",
+          "name": "Breakpoint=Mobile",
+          "type": "COMPONENT",
+          "y": 131,
+          "height": 1098,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Account summary",
+            "Button"
+          ]
+        },
+        {
+          "node": "12693:19256",
+          "name": "Breakpoint=Tablet",
+          "type": "COMPONENT",
+          "y": 131,
+          "height": 594,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Account summary",
+            "Button"
+          ]
+        },
+        {
+          "node": "12693:19254",
+          "name": "Breakpoint=Desktop",
+          "type": "COMPONENT",
+          "y": 131,
+          "height": 634,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Account summary",
+            "Button"
+          ]
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12601:4831",
+      "name": "Block Content",
+      "page": null,
+      "slug": "block-content",
+      "width": 2845,
+      "height": 496,
+      "sections": [
+        {
+          "node": "12534:1412",
+          "name": "Breakpoint=Desktop",
+          "type": "COMPONENT",
+          "y": 131,
+          "height": 194,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Block Element",
+            ".Title",
+            ".Text"
+          ]
+        },
+        {
+          "node": "12601:4832",
+          "name": "Breakpoint=Tablet",
+          "type": "COMPONENT",
+          "y": 131,
+          "height": 226,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Block Element",
+            ".Title",
+            ".Text"
+          ]
+        },
+        {
+          "node": "12601:4859",
+          "name": "Breakpoint=Mobile",
+          "type": "COMPONENT",
+          "y": 131,
+          "height": 328,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Block Element",
+            ".Title",
+            ".Text"
+          ]
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "13370:2040",
+      "name": "CTA Banner",
+      "page": null,
+      "slug": "cta-banner",
+      "width": 2823,
+      "height": 916,
+      "sections": [
+        {
+          "node": "13370:1909",
+          "name": "Breakpoint=Desktop",
+          "type": "COMPONENT",
+          "y": 128,
+          "height": 418,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Image Placeholder",
+            ".Title",
+            ".Text",
+            "Input Field",
+            "General Icons",
+            ".Buttons Collage",
+            "Button"
+          ]
+        },
+        {
+          "node": "13370:2041",
+          "name": "Breakpoint=Tablet",
+          "type": "COMPONENT",
+          "y": 128,
+          "height": 450,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Image Placeholder",
+            ".Title",
+            ".Text",
+            "Input Field",
+            "General Icons",
+            ".Buttons Collage",
+            "Button"
+          ]
+        },
+        {
+          "node": "13370:2088",
+          "name": "Breakpoint=Mobile",
+          "type": "COMPONENT",
+          "y": 128,
+          "height": 748,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Image Placeholder",
+            ".Title",
+            ".Text",
+            "Input Field",
+            "General Icons",
+            ".Buttons Collage",
+            "Button"
+          ]
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "15163:14798",
+      "name": "Weight Conversion",
+      "page": null,
+      "slug": "weight-conversion",
+      "width": 2823,
+      "height": 1028,
+      "sections": [
+        {
+          "node": "15163:14797",
+          "name": "Breakpoint=Desktop",
+          "type": "COMPONENT",
+          "y": 128,
+          "height": 464,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Block Element",
+            ".Title",
+            ".Text",
+            ".Calculator: Slot",
+            "Input Field",
+            "General Icons",
+            ".Calculator: Metric Display"
+          ]
+        },
+        {
+          "node": "15163:14799",
+          "name": "Breakpoint=Tablet",
+          "type": "COMPONENT",
+          "y": 138,
+          "height": 512,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Block Element",
+            ".Title",
+            ".Text",
+            ".Calculator: Slot",
+            "Input Field",
+            "General Icons",
+            ".Calculator: Metric Display"
+          ]
+        },
+        {
+          "node": "15163:14934",
+          "name": "Breakpoint=Mobile",
+          "type": "COMPONENT",
+          "y": 139,
+          "height": 860,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Block Element",
+            ".Title",
+            ".Text",
+            ".Calculator: Slot",
+            "Input Field",
+            "General Icons",
+            ".Calculator: Metric Display"
+          ]
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12712:21024",
+      "name": "Email",
+      "page": null,
+      "slug": "email",
+      "width": 1230,
+      "height": 922,
+      "sections": [
+        {
+          "node": "12712:21025",
+          "name": "Type=Mobile",
+          "type": "COMPONENT",
+          "y": 20,
+          "height": 850,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Brand Logos",
+            "Button",
+            "Image Placeholder"
+          ]
+        },
+        {
+          "node": "12712:21043",
+          "name": "Type=Desktop",
+          "type": "COMPONENT",
+          "y": 20,
+          "height": 856,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Brand Logos",
+            "Button",
+            "Image Placeholder"
+          ]
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12682:15985",
+      "name": "Form Content",
+      "page": null,
+      "slug": "form-content",
+      "width": 2845,
+      "height": 1237,
+      "sections": [
+        {
+          "node": "12682:15982",
+          "name": "Breakpoint=Desktop",
+          "type": "COMPONENT",
+          "y": 131,
+          "height": 714,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Forms",
+            "Input Field",
+            "General Icons",
+            "Checkbox Form",
+            "Checkbox Input",
+            "Button"
+          ]
+        },
+        {
+          "node": "12682:15983",
+          "name": "Breakpoint=Tablet",
+          "type": "COMPONENT",
+          "y": 131,
+          "height": 618,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Forms",
+            "Input Field",
+            "General Icons",
+            "Checkbox Form",
+            "Checkbox Input",
+            "Button"
+          ]
+        },
+        {
+          "node": "12682:15984",
+          "name": "Breakpoint=Mobile",
+          "type": "COMPONENT",
+          "y": 131,
+          "height": 1018,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Forms",
+            "Input Field",
+            "General Icons",
+            "Checkbox Form",
+            "Checkbox Input",
+            "Button"
+          ]
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12406:12187",
+      "name": "Footer",
+      "page": null,
+      "slug": "footer",
+      "width": 2829,
+      "height": 805,
+      "sections": [
+        {
+          "node": "12406:12186",
+          "name": "Breakpoint=Desktop",
+          "type": "COMPONENT",
+          "y": 128,
+          "height": 292,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Brand Logos",
+            "Social Icons"
+          ]
+        },
+        {
+          "node": "12406:12188",
+          "name": "Breakpoint=Tablet",
+          "type": "COMPONENT",
+          "y": 128,
+          "height": 386,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Brand Logos",
+            "Social Icons"
+          ]
+        },
+        {
+          "node": "12406:12804",
+          "name": "Breakpoint=Mobile",
+          "type": "COMPONENT",
+          "y": 128,
+          "height": 534,
+          "background": "rgb(255, 255, 255)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Brand Logos",
+            "Social Icons"
+          ]
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12387:11135",
+      "name": "Header",
+      "page": null,
+      "slug": "header",
+      "width": 2823,
+      "height": 425,
+      "sections": [
+        {
+          "node": "12379:10829",
+          "name": "Breakpoint=Desktop, Type=Full",
+          "type": "COMPONENT",
+          "y": 168,
+          "height": 92,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Header / Links Selector",
+            ".Header / Contact Selecter Item",
+            ". Header / Language Selector",
+            "Brand Logos",
+            ".Header / Navigation Item",
+            "General Icons",
+            ".Header / Actions",
+            "Button"
+          ]
+        },
+        {
+          "node": "12387:11136",
+          "name": "Breakpoint=Mobile, Type=Full",
+          "type": "COMPONENT",
+          "y": 168,
+          "height": 60,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Brand Logos",
+            "Button",
+            "General Icons"
+          ]
+        },
+        {
+          "node": "12387:11396",
+          "name": "Breakpoint=Tablet, Type=Full",
+          "type": "COMPONENT",
+          "y": 168,
+          "height": 60,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Brand Logos",
+            "Button",
+            "General Icons"
+          ]
+        },
+        {
+          "node": "13496:14555",
+          "name": "Breakpoint=Desktop, Type=Registration",
+          "type": "COMPONENT",
+          "y": 300,
+          "height": 60,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Brand Logos"
+          ]
+        },
+        {
+          "node": "13496:14586",
+          "name": "Breakpoint=Mobile, Type=Registration",
+          "type": "COMPONENT",
+          "y": 300,
+          "height": 60,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Brand Logos"
+          ]
+        },
+        {
+          "node": "13496:14572",
+          "name": "Breakpoint=Tablet, Type=Registration",
+          "type": "COMPONENT",
+          "y": 300,
+          "height": 60,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Brand Logos"
+          ]
+        }
+      ],
+      "headerRows": [
+        {
+          "node": "12379:10768",
+          "menu": "12379:10759",
+          "align": "center",
+          "offset": 0,
+          "width": 1180,
+          "screen": "12379:10829"
+        }
+      ]
+    },
+    {
+      "node": "12950:24836",
+      "name": "Home Hero Branded",
+      "page": null,
+      "slug": "home-hero-branded",
+      "width": 2823,
+      "height": 760,
+      "sections": [
+        {
+          "node": "12950:24813",
+          "name": "Breakpoint=Desktop",
+          "type": "COMPONENT",
+          "y": 128,
+          "height": 428,
+          "background": "rgb(235, 239, 238)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Brand Logos",
+            "Button",
+            "Image Placeholder"
+          ]
+        },
+        {
+          "node": "12950:24837",
+          "name": "Breakpoint=Tablet",
+          "type": "COMPONENT",
+          "y": 128,
+          "height": 428,
+          "background": "rgb(235, 239, 238)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Brand Logos",
+            "Button",
+            "Image Placeholder"
+          ]
+        },
+        {
+          "node": "12950:24853",
+          "name": "Breakpoint=Mobile",
+          "type": "COMPONENT",
+          "y": 128,
+          "height": 594,
+          "background": "rgb(235, 239, 238)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Image Placeholder",
+            "Brand Logos",
+            "Button"
+          ]
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12643:9460",
+      "name": "Login",
+      "page": null,
+      "slug": "login",
+      "width": 2837,
+      "height": 2089,
+      "sections": [
+        {
+          "node": "12649:10046",
+          "name": "Type=Full, Breakpoint=Mobile",
+          "type": "COMPONENT",
+          "y": 123,
+          "height": 734,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Input Field",
+            "General Icons",
+            "Button",
+            "Checkbox Form",
+            "Checkbox Input"
+          ]
+        },
+        {
+          "node": "12643:9459",
+          "name": "Type=Full, Breakpoint=Desktop",
+          "type": "COMPONENT",
+          "y": 128,
+          "height": 941,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Image Placeholder",
+            "Input Field",
+            "General Icons",
+            "Button",
+            "Checkbox Form",
+            "Checkbox Input"
+          ]
+        },
+        {
+          "node": "12643:9902",
+          "name": "Type=Full, Breakpoint=Tablet",
+          "type": "COMPONENT",
+          "y": 128,
+          "height": 869,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Image Placeholder",
+            "Input Field",
+            "General Icons",
+            "Button",
+            "Checkbox Form",
+            "Checkbox Input"
+          ]
+        },
+        {
+          "node": "12649:10124",
+          "name": "Type=Email Field, Breakpoint=Mobile",
+          "type": "COMPONENT",
+          "y": 1109,
+          "height": 302,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Input Field",
+            "Button"
+          ]
+        },
+        {
+          "node": "12643:9461",
+          "name": "Type=Email Field, Breakpoint=Desktop",
+          "type": "COMPONENT",
+          "y": 1109,
+          "height": 941,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Image Placeholder",
+            "Input Field",
+            "Button"
+          ]
+        },
+        {
+          "node": "12643:9924",
+          "name": "Type=Email Field, Breakpoint=Tablet",
+          "type": "COMPONENT",
+          "y": 1109,
+          "height": 869,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Image Placeholder",
+            "Input Field",
+            "Button"
+          ]
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "12421:13846",
+      "name": "Teaser",
+      "page": null,
+      "slug": "teaser",
+      "width": 2823,
+      "height": 1474,
+      "sections": [
+        {
+          "node": "12421:13803",
+          "name": "Size=Large, Breakpoint=Desktop",
+          "type": "COMPONENT",
+          "y": 130,
+          "height": 480,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Image Placeholder",
+            ".Teaser / Hero Content",
+            "Button"
+          ]
+        },
+        {
+          "node": "12425:13927",
+          "name": "Size=Large, Breakpoint=Tablet",
+          "type": "COMPONENT",
+          "y": 130,
+          "height": 480,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Image Placeholder",
+            ".Teaser / Hero Content",
+            "Button"
+          ]
+        },
+        {
+          "node": "12421:13897",
+          "name": "Size=Large, Breakpoint=Mobile",
+          "type": "COMPONENT",
+          "y": 130,
+          "height": 480,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Image Placeholder",
+            ".Teaser / Hero Content",
+            "Button"
+          ]
+        },
+        {
+          "node": "12421:13847",
+          "name": "Size=Medium, Breakpoint=Desktop",
+          "type": "COMPONENT",
+          "y": 650,
+          "height": 390,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Image Placeholder",
+            ".Teaser / Hero Content",
+            "Button"
+          ]
+        },
+        {
+          "node": "12425:13931",
+          "name": "Size=Medium, Breakpoint=Tablet",
+          "type": "COMPONENT",
+          "y": 650,
+          "height": 390,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Image Placeholder",
+            ".Teaser / Hero Content",
+            "Button"
+          ]
+        },
+        {
+          "node": "12421:13901",
+          "name": "Size=Medium, Breakpoint=Mobile",
+          "type": "COMPONENT",
+          "y": 650,
+          "height": 390,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Image Placeholder",
+            ".Teaser / Hero Content",
+            "Button"
+          ]
+        },
+        {
+          "node": "12421:13857",
+          "name": "Size=Small, Breakpoint=Desktop",
+          "type": "COMPONENT",
+          "y": 1080,
+          "height": 270,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Image Placeholder",
+            ".Teaser / Hero Content",
+            "Button"
+          ]
+        },
+        {
+          "node": "12425:13935",
+          "name": "Size=Small, Breakpoint=Tablet",
+          "type": "COMPONENT",
+          "y": 1080,
+          "height": 270,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Image Placeholder",
+            ".Teaser / Hero Content",
+            "Button"
+          ]
+        },
+        {
+          "node": "12421:13905",
+          "name": "Size=Small, Breakpoint=Mobile",
+          "type": "COMPONENT",
+          "y": 1080,
+          "height": 350,
+          "background": null,
+          "backgroundKind": "NONE",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Image Placeholder",
+            ".Teaser / Hero Content",
+            "Button"
+          ]
+        }
+      ],
+      "headerRows": []
+    },
+    {
+      "node": "13422:2864",
+      "name": "Quiz",
+      "page": null,
+      "slug": "quiz",
+      "width": 2823,
+      "height": 2297,
+      "sections": [
+        {
+          "node": "13422:2884",
+          "name": "Type=Question, Breakpoint=Mobile",
+          "type": "COMPONENT",
+          "y": 128,
+          "height": 850,
+          "background": "rgb(235, 239, 238)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Stepper",
+            ".Title",
+            ".Text",
+            "Checkbox Form",
+            "Checkbox Input",
+            ".Buttons Collage",
+            "Button",
+            "General Icons",
+            "_pointer pro info"
+          ]
+        },
+        {
+          "node": "13422:2865",
+          "name": "Type=Question, Breakpoint=Desktop",
+          "type": "COMPONENT",
+          "y": 131,
+          "height": 1024,
+          "background": "rgb(235, 239, 238)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Stepper",
+            ".Title",
+            ".Text",
+            "Checkbox Form",
+            "Checkbox Input",
+            ".Buttons Collage",
+            "Button",
+            "General Icons",
+            "_pointer pro info"
+          ]
+        },
+        {
+          "node": "13424:3535",
+          "name": "Type=Question, Breakpoint=Tablet",
+          "type": "COMPONENT",
+          "y": 131,
+          "height": 1008,
+          "background": "rgb(235, 239, 238)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Stepper",
+            ".Title",
+            ".Text",
+            "Checkbox Form",
+            "Checkbox Input",
+            ".Buttons Collage",
+            "Button",
+            "General Icons",
+            "_pointer pro info"
+          ]
+        },
+        {
+          "node": "13424:4831",
+          "name": "Type=Results, Breakpoint=Mobile",
+          "type": "COMPONENT",
+          "y": 1252.9140625,
+          "height": 850,
+          "background": "rgb(235, 239, 238)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Stepper",
+            ".Title",
+            ".Text",
+            ".Buttons Collage",
+            "Button",
+            "_pointer pro info"
+          ]
+        },
+        {
+          "node": "13424:4795",
+          "name": "Type=Results, Breakpoint=Desktop",
+          "type": "COMPONENT",
+          "y": 1255.9140625,
+          "height": 1000,
+          "background": "rgb(235, 239, 238)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            ".Title",
+            ".Text",
+            "Stepper",
+            ".Buttons Collage",
+            "Button",
+            "_pointer pro info"
+          ]
+        },
+        {
+          "node": "13424:4813",
+          "name": "Type=Results, Breakpoint=Tablet",
+          "type": "COMPONENT",
+          "y": 1255.9140625,
+          "height": 1008,
+          "background": "rgb(235, 239, 238)",
+          "backgroundKind": "SOLID",
+          "instanceOf": null,
+          "componentProperties": null,
+          "components": [
+            "Stepper",
+            ".Title",
+            ".Text",
+            ".Buttons Collage",
+            "Button",
+            "_pointer pro info"
+          ]
+        }
+      ],
+      "headerRows": []
+    }
+  ],
+  "componentSets": [
+    {
+      "node": "12349:10230",
+      "name": ".Breakpoint Indicator",
+      "variantOptions": {}
+    },
+    {
+      "node": "13451:672",
+      "name": ".Status",
+      "variantOptions": {}
+    },
+    {
+      "node": "13451:694",
+      "name": "Cover",
+      "variantOptions": {}
+    },
+    {
+      "node": "13496:19403",
+      "name": "Page: Login & Registration",
+      "variantOptions": {}
+    },
+    {
+      "node": "13512:6272",
+      "name": "Page: Emails",
+      "variantOptions": {}
+    },
+    {
+      "node": "13530:18828",
+      "name": "Page: Overlays",
+      "variantOptions": {}
+    },
+    {
+      "node": "11974:36519",
+      "name": "General Icons",
+      "variantOptions": {
+        "Icon name": [
+          "Font-family",
+          "Info-circle",
+          "Font-letter",
+          "Background-Color",
+          "Font-Color",
+          "Angle-Down",
+          "Angle-Left",
+          "Angle-Right",
+          "Angle-Up",
+          "Arrow-Down",
+          "Arrow-Left",
+          "Arrow-Right",
+          "Arrow-Up",
+          "Bars",
+          "Bookmark-add",
+          "Bookmark-remove",
+          "Check",
+          "Check-circle",
+          "Chevron-Down",
+          "Chevron-Left",
+          "Chevron-Right",
+          "Chevron-Up",
+          "Circle-minus",
+          "Circle-plus",
+          "Close",
+          "Close-circle",
+          "Convert",
+          "Copy",
+          "Device-Desktop",
+          "Device-Mobile",
+          "Device-Tablet",
+          "Download",
+          "Envelope",
+          "Exclamation-circle",
+          "Eye",
+          "Eye-slash",
+          "Heart",
+          "Link",
+          "Loading",
+          "NavArrow-Down",
+          "NavArrow-Left",
+          "NavArrow-Right",
+          "NavArrow-Up",
+          "Paper-plane",
+          "Question-circle",
+          "Search",
+          "Share-nodes",
+          "Sort",
+          "User",
+          "User-circle"
+        ]
+      }
+    },
+    {
+      "node": "11993:36497",
+      "name": "Social Icons",
+      "variantOptions": {
+        "Property 1": [
+          "Facebook",
+          "Linked-In",
+          "YouTube",
+          "X",
+          "Instagram"
+        ]
+      }
+    },
+    {
+      "node": "12077:109020",
+      "name": "Brand Logos",
+      "variantOptions": {
+        "Property 1": [
+          "Wainzua",
+          "Truqap",
+          "Trixeo",
+          "Tezspire",
+          "Tagrisso",
+          "Symbicort",
+          "Placeholder",
+          "Lynparza",
+          "Lokelma",
+          "Imfinzi",
+          "Forxiga",
+          "Fluenz",
+          "Fasenra",
+          "Calquence",
+          "Breztri",
+          "Bevespi",
+          "AZ Medical Science White",
+          "AstraZeneca"
+        ]
+      }
+    },
+    {
+      "node": "12360:10305",
+      "name": "Accordion",
+      "variantOptions": {
+        "Type": [
+          "Desktop",
+          "Tablet",
+          "Mobile"
+        ],
+        "State": [
+          "Closed",
+          "Expanded"
+        ]
+      }
+    },
+    {
+      "node": "12534:1413",
+      "name": ".Block Element",
+      "variantOptions": {
+        "Element type": [
+          "Title + Text",
+          "Teaser: Text + Image"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Tablet",
+          "Mobile"
+        ]
+      }
+    },
+    {
+      "node": "12529:1213",
+      "name": ".Title",
+      "variantOptions": {
+        "Type": [
+          "Introduction",
+          "Teaser",
+          "Content"
+        ],
+        "Alignment": [
+          "Left"
+        ]
+      }
+    },
+    {
+      "node": "12534:1263",
+      "name": ".Text",
+      "variantOptions": {
+        "Alignment": [
+          "Left"
+        ]
+      }
+    },
+    {
+      "node": "12522:1041",
+      "name": "Back-to-top",
+      "variantOptions": {
+        "Background": [
+          "Light",
+          "Dark"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Tablet",
+          "Mobile"
+        ]
+      }
+    },
+    {
+      "node": "12084:109164",
+      "name": "Button",
+      "variantOptions": {
+        "Size": [
+          "Medium",
+          "Large",
+          "Small"
+        ],
+        "Type": [
+          "Link",
+          "Primary",
+          "Secondary",
+          "Tertiary"
+        ],
+        "Property": [
+          "With text",
+          "Icon Only"
+        ]
+      }
+    },
+    {
+      "node": "12410:12840",
+      "name": "Breadcrumb label",
+      "variantOptions": {
+        "State": [
+          "Default",
+          "Hover",
+          "Active"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ]
+      }
+    },
+    {
+      "node": "12473:16100",
+      "name": "Carousel",
+      "variantOptions": {
+        "Breakpoint": [
+          "Desktop",
+          "Tablet",
+          "Mobile"
+        ]
+      }
+    },
+    {
+      "node": "12473:15944",
+      "name": ".Carousel / Arrows",
+      "variantOptions": {
+        "Direction": [
+          "Left",
+          "Right"
+        ],
+        "Size": [
+          "Large",
+          "Small"
+        ]
+      }
+    },
+    {
+      "node": "12431:14282",
+      "name": "Teaser / Text + Image",
+      "variantOptions": {
+        "Breakpoint": [
+          "Desktop",
+          "Tablet",
+          "Mobile"
+        ],
+        "Alignment": [
+          "Left"
+        ]
+      }
+    },
+    {
+      "node": "12421:13777",
+      "name": "Image Placeholder",
+      "variantOptions": {
+        "Image type": [
+          "Blue",
+          "Email",
+          "Login"
+        ]
+      }
+    },
+    {
+      "node": "12473:15949",
+      "name": ".Carousel / Dots",
+      "variantOptions": {
+        "State": [
+          "Active",
+          "Default"
+        ]
+      }
+    },
+    {
+      "node": "12265:6347",
+      "name": "Checkbox Input",
+      "variantOptions": {
+        "Type": [
+          "Checkbox",
+          "Radio"
+        ],
+        "Status": [
+          "Default",
+          "Active"
+        ]
+      }
+    },
+    {
+      "node": "12334:9625",
+      "name": "Chips",
+      "variantOptions": {
+        "Size": [
+          "Small",
+          "Large"
+        ],
+        "State": [
+          "Dark",
+          "Light",
+          "Active"
+        ]
+      }
+    },
+    {
+      "node": "12277:7181",
+      "name": "Dropdown",
+      "variantOptions": {
+        "Type": [
+          "Default",
+          "Icon",
+          "Secondary Text",
+          "With Arrow",
+          "Form"
+        ],
+        "State": [
+          "Expanded",
+          "Default"
+        ]
+      }
+    },
+    {
+      "node": "12160:3287",
+      "name": "Input Field",
+      "variantOptions": {
+        "Type": [
+          "Default",
+          "Password",
+          "Simple",
+          "Amount"
+        ],
+        "State": [
+          "Default",
+          "Read-only",
+          "Non-Editable Vertical",
+          "Non-Editable Horizontal",
+          "Disabled",
+          "Active",
+          "Focus/Typing",
+          "Hovered"
+        ]
+      }
+    },
+    {
+      "node": "12265:6318",
+      "name": ".Dropdown-Listitem",
+      "variantOptions": {
+        "Type": [
+          "Default",
+          "Icon",
+          "Secondary Text",
+          "With Arrow",
+          "Form"
+        ],
+        "State": [
+          "Default",
+          "Hover"
+        ]
+      }
+    },
+    {
+      "node": "12929:23477",
+      "name": "Links",
+      "variantOptions": {
+        "Breakpoint": [
+          "Desktop",
+          "Tablet",
+          "Mobile"
+        ],
+        "Style": [
+          "Horizontal",
+          "Vertical"
+        ]
+      }
+    },
+    {
+      "node": "12928:23420",
+      "name": ".Link",
+      "variantOptions": {
+        "Type": [
+          "Primary",
+          "Secondary"
+        ],
+        "State": [
+          "Active",
+          "Default"
+        ]
+      }
+    },
+    {
+      "node": "12467:15529",
+      "name": "Modal",
+      "variantOptions": {
+        "Type": [
+          "Slot component",
+          "Text Only",
+          "Image"
+        ],
+        "Alignment": [
+          "Horizontal",
+          "Vertical"
+        ]
+      }
+    },
+    {
+      "node": "13028:2133",
+      "name": ".Buttons Collage",
+      "variantOptions": {
+        "Alignment": [
+          "Left",
+          "Center",
+          "Vertical",
+          "Right"
+        ]
+      }
+    },
+    {
+      "node": "12328:9443",
+      "name": "Pagination / Base",
+      "variantOptions": {
+        "Type": [
+          "Page Number",
+          "Left Icon",
+          "Previous Icon + Text",
+          "Next Icon + Text",
+          "Right Icon"
+        ],
+        "State": [
+          "Default",
+          "Hover",
+          "Active",
+          "Disabled"
+        ]
+      }
+    },
+    {
+      "node": "12686:17319",
+      "name": "Search bar",
+      "variantOptions": {
+        "State": [
+          "Default",
+          "Expanded"
+        ]
+      }
+    },
+    {
+      "node": "12334:10073",
+      "name": "Range Slider thumb",
+      "variantOptions": {
+        "State": [
+          "Default",
+          "Active"
+        ]
+      }
+    },
+    {
+      "node": "13121:3064",
+      "name": "Stepper",
+      "variantOptions": {
+        "Step": [
+          "Step 1",
+          "Step 2",
+          "Step 3"
+        ]
+      }
+    },
+    {
+      "node": "12914:23169",
+      "name": "Tab Nav",
+      "variantOptions": {
+        "Breakpoint": [
+          "Desktop",
+          "Tablet",
+          "Mobile"
+        ]
+      }
+    },
+    {
+      "node": "12914:22673",
+      "name": ".Tab Nav Items",
+      "variantOptions": {
+        "State": [
+          "Default"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ]
+      }
+    },
+    {
+      "node": "12914:22615",
+      "name": ".Tab Nav Elements",
+      "variantOptions": {
+        "Type": [
+          "Main Nav Item"
+        ],
+        "State": [
+          "Default"
+        ],
+        "Platform": [
+          "Desktop",
+          "Mobile"
+        ]
+      }
+    },
+    {
+      "node": "12305:8988",
+      "name": "Tabs Group",
+      "variantOptions": {
+        "Type": [
+          "Default",
+          "Compact"
+        ],
+        "Size": [
+          "Large",
+          "Medium"
+        ]
+      }
+    },
+    {
+      "node": "12305:8819",
+      "name": ".Tabs base",
+      "variantOptions": {
+        "Size": [
+          "Large",
+          "Medium"
+        ],
+        "State": [
+          "Active",
+          "Default"
+        ]
+      }
+    },
+    {
+      "node": "12607:4086",
+      "name": "Table / Cell",
+      "variantOptions": {
+        "Type": [
+          "Icon",
+          "Checkbox",
+          "Radio",
+          "Toggle",
+          "Empty"
+        ],
+        "Position": [
+          "Header",
+          "Cell Light",
+          "Cell Dark",
+          "Highlight"
+        ]
+      }
+    },
+    {
+      "node": "12287:8487",
+      "name": "Toggle switches",
+      "variantOptions": {
+        "Checked": [
+          "True",
+          "False"
+        ],
+        "Status": [
+          "Default",
+          "Disabled"
+        ]
+      }
+    },
+    {
+      "node": "12334:9961",
+      "name": "Tooltip",
+      "variantOptions": {
+        "Position": [
+          "Top",
+          "Bottom",
+          "Left",
+          "Right"
+        ]
+      }
+    },
+    {
+      "node": "12693:19253",
+      "name": "Account Summary",
+      "variantOptions": {
+        "Breakpoint": [
+          "Mobile",
+          "Tablet",
+          "Desktop"
+        ]
+      }
+    },
+    {
+      "node": "12691:19070",
+      "name": ".Account summary",
+      "variantOptions": {
+        "Breakpoint": [
+          "Mobile",
+          "Tablet",
+          "Desktop"
+        ]
+      }
+    },
+    {
+      "node": "12601:4831",
+      "name": "Block Content",
+      "variantOptions": {
+        "Breakpoint": [
+          "Desktop",
+          "Tablet",
+          "Mobile"
+        ]
+      }
+    },
+    {
+      "node": "13370:2040",
+      "name": "CTA Banner",
+      "variantOptions": {
+        "Breakpoint": [
+          "Desktop",
+          "Tablet",
+          "Mobile"
+        ]
+      }
+    },
+    {
+      "node": "15163:14798",
+      "name": "Weight Conversion",
+      "variantOptions": {
+        "Breakpoint": [
+          "Desktop",
+          "Tablet",
+          "Mobile"
+        ]
+      }
+    },
+    {
+      "node": "15021:12042",
+      "name": ".Calculator: Slot",
+      "variantOptions": {
+        "Type": [
+          "Simple Input"
+        ]
+      }
+    },
+    {
+      "node": "15017:9908",
+      "name": ".Calculator: Metric Display",
+      "variantOptions": {
+        "Type": [
+          "Active"
+        ]
+      }
+    },
+    {
+      "node": "12712:21024",
+      "name": "Email",
+      "variantOptions": {
+        "Type": [
+          "Mobile",
+          "Desktop"
+        ]
+      }
+    },
+    {
+      "node": "12682:15985",
+      "name": "Form Content",
+      "variantOptions": {
+        "Breakpoint": [
+          "Desktop",
+          "Tablet",
+          "Mobile"
+        ]
+      }
+    },
+    {
+      "node": "12679:11503",
+      "name": ".Forms",
+      "variantOptions": {
+        "Type": [
+          "Simple"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Tablet",
+          "Mobile"
+        ]
+      }
+    },
+    {
+      "node": "12274:6373",
+      "name": "Checkbox Form",
+      "variantOptions": {
+        "Type": [
+          "Default"
+        ],
+        "Status": [
+          "Initial"
+        ]
+      }
+    },
+    {
+      "node": "12406:12187",
+      "name": "Footer",
+      "variantOptions": {
+        "Breakpoint": [
+          "Desktop",
+          "Tablet",
+          "Mobile"
+        ]
+      }
+    },
+    {
+      "node": "12387:11135",
+      "name": "Header",
+      "variantOptions": {
+        "Breakpoint": [
+          "Desktop",
+          "Mobile",
+          "Tablet"
+        ],
+        "Type": [
+          "Full",
+          "Registration"
+        ]
+      }
+    },
+    {
+      "node": "12379:10725",
+      "name": ".Header / Prescribing Info",
+      "variantOptions": {
+        "Breakpoint": [
+          "Desktop",
+          "Mobile",
+          "Tablet"
+        ]
+      }
+    },
+    {
+      "node": "12379:10721",
+      "name": ".Header / Disclaimer",
+      "variantOptions": {
+        "Breakpoint": [
+          "Desktop",
+          "Mobile",
+          "Tablet"
+        ]
+      }
+    },
+    {
+      "node": "12385:11070",
+      "name": ".Header / Links Selector",
+      "variantOptions": {
+        "Links No.": [
+          "2"
+        ]
+      }
+    },
+    {
+      "node": "12379:10704",
+      "name": ".Header / Contact Selecter Item",
+      "variantOptions": {
+        "Type": [
+          "Default",
+          "Active"
+        ]
+      }
+    },
+    {
+      "node": "12379:11025",
+      "name": ". Header / Language Selector",
+      "variantOptions": {
+        "Language No.": [
+          "4"
+        ]
+      }
+    },
+    {
+      "node": "12370:10635",
+      "name": ".Header / Navigation Item",
+      "variantOptions": {
+        "Type": [
+          "Sub-nav",
+          "Simple"
+        ],
+        "State": [
+          "Default"
+        ]
+      }
+    },
+    {
+      "node": "12370:10624",
+      "name": ".Header / Actions",
+      "variantOptions": {
+        "Actions": [
+          "Guest"
+        ]
+      }
+    },
+    {
+      "node": "12950:24836",
+      "name": "Home Hero Branded",
+      "variantOptions": {
+        "Breakpoint": [
+          "Desktop",
+          "Tablet",
+          "Mobile"
+        ]
+      }
+    },
+    {
+      "node": "12643:9460",
+      "name": "Login",
+      "variantOptions": {
+        "Type": [
+          "Full",
+          "Email Field"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Tablet",
+          "Mobile"
+        ]
+      }
+    },
+    {
+      "node": "12421:13846",
+      "name": "Teaser",
+      "variantOptions": {
+        "Size": [
+          "Large",
+          "Medium",
+          "Small"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Tablet",
+          "Mobile"
+        ]
+      }
+    },
+    {
+      "node": "12418:13125",
+      "name": ".Teaser / Hero Content",
+      "variantOptions": {
+        "Alignment": [
+          "Left"
+        ]
+      }
+    },
+    {
+      "node": "13422:2864",
+      "name": "Quiz",
+      "variantOptions": {
+        "Type": [
+          "Question",
+          "Results"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Tablet",
+          "Mobile"
+        ]
+      }
+    },
+    {
+      "node": "13422:2664",
+      "name": "Stepper",
+      "variantOptions": {
+        "Step": [
+          "Step 1",
+          "Step 2"
+        ]
+      }
+    }
+  ],
+  "remote": [
+    {
+      "componentId": "13422:2665",
+      "name": "Stepper (Step=Step 1)"
+    },
+    {
+      "componentId": "13422:2859",
+      "name": "_pointer pro info"
+    },
+    {
+      "componentId": "13422:2672",
+      "name": "Stepper (Step=Step 2)"
+    }
+  ],
+  "missing": []
+}

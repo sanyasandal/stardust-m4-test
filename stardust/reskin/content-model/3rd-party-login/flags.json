@@ -1,0 +1,66 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "command": "content",
+    "writtenAt": "2026-10-26T09:25:00Z"
+  },
+  "slug": "3rd-party-login",
+  "counts": {
+    "block": 0,
+    "review": 3,
+    "info": 3,
+    "open": 3
+  },
+  "placeholderOnly": false,
+  "items": [
+    {
+      "key": "heading.ambiguous@13530:18994",
+      "id": "heading.ambiguous",
+      "severity": "review",
+      "node": "13530:18994",
+      "slot": "s01",
+      "detail": "26px matches no donor type role; no heading roles in donor-tokens"
+    },
+    {
+      "key": "field.inferred@13530:19018",
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "13530:19018",
+      "slot": "s01",
+      "detail": "drawn field: label \"Email *\", placeholder \"Placeholder text\""
+    },
+    {
+      "key": "link.unresolved@I13530:19042;12160:3655",
+      "id": "link.unresolved",
+      "severity": "review",
+      "node": "I13530:19042;12160:3655",
+      "slot": "s01",
+      "detail": "\"Forgot your password?\" is drawn as a link with no target"
+    },
+    {
+      "key": "field.inferred@13530:19042",
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "13530:19042",
+      "slot": "s01",
+      "detail": "drawn field: label \"Password *\", masked value (password)"
+    },
+    {
+      "key": "heading.level@13530:18994",
+      "id": "heading.level",
+      "severity": "info",
+      "node": "13530:18994",
+      "slot": "s01",
+      "detail": "size heading set to h1 (was h2): the first heading is the page h1"
+    },
+    {
+      "key": "metadata.title-derived@13530:18940",
+      "id": "metadata.title-derived",
+      "severity": "review",
+      "node": "13530:18940",
+      "slot": null,
+      "detail": "title \"3rd Party Login\" derived from the frame name; description, canonical, OG and Twitter tags are absent"
+    }
+  ],
+  "acknowledged": []
+}

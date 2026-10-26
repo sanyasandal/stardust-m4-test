@@ -1,0 +1,896 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "command": "content --all",
+    "note": "copy to mapping.json and add layout/width/tone per slot; module/block/variant come from the Figma kit; library lists every kit block to build, used on a page or not"
+  },
+  "library": [
+    {
+      "block": "accordion",
+      "module": "M1",
+      "group": "component",
+      "set": "12360:10305",
+      "variants": [],
+      "used": false
+    },
+    {
+      "block": "back-to-top",
+      "module": "M2",
+      "group": "component",
+      "set": "12522:1041",
+      "variants": [],
+      "used": false
+    },
+    {
+      "block": "button",
+      "module": "M3",
+      "group": "component",
+      "set": "12084:109164",
+      "variants": [
+        [
+          "medium",
+          "link",
+          "icon-only"
+        ]
+      ],
+      "used": true
+    },
+    {
+      "block": "breadcrumb",
+      "module": "M4",
+      "group": "component",
+      "set": "12410:12840",
+      "variants": [],
+      "used": false
+    },
+    {
+      "block": "carousel",
+      "module": "M5",
+      "group": "component",
+      "set": "12473:16100",
+      "variants": [],
+      "used": false
+    },
+    {
+      "block": "checkbox-radio",
+      "module": "M6",
+      "group": "component",
+      "set": "12265:6347",
+      "variants": [
+        [
+          "checkbox-form",
+          "initial"
+        ]
+      ],
+      "used": true
+    },
+    {
+      "block": "chips",
+      "module": "M7",
+      "group": "component",
+      "set": "12334:9625",
+      "variants": [],
+      "used": false
+    },
+    {
+      "block": "dropdown",
+      "module": "M8",
+      "group": "component",
+      "set": "12277:7181",
+      "variants": [],
+      "used": false
+    },
+    {
+      "block": "input",
+      "module": "M9",
+      "group": "component",
+      "set": "12160:3287",
+      "variants": [
+        [],
+        [
+          "password"
+        ]
+      ],
+      "used": true
+    },
+    {
+      "block": "links",
+      "module": "M10",
+      "group": "component",
+      "set": "12929:23477",
+      "variants": [],
+      "used": false
+    },
+    {
+      "block": "modal",
+      "module": "M11",
+      "group": "component",
+      "set": "12467:15529",
+      "variants": [
+        [
+          "text-only",
+          "horizontal"
+        ]
+      ],
+      "used": true
+    },
+    {
+      "block": "pagination",
+      "module": "M12",
+      "group": "component",
+      "set": "12328:9443",
+      "variants": [],
+      "used": false
+    },
+    {
+      "block": "search-bar",
+      "module": "M13",
+      "group": "component",
+      "set": "12686:17319",
+      "variants": [],
+      "used": false
+    },
+    {
+      "block": "slider",
+      "module": "M14",
+      "group": "component",
+      "set": "12334:10073",
+      "variants": [],
+      "used": false
+    },
+    {
+      "block": "stepper",
+      "module": "M15",
+      "group": "component",
+      "set": "13121:3064",
+      "variants": [],
+      "used": false
+    },
+    {
+      "block": "tab-nav",
+      "module": "M16",
+      "group": "component",
+      "set": "12914:23169",
+      "variants": [],
+      "used": false
+    },
+    {
+      "block": "tabs",
+      "module": "M17",
+      "group": "component",
+      "set": "12305:8988",
+      "variants": [],
+      "used": false
+    },
+    {
+      "block": "tables",
+      "module": "M18",
+      "group": "component",
+      "set": "12607:4086",
+      "variants": [],
+      "used": false
+    },
+    {
+      "block": "toggle",
+      "module": "M19",
+      "group": "component",
+      "set": "12287:8487",
+      "variants": [],
+      "used": false
+    },
+    {
+      "block": "tooltip",
+      "module": "M20",
+      "group": "component",
+      "set": "12334:9961",
+      "variants": [],
+      "used": false
+    },
+    {
+      "block": "account",
+      "module": "M21",
+      "group": "template",
+      "set": "12693:19253",
+      "variants": [],
+      "used": false
+    },
+    {
+      "block": "block-content",
+      "module": "M22",
+      "group": "template",
+      "set": "12601:4831",
+      "variants": [
+        [],
+        [
+          "buttons-collage",
+          "center"
+        ]
+      ],
+      "used": true
+    },
+    {
+      "block": "cta-banner",
+      "module": "M23",
+      "group": "template",
+      "set": "13370:2040",
+      "variants": [],
+      "used": false
+    },
+    {
+      "block": "calculator",
+      "module": "M24",
+      "group": "template",
+      "set": "15163:14798",
+      "variants": [],
+      "used": false
+    },
+    {
+      "block": "email",
+      "module": "M25",
+      "group": "template",
+      "set": "12712:21024",
+      "variants": [
+        []
+      ],
+      "used": true
+    },
+    {
+      "block": "forms",
+      "module": "M26",
+      "group": "template",
+      "set": "12682:15985",
+      "variants": [],
+      "used": false
+    },
+    {
+      "block": "footer",
+      "module": "M27",
+      "group": "template",
+      "set": "12406:12187",
+      "variants": [
+        []
+      ],
+      "used": true
+    },
+    {
+      "block": "header",
+      "module": "M28",
+      "group": "template",
+      "set": "12387:11135",
+      "variants": [
+        [
+          "full"
+        ],
+        [
+          "registration"
+        ]
+      ],
+      "used": true
+    },
+    {
+      "block": "home-hero-branded",
+      "module": "M29",
+      "group": "template",
+      "set": "12950:24836",
+      "variants": [],
+      "used": false
+    },
+    {
+      "block": "login",
+      "module": "M30",
+      "group": "template",
+      "set": "12643:9460",
+      "variants": [
+        [
+          "full"
+        ]
+      ],
+      "used": true
+    },
+    {
+      "block": "teaser",
+      "module": "M31",
+      "group": "template",
+      "set": "12421:13846",
+      "variants": [],
+      "used": false
+    },
+    {
+      "block": "quiz",
+      "module": "M32",
+      "group": "template",
+      "set": "13422:2864",
+      "variants": [],
+      "used": false
+    }
+  ],
+  "chrome": {
+    "model": "stardust/reskin/content-model/_chrome",
+    "header": [
+      "s01"
+    ],
+    "footer": [
+      "s02"
+    ],
+    "kit": {
+      "s01": {
+        "module": "M28",
+        "block": "header",
+        "variant": [
+          "registration"
+        ]
+      },
+      "s02": {
+        "module": "M27",
+        "block": "footer",
+        "variant": []
+      }
+    }
+  },
+  "pages": {
+    "registration": {
+      "template": "login-and-registration",
+      "slots": {
+        "s01": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13496:14821"
+        },
+        "s02": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13496:10840"
+        }
+      }
+    },
+    "login-landing": {
+      "template": "login-and-registration",
+      "slots": {
+        "s01": {
+          "module": "M30",
+          "block": "login",
+          "variant": [
+            "full"
+          ],
+          "instance": "13496:9636"
+        }
+      }
+    },
+    "channel-consent": {
+      "template": "login-and-registration",
+      "slots": {
+        "s01": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13496:17745"
+        },
+        "s02": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13496:17746"
+        },
+        "s03": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13496:18166"
+        }
+      }
+    },
+    "email-verification": {
+      "template": "login-and-registration",
+      "slots": {
+        "s01": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13496:18992"
+        },
+        "s02": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13496:18994"
+        }
+      }
+    },
+    "email-verified": {
+      "template": "login-and-registration",
+      "slots": {
+        "s01": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13527:9173"
+        },
+        "s02": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13527:9175"
+        }
+      }
+    },
+    "profile-review": {
+      "template": "login-and-registration",
+      "slots": {
+        "s01": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13527:9368"
+        },
+        "s02": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13527:9370"
+        }
+      }
+    },
+    "link-expired": {
+      "template": "login-and-registration",
+      "slots": {
+        "s01": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13527:9554"
+        },
+        "s02": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13527:9556"
+        }
+      }
+    },
+    "resend-verification-email": {
+      "template": "login-and-registration",
+      "slots": {
+        "s01": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13527:9740"
+        },
+        "s02": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13527:9924"
+        },
+        "s03": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13527:10315"
+        }
+      }
+    },
+    "forgot-password": {
+      "template": "login-and-registration",
+      "slots": {
+        "s01": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:12112"
+        },
+        "s02": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:12113"
+        },
+        "s03": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:12115"
+        }
+      }
+    },
+    "waiting-confirmation": {
+      "template": "login-and-registration",
+      "slots": {
+        "s01": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:16261"
+        },
+        "s02": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:16748"
+        },
+        "s03": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:16754"
+        }
+      }
+    },
+    "login-without-pass": {
+      "template": "login-and-registration",
+      "slots": {
+        "s01": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:14673"
+        },
+        "s02": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:14674"
+        },
+        "s03": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:14676"
+        }
+      }
+    },
+    "reset-link-expired": {
+      "template": "login-and-registration",
+      "slots": {
+        "s01": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:14958"
+        },
+        "s02": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:14959"
+        },
+        "s03": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:14961"
+        }
+      }
+    },
+    "reset-pass-sent": {
+      "template": "login-and-registration",
+      "slots": {
+        "s01": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:15985"
+        },
+        "s02": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:15988"
+        }
+      }
+    },
+    "account-inactive": {
+      "template": "login-and-registration",
+      "slots": {
+        "s01": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:16805"
+        },
+        "s02": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:16807"
+        }
+      }
+    },
+    "account-found": {
+      "template": "login-and-registration",
+      "slots": {
+        "s01": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "15011:9056"
+        },
+        "s02": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "15011:9058"
+        }
+      }
+    },
+    "account-not-found": {
+      "template": "login-and-registration",
+      "slots": {
+        "s01": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:17000"
+        },
+        "s02": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:17002"
+        }
+      }
+    },
+    "pending-validation": {
+      "template": "login-and-registration",
+      "slots": {
+        "s01": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:17195"
+        },
+        "s02": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:17197"
+        }
+      }
+    },
+    "session-lost": {
+      "template": "login-and-registration",
+      "slots": {
+        "s01": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:17390"
+        },
+        "s02": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:17392"
+        }
+      }
+    },
+    "reset-password": {
+      "template": "login-and-registration",
+      "slots": {
+        "s01": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:12697"
+        },
+        "s02": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:12698"
+        },
+        "s03": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:12700"
+        }
+      }
+    },
+    "change-password": {
+      "template": "login-and-registration",
+      "slots": {
+        "s01": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:14010"
+        },
+        "s02": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:14011"
+        },
+        "s03": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:14013"
+        }
+      }
+    },
+    "forgot-password-resend": {
+      "template": "login-and-registration",
+      "slots": {
+        "s01": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:12674"
+        },
+        "s02": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:12397"
+        }
+      }
+    },
+    "reset-succesful": {
+      "template": "login-and-registration",
+      "slots": {
+        "s01": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:13824"
+        },
+        "s02": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:13826"
+        }
+      }
+    },
+    "pass-successfully-changed": {
+      "template": "login-and-registration",
+      "slots": {
+        "s01": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:14487"
+        },
+        "s02": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [],
+          "instance": "13530:14489"
+        }
+      }
+    },
+    "verify-email": {
+      "template": "emails",
+      "slots": {
+        "s01": {
+          "module": "M25",
+          "block": "email",
+          "variant": [],
+          "instance": "13512:6174"
+        }
+      }
+    },
+    "password-reset": {
+      "template": "emails",
+      "slots": {
+        "s01": {
+          "module": "M25",
+          "block": "email",
+          "variant": [],
+          "instance": "13530:17870"
+        }
+      }
+    },
+    "account-activated": {
+      "template": "emails",
+      "slots": {
+        "s01": {
+          "module": "M25",
+          "block": "email",
+          "variant": [],
+          "instance": "13530:18000"
+        }
+      }
+    },
+    "new-user-registretion": {
+      "template": "emails",
+      "slots": {
+        "s01": {
+          "module": "M25",
+          "block": "email",
+          "variant": [],
+          "instance": "13530:17935"
+        }
+      }
+    },
+    "magic-link": {
+      "template": "emails",
+      "slots": {
+        "s01": {
+          "module": "M25",
+          "block": "email",
+          "variant": [],
+          "instance": "13530:17801"
+        }
+      }
+    },
+    "inactivity": {
+      "template": "overlays",
+      "slots": {
+        "s01": {
+          "module": "M11",
+          "block": "modal",
+          "variant": [
+            "text-only",
+            "horizontal"
+          ],
+          "instance": "13530:18283"
+        },
+        "s02": {
+          "module": "M11",
+          "block": "modal",
+          "variant": [
+            "text-only",
+            "horizontal"
+          ],
+          "instance": "13530:18283"
+        }
+      }
+    },
+    "logged-out": {
+      "template": "overlays",
+      "slots": {
+        "s01": {
+          "module": "M11",
+          "block": "modal",
+          "variant": [
+            "text-only",
+            "horizontal"
+          ],
+          "instance": "13530:18831"
+        },
+        "s02": {
+          "module": "M11",
+          "block": "modal",
+          "variant": [
+            "text-only",
+            "horizontal"
+          ],
+          "instance": "13530:18831"
+        }
+      }
+    },
+    "3rd-party-login": {
+      "template": "overlays",
+      "slots": {
+        "s01": {
+          "module": "M9",
+          "block": "input",
+          "variant": []
+        },
+        "s02": {
+          "module": "M22",
+          "block": "block-content",
+          "variant": [
+            "buttons-collage",
+            "center"
+          ],
+          "instance": "13530:18996"
+        },
+        "s03": {
+          "module": "M6",
+          "block": "checkbox-radio",
+          "variant": [
+            "checkbox-form",
+            "initial"
+          ],
+          "instance": "13530:19100"
+        }
+      }
+    }
+  }
+}

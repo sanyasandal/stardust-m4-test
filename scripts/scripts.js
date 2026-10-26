@@ -10,7 +10,14 @@ import {
   loadSections,
   loadCSS,
   buildBlock,
+  getMetadata,
+  readBlockConfig,
+  toCamelCase,
+  toClassName,
 } from './aem.js';
+
+/* page templates with their own stylesheet in /styles/templates/ */
+const TEMPLATES = ['form', 'login', 'email', 'overlay', 'library'];
 
 if (window.trustedTypes && window.trustedTypes.createPolicy) {
   const innerTT = window.trustedTypes.createPolicy('tt-inner', {
@@ -143,6 +150,29 @@ function decorateButtons(main) {
 }
 
 /**
+ * Applies section-metadata: `style` becomes section classes, every other key a data attribute
+ * (e.g. `kit-component` → data-kit-component, the hook of the kit library pages).
+ * @param {Element} main The main element
+ */
+function decorateSectionMetadata(main) {
+  main.querySelectorAll(':scope > .section .section-metadata').forEach((meta) => {
+    const section = meta.closest('.section');
+    Object.entries(readBlockConfig(meta)).forEach(([key, value]) => {
+      if (key === 'style') {
+        String(value).split(',').map((s) => toClassName(s.trim())).filter(Boolean)
+          .forEach((c) => section.classList.add(c));
+      } else {
+        section.dataset[toCamelCase(key)] = value;
+        if (key === 'kit-width' && Number.parseFloat(value)) section.style.setProperty('--kit-w', `${Number.parseFloat(value)}px`);
+      }
+    });
+    const wrapper = meta.parentElement;
+    meta.remove();
+    if (wrapper && !wrapper.children.length) wrapper.remove();
+  });
+}
+
+/**
  * Decorates the main element.
  * @param {Element} main The main element
  */
@@ -151,6 +181,7 @@ export function decorateMain(main) {
   decorateIcons(main);
   buildAutoBlocks(main);
   decorateSections(main);
+  decorateSectionMetadata(main);
   decorateBlocks(main);
   decorateButtons(main);
 }
@@ -162,8 +193,12 @@ export function decorateMain(main) {
 async function loadEager(doc) {
   document.documentElement.lang = 'en';
   decorateTemplateAndTheme();
+  const template = toClassName(getMetadata('template'));
+  const templateCSS = TEMPLATES.includes(template)
+    ? loadCSS(`${window.hlx.codeBasePath}/styles/templates/${template}.css`) : null;
   const main = doc.querySelector('main');
   if (main) {
+    await templateCSS;
     decorateMain(main);
     document.body.classList.add('appear');
     await loadSection(main.querySelector('.section'), waitForFirstImage);

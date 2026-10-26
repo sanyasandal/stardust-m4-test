@@ -1,0 +1,916 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "writtenAt": "2026-10-26T09:24:13Z",
+    "readArtifacts": [
+      "stardust/.work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/2413431205561424165/nodes.json"
+    ],
+    "synthesizedInputs": []
+  },
+  "body-body": {
+    "value": {
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "fontSize": 16,
+      "lineHeightPx": 24,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "I12042:106828;11974:36428",
+    "count": 1071,
+    "nodes": [
+      "I12042:106828;11974:36428",
+      "I12042:106828;11974:36429",
+      "I12042:106828;11974:36467",
+      "I12042:106828;11974:36684",
+      "12072:106954"
+    ],
+    "align": {
+      "left": 18901,
+      "center": 703
+    },
+    "styles": [
+      "Body/Body",
+      "Body/Link"
+    ]
+  },
+  "headings-h2": {
+    "value": {
+      "fontFamily": "Lexia",
+      "fontSize": "46px",
+      "fontWeight": "400",
+      "lineHeight": "50px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Lexia",
+      "fontPostScriptName": "Lexia-Regular",
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "fontSize": 46,
+      "lineHeightPx": 50,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "I12042:106828;11974:36427",
+    "count": 17,
+    "nodes": [
+      "I12042:106828;11974:36427",
+      "12072:106969",
+      "I12194:4770;11974:36427",
+      "I12084:109341;11974:36427",
+      "I11974:36854;11974:36427"
+    ],
+    "align": {
+      "left": 367
+    },
+    "styles": [
+      "Headings/H2"
+    ]
+  },
+  "headings-h4": {
+    "value": {
+      "fontFamily": "Lexia",
+      "fontSize": "26px",
+      "fontWeight": "400",
+      "lineHeight": "34px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Lexia",
+      "fontPostScriptName": "Lexia-Regular",
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "fontSize": 26,
+      "lineHeightPx": 34,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "12072:106982",
+    "count": 95,
+    "nodes": [
+      "12072:106982",
+      "12072:106981",
+      "12072:106996",
+      "12108:502",
+      "12108:546"
+    ],
+    "align": {
+      "left": 1281,
+      "center": 87
+    },
+    "styles": [
+      "Headings/H4",
+      "Headings/H3"
+    ]
+  },
+  "inter-18-500": {
+    "value": {
+      "fontFamily": "Inter",
+      "fontSize": "18px",
+      "fontWeight": "500",
+      "lineHeight": "28px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Inter",
+      "fontPostScriptName": "Inter-Medium",
+      "fontStyle": "Medium",
+      "fontWeight": 500,
+      "fontSize": 18,
+      "lineHeightPx": 28,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "12042:106830",
+    "count": 10,
+    "nodes": [
+      "12042:106830",
+      "12072:106966",
+      "12072:106972",
+      "12072:106978",
+      "12072:106986"
+    ],
+    "align": {
+      "left": 84
+    },
+    "styles": []
+  },
+  "headings-h1": {
+    "value": {
+      "fontFamily": "Lexia",
+      "fontSize": "56px",
+      "fontWeight": "400",
+      "lineHeight": "60px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Lexia",
+      "fontPostScriptName": "Lexia-Regular",
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "fontSize": 56,
+      "lineHeightPx": 60,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "12072:106958",
+    "count": 9,
+    "nodes": [
+      "12072:106958",
+      "12950:24787",
+      "12950:24843",
+      "I12421:13789;12418:13115",
+      "I12425:13930;12418:13115"
+    ],
+    "align": {
+      "left": 181
+    },
+    "styles": [
+      "Headings/H1"
+    ]
+  },
+  "headings-h3": {
+    "value": {
+      "fontFamily": "Lexia",
+      "fontSize": "36px",
+      "fontWeight": "400",
+      "lineHeight": "40px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Lexia",
+      "fontPostScriptName": "Lexia-Regular",
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "fontSize": 36,
+      "lineHeightPx": 40,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "12072:106975",
+    "count": 34,
+    "nodes": [
+      "12072:106975",
+      "12108:501",
+      "12108:896",
+      "12108:1301",
+      "12108:1506"
+    ],
+    "align": {
+      "left": 430,
+      "center": 90
+    },
+    "styles": [
+      "Headings/H3",
+      "Headings/H2",
+      "Headings/H1"
+    ]
+  },
+  "headings-h5": {
+    "value": {
+      "fontFamily": "Lexia",
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "lineHeight": "28px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Lexia",
+      "fontPostScriptName": "Lexia-Regular",
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "fontSize": 24,
+      "lineHeightPx": 28,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "12072:106989",
+    "count": 1,
+    "nodes": [
+      "12072:106989"
+    ],
+    "align": {
+      "left": 41
+    },
+    "styles": [
+      "Headings/H5"
+    ]
+  },
+  "headings-h6": {
+    "value": {
+      "fontFamily": "Lexia",
+      "fontSize": "14px",
+      "fontWeight": "700",
+      "lineHeight": "16px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Lexia",
+      "fontPostScriptName": "Lexia-Bold",
+      "fontStyle": "Bold",
+      "fontWeight": 700,
+      "fontSize": 14,
+      "lineHeightPx": 16,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "12072:106995",
+    "count": 17,
+    "nodes": [
+      "12072:106995",
+      "12607:2202",
+      "12607:4191",
+      "12607:4210",
+      "12607:4552"
+    ],
+    "align": {
+      "left": 201
+    },
+    "styles": [
+      "Headings/H6"
+    ]
+  },
+  "body-body-large": {
+    "value": {
+      "fontFamily": "Inter",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "lineHeight": "28px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "fontSize": 18,
+      "lineHeightPx": 28,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "12072:107009",
+    "count": 31,
+    "nodes": [
+      "12072:107009",
+      "I12950:25096;12542:1571;12431:14243",
+      "I12950:25165;12552:4006;12431:14518",
+      "I12950:25219;12552:4533;12431:14298",
+      "12950:24788"
+    ],
+    "align": {
+      "left": 1985
+    },
+    "styles": [
+      "Body/Body - Large"
+    ]
+  },
+  "body-details": {
+    "value": {
+      "fontFamily": "Inter",
+      "fontSize": "12px",
+      "fontWeight": "400",
+      "lineHeight": "16px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "12072:107015",
+    "count": 65,
+    "nodes": [
+      "12072:107015",
+      "12410:12865",
+      "12410:12867",
+      "12410:12869",
+      "12334:9615"
+    ],
+    "align": {
+      "left": 594,
+      "center": 63
+    },
+    "styles": [
+      "Body/Details"
+    ]
+  },
+  "inter-18-700": {
+    "value": {
+      "fontFamily": "Inter",
+      "fontSize": "18px",
+      "fontWeight": "700",
+      "lineHeight": "28px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Inter",
+      "fontPostScriptName": "Inter-Bold",
+      "fontStyle": "Bold",
+      "fontWeight": 700,
+      "fontSize": 18,
+      "lineHeightPx": 28,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "12194:5437",
+    "count": 8,
+    "nodes": [
+      "12194:5437",
+      "12194:5439",
+      "12194:5440",
+      "12194:5466",
+      "12194:5544"
+    ],
+    "align": {
+      "left": 74
+    },
+    "styles": []
+  },
+  "lexia-16-400": {
+    "value": {
+      "fontFamily": "Lexia",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Lexia",
+      "fontPostScriptName": "Lexia-Regular",
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "fontSize": 16,
+      "lineHeightPx": 24,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "12194:5444",
+    "count": 13,
+    "nodes": [
+      "12194:5444",
+      "12328:9414",
+      "12328:9461",
+      "12328:9493",
+      "12328:9539"
+    ],
+    "align": {
+      "left": 13,
+      "center": 56
+    },
+    "styles": []
+  },
+  "inter-16-500": {
+    "value": {
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "fontWeight": "500",
+      "lineHeight": "24px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Inter",
+      "fontPostScriptName": "Inter-Medium",
+      "fontStyle": "Medium",
+      "fontWeight": 500,
+      "fontSize": 16,
+      "lineHeightPx": 24,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "12194:5489",
+    "count": 2,
+    "nodes": [
+      "12194:5489",
+      "12194:5523"
+    ],
+    "align": {
+      "left": 26
+    },
+    "styles": []
+  },
+  "inter-16-700": {
+    "value": {
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "lineHeight": "24px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Inter",
+      "fontPostScriptName": "Inter-Bold",
+      "fontStyle": "Bold",
+      "fontWeight": 700,
+      "fontSize": 16,
+      "lineHeightPx": 24,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "12194:5501",
+    "count": 280,
+    "nodes": [
+      "12194:5501",
+      "12194:5533",
+      "I12522:1025;12084:109180",
+      "I12522:1172;12084:109180",
+      "I12522:1196;12084:109180"
+    ],
+    "align": {
+      "left": 2275,
+      "center": 1281
+    },
+    "styles": []
+  },
+  "inter-40-600": {
+    "value": {
+      "fontFamily": "Inter",
+      "fontSize": "40px",
+      "fontWeight": "600",
+      "lineHeight": "56px",
+      "letterSpacing": "-1px"
+    },
+    "figma": {
+      "fontFamily": "Inter",
+      "fontPostScriptName": "Inter-SemiBold",
+      "fontStyle": "Semi Bold",
+      "fontWeight": 600,
+      "fontSize": 40,
+      "lineHeightPx": 56,
+      "lineHeightUnit": "FONT_SIZE_%",
+      "letterSpacing": -1
+    },
+    "node": "12077:108715",
+    "count": 1,
+    "nodes": [
+      "12077:108715"
+    ],
+    "align": {
+      "left": 7
+    },
+    "styles": []
+  },
+  "details-inter-medium": {
+    "value": {
+      "fontFamily": "Inter",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "lineHeight": "20px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Inter",
+      "fontPostScriptName": "Inter-Medium",
+      "fontStyle": "Medium",
+      "fontWeight": 500,
+      "fontSize": 12,
+      "lineHeightPx": 20,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "12084:109210",
+    "count": 9,
+    "nodes": [
+      "12084:109210",
+      "12084:109216",
+      "12084:109222",
+      "12084:109228",
+      "I12682:17279;12084:109216"
+    ],
+    "align": {
+      "center": 58,
+      "left": 45
+    },
+    "styles": [
+      "Details Inter medium"
+    ]
+  },
+  "inter-14-400": {
+    "value": {
+      "fontFamily": "Inter",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "16px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Inter",
+      "fontPostScriptName": null,
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeightPx": 16,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "12410:12838",
+    "count": 13,
+    "nodes": [
+      "12410:12838",
+      "12410:12842",
+      "12410:12844",
+      "I12305:8866;12305:8803",
+      "I12305:8892;12305:8803"
+    ],
+    "align": {
+      "left": 48,
+      "center": 100
+    },
+    "styles": []
+  },
+  "inter-16-700-2": {
+    "value": {
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "lineHeight": "16px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Inter",
+      "fontPostScriptName": "Inter-Bold",
+      "fontStyle": "Bold",
+      "fontWeight": 700,
+      "fontSize": 16,
+      "lineHeightPx": 16,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "I12928:23453;12928:23409",
+    "count": 20,
+    "nodes": [
+      "I12928:23453;12928:23409",
+      "I12928:23454;12928:23409",
+      "I12928:23456;12928:23409",
+      "I12928:23457;12928:23409",
+      "I12929:23549;12928:23409"
+    ],
+    "align": {
+      "left": 20
+    },
+    "styles": []
+  },
+  "lexia-14-400": {
+    "value": {
+      "fontFamily": "Lexia",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "16px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Lexia",
+      "fontPostScriptName": "Lexia-Regular",
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeightPx": 16,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "I12914:22746;12914:22642;12914:22602",
+    "count": 18,
+    "nodes": [
+      "I12914:22746;12914:22642;12914:22602",
+      "I12914:22751;12914:22642;12914:22602",
+      "I12914:22758;12914:22642;12914:22602",
+      "I12914:22763;12914:22642;12914:22602",
+      "I12914:22768;12914:22642;12914:22602"
+    ],
+    "align": {
+      "left": 210,
+      "center": 29
+    },
+    "styles": []
+  },
+  "inter-14-700": {
+    "value": {
+      "fontFamily": "Inter",
+      "fontSize": "14px",
+      "fontWeight": "700",
+      "lineHeight": "16px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Inter",
+      "fontPostScriptName": "Inter-Bold",
+      "fontStyle": "Bold",
+      "fontWeight": 700,
+      "fontSize": 14,
+      "lineHeightPx": 16,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "I12305:8856;12305:8822",
+    "count": 4,
+    "nodes": [
+      "I12305:8856;12305:8822",
+      "I12305:9045;12305:8822",
+      "I12305:8943;12305:8844",
+      "I12305:9054;12305:8844"
+    ],
+    "align": {
+      "center": 40
+    },
+    "styles": []
+  },
+  "inter-14-500": {
+    "value": {
+      "fontFamily": "Inter",
+      "fontSize": "14px",
+      "fontWeight": "500",
+      "lineHeight": "16px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Inter",
+      "fontPostScriptName": "Inter-Medium",
+      "fontStyle": "Medium",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 16,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "12334:9943",
+    "count": 4,
+    "nodes": [
+      "12334:9943",
+      "12334:9948",
+      "12334:9956",
+      "12334:9951"
+    ],
+    "align": {
+      "center": 68
+    },
+    "styles": []
+  },
+  "arial-26-700": {
+    "value": {
+      "fontFamily": "Arial",
+      "fontSize": "26px",
+      "fontWeight": "700",
+      "lineHeight": "32px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Arial",
+      "fontPostScriptName": "Arial-BoldMT",
+      "fontStyle": "Bold",
+      "fontWeight": 700,
+      "fontSize": 26,
+      "lineHeightPx": 32,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "12712:21029",
+    "count": 1,
+    "nodes": [
+      "12712:21029"
+    ],
+    "align": {
+      "left": 31
+    },
+    "styles": []
+  },
+  "arial-16-400": {
+    "value": {
+      "fontFamily": "Arial",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "24px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Arial",
+      "fontPostScriptName": "ArialMT",
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "fontSize": 16,
+      "lineHeightPx": 24,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "12712:21031",
+    "count": 6,
+    "nodes": [
+      "12712:21031",
+      "12712:21032",
+      "12712:21035",
+      "12712:21049",
+      "12712:21050"
+    ],
+    "align": {
+      "left": 528
+    },
+    "styles": []
+  },
+  "arial-16-700": {
+    "value": {
+      "fontFamily": "Arial",
+      "fontSize": "16px",
+      "fontWeight": "700",
+      "lineHeight": "24px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Arial",
+      "fontPostScriptName": "Arial-BoldMT",
+      "fontStyle": "Bold",
+      "fontWeight": 700,
+      "fontSize": 16,
+      "lineHeightPx": 24,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "12712:21039",
+    "count": 6,
+    "nodes": [
+      "12712:21039",
+      "12712:21040",
+      "12712:21042",
+      "12712:21056",
+      "12712:21057"
+    ],
+    "align": {
+      "left": 86
+    },
+    "styles": []
+  },
+  "arial-32-700": {
+    "value": {
+      "fontFamily": "Arial",
+      "fontSize": "32px",
+      "fontWeight": "700",
+      "lineHeight": "40px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Arial",
+      "fontPostScriptName": "Arial-BoldMT",
+      "fontStyle": "Bold",
+      "fontWeight": 700,
+      "fontSize": 32,
+      "lineHeightPx": 40,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "12712:21067",
+    "count": 1,
+    "nodes": [
+      "12712:21067"
+    ],
+    "align": {
+      "left": 31
+    },
+    "styles": []
+  },
+  "lexia-12-500": {
+    "value": {
+      "fontFamily": "Lexia",
+      "fontSize": "12px",
+      "fontWeight": "500",
+      "lineHeight": "16px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Lexia",
+      "fontPostScriptName": "Lexia-Medium",
+      "fontStyle": "Medium",
+      "fontWeight": 500,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "I12385:11076;12385:11064;12379:10693",
+    "count": 6,
+    "nodes": [
+      "I12385:11076;12385:11064;12379:10693",
+      "I12385:11076;12385:11065;12379:10693",
+      "I12385:11045;12379:11015;12379:10706",
+      "I12385:11045;12379:11016;12379:10693",
+      "I12385:11045;12379:11017;12379:10693"
+    ],
+    "align": {
+      "left": 35
+    },
+    "styles": []
+  },
+  "inter-16-600": {
+    "value": {
+      "fontFamily": "Inter",
+      "fontSize": "16px",
+      "fontWeight": "600",
+      "lineHeight": "24px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Inter",
+      "fontPostScriptName": "Inter-SemiBold",
+      "fontStyle": "Semi Bold",
+      "fontWeight": 600,
+      "fontSize": 16,
+      "lineHeightPx": 24,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "I13424:3132;13028:2148;12077:109144",
+    "count": 3,
+    "nodes": [
+      "I13424:3132;13028:2148;12077:109144",
+      "I13424:3550;13028:2148;12077:109144",
+      "I13424:3336;13028:2195;12077:109144"
+    ],
+    "align": {
+      "center": 39
+    },
+    "styles": []
+  },
+  "avenir-next-14-400": {
+    "value": {
+      "fontFamily": "Avenir Next",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "lineHeight": "18px",
+      "letterSpacing": "normal"
+    },
+    "figma": {
+      "fontFamily": "Avenir Next",
+      "fontPostScriptName": "AvenirNext-Regular",
+      "fontStyle": "Regular",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeightPx": 18,
+      "lineHeightUnit": "PIXELS",
+      "letterSpacing": 0
+    },
+    "node": "I13422:2883;773:8860",
+    "count": 6,
+    "nodes": [
+      "I13422:2883;773:8860",
+      "I13424:4812;773:8860",
+      "I13424:3552;773:8860",
+      "I13424:4830;773:8860",
+      "I13422:2902;773:8860"
+    ],
+    "align": {
+      "left": 60
+    },
+    "styles": []
+  }
+}

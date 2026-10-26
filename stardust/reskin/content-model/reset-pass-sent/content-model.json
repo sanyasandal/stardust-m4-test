@@ -1,0 +1,320 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "command": "content",
+    "modelVersion": 2,
+    "capturedAt": "2026-10-26T09:25:00Z",
+    "source": {
+      "kind": "figma",
+      "figma": {
+        "fileKey": "rsZQmpVzuyn0KhCDA3WN60",
+        "node": "13530:15983",
+        "version": "2413431205561424165",
+        "name": "Type=Reset pass sent, Breakpoint=Desktop",
+        "fileKeyHash": "a32f5f25d34d"
+      }
+    },
+    "viewport": "1440x1024",
+    "scope": "figma:13530:15983",
+    "visibility": "effective: hidden when the node or any ancestor is visible:false",
+    "readingOrder": {
+      "rule": "auto-layout: child order (absolute children after, geometric); otherwise geometric: rows by vertical overlap >= 50%, then x",
+      "frames": {
+        "auto-layout": 19
+      },
+      "ambiguous": []
+    },
+    "segmentation": {
+      "rule": "top-level children by y; chrome by name leaves the body; content-less layers fold; overlapping bands merge; a single wrapper with >= 2 content bands is descended",
+      "sections": [
+        {
+          "slot": "s01",
+          "y": 60,
+          "h": 154,
+          "nodes": [
+            "13530:15985"
+          ]
+        },
+        {
+          "slot": "s02",
+          "y": 214,
+          "h": 518,
+          "nodes": [
+            "13530:15988"
+          ]
+        }
+      ],
+      "chrome": {
+        "header": [
+          "13530:15984"
+        ],
+        "footer": [
+          "13530:15989"
+        ]
+      },
+      "folded": [],
+      "descended": 0
+    },
+    "responsive": {
+      "node": "13530:15997",
+      "name": "Type=Reset pass sent, Breakpoint=Mobile"
+    },
+    "kit": {
+      "rule": "a section is the outermost template-section or component instance above its nodes, else the instances inside them; one block per section (kit.mixed when several, kit.unbound when none)",
+      "registry": 1
+    },
+    "decorative": [
+      "I13530:15989;12406:12170"
+    ]
+  },
+  "metadata": {
+    "title": "Reset pass sent",
+    "description": "",
+    "canonical": null,
+    "ogTags": {},
+    "twitterTags": {},
+    "jsonLd": [],
+    "lang": "en",
+    "favicon": null,
+    "declaredAbsent": [
+      "description",
+      "canonical",
+      "ogTags",
+      "twitterTags",
+      "jsonLd"
+    ],
+    "derived": {
+      "title": "frame name"
+    }
+  },
+  "scope": [
+    {
+      "sel": "figma:13530:15983",
+      "whole": false
+    }
+  ],
+  "visibleTextNormalized": "The most inspiring heading One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause. Back to login",
+  "coverage": {
+    "bodyTextLen": 355,
+    "scopeTextLen": 355,
+    "ratio": 1,
+    "h1Text": "The most inspiring heading",
+    "h1InScope": true
+  },
+  "sections": [
+    {
+      "slot": "s01",
+      "rootTag": null,
+      "rootClass": "",
+      "node": "13530:15985",
+      "nodes": [
+        "13530:15985"
+      ],
+      "visibleText": "The most inspiring heading One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "The most inspiring heading"
+        }
+      ],
+      "paragraphs": [
+        "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause."
+      ],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [],
+      "ordered": [
+        {
+          "kind": "heading",
+          "level": "h1",
+          "role": null,
+          "text": "The most inspiring heading",
+          "node": "I13530:15985;12534:1406;12534:1395;12529:1207",
+          "sep": " "
+        },
+        {
+          "kind": "paragraph",
+          "text": "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause.",
+          "node": "I13530:15985;12534:1406;12534:1397;12534:1254",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "kit": {
+        "block": "block-content",
+        "module": "M22",
+        "variant": [],
+        "set": "Block Content",
+        "group": "template",
+        "home": "❏ Block Content",
+        "instance": "13530:15985",
+        "instances": [
+          "13530:15985"
+        ]
+      }
+    },
+    {
+      "slot": "s02",
+      "rootTag": null,
+      "rootClass": "",
+      "node": "13530:15988",
+      "nodes": [
+        "13530:15988"
+      ],
+      "visibleText": "Back to login",
+      "headings": [],
+      "paragraphs": [],
+      "listItems": [],
+      "ctas": [],
+      "images": [],
+      "formControls": [],
+      "leftovers": [
+        {
+          "text": "Back to login",
+          "parentTag": "button",
+          "parentClass": ""
+        }
+      ],
+      "ordered": [
+        {
+          "kind": "text",
+          "text": "Back to login",
+          "parentTag": "button",
+          "parentClass": "",
+          "inButton": true,
+          "node": "I13530:15988;12534:1406;13028:2160;13028:2135",
+          "sep": " "
+        }
+      ],
+      "orderedVerified": true,
+      "kit": {
+        "block": "block-content",
+        "module": "M22",
+        "variant": [],
+        "set": "Block Content",
+        "group": "template",
+        "home": "❏ Block Content",
+        "instance": "13530:15988",
+        "instances": [
+          "13530:15988"
+        ]
+      }
+    }
+  ],
+  "flags": [
+    {
+      "id": "heading.ambiguous",
+      "severity": "review",
+      "node": "I13530:15985;12534:1406;12534:1395;12529:1207",
+      "slot": "s01",
+      "detail": "46px matches no donor type role; no heading roles in donor-tokens"
+    },
+    {
+      "id": "heading.level",
+      "severity": "info",
+      "node": "I13530:15985;12534:1406;12534:1395;12529:1207",
+      "slot": "s01",
+      "detail": "size heading set to h1 (was h2): the first heading is the page h1"
+    },
+    {
+      "id": "image.alt",
+      "severity": "info",
+      "node": "13530:15984",
+      "slot": null,
+      "detail": "no alt text in Figma: write it or mark the image decorative"
+    },
+    {
+      "id": "image.alt",
+      "severity": "info",
+      "node": "I13530:15989;12406:12140",
+      "slot": null,
+      "detail": "logo: alt text from the brand name is the author's call"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13530:15989;12406:12149",
+      "slot": "s02",
+      "detail": "chrome \"Privacy Notice\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13530:15989;12406:12150",
+      "slot": "s02",
+      "detail": "chrome \"Cookie Notice\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13530:15989;12406:12151",
+      "slot": "s02",
+      "detail": "chrome \"Prescribing Information\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13530:15989;12406:12152",
+      "slot": "s02",
+      "detail": "chrome \"Important Safety Information\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13530:15989;12406:12160",
+      "slot": "s02",
+      "detail": "chrome \"Legal Statement\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13530:15989;12406:12161",
+      "slot": "s02",
+      "detail": "chrome \"Site Map\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13530:15989;12406:12162",
+      "slot": "s02",
+      "detail": "chrome \"AstraZeneca\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13530:15989;12406:12163",
+      "slot": "s02",
+      "detail": "chrome \"Contact Us\" has no link target in the design"
+    },
+    {
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13530:15989;12406:12181",
+      "slot": "s02",
+      "detail": "chrome \"XX-XXXX-01/2025\" has no link target in the design"
+    },
+    {
+      "id": "placeholder.suspect",
+      "severity": "review",
+      "node": "I13530:15985;12534:1406;12534:1395;12529:1207",
+      "slot": "s01",
+      "detail": "\"The most inspiring heading\" reads like kit copy"
+    },
+    {
+      "id": "variant.text-differs",
+      "severity": "review",
+      "node": "13530:15997",
+      "slot": null,
+      "detail": "the responsive variant differs: 2 text(s) only here (\"The most inspiring heading\"…), 2 only there (\"Reset password email sent\"…)"
+    },
+    {
+      "id": "metadata.title-derived",
+      "severity": "review",
+      "node": "13530:15983",
+      "slot": null,
+      "detail": "title \"Reset pass sent\" derived from the frame name; description, canonical, OG and Twitter tags are absent"
+    }
+  ]
+}

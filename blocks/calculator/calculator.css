@@ -1,0 +1,182 @@
+/* Calculator — kit "Calculator": weight-conversion 15163:14797 / 14799 / 14934,
+   dosing-calculator 15021:12810 / 15035:10694 / 15035:12439,
+   risk-calculator 15170:17990 / 17992 / 18511 */
+.calculator {
+  container-type: inline-size;
+  background-color: var(--az-white);
+  color: var(--az-graphite);
+}
+
+.calculator .calculator-form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin: 0;
+}
+
+.calculator.dosing-calculator .calculator-form {
+  gap: 24px;
+}
+
+.calculator .calculator-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.calculator .calculator-text > * {
+  margin: 0;
+}
+
+.calculator .calculator-text h2 {
+  color: var(--az-mulberry);
+  font-family: var(--heading-font-family);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.calculator .calculator-text h3 {
+  color: var(--az-magenta);
+  font-family: var(--heading-font-family);
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.calculator .calculator-text p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.calculator .calculator-note p {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.calculator .calculator-group {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 24px;
+}
+
+.calculator .calculator-group.has-swap {
+  gap: 8px;
+}
+
+.calculator .calculator-support {
+  margin: -2px 0 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.calculator .calculator-control {
+  position: relative;
+  display: flex;
+  gap: 16px;
+}
+
+.calculator .calculator-control.has-unit input {
+  padding-right: 64px;
+}
+
+.calculator .calculator-unit {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  line-height: 24px;
+  pointer-events: none;
+}
+
+.calculator .field .calculator-unit-select {
+  flex: 0 0 92px;
+  width: 92px;
+}
+
+.calculator .calculator-choices {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.calculator .calculator-choices .button {
+  width: 100%;
+}
+
+.calculator .calculator-result output {
+  display: flex;
+  align-items: center;
+  height: var(--control-height);
+  padding: 0 16px;
+  border: 1px solid var(--az-grey-300);
+  border-radius: var(--radius);
+  background-color: var(--az-grey-100);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.calculator .calculator-swap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.calculator .calculator-swap img {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.calculator .calculator-swap:focus-visible {
+  outline: 2px solid var(--az-magenta);
+  outline-offset: 2px;
+}
+
+.calculator .calculator-actions .button {
+  width: 100%;
+}
+
+@container (width >= 600px) {
+  .calculator .calculator-group {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(var(--rows, 1), auto);
+    grid-auto-flow: column;
+    align-items: start;
+  }
+
+  .calculator .calculator-group.has-swap {
+    grid-template-columns: minmax(0, 1fr) 20px minmax(0, 1fr);
+    gap: 24px;
+  }
+
+  .calculator .calculator-group.has-swap .calculator-swap {
+    height: 54px;
+    margin-top: 28px;
+  }
+
+  .calculator .calculator-actions .button {
+    width: auto;
+  }
+
+  /* kit labels hug their text on one line; a long label may run into the empty neighbouring cell */
+  .calculator .calculator-field > label,
+  .calculator .calculator-field > .label {
+    white-space: nowrap;
+  }
+}
+
+@container (width >= 1000px) {
+  .calculator.dosing-calculator .calculator-form {
+    gap: 32px;
+  }
+}

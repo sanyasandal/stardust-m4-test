@@ -1,0 +1,242 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "command": "content",
+    "writtenAt": "2026-10-26T09:25:00Z"
+  },
+  "slug": "login-landing",
+  "counts": {
+    "block": 0,
+    "review": 4,
+    "info": 24,
+    "open": 4
+  },
+  "placeholderOnly": false,
+  "items": [
+    {
+      "key": "image.alt@I13496:9636;12643:9301",
+      "id": "image.alt",
+      "severity": "review",
+      "node": "I13496:9636;12643:9301",
+      "slot": "s01",
+      "detail": "no alt text in Figma: write it or mark the image decorative"
+    },
+    {
+      "key": "heading.ambiguous@I13496:9636;12643:9382",
+      "id": "heading.ambiguous",
+      "severity": "review",
+      "node": "I13496:9636;12643:9382",
+      "slot": "s01",
+      "detail": "36px matches no donor type role; no heading roles in donor-tokens"
+    },
+    {
+      "key": "field.inferred@I13496:9636;12643:9384",
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:9636;12643:9384",
+      "slot": "s01",
+      "detail": "drawn field: label \"Email *\", placeholder \"john.dowry@example.com\""
+    },
+    {
+      "key": "link.unresolved@I13496:9636;12643:9385;12160:3655",
+      "id": "link.unresolved",
+      "severity": "review",
+      "node": "I13496:9636;12643:9385;12160:3655",
+      "slot": "s01",
+      "detail": "\"Forgot your password?\" is drawn as a link with no target"
+    },
+    {
+      "key": "field.inferred@I13496:9636;12643:9385",
+      "id": "field.inferred",
+      "severity": "info",
+      "node": "I13496:9636;12643:9385",
+      "slot": "s01",
+      "detail": "drawn field: label \"Password *\", masked value (password)"
+    },
+    {
+      "key": "heading.level@I13496:9636;12643:9382",
+      "id": "heading.level",
+      "severity": "info",
+      "node": "I13496:9636;12643:9382",
+      "slot": "s01",
+      "detail": "size heading set to h1 (was h2): the first heading is the page h1"
+    },
+    {
+      "key": "link.unresolved@I13496:9591;12385:11076;12385:11064;12379:10693",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9591;12385:11076;12385:11064;12379:10693",
+      "slot": "s01",
+      "detail": "chrome \"Contact Us\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:9591;12385:11076;12385:11065;12379:10693",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9591;12385:11076;12385:11065;12379:10693",
+      "slot": "s01",
+      "detail": "chrome \"AZ Employee Login\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:9591;12385:11045;12379:11015;12379:10706",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9591;12385:11045;12379:11015;12379:10706",
+      "slot": "s01",
+      "detail": "chrome \"DE\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:9591;12385:11045;12379:11016;12379:10693",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9591;12385:11045;12379:11016;12379:10693",
+      "slot": "s01",
+      "detail": "chrome \"EN\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:9591;12385:11045;12379:11017;12379:10693",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9591;12385:11045;12379:11017;12379:10693",
+      "slot": "s01",
+      "detail": "chrome \"FR\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:9591;12385:11045;12379:11018;12379:10693",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9591;12385:11045;12379:11018;12379:10693",
+      "slot": "s01",
+      "detail": "chrome \"IT\" has no link target in the design"
+    },
+    {
+      "key": "image.alt@I13496:9591;12370:10522",
+      "id": "image.alt",
+      "severity": "info",
+      "node": "I13496:9591;12370:10522",
+      "slot": null,
+      "detail": "logo: alt text from the brand name is the author's call"
+    },
+    {
+      "key": "link.unresolved@I13496:9591;12379:10746;12370:10625",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9591;12379:10746;12370:10625",
+      "slot": "s02",
+      "detail": "chrome \"Products\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:9591;12379:10750;12370:10625",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9591;12379:10750;12370:10625",
+      "slot": "s02",
+      "detail": "chrome \"Therapeutic Areas\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:9591;12379:10754;12370:10637",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9591;12379:10754;12370:10637",
+      "slot": "s02",
+      "detail": "chrome \"News\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:9591;12379:10760;12370:10525",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9591;12379:10760;12370:10525",
+      "slot": "s02",
+      "detail": "chrome \"Login\" has no link target in the design"
+    },
+    {
+      "key": "image.alt@I13496:9714;12406:12140",
+      "id": "image.alt",
+      "severity": "info",
+      "node": "I13496:9714;12406:12140",
+      "slot": null,
+      "detail": "logo: alt text from the brand name is the author's call"
+    },
+    {
+      "key": "link.unresolved@I13496:9714;12406:12149",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9714;12406:12149",
+      "slot": "s03",
+      "detail": "chrome \"Privacy Notice\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:9714;12406:12150",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9714;12406:12150",
+      "slot": "s03",
+      "detail": "chrome \"Cookie Notice\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:9714;12406:12151",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9714;12406:12151",
+      "slot": "s03",
+      "detail": "chrome \"Prescribing Information\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:9714;12406:12152",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9714;12406:12152",
+      "slot": "s03",
+      "detail": "chrome \"Important Safety Information\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:9714;12406:12160",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9714;12406:12160",
+      "slot": "s03",
+      "detail": "chrome \"Legal Statement\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:9714;12406:12161",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9714;12406:12161",
+      "slot": "s03",
+      "detail": "chrome \"Site Map\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:9714;12406:12162",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9714;12406:12162",
+      "slot": "s03",
+      "detail": "chrome \"AstraZeneca\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:9714;12406:12163",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9714;12406:12163",
+      "slot": "s03",
+      "detail": "chrome \"Contact Us\" has no link target in the design"
+    },
+    {
+      "key": "link.unresolved@I13496:9714;12406:12181",
+      "id": "link.unresolved",
+      "severity": "info",
+      "node": "I13496:9714;12406:12181",
+      "slot": "s03",
+      "detail": "chrome \"XX-XXXX-01/2025\" has no link target in the design"
+    },
+    {
+      "key": "metadata.title-derived@13496:10760",
+      "id": "metadata.title-derived",
+      "severity": "review",
+      "node": "13496:10760",
+      "slot": null,
+      "detail": "title \"Login Landing\" derived from the frame name; description, canonical, OG and Twitter tags are absent"
+    }
+  ],
+  "acknowledged": []
+}

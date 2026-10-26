@@ -1,0 +1,9 @@
+/* One AZ login page template — Figma "Login Landing" (13496:10760 …): site header and footer
+   around a full-bleed login block */
+body.login main > .section.login-container {
+  padding: 0;
+}
+
+body.login main > .section.login-container > div {
+  max-width: none;
+}

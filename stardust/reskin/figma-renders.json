@@ -1,0 +1,6034 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:reskin/figma-donor.mjs",
+    "command": "renders",
+    "at": "2026-10-26T10:15:26Z",
+    "source": {
+      "fileKeyHash": null,
+      "fileVersion": "2413431205561424165"
+    },
+    "scale": 1,
+    "note": "Figma PNG renders the exact and library gates compare against; library variants carry the copy the block must show"
+  },
+  "version": 1,
+  "scale": 1,
+  "pages": {
+    "login-landing": [
+      {
+        "breakpoint": "desktop",
+        "id": "13496:10760",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13496-10760@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13496:10761",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13496-10761@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13496:10762",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13496-10762@1x.frame.png"
+      }
+    ],
+    "registration": [
+      {
+        "breakpoint": "desktop",
+        "id": "13496:17255",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13496-17255@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13496:17256",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13496-17256@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13496:17257",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13496-17257@1x.frame.png"
+      }
+    ],
+    "channel-consent": [
+      {
+        "breakpoint": "desktop",
+        "id": "13496:18714",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13496-18714@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13496:18715",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13496-18715@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13496:18716",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13496-18716@1x.frame.png"
+      }
+    ],
+    "email-verification": [
+      {
+        "breakpoint": "desktop",
+        "id": "13496:19400",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13496-19400@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13496:19401",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13496-19401@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13496:19402",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13496-19402@1x.frame.png"
+      }
+    ],
+    "email-verified": [
+      {
+        "breakpoint": "desktop",
+        "id": "13527:9171",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13527-9171@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13527:9177",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13527-9177@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13527:9183",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13527-9183@1x.frame.png"
+      }
+    ],
+    "profile-review": [
+      {
+        "breakpoint": "desktop",
+        "id": "13527:9366",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13527-9366@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13527:9372",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13527-9372@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13527:9378",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13527-9378@1x.frame.png"
+      }
+    ],
+    "link-expired": [
+      {
+        "breakpoint": "desktop",
+        "id": "13527:9552",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13527-9552@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13527:9558",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13527-9558@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13527:9564",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13527-9564@1x.frame.png"
+      }
+    ],
+    "resend-verification-email": [
+      {
+        "breakpoint": "desktop",
+        "id": "13527:9738",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13527-9738@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13527:9744",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13527-9744@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13527:9750",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13527-9750@1x.frame.png"
+      }
+    ],
+    "forgot-password": [
+      {
+        "breakpoint": "desktop",
+        "id": "13530:12110",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-12110@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13530:12117",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-12117@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13530:12124",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-12124@1x.frame.png"
+      }
+    ],
+    "waiting-confirmation": [
+      {
+        "breakpoint": "desktop",
+        "id": "13530:16259",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-16259@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13530:16266",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-16266@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13530:16273",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-16273@1x.frame.png"
+      }
+    ],
+    "login-without-pass": [
+      {
+        "breakpoint": "desktop",
+        "id": "13530:14671",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-14671@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13530:14678",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-14678@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13530:14685",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-14685@1x.frame.png"
+      }
+    ],
+    "reset-link-expired": [
+      {
+        "breakpoint": "desktop",
+        "id": "13530:14956",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-14956@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13530:14963",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-14963@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13530:14970",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-14970@1x.frame.png"
+      }
+    ],
+    "reset-pass-sent": [
+      {
+        "breakpoint": "desktop",
+        "id": "13530:15983",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-15983@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13530:15990",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-15990@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13530:15997",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-15997@1x.frame.png"
+      }
+    ],
+    "account-inactive": [
+      {
+        "breakpoint": "desktop",
+        "id": "13530:16803",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-16803@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13530:16809",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-16809@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13530:16815",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-16815@1x.frame.png"
+      }
+    ],
+    "account-found": [
+      {
+        "breakpoint": "desktop",
+        "id": "15011:9054",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/15011-9054@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "15011:9060",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/15011-9060@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "15011:9066",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/15011-9066@1x.frame.png"
+      }
+    ],
+    "account-not-found": [
+      {
+        "breakpoint": "desktop",
+        "id": "13530:16998",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-16998@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13530:17004",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-17004@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13530:17010",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-17010@1x.frame.png"
+      }
+    ],
+    "pending-validation": [
+      {
+        "breakpoint": "desktop",
+        "id": "13530:17193",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-17193@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13530:17199",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-17199@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13530:17205",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-17205@1x.frame.png"
+      }
+    ],
+    "session-lost": [
+      {
+        "breakpoint": "desktop",
+        "id": "13530:17388",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-17388@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13530:17394",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-17394@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13530:17400",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-17400@1x.frame.png"
+      }
+    ],
+    "reset-password": [
+      {
+        "breakpoint": "desktop",
+        "id": "13530:12695",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-12695@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13530:12702",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-12702@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13530:12709",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-12709@1x.frame.png"
+      }
+    ],
+    "change-password": [
+      {
+        "breakpoint": "desktop",
+        "id": "13530:14008",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-14008@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13530:14015",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-14015@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13530:14022",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-14022@1x.frame.png"
+      }
+    ],
+    "forgot-password-resend": [
+      {
+        "breakpoint": "desktop",
+        "id": "13530:12392",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-12392@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13530:12399",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-12399@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13530:12406",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-12406@1x.frame.png"
+      }
+    ],
+    "reset-succesful": [
+      {
+        "breakpoint": "desktop",
+        "id": "13530:13822",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-13822@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13530:13828",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-13828@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13530:13834",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-13834@1x.frame.png"
+      }
+    ],
+    "pass-successfully-changed": [
+      {
+        "breakpoint": "desktop",
+        "id": "13530:14485",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-14485@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13530:14491",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-14491@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13530:14497",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-14497@1x.frame.png"
+      }
+    ],
+    "verify-email": [
+      {
+        "breakpoint": "desktop",
+        "id": "13512:6269",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13512-6269@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13512:6270",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13512-6270@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13512:6271",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13512-6271@1x.frame.png"
+      }
+    ],
+    "password-reset": [
+      {
+        "breakpoint": "desktop",
+        "id": "13530:17869",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-17869@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13530:17871",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-17871@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13530:17873",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-17873@1x.frame.png"
+      }
+    ],
+    "account-activated": [
+      {
+        "breakpoint": "desktop",
+        "id": "13530:17999",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-17999@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13530:18001",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-18001@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13530:18003",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-18003@1x.frame.png"
+      }
+    ],
+    "new-user-registretion": [
+      {
+        "breakpoint": "desktop",
+        "id": "13530:17934",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-17934@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13530:17936",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-17936@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13530:17938",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-17938@1x.frame.png"
+      }
+    ],
+    "magic-link": [
+      {
+        "breakpoint": "desktop",
+        "id": "13530:17800",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-17800@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13530:17802",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-17802@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13530:17804",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-17804@1x.frame.png"
+      }
+    ],
+    "inactivity": [
+      {
+        "breakpoint": "desktop",
+        "id": "13530:18497",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-18497@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13530:18763",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-18763@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13530:18827",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-18827@1x.frame.png"
+      }
+    ],
+    "logged-out": [
+      {
+        "breakpoint": "desktop",
+        "id": "13530:18829",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-18829@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13530:18832",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-18832@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13530:18835",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-18835@1x.frame.png"
+      }
+    ],
+    "3rd-party-login": [
+      {
+        "breakpoint": "desktop",
+        "id": "13530:18940",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-18940@1x.frame.png"
+      },
+      {
+        "breakpoint": "tablet",
+        "id": "13530:18943",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-18943@1x.frame.png"
+      },
+      {
+        "breakpoint": "mobile",
+        "id": "13530:18946",
+        "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13530-18946@1x.frame.png"
+      }
+    ]
+  },
+  "library": {
+    "accordion": {
+      "module": "M1",
+      "used": false,
+      "variants": [
+        {
+          "set": "Accordion",
+          "setId": "12360:10305",
+          "setClass": null,
+          "id": "12360:10292",
+          "name": "Type=Desktop, State=Closed",
+          "classes": [
+            "closed"
+          ],
+          "breakpoint": null,
+          "w": 1440,
+          "h": 61,
+          "texts": [
+            "Accordion title"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12360-10292@1x.png"
+        },
+        {
+          "set": "Accordion",
+          "setId": "12360:10305",
+          "setClass": null,
+          "id": "12473:15781",
+          "name": "Type=Tablet, State=Closed",
+          "classes": [
+            "closed"
+          ],
+          "breakpoint": null,
+          "w": 768,
+          "h": 61,
+          "texts": [
+            "Accordion title"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12473-15781@1x.png"
+        },
+        {
+          "set": "Accordion",
+          "setId": "12360:10305",
+          "setClass": null,
+          "id": "12362:10348",
+          "name": "Type=Desktop, State=Expanded",
+          "classes": [
+            "expanded"
+          ],
+          "breakpoint": null,
+          "w": 1440,
+          "h": 195,
+          "texts": [
+            "Accordion title",
+            "The most inspiring heading",
+            "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause."
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12362-10348@1x.png"
+        },
+        {
+          "set": "Accordion",
+          "setId": "12360:10305",
+          "setClass": null,
+          "id": "12473:15786",
+          "name": "Type=Tablet, State=Expanded",
+          "classes": [
+            "expanded"
+          ],
+          "breakpoint": null,
+          "w": 768,
+          "h": 243,
+          "texts": [
+            "Accordion title",
+            "The most inspiring heading",
+            "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause."
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12473-15786@1x.png"
+        },
+        {
+          "set": "Accordion",
+          "setId": "12360:10305",
+          "setClass": null,
+          "id": "12360:10306",
+          "name": "Type=Mobile, State=Closed",
+          "classes": [
+            "closed"
+          ],
+          "breakpoint": null,
+          "w": 375,
+          "h": 47,
+          "texts": [
+            "Accordion title"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12360-10306@1x.png"
+        },
+        {
+          "set": "Accordion",
+          "setId": "12360:10305",
+          "setClass": null,
+          "id": "12362:10353",
+          "name": "Type=Mobile, State=Expanded",
+          "classes": [
+            "expanded"
+          ],
+          "breakpoint": null,
+          "w": 375,
+          "h": 347,
+          "texts": [
+            "Accordion title",
+            "The most inspiring heading",
+            "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause."
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12362-10353@1x.png"
+        }
+      ]
+    },
+    "back-to-top": {
+      "module": "M2",
+      "used": false,
+      "variants": [
+        {
+          "set": "Back-to-top",
+          "setId": "12522:1041",
+          "setClass": null,
+          "id": "12522:1040",
+          "name": "Background=Light, Breakpoint=Desktop",
+          "classes": [
+            "light"
+          ],
+          "breakpoint": "desktop",
+          "w": 1440,
+          "h": 64,
+          "texts": [
+            "Button text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12522-1040@1x.frame.png"
+        },
+        {
+          "set": "Back-to-top",
+          "setId": "12522:1041",
+          "setClass": null,
+          "id": "12522:1170",
+          "name": "Background=Light, Breakpoint=Tablet",
+          "classes": [
+            "light"
+          ],
+          "breakpoint": "tablet",
+          "w": 768,
+          "h": 64,
+          "texts": [
+            "Button text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12522-1170@1x.frame.png"
+        },
+        {
+          "set": "Back-to-top",
+          "setId": "12522:1041",
+          "setClass": null,
+          "id": "12522:1194",
+          "name": "Background=Light, Breakpoint=Mobile",
+          "classes": [
+            "light"
+          ],
+          "breakpoint": "mobile",
+          "w": 375,
+          "h": 64,
+          "texts": [
+            "Button text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12522-1194@1x.frame.png"
+        },
+        {
+          "set": "Back-to-top",
+          "setId": "12522:1041",
+          "setClass": null,
+          "id": "12522:1042",
+          "name": "Background=Dark, Breakpoint=Desktop",
+          "classes": [
+            "dark"
+          ],
+          "breakpoint": "desktop",
+          "w": 1440,
+          "h": 64,
+          "texts": [
+            "Button text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12522-1042@1x.frame.png"
+        },
+        {
+          "set": "Back-to-top",
+          "setId": "12522:1041",
+          "setClass": null,
+          "id": "12522:1173",
+          "name": "Background=Dark, Breakpoint=Tablet",
+          "classes": [
+            "dark"
+          ],
+          "breakpoint": "tablet",
+          "w": 768,
+          "h": 64,
+          "texts": [
+            "Button text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12522-1173@1x.frame.png"
+        },
+        {
+          "set": "Back-to-top",
+          "setId": "12522:1041",
+          "setClass": null,
+          "id": "12522:1197",
+          "name": "Background=Dark, Breakpoint=Mobile",
+          "classes": [
+            "dark"
+          ],
+          "breakpoint": "mobile",
+          "w": 375,
+          "h": 64,
+          "texts": [
+            "Button text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12522-1197@1x.frame.png"
+        }
+      ]
+    },
+    "button": {
+      "module": "M3",
+      "used": true,
+      "variants": [
+        {
+          "set": "Button",
+          "setId": "12084:109164",
+          "setClass": null,
+          "id": "12084:109155",
+          "name": "Size=Medium, Type=Primary, Property=With text",
+          "classes": [
+            "medium",
+            "primary",
+            "with-text"
+          ],
+          "breakpoint": null,
+          "w": 176,
+          "h": 42,
+          "texts": [
+            "Button text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12084-109155@1x.png"
+        },
+        {
+          "set": "Button",
+          "setId": "12084:109164",
+          "setClass": null,
+          "id": "15035:2204",
+          "name": "Size=Large, Type=Primary, Property=With text",
+          "classes": [
+            "large",
+            "primary",
+            "with-text"
+          ],
+          "breakpoint": null,
+          "w": 176,
+          "h": 54,
+          "texts": [
+            "Button text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/15035-2204@1x.png"
+        },
+        {
+          "set": "Button",
+          "setId": "12084:109164",
+          "setClass": null,
+          "id": "12084:109208",
+          "name": "Size=Small, Type=Primary, Property=With text",
+          "classes": [
+            "small",
+            "primary",
+            "with-text"
+          ],
+          "breakpoint": null,
+          "w": 152,
+          "h": 34,
+          "texts": [
+            "Button text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12084-109208@1x.png"
+        },
+        {
+          "set": "Button",
+          "setId": "12084:109164",
+          "setClass": null,
+          "id": "12084:109184",
+          "name": "Size=Medium, Type=Primary, Property=Icon Only",
+          "classes": [
+            "medium",
+            "primary",
+            "icon-only"
+          ],
+          "breakpoint": null,
+          "w": 42,
+          "h": 42,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12084-109184@1x.png"
+        },
+        {
+          "set": "Button",
+          "setId": "12084:109164",
+          "setClass": null,
+          "id": "15035:2208",
+          "name": "Size=Large, Type=Primary, Property=Icon Only",
+          "classes": [
+            "large",
+            "primary",
+            "icon-only"
+          ],
+          "breakpoint": null,
+          "w": 54,
+          "h": 54,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/15035-2208@1x.png"
+        },
+        {
+          "set": "Button",
+          "setId": "12084:109164",
+          "setClass": null,
+          "id": "12084:109212",
+          "name": "Size=Small, Type=Primary, Property=Icon Only",
+          "classes": [
+            "small",
+            "primary",
+            "icon-only"
+          ],
+          "breakpoint": null,
+          "w": 34,
+          "h": 34,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12084-109212@1x.png"
+        },
+        {
+          "set": "Button",
+          "setId": "12084:109164",
+          "setClass": null,
+          "id": "12084:109165",
+          "name": "Size=Medium, Type=Secondary, Property=With text",
+          "classes": [
+            "medium",
+            "secondary",
+            "with-text"
+          ],
+          "breakpoint": null,
+          "w": 176,
+          "h": 42,
+          "texts": [
+            "Button text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12084-109165@1x.png"
+        },
+        {
+          "set": "Button",
+          "setId": "12084:109164",
+          "setClass": null,
+          "id": "15035:2210",
+          "name": "Size=Large, Type=Secondary, Property=With text",
+          "classes": [
+            "large",
+            "secondary",
+            "with-text"
+          ],
+          "breakpoint": null,
+          "w": 176,
+          "h": 54,
+          "texts": [
+            "Button text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/15035-2210@1x.png"
+        },
+        {
+          "set": "Button",
+          "setId": "12084:109164",
+          "setClass": null,
+          "id": "12084:109214",
+          "name": "Size=Small, Type=Secondary, Property=With text",
+          "classes": [
+            "small",
+            "secondary",
+            "with-text"
+          ],
+          "breakpoint": null,
+          "w": 152,
+          "h": 34,
+          "texts": [
+            "Button text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12084-109214@1x.png"
+        },
+        {
+          "set": "Button",
+          "setId": "12084:109164",
+          "setClass": null,
+          "id": "12084:109188",
+          "name": "Size=Medium, Type=Secondary, Property=Icon Only",
+          "classes": [
+            "medium",
+            "secondary",
+            "icon-only"
+          ],
+          "breakpoint": null,
+          "w": 42,
+          "h": 42,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12084-109188@1x.png"
+        },
+        {
+          "set": "Button",
+          "setId": "12084:109164",
+          "setClass": null,
+          "id": "15035:2214",
+          "name": "Size=Large, Type=Secondary, Property=Icon Only",
+          "classes": [
+            "large",
+            "secondary",
+            "icon-only"
+          ],
+          "breakpoint": null,
+          "w": 54,
+          "h": 54,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/15035-2214@1x.png"
+        },
+        {
+          "set": "Button",
+          "setId": "12084:109164",
+          "setClass": null,
+          "id": "12084:109218",
+          "name": "Size=Small, Type=Secondary, Property=Icon Only",
+          "classes": [
+            "small",
+            "secondary",
+            "icon-only"
+          ],
+          "breakpoint": null,
+          "w": 34,
+          "h": 34,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12084-109218@1x.png"
+        },
+        {
+          "set": "Button",
+          "setId": "12084:109164",
+          "setClass": null,
+          "id": "12084:109172",
+          "name": "Size=Medium, Type=Tertiary, Property=With text",
+          "classes": [
+            "medium",
+            "tertiary",
+            "with-text"
+          ],
+          "breakpoint": null,
+          "w": 176,
+          "h": 42,
+          "texts": [
+            "Button text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12084-109172@1x.png"
+        },
+        {
+          "set": "Button",
+          "setId": "12084:109164",
+          "setClass": null,
+          "id": "15035:2216",
+          "name": "Size=Large, Type=Tertiary, Property=With text",
+          "classes": [
+            "large",
+            "tertiary",
+            "with-text"
+          ],
+          "breakpoint": null,
+          "w": 176,
+          "h": 54,
+          "texts": [
+            "Button text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/15035-2216@1x.png"
+        },
+        {
+          "set": "Button",
+          "setId": "12084:109164",
+          "setClass": null,
+          "id": "12084:109220",
+          "name": "Size=Small, Type=Tertiary, Property=With text",
+          "classes": [
+            "small",
+            "tertiary",
+            "with-text"
+          ],
+          "breakpoint": null,
+          "w": 152,
+          "h": 34,
+          "texts": [
+            "Button text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12084-109220@1x.png"
+        },
+        {
+          "set": "Button",
+          "setId": "12084:109164",
+          "setClass": null,
+          "id": "12084:109192",
+          "name": "Size=Medium, Type=Tertiary, Property=Icon Only",
+          "classes": [
+            "medium",
+            "tertiary",
+            "icon-only"
+          ],
+          "breakpoint": null,
+          "w": 42,
+          "h": 42,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12084-109192@1x.png"
+        },
+        {
+          "set": "Button",
+          "setId": "12084:109164",
+          "setClass": null,
+          "id": "15035:2220",
+          "name": "Size=Large, Type=Tertiary, Property=Icon Only",
+          "classes": [
+            "large",
+            "tertiary",
+            "icon-only"
+          ],
+          "breakpoint": null,
+          "w": 54,
+          "h": 54,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/15035-2220@1x.png"
+        },
+        {
+          "set": "Button",
+          "setId": "12084:109164",
+          "setClass": null,
+          "id": "12084:109224",
+          "name": "Size=Small, Type=Tertiary, Property=Icon Only",
+          "classes": [
+            "small",
+            "tertiary",
+            "icon-only"
+          ],
+          "breakpoint": null,
+          "w": 34,
+          "h": 34,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12084-109224@1x.png"
+        },
+        {
+          "set": "Button",
+          "setId": "12084:109164",
+          "setClass": null,
+          "id": "12084:109178",
+          "name": "Size=Medium, Type=Link, Property=With text",
+          "classes": [
+            "medium",
+            "link",
+            "with-text"
+          ],
+          "breakpoint": null,
+          "w": 144,
+          "h": 24,
+          "texts": [
+            "Button text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12084-109178@1x.png"
+        },
+        {
+          "set": "Button",
+          "setId": "12084:109164",
+          "setClass": null,
+          "id": "15035:2222",
+          "name": "Size=Large, Type=Link, Property=With text",
+          "classes": [
+            "large",
+            "link",
+            "with-text"
+          ],
+          "breakpoint": null,
+          "w": 144,
+          "h": 24,
+          "texts": [
+            "Button text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/15035-2222@1x.png"
+        },
+        {
+          "set": "Button",
+          "setId": "12084:109164",
+          "setClass": null,
+          "id": "12084:109226",
+          "name": "Size=Small, Type=Link, Property=With text",
+          "classes": [
+            "small",
+            "link",
+            "with-text"
+          ],
+          "breakpoint": null,
+          "w": 120,
+          "h": 20,
+          "texts": [
+            "Button text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12084-109226@1x.png"
+        },
+        {
+          "set": "Button",
+          "setId": "12084:109164",
+          "setClass": null,
+          "id": "12084:109196",
+          "name": "Size=Medium, Type=Link, Property=Icon Only",
+          "classes": [
+            "medium",
+            "link",
+            "icon-only"
+          ],
+          "breakpoint": null,
+          "w": 42,
+          "h": 42,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12084-109196@1x.png"
+        },
+        {
+          "set": "Button",
+          "setId": "12084:109164",
+          "setClass": null,
+          "id": "15035:2226",
+          "name": "Size=Large, Type=Link, Property=Icon Only",
+          "classes": [
+            "large",
+            "link",
+            "icon-only"
+          ],
+          "breakpoint": null,
+          "w": 54,
+          "h": 54,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/15035-2226@1x.png"
+        },
+        {
+          "set": "Button",
+          "setId": "12084:109164",
+          "setClass": null,
+          "id": "12084:109230",
+          "name": "Size=Small, Type=Link, Property=Icon Only",
+          "classes": [
+            "small",
+            "link",
+            "icon-only"
+          ],
+          "breakpoint": null,
+          "w": 34,
+          "h": 34,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12084-109230@1x.png"
+        }
+      ]
+    },
+    "breadcrumb": {
+      "module": "M4",
+      "used": false,
+      "variants": [
+        {
+          "set": "Breadcrumb label",
+          "setId": "12410:12840",
+          "setClass": "label",
+          "id": "12410:12839",
+          "name": "State=Default, Breakpoint=Desktop",
+          "classes": [
+            "label"
+          ],
+          "breakpoint": "desktop",
+          "w": 117,
+          "h": 16,
+          "texts": [
+            "Breadcrumb label"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12410-12839@1x.frame.png"
+        },
+        {
+          "set": "Breadcrumb label",
+          "setId": "12410:12840",
+          "setClass": "label",
+          "id": "12410:12864",
+          "name": "State=Default, Breakpoint=Mobile",
+          "classes": [
+            "label"
+          ],
+          "breakpoint": "mobile",
+          "w": 100,
+          "h": 16,
+          "texts": [
+            "Breadcrumb label"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12410-12864@1x.frame.png"
+        },
+        {
+          "set": "Breadcrumb label",
+          "setId": "12410:12840",
+          "setClass": "label",
+          "id": "12410:12841",
+          "name": "State=Hover, Breakpoint=Desktop",
+          "classes": [
+            "label",
+            "hover"
+          ],
+          "breakpoint": "desktop",
+          "w": 117,
+          "h": 16,
+          "texts": [
+            "Breadcrumb label"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12410-12841@1x.frame.png"
+        },
+        {
+          "set": "Breadcrumb label",
+          "setId": "12410:12840",
+          "setClass": "label",
+          "id": "12410:12866",
+          "name": "State=Hover, Breakpoint=Mobile",
+          "classes": [
+            "label",
+            "hover"
+          ],
+          "breakpoint": "mobile",
+          "w": 100,
+          "h": 16,
+          "texts": [
+            "Breadcrumb label"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12410-12866@1x.frame.png"
+        },
+        {
+          "set": "Breadcrumb label",
+          "setId": "12410:12840",
+          "setClass": "label",
+          "id": "12410:12843",
+          "name": "State=Active, Breakpoint=Desktop",
+          "classes": [
+            "label",
+            "active"
+          ],
+          "breakpoint": "desktop",
+          "w": 117,
+          "h": 16,
+          "texts": [
+            "Breadcrumb label"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12410-12843@1x.frame.png"
+        },
+        {
+          "set": "Breadcrumb label",
+          "setId": "12410:12840",
+          "setClass": "label",
+          "id": "12410:12868",
+          "name": "State=Active, Breakpoint=Mobile",
+          "classes": [
+            "label",
+            "active"
+          ],
+          "breakpoint": "mobile",
+          "w": 100,
+          "h": 16,
+          "texts": [
+            "Breadcrumb label"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12410-12868@1x.frame.png"
+        },
+        {
+          "set": "Breadcrumble example",
+          "setId": "12410:12887",
+          "setClass": "breadcrumble-example",
+          "id": "12410:12885",
+          "name": "Breackpoint=Desktop",
+          "classes": [
+            "breadcrumble-example"
+          ],
+          "breakpoint": null,
+          "w": 1440,
+          "h": 40,
+          "texts": [
+            "Home",
+            "Breadcrumb label",
+            "Breadcrumb label"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12410-12885@1x.png"
+        },
+        {
+          "set": "Breadcrumble example",
+          "setId": "12410:12887",
+          "setClass": "breadcrumble-example",
+          "id": "12410:12908",
+          "name": "Breackpoint=Tablet",
+          "classes": [
+            "breadcrumble-example"
+          ],
+          "breakpoint": null,
+          "w": 768,
+          "h": 40,
+          "texts": [
+            "Home",
+            "Breadcrumb label",
+            "Breadcrumb label"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12410-12908@1x.png"
+        },
+        {
+          "set": "Breadcrumble example",
+          "setId": "12410:12887",
+          "setClass": "breadcrumble-example",
+          "id": "12410:12886",
+          "name": "Breackpoint=Mobile",
+          "classes": [
+            "breadcrumble-example"
+          ],
+          "breakpoint": null,
+          "w": 375,
+          "h": 32,
+          "texts": [
+            "Home",
+            "Breadcrumb label",
+            "Breadcrumb label"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12410-12886@1x.png"
+        }
+      ]
+    },
+    "carousel": {
+      "module": "M5",
+      "used": false,
+      "variants": [
+        {
+          "set": "Carousel",
+          "setId": "12473:16100",
+          "setClass": null,
+          "id": "12473:16099",
+          "name": "Breakpoint=Desktop",
+          "classes": [],
+          "breakpoint": "desktop",
+          "w": 1440,
+          "h": 436,
+          "texts": [
+            "The most inspiring heading",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Primary action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12473-16099@1x.frame.png"
+        },
+        {
+          "set": "Carousel",
+          "setId": "12473:16100",
+          "setClass": null,
+          "id": "12473:16101",
+          "name": "Breakpoint=Tablet",
+          "classes": [],
+          "breakpoint": "tablet",
+          "w": 768,
+          "h": 312,
+          "texts": [
+            "The most inspiring heading",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Primary action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12473-16101@1x.frame.png"
+        },
+        {
+          "set": "Carousel",
+          "setId": "12473:16100",
+          "setClass": null,
+          "id": "12473:16145",
+          "name": "Breakpoint=Mobile",
+          "classes": [],
+          "breakpoint": "mobile",
+          "w": 375,
+          "h": 524,
+          "texts": [
+            "The most inspiring heading",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Primary action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12473-16145@1x.frame.png"
+        }
+      ]
+    },
+    "checkbox-radio": {
+      "module": "M6",
+      "used": true,
+      "variants": [
+        {
+          "set": "Checkbox Input",
+          "setId": "12265:6347",
+          "setClass": "checkbox-input",
+          "id": "12265:6346",
+          "name": "Type=Checkbox, Status=Default",
+          "classes": [
+            "checkbox-input",
+            "checkbox"
+          ],
+          "breakpoint": null,
+          "w": 20,
+          "h": 20,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12265-6346@1x.png"
+        },
+        {
+          "set": "Checkbox Input",
+          "setId": "12265:6347",
+          "setClass": "checkbox-input",
+          "id": "12265:6366",
+          "name": "Type=Radio, Status=Default",
+          "classes": [
+            "checkbox-input",
+            "radio"
+          ],
+          "breakpoint": null,
+          "w": 20,
+          "h": 20,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12265-6366@1x.png"
+        },
+        {
+          "set": "Checkbox Input",
+          "setId": "12265:6347",
+          "setClass": "checkbox-input",
+          "id": "12265:6367",
+          "name": "Type=Radio, Status=Active",
+          "classes": [
+            "checkbox-input",
+            "radio",
+            "active"
+          ],
+          "breakpoint": null,
+          "w": 20,
+          "h": 20,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12265-6367@1x.png"
+        },
+        {
+          "set": "Checkbox Input",
+          "setId": "12265:6347",
+          "setClass": "checkbox-input",
+          "id": "12265:6348",
+          "name": "Type=Checkbox, Status=Active",
+          "classes": [
+            "checkbox-input",
+            "checkbox",
+            "active"
+          ],
+          "breakpoint": null,
+          "w": 20,
+          "h": 20,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12265-6348@1x.png"
+        },
+        {
+          "set": "Checkbox Form",
+          "setId": "12274:6373",
+          "setClass": "checkbox-form",
+          "id": "12274:6372",
+          "name": "Type=Default, Status=Initial",
+          "classes": [
+            "checkbox-form",
+            "initial"
+          ],
+          "breakpoint": null,
+          "w": 142,
+          "h": 24,
+          "texts": [
+            "Remember me"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12274-6372@1x.png"
+        },
+        {
+          "set": "Checkbox Form",
+          "setId": "12274:6373",
+          "setClass": "checkbox-form",
+          "id": "12274:6379",
+          "name": "Type=With Helper, Status=Initial",
+          "classes": [
+            "checkbox-form",
+            "with-helper",
+            "initial"
+          ],
+          "breakpoint": null,
+          "w": 316,
+          "h": 48,
+          "texts": [
+            "Remember me",
+            "Save my credentials for easier sign-in"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12274-6379@1x.png"
+        },
+        {
+          "set": "Checkbox Form",
+          "setId": "12274:6373",
+          "setClass": "checkbox-form",
+          "id": "12277:6411",
+          "name": "Type=With Helper, Status=Checked",
+          "classes": [
+            "checkbox-form",
+            "with-helper",
+            "checked"
+          ],
+          "breakpoint": null,
+          "w": 316,
+          "h": 48,
+          "texts": [
+            "Remember me",
+            "Save my credentials for easier sign-in"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12277-6411@1x.png"
+        },
+        {
+          "set": "Checkbox Form",
+          "setId": "12274:6373",
+          "setClass": "checkbox-form",
+          "id": "12274:6374",
+          "name": "Type=Default, Status=Checked",
+          "classes": [
+            "checkbox-form",
+            "checked"
+          ],
+          "breakpoint": null,
+          "w": 142,
+          "h": 24,
+          "texts": [
+            "Remember me"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12274-6374@1x.png"
+        }
+      ]
+    },
+    "chips": {
+      "module": "M7",
+      "used": false,
+      "variants": [
+        {
+          "set": "Chips",
+          "setId": "12334:9625",
+          "setClass": null,
+          "id": "12334:9624",
+          "name": "Size=Small, State=Dark",
+          "classes": [
+            "small",
+            "dark"
+          ],
+          "breakpoint": null,
+          "w": 97,
+          "h": 20,
+          "texts": [
+            "Chip label"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12334-9624@1x.png"
+        },
+        {
+          "set": "Chips",
+          "setId": "12334:9625",
+          "setClass": null,
+          "id": "12334:9692",
+          "name": "Size=Large, State=Dark",
+          "classes": [
+            "large",
+            "dark"
+          ],
+          "breakpoint": null,
+          "w": 139,
+          "h": 28,
+          "texts": [
+            "Chip label"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12334-9692@1x.png"
+        },
+        {
+          "set": "Chips",
+          "setId": "12334:9625",
+          "setClass": null,
+          "id": "12334:9626",
+          "name": "Size=Small, State=Light",
+          "classes": [
+            "small",
+            "light"
+          ],
+          "breakpoint": null,
+          "w": 97,
+          "h": 20,
+          "texts": [
+            "Chip label"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12334-9626@1x.png"
+        },
+        {
+          "set": "Chips",
+          "setId": "12334:9625",
+          "setClass": null,
+          "id": "12334:9696",
+          "name": "Size=Large, State=Light",
+          "classes": [
+            "large",
+            "light"
+          ],
+          "breakpoint": null,
+          "w": 139,
+          "h": 28,
+          "texts": [
+            "Chip label"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12334-9696@1x.png"
+        },
+        {
+          "set": "Chips",
+          "setId": "12334:9625",
+          "setClass": null,
+          "id": "12334:9664",
+          "name": "Size=Small, State=Active",
+          "classes": [
+            "small",
+            "active"
+          ],
+          "breakpoint": null,
+          "w": 97,
+          "h": 20,
+          "texts": [
+            "Chip label"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12334-9664@1x.png"
+        },
+        {
+          "set": "Chips",
+          "setId": "12334:9625",
+          "setClass": null,
+          "id": "12334:9700",
+          "name": "Size=Large, State=Active",
+          "classes": [
+            "large",
+            "active"
+          ],
+          "breakpoint": null,
+          "w": 139,
+          "h": 28,
+          "texts": [
+            "Chip label"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12334-9700@1x.png"
+        }
+      ]
+    },
+    "dropdown": {
+      "module": "M8",
+      "used": false,
+      "variants": [
+        {
+          "set": "Dropdown",
+          "setId": "12277:7181",
+          "setClass": null,
+          "id": "12277:7180",
+          "name": "Type=Default, State=Expanded",
+          "classes": [
+            "expanded"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 86,
+          "texts": [
+            "Select Category",
+            "Placeholder text",
+            "First Action",
+            "Second Action",
+            "Third Action",
+            "Forth Action",
+            "Fifth Action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12277-7180@1x.png"
+        },
+        {
+          "set": "Dropdown",
+          "setId": "12277:7181",
+          "setClass": null,
+          "id": "12277:7433",
+          "name": "Type=Default, State=Default",
+          "classes": [],
+          "breakpoint": null,
+          "w": 384,
+          "h": 86,
+          "texts": [
+            "Select Category",
+            "Placeholder text",
+            "First Action",
+            "Second Action",
+            "Third Action",
+            "Forth Action",
+            "Fifth Action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12277-7433@1x.png"
+        },
+        {
+          "set": "Dropdown",
+          "setId": "12277:7181",
+          "setClass": null,
+          "id": "12277:7182",
+          "name": "Type=Icon, State=Expanded",
+          "classes": [
+            "icon",
+            "expanded"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 86,
+          "texts": [
+            "Select Category",
+            "Placeholder text",
+            "First Action",
+            "Second Action",
+            "Third Action",
+            "Forth Action",
+            "Fifth Action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12277-7182@1x.png"
+        },
+        {
+          "set": "Dropdown",
+          "setId": "12277:7181",
+          "setClass": null,
+          "id": "12277:7441",
+          "name": "Type=Icon, State=Default",
+          "classes": [
+            "icon"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 86,
+          "texts": [
+            "Select Category",
+            "Placeholder text",
+            "First Action",
+            "Second Action",
+            "Third Action",
+            "Forth Action",
+            "Fifth Action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12277-7441@1x.png"
+        },
+        {
+          "set": "Dropdown",
+          "setId": "12277:7181",
+          "setClass": null,
+          "id": "12277:7231",
+          "name": "Type=Secondary Text, State=Expanded",
+          "classes": [
+            "secondary-text",
+            "expanded"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 86,
+          "texts": [
+            "Select Category",
+            "Placeholder text",
+            "First Action",
+            "(365)",
+            "Second Action",
+            "(365)",
+            "Third Action",
+            "(365)",
+            "Forth Action",
+            "(365)",
+            "Fifth Action",
+            "(365)"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12277-7231@1x.png"
+        },
+        {
+          "set": "Dropdown",
+          "setId": "12277:7181",
+          "setClass": null,
+          "id": "12277:7449",
+          "name": "Type=Secondary Text, State=Default",
+          "classes": [
+            "secondary-text"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 86,
+          "texts": [
+            "Select Category",
+            "Placeholder text",
+            "First Action",
+            "(365)",
+            "Second Action",
+            "(365)",
+            "Third Action",
+            "(365)",
+            "Forth Action",
+            "(365)",
+            "Fifth Action",
+            "(365)"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12277-7449@1x.png"
+        },
+        {
+          "set": "Dropdown",
+          "setId": "12277:7181",
+          "setClass": null,
+          "id": "12277:7300",
+          "name": "Type=With Arrow, State=Expanded",
+          "classes": [
+            "with-arrow",
+            "expanded"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 86,
+          "texts": [
+            "Select Category",
+            "Placeholder text",
+            "First Action",
+            "Second Action",
+            "Third Action",
+            "Forth Action",
+            "Fifth Action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12277-7300@1x.png"
+        },
+        {
+          "set": "Dropdown",
+          "setId": "12277:7181",
+          "setClass": null,
+          "id": "12277:7457",
+          "name": "Type=With Arrow, State=Default",
+          "classes": [
+            "with-arrow"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 86,
+          "texts": [
+            "Select Category",
+            "Placeholder text",
+            "First Action",
+            "Second Action",
+            "Third Action",
+            "Forth Action",
+            "Fifth Action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12277-7457@1x.png"
+        },
+        {
+          "set": "Dropdown",
+          "setId": "12277:7181",
+          "setClass": null,
+          "id": "12277:7369",
+          "name": "Type=Form, State=Expanded",
+          "classes": [
+            "form",
+            "expanded"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 86,
+          "texts": [
+            "Select Category",
+            "Placeholder text",
+            "First Action",
+            "(365)",
+            "Second Action",
+            "(365)",
+            "Third Action",
+            "(365)",
+            "Forth Action",
+            "(365)",
+            "Fifth Action",
+            "(365)"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12277-7369@1x.png"
+        },
+        {
+          "set": "Dropdown",
+          "setId": "12277:7181",
+          "setClass": null,
+          "id": "12277:7465",
+          "name": "Type=Form, State=Default",
+          "classes": [
+            "form"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 86,
+          "texts": [
+            "Select Category",
+            "Placeholder text",
+            "First Action",
+            "(365)",
+            "Second Action",
+            "(365)",
+            "Third Action",
+            "(365)",
+            "Forth Action",
+            "(365)",
+            "Fifth Action",
+            "(365)"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12277-7465@1x.png"
+        }
+      ]
+    },
+    "input": {
+      "module": "M9",
+      "used": true,
+      "variants": [
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "12168:4336",
+          "name": "Type=Password, State=Read-only",
+          "classes": [
+            "password",
+            "read-only"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 102,
+          "texts": [
+            "Password",
+            "*",
+            "Right side link",
+            "*************",
+            "Supportive text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12168-4336@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "13402:7399",
+          "name": "Type=Password, State=Non-Editable Vertical",
+          "classes": [
+            "password",
+            "non-editable-vertical"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 82,
+          "texts": [
+            "Password",
+            "Right side link",
+            "****************"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13402-7399@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "13402:8990",
+          "name": "Type=Password, State=Non-Editable Horizontal",
+          "classes": [
+            "password",
+            "non-editable-horizontal"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 50,
+          "texts": [
+            "Password",
+            "****************",
+            "Right side link"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13402-8990@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "12168:4315",
+          "name": "Type=Simple, State=Read-only",
+          "classes": [
+            "simple",
+            "read-only"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 102,
+          "texts": [
+            "Simple label",
+            "*",
+            "Input",
+            "Supportive text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12168-4315@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "13402:7420",
+          "name": "Type=Simple, State=Non-Editable Vertical",
+          "classes": [
+            "simple",
+            "non-editable-vertical"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 82,
+          "texts": [
+            "Simple label",
+            "Input"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13402-7420@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "13402:9005",
+          "name": "Type=Simple, State=Non-Editable Horizontal",
+          "classes": [
+            "simple",
+            "non-editable-horizontal"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 24,
+          "texts": [
+            "Simple label",
+            "Input"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13402-9005@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "12168:4294",
+          "name": "Type=Amount, State=Read-only",
+          "classes": [
+            "amount",
+            "read-only"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 102,
+          "texts": [
+            "Amount",
+            "*",
+            "Input",
+            "kg",
+            "Supportive text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12168-4294@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "13402:7441",
+          "name": "Type=Amount, State=Non-Editable Vertical",
+          "classes": [
+            "amount",
+            "non-editable-vertical"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 82,
+          "texts": [
+            "Amount",
+            "Input"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13402-7441@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "13402:9020",
+          "name": "Type=Amount, State=Non-Editable Horizontal",
+          "classes": [
+            "amount",
+            "non-editable-horizontal"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 24,
+          "texts": [
+            "Amount",
+            "Input"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13402-9020@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "12168:4273",
+          "name": "Type=Default, State=Read-only",
+          "classes": [
+            "read-only"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 102,
+          "texts": [
+            "Input label",
+            "*",
+            "Input",
+            "Supportive text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12168-4273@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "13402:7462",
+          "name": "Type=Default, State=Non-Editable Vertical",
+          "classes": [
+            "non-editable-vertical"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 82,
+          "texts": [
+            "Input label",
+            "Input"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13402-7462@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "13402:9035",
+          "name": "Type=Default, State=Non-Editable Horizontal",
+          "classes": [
+            "non-editable-horizontal"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 24,
+          "texts": [
+            "Input label",
+            "Input"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13402-9035@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "12168:4243",
+          "name": "Type=Password, State=Disabled",
+          "classes": [
+            "password",
+            "disabled"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 102,
+          "texts": [
+            "Password",
+            "*",
+            "Right side link",
+            "*************",
+            "Supportive text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12168-4243@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "12168:4222",
+          "name": "Type=Simple, State=Disabled",
+          "classes": [
+            "simple",
+            "disabled"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 102,
+          "texts": [
+            "Simple label",
+            "*",
+            "Input",
+            "Supportive text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12168-4222@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "12168:4201",
+          "name": "Type=Amount, State=Disabled",
+          "classes": [
+            "amount",
+            "disabled"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 102,
+          "texts": [
+            "Amount",
+            "*",
+            "Input",
+            "kg",
+            "Supportive text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12168-4201@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "12168:4180",
+          "name": "Type=Default, State=Disabled",
+          "classes": [
+            "disabled"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 102,
+          "texts": [
+            "Input label",
+            "*",
+            "Input",
+            "Supportive text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12168-4180@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "12168:4126",
+          "name": "Type=Password, State=Active",
+          "classes": [
+            "password",
+            "active"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 102,
+          "texts": [
+            "Password",
+            "*",
+            "Right side link",
+            "*************",
+            "Supportive text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12168-4126@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "12168:4105",
+          "name": "Type=Simple, State=Active",
+          "classes": [
+            "simple",
+            "active"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 102,
+          "texts": [
+            "Simple label",
+            "*",
+            "Input",
+            "Supportive text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12168-4105@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "12168:4084",
+          "name": "Type=Amount, State=Active",
+          "classes": [
+            "amount",
+            "active"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 102,
+          "texts": [
+            "Amount",
+            "*",
+            "Input",
+            "kg",
+            "Supportive text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12168-4084@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "12168:4063",
+          "name": "Type=Default, State=Active",
+          "classes": [
+            "active"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 102,
+          "texts": [
+            "Input label",
+            "*",
+            "Input",
+            "Supportive text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12168-4063@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "12168:3942",
+          "name": "Type=Password, State=Focus/Typing",
+          "classes": [
+            "password",
+            "focus-typing"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 102,
+          "texts": [
+            "Password",
+            "*",
+            "Right side link",
+            "*****",
+            "Supportive text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12168-3942@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "12168:3921",
+          "name": "Type=Simple, State=Focus/Typing",
+          "classes": [
+            "simple",
+            "focus-typing"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 102,
+          "texts": [
+            "Simple label",
+            "*",
+            "Input",
+            "Supportive text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12168-3921@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "12168:3900",
+          "name": "Type=Amount, State=Focus/Typing",
+          "classes": [
+            "amount",
+            "focus-typing"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 102,
+          "texts": [
+            "Amount",
+            "*",
+            "Input",
+            "kg",
+            "Supportive text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12168-3900@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "12168:3879",
+          "name": "Type=Default, State=Focus/Typing",
+          "classes": [
+            "focus-typing"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 102,
+          "texts": [
+            "Input label",
+            "*",
+            "Input",
+            "Supportive text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12168-3879@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "12168:3695",
+          "name": "Type=Password, State=Hovered",
+          "classes": [
+            "password",
+            "hovered"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 102,
+          "texts": [
+            "Password",
+            "*",
+            "Right side link",
+            "*************",
+            "Supportive text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12168-3695@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "12168:3716",
+          "name": "Type=Simple, State=Hovered",
+          "classes": [
+            "simple",
+            "hovered"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 102,
+          "texts": [
+            "Simple label",
+            "*",
+            "Placeholder text",
+            "Supportive text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12168-3716@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "12168:3737",
+          "name": "Type=Amount, State=Hovered",
+          "classes": [
+            "amount",
+            "hovered"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 102,
+          "texts": [
+            "Amount",
+            "*",
+            "Placeholder text",
+            "kg",
+            "Supportive text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12168-3737@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "12168:3758",
+          "name": "Type=Default, State=Hovered",
+          "classes": [
+            "hovered"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 102,
+          "texts": [
+            "Input label",
+            "*",
+            "Placeholder text",
+            "Supportive text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12168-3758@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "12160:3647",
+          "name": "Type=Password, State=Default",
+          "classes": [
+            "password"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 102,
+          "texts": [
+            "Password",
+            "*",
+            "Right side link",
+            "*************",
+            "Supportive text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12160-3647@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "12160:3602",
+          "name": "Type=Simple, State=Default",
+          "classes": [
+            "simple"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 102,
+          "texts": [
+            "Simple label",
+            "*",
+            "Placeholder text",
+            "Supportive text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12160-3602@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "12160:3532",
+          "name": "Type=Amount, State=Default",
+          "classes": [
+            "amount"
+          ],
+          "breakpoint": null,
+          "w": 384,
+          "h": 102,
+          "texts": [
+            "Amount",
+            "*",
+            "Placeholder text",
+            "kg",
+            "Supportive text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12160-3532@1x.png"
+        },
+        {
+          "set": "Input Field",
+          "setId": "12160:3287",
+          "setClass": null,
+          "id": "12128:3261",
+          "name": "Type=Default, State=Default",
+          "classes": [],
+          "breakpoint": null,
+          "w": 384,
+          "h": 102,
+          "texts": [
+            "Input label",
+            "*",
+            "Placeholder text",
+            "Supportive text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12128-3261@1x.png"
+        }
+      ]
+    },
+    "links": {
+      "module": "M10",
+      "used": false,
+      "variants": [
+        {
+          "set": "Links",
+          "setId": "12929:23477",
+          "setClass": null,
+          "id": "12928:23476",
+          "name": "Breakpoint=Desktop, Style=Horizontal",
+          "classes": [
+            "horizontal"
+          ],
+          "breakpoint": "desktop",
+          "w": 1180,
+          "h": 32,
+          "texts": [
+            "In-Page Nav item",
+            "—",
+            "In-Page Nav item",
+            "—",
+            "In-Page Nav item",
+            "In-Page Nav item",
+            "—",
+            "In-Page Nav item",
+            "—",
+            "In-Page Nav item",
+            "In-Page Nav item",
+            "In-Page Nav item",
+            "In-Page Nav item"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12928-23476@1x.frame.png"
+        },
+        {
+          "set": "Links",
+          "setId": "12929:23477",
+          "setClass": null,
+          "id": "12929:23547",
+          "name": "Breakpoint=Tablet, Style=Horizontal",
+          "classes": [
+            "horizontal"
+          ],
+          "breakpoint": "tablet",
+          "w": 768,
+          "h": 32,
+          "texts": [
+            "In-Page Nav item",
+            "—",
+            "In-Page Nav item",
+            "—",
+            "In-Page Nav item",
+            "In-Page Nav item",
+            "—",
+            "In-Page Nav item",
+            "—",
+            "In-Page Nav item",
+            "In-Page Nav item",
+            "In-Page Nav item",
+            "In-Page Nav item"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12929-23547@1x.frame.png"
+        },
+        {
+          "set": "Links",
+          "setId": "12929:23477",
+          "setClass": null,
+          "id": "12929:23478",
+          "name": "Breakpoint=Desktop, Style=Vertical",
+          "classes": [
+            "vertical"
+          ],
+          "breakpoint": "desktop",
+          "w": 1180,
+          "h": 320,
+          "texts": [
+            "In-Page Nav item",
+            "—",
+            "In-Page Nav item",
+            "—",
+            "In-Page Nav item",
+            "In-Page Nav item",
+            "—",
+            "In-Page Nav item",
+            "—",
+            "In-Page Nav item",
+            "In-Page Nav item",
+            "In-Page Nav item",
+            "In-Page Nav item",
+            "In-Page Nav item"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12929-23478@1x.frame.png"
+        },
+        {
+          "set": "Links",
+          "setId": "12929:23477",
+          "setClass": null,
+          "id": "12929:23557",
+          "name": "Breakpoint=Tablet, Style=Vertical",
+          "classes": [
+            "vertical"
+          ],
+          "breakpoint": "tablet",
+          "w": 768,
+          "h": 320,
+          "texts": [
+            "In-Page Nav item",
+            "—",
+            "In-Page Nav item",
+            "—",
+            "In-Page Nav item",
+            "In-Page Nav item",
+            "—",
+            "In-Page Nav item",
+            "—",
+            "In-Page Nav item",
+            "In-Page Nav item",
+            "In-Page Nav item",
+            "In-Page Nav item",
+            "In-Page Nav item"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12929-23557@1x.frame.png"
+        },
+        {
+          "set": "Links",
+          "setId": "12929:23477",
+          "setClass": null,
+          "id": "12929:23851",
+          "name": "Breakpoint=Mobile, Style=Vertical",
+          "classes": [
+            "vertical"
+          ],
+          "breakpoint": "mobile",
+          "w": 375,
+          "h": 320,
+          "texts": [
+            "In-Page Nav item",
+            "—",
+            "In-Page Nav item",
+            "—",
+            "In-Page Nav item",
+            "In-Page Nav item",
+            "—",
+            "In-Page Nav item",
+            "—",
+            "In-Page Nav item",
+            "In-Page Nav item",
+            "In-Page Nav item",
+            "In-Page Nav item",
+            "In-Page Nav item"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12929-23851@1x.frame.png"
+        }
+      ]
+    },
+    "modal": {
+      "module": "M11",
+      "used": true,
+      "variants": [
+        {
+          "set": "Modal",
+          "setId": "12467:15529",
+          "setClass": null,
+          "id": "12467:15525",
+          "name": "Type=Slot component, Alignment=Horizontal",
+          "classes": [
+            "slot-component",
+            "horizontal"
+          ],
+          "breakpoint": null,
+          "w": 568,
+          "h": 436,
+          "texts": [
+            "A short modal heading",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Primary Action",
+            "Secondary Action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12467-15525@1x.png"
+        },
+        {
+          "set": "Modal",
+          "setId": "12467:15529",
+          "setClass": null,
+          "id": "12467:15523",
+          "name": "Type=Text Only, Alignment=Horizontal",
+          "classes": [
+            "text-only",
+            "horizontal"
+          ],
+          "breakpoint": null,
+          "w": 568,
+          "h": 242,
+          "texts": [
+            "A short modal heading",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Primary Action",
+            "Secondary Action",
+            "Tertiary Action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12467-15523@1x.png"
+        },
+        {
+          "set": "Modal",
+          "setId": "12467:15529",
+          "setClass": null,
+          "id": "12467:15526",
+          "name": "Type=Slot component, Alignment=Vertical",
+          "classes": [
+            "slot-component",
+            "vertical"
+          ],
+          "breakpoint": null,
+          "w": 380,
+          "h": 602,
+          "texts": [
+            "A short modal heading",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Primary Action",
+            "Secondary Action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12467-15526@1x.png"
+        },
+        {
+          "set": "Modal",
+          "setId": "12467:15529",
+          "setClass": null,
+          "id": "12467:15524",
+          "name": "Type=Text Only, Alignment=Vertical",
+          "classes": [
+            "text-only",
+            "vertical"
+          ],
+          "breakpoint": null,
+          "w": 380,
+          "h": 352,
+          "texts": [
+            "A short modal heading",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Primary Action",
+            "Secondary Action",
+            "Tertiary Action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12467-15524@1x.png"
+        },
+        {
+          "set": "Modal",
+          "setId": "12467:15529",
+          "setClass": null,
+          "id": "12467:15527",
+          "name": "Type=Image, Alignment=Horizontal",
+          "classes": [
+            "image",
+            "horizontal"
+          ],
+          "breakpoint": null,
+          "w": 568,
+          "h": 296,
+          "texts": [
+            "A short modal heading",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Action",
+            "Action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12467-15527@1x.png"
+        },
+        {
+          "set": "Modal",
+          "setId": "12467:15529",
+          "setClass": null,
+          "id": "12467:15528",
+          "name": "Type=Image, Alignment=Vertical",
+          "classes": [
+            "image",
+            "vertical"
+          ],
+          "breakpoint": null,
+          "w": 380,
+          "h": 536,
+          "texts": [
+            "A short modal heading",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Action",
+            "Action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12467-15528@1x.png"
+        }
+      ]
+    },
+    "pagination": {
+      "module": "M12",
+      "used": false,
+      "variants": [
+        {
+          "set": "Pagination / Base",
+          "setId": "12328:9443",
+          "setClass": "base",
+          "id": "12328:9438",
+          "name": "Type=Page Number, State=Default",
+          "classes": [
+            "base",
+            "page-number"
+          ],
+          "breakpoint": null,
+          "w": 40,
+          "h": 40,
+          "texts": [
+            "00"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12328-9438@1x.png"
+        },
+        {
+          "set": "Pagination / Base",
+          "setId": "12328:9443",
+          "setClass": "base",
+          "id": "12328:9460",
+          "name": "Type=Page Number, State=Hover",
+          "classes": [
+            "base",
+            "page-number",
+            "hover"
+          ],
+          "breakpoint": null,
+          "w": 40,
+          "h": 40,
+          "texts": [
+            "00"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12328-9460@1x.png"
+        },
+        {
+          "set": "Pagination / Base",
+          "setId": "12328:9443",
+          "setClass": "base",
+          "id": "12328:9492",
+          "name": "Type=Page Number, State=Active",
+          "classes": [
+            "base",
+            "page-number",
+            "active"
+          ],
+          "breakpoint": null,
+          "w": 40,
+          "h": 40,
+          "texts": [
+            "00"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12328-9492@1x.png"
+        },
+        {
+          "set": "Pagination / Base",
+          "setId": "12328:9443",
+          "setClass": "base",
+          "id": "12328:9538",
+          "name": "Type=Page Number, State=Disabled",
+          "classes": [
+            "base",
+            "page-number",
+            "disabled"
+          ],
+          "breakpoint": null,
+          "w": 40,
+          "h": 40,
+          "texts": [
+            "00"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12328-9538@1x.png"
+        },
+        {
+          "set": "Pagination / Base",
+          "setId": "12328:9443",
+          "setClass": "base",
+          "id": "12328:9439",
+          "name": "Type=Left Icon, State=Default",
+          "classes": [
+            "base",
+            "left-icon"
+          ],
+          "breakpoint": null,
+          "w": 40,
+          "h": 40,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12328-9439@1x.png"
+        },
+        {
+          "set": "Pagination / Base",
+          "setId": "12328:9443",
+          "setClass": "base",
+          "id": "12328:9462",
+          "name": "Type=Left Icon, State=Hover",
+          "classes": [
+            "base",
+            "left-icon",
+            "hover"
+          ],
+          "breakpoint": null,
+          "w": 40,
+          "h": 40,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12328-9462@1x.png"
+        },
+        {
+          "set": "Pagination / Base",
+          "setId": "12328:9443",
+          "setClass": "base",
+          "id": "12328:9494",
+          "name": "Type=Left Icon, State=Active",
+          "classes": [
+            "base",
+            "left-icon",
+            "active"
+          ],
+          "breakpoint": null,
+          "w": 40,
+          "h": 40,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12328-9494@1x.png"
+        },
+        {
+          "set": "Pagination / Base",
+          "setId": "12328:9443",
+          "setClass": "base",
+          "id": "12328:9540",
+          "name": "Type=Left Icon, State=Disabled",
+          "classes": [
+            "base",
+            "left-icon",
+            "disabled"
+          ],
+          "breakpoint": null,
+          "w": 40,
+          "h": 40,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12328-9540@1x.png"
+        },
+        {
+          "set": "Pagination / Base",
+          "setId": "12328:9443",
+          "setClass": "base",
+          "id": "12328:9441",
+          "name": "Type=Previous Icon + Text, State=Default",
+          "classes": [
+            "base",
+            "previous-icon-text"
+          ],
+          "breakpoint": null,
+          "w": 107,
+          "h": 40,
+          "texts": [
+            "Previous"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12328-9441@1x.png"
+        },
+        {
+          "set": "Pagination / Base",
+          "setId": "12328:9443",
+          "setClass": "base",
+          "id": "12328:9464",
+          "name": "Type=Previous Icon + Text, State=Hover",
+          "classes": [
+            "base",
+            "previous-icon-text",
+            "hover"
+          ],
+          "breakpoint": null,
+          "w": 107,
+          "h": 40,
+          "texts": [
+            "Previous"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12328-9464@1x.png"
+        },
+        {
+          "set": "Pagination / Base",
+          "setId": "12328:9443",
+          "setClass": "base",
+          "id": "12328:9496",
+          "name": "Type=Previous Icon + Text, State=Active",
+          "classes": [
+            "base",
+            "previous-icon-text",
+            "active"
+          ],
+          "breakpoint": null,
+          "w": 107,
+          "h": 40,
+          "texts": [
+            "Previous"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12328-9496@1x.png"
+        },
+        {
+          "set": "Pagination / Base",
+          "setId": "12328:9443",
+          "setClass": "base",
+          "id": "12328:9542",
+          "name": "Type=Previous Icon + Text, State=Disabled",
+          "classes": [
+            "base",
+            "previous-icon-text",
+            "disabled"
+          ],
+          "breakpoint": null,
+          "w": 107,
+          "h": 40,
+          "texts": [
+            "Previous"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12328-9542@1x.png"
+        },
+        {
+          "set": "Pagination / Base",
+          "setId": "12328:9443",
+          "setClass": "base",
+          "id": "12328:9442",
+          "name": "Type=Next Icon + Text, State=Default",
+          "classes": [
+            "base",
+            "next-icon-text"
+          ],
+          "breakpoint": null,
+          "w": 78,
+          "h": 40,
+          "texts": [
+            "Next"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12328-9442@1x.png"
+        },
+        {
+          "set": "Pagination / Base",
+          "setId": "12328:9443",
+          "setClass": "base",
+          "id": "12328:9467",
+          "name": "Type=Next Icon + Text, State=Hover",
+          "classes": [
+            "base",
+            "next-icon-text",
+            "hover"
+          ],
+          "breakpoint": null,
+          "w": 78,
+          "h": 40,
+          "texts": [
+            "Next"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12328-9467@1x.png"
+        },
+        {
+          "set": "Pagination / Base",
+          "setId": "12328:9443",
+          "setClass": "base",
+          "id": "12328:9499",
+          "name": "Type=Next Icon + Text, State=Active",
+          "classes": [
+            "base",
+            "next-icon-text",
+            "active"
+          ],
+          "breakpoint": null,
+          "w": 78,
+          "h": 40,
+          "texts": [
+            "Next"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12328-9499@1x.png"
+        },
+        {
+          "set": "Pagination / Base",
+          "setId": "12328:9443",
+          "setClass": "base",
+          "id": "12328:9545",
+          "name": "Type=Next Icon + Text, State=Disabled",
+          "classes": [
+            "base",
+            "next-icon-text",
+            "disabled"
+          ],
+          "breakpoint": null,
+          "w": 78,
+          "h": 40,
+          "texts": [
+            "Next"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12328-9545@1x.png"
+        },
+        {
+          "set": "Pagination / Base",
+          "setId": "12328:9443",
+          "setClass": "base",
+          "id": "12328:9440",
+          "name": "Type=Right Icon, State=Default",
+          "classes": [
+            "base",
+            "right-icon"
+          ],
+          "breakpoint": null,
+          "w": 40,
+          "h": 40,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12328-9440@1x.png"
+        },
+        {
+          "set": "Pagination / Base",
+          "setId": "12328:9443",
+          "setClass": "base",
+          "id": "12328:9470",
+          "name": "Type=Right Icon, State=Hover",
+          "classes": [
+            "base",
+            "right-icon",
+            "hover"
+          ],
+          "breakpoint": null,
+          "w": 40,
+          "h": 40,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12328-9470@1x.png"
+        },
+        {
+          "set": "Pagination / Base",
+          "setId": "12328:9443",
+          "setClass": "base",
+          "id": "12328:9502",
+          "name": "Type=Right Icon, State=Active",
+          "classes": [
+            "base",
+            "right-icon",
+            "active"
+          ],
+          "breakpoint": null,
+          "w": 40,
+          "h": 40,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12328-9502@1x.png"
+        },
+        {
+          "set": "Pagination / Base",
+          "setId": "12328:9443",
+          "setClass": "base",
+          "id": "12328:9548",
+          "name": "Type=Right Icon, State=Disabled",
+          "classes": [
+            "base",
+            "right-icon",
+            "disabled"
+          ],
+          "breakpoint": null,
+          "w": 40,
+          "h": 40,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12328-9548@1x.png"
+        },
+        {
+          "set": "Pagination / Group",
+          "setId": "12328:9613",
+          "setClass": "group",
+          "id": "12328:9611",
+          "name": "Type=Icon Only",
+          "classes": [
+            "group",
+            "icon-only"
+          ],
+          "breakpoint": null,
+          "w": 360,
+          "h": 40,
+          "texts": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "...",
+            "12"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12328-9611@1x.png"
+        },
+        {
+          "set": "Pagination / Group",
+          "setId": "12328:9613",
+          "setClass": "group",
+          "id": "12328:9612",
+          "name": "Type=Icon + Text",
+          "classes": [
+            "group",
+            "icon-text"
+          ],
+          "breakpoint": null,
+          "w": 465,
+          "h": 40,
+          "texts": [
+            "Previous",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "...",
+            "12",
+            "Next"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12328-9612@1x.png"
+        }
+      ]
+    },
+    "search-bar": {
+      "module": "M13",
+      "used": false,
+      "variants": [
+        {
+          "set": "Search bar",
+          "setId": "12686:17319",
+          "setClass": null,
+          "id": "12686:17308",
+          "name": "State=Default",
+          "classes": [],
+          "breakpoint": null,
+          "w": 928,
+          "h": 54,
+          "texts": [
+            "search by keyword..."
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12686-17308@1x.png"
+        },
+        {
+          "set": "Search bar",
+          "setId": "12686:17319",
+          "setClass": null,
+          "id": "12686:17318",
+          "name": "State=Expanded",
+          "classes": [
+            "expanded"
+          ],
+          "breakpoint": null,
+          "w": 928,
+          "h": 54,
+          "texts": [
+            "heart",
+            "heart failure",
+            "heart and lungs",
+            "heart beats",
+            "heart conditions",
+            "check heart rate",
+            "Show more"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12686-17318@1x.png"
+        }
+      ]
+    },
+    "slider": {
+      "module": "M14",
+      "used": false,
+      "variants": [
+        {
+          "set": "Range Slider thumb",
+          "setId": "12334:10073",
+          "setClass": "range-slider-thumb",
+          "id": "12334:10071",
+          "name": "State=Default",
+          "classes": [
+            "range-slider-thumb"
+          ],
+          "breakpoint": null,
+          "w": 20,
+          "h": 20,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12334-10071@1x.png"
+        },
+        {
+          "set": "Range Slider thumb",
+          "setId": "12334:10073",
+          "setClass": "range-slider-thumb",
+          "id": "12334:10072",
+          "name": "State=Active",
+          "classes": [
+            "range-slider-thumb",
+            "active"
+          ],
+          "breakpoint": null,
+          "w": 20,
+          "h": 20,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12334-10072@1x.png"
+        },
+        {
+          "set": "Slider",
+          "setId": "12334:10106",
+          "setClass": null,
+          "id": "12334:10106",
+          "name": "Slider",
+          "classes": [],
+          "breakpoint": null,
+          "w": 400,
+          "h": 40,
+          "texts": [
+            "0",
+            "100"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12334-10106@1x.png"
+        }
+      ]
+    },
+    "stepper": {
+      "module": "M15",
+      "used": false,
+      "variants": [
+        {
+          "set": "Stepper",
+          "setId": "13121:3064",
+          "setClass": null,
+          "id": "13121:3063",
+          "name": "Step=Step 1",
+          "classes": [
+            "step-1"
+          ],
+          "breakpoint": null,
+          "w": 515,
+          "h": 24,
+          "texts": [
+            "1/3"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13121-3063@1x.png"
+        },
+        {
+          "set": "Stepper",
+          "setId": "13121:3064",
+          "setClass": null,
+          "id": "13121:3065",
+          "name": "Step=Step 2",
+          "classes": [
+            "step-2"
+          ],
+          "breakpoint": null,
+          "w": 515,
+          "h": 24,
+          "texts": [
+            "2/3"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13121-3065@1x.png"
+        },
+        {
+          "set": "Stepper",
+          "setId": "13121:3064",
+          "setClass": null,
+          "id": "13121:3072",
+          "name": "Step=Step 3",
+          "classes": [
+            "step-3"
+          ],
+          "breakpoint": null,
+          "w": 515,
+          "h": 24,
+          "texts": [
+            "3/3"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13121-3072@1x.png"
+        }
+      ]
+    },
+    "tab-nav": {
+      "module": "M16",
+      "used": false,
+      "variants": [
+        {
+          "set": "Tab Nav",
+          "setId": "12914:23169",
+          "setClass": null,
+          "id": "12914:22783",
+          "name": "Breakpoint=Desktop",
+          "classes": [],
+          "breakpoint": "desktop",
+          "w": 1440,
+          "h": 44,
+          "texts": [
+            "Tab navigation",
+            "Tab navigation",
+            "Tab navigation",
+            "Tab navigation",
+            "Tab navigation",
+            "Tab navigation",
+            "Tab navigation"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12914-22783@1x.frame.png"
+        },
+        {
+          "set": "Tab Nav",
+          "setId": "12914:23169",
+          "setClass": null,
+          "id": "12914:23170",
+          "name": "Breakpoint=Tablet",
+          "classes": [],
+          "breakpoint": "tablet",
+          "w": 768,
+          "h": 44,
+          "texts": [
+            "Tab navigation",
+            "Tab navigation",
+            "Tab navigation",
+            "Tab navigation",
+            "Tab navigation",
+            "Tab navigation",
+            "Tab navigation"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12914-23170@1x.frame.png"
+        },
+        {
+          "set": "Tab Nav",
+          "setId": "12914:23169",
+          "setClass": null,
+          "id": "12914:23208",
+          "name": "Breakpoint=Mobile",
+          "classes": [],
+          "breakpoint": "mobile",
+          "w": 375,
+          "h": 44,
+          "texts": [
+            "Tab navigation"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12914-23208@1x.frame.png"
+        }
+      ]
+    },
+    "tabs": {
+      "module": "M17",
+      "used": false,
+      "variants": [
+        {
+          "set": "Tabs Group",
+          "setId": "12305:8988",
+          "setClass": null,
+          "id": "12305:8986",
+          "name": "Type=Default, Size=Large",
+          "classes": [
+            "large"
+          ],
+          "breakpoint": null,
+          "w": 600,
+          "h": 52,
+          "texts": [
+            "Label text",
+            "Label text",
+            "Label text",
+            "Label text",
+            "Label text",
+            "Label text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12305-8986@1x.png"
+        },
+        {
+          "set": "Tabs Group",
+          "setId": "12305:8988",
+          "setClass": null,
+          "id": "12305:9043",
+          "name": "Type=Compact, Size=Large",
+          "classes": [
+            "compact",
+            "large"
+          ],
+          "breakpoint": null,
+          "w": 343,
+          "h": 52,
+          "texts": [
+            "Label text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12305-9043@1x.png"
+        },
+        {
+          "set": "Tabs Group",
+          "setId": "12305:8988",
+          "setClass": null,
+          "id": "12305:8987",
+          "name": "Type=Default, Size=Medium",
+          "classes": [
+            "medium"
+          ],
+          "breakpoint": null,
+          "w": 600,
+          "h": 28,
+          "texts": [
+            "Label text",
+            "Label text",
+            "Label text",
+            "Label text",
+            "Label text",
+            "Label text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12305-8987@1x.png"
+        },
+        {
+          "set": "Tabs Group",
+          "setId": "12305:8988",
+          "setClass": null,
+          "id": "12305:9052",
+          "name": "Type=Compact, Size=Medium",
+          "classes": [
+            "compact",
+            "medium"
+          ],
+          "breakpoint": null,
+          "w": 343,
+          "h": 28,
+          "texts": [
+            "Label text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12305-9052@1x.png"
+        }
+      ]
+    },
+    "tables": {
+      "module": "M18",
+      "used": false,
+      "variants": [
+        {
+          "set": "Table / Cell",
+          "setId": "12607:4086",
+          "setClass": null,
+          "id": "12607:4085",
+          "name": "Type=Icon, Position=Header",
+          "classes": [
+            "icon",
+            "header"
+          ],
+          "breakpoint": null,
+          "w": 166,
+          "h": 48,
+          "texts": [
+            "Label text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12607-4085@1x.png"
+        },
+        {
+          "set": "Table / Cell",
+          "setId": "12607:4086",
+          "setClass": null,
+          "id": "12607:4188",
+          "name": "Type=Icon, Position=Cell Light",
+          "classes": [
+            "icon",
+            "cell-light"
+          ],
+          "breakpoint": null,
+          "w": 166,
+          "h": 48,
+          "texts": [
+            "Label text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12607-4188@1x.png"
+        },
+        {
+          "set": "Table / Cell",
+          "setId": "12607:4086",
+          "setClass": null,
+          "id": "12607:4207",
+          "name": "Type=Icon, Position=Cell Dark",
+          "classes": [
+            "icon",
+            "cell-dark"
+          ],
+          "breakpoint": null,
+          "w": 166,
+          "h": 48,
+          "texts": [
+            "Label text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12607-4207@1x.png"
+        },
+        {
+          "set": "Table / Cell",
+          "setId": "12607:4086",
+          "setClass": null,
+          "id": "12607:4549",
+          "name": "Type=Icon, Position=Highlight",
+          "classes": [
+            "icon",
+            "highlight"
+          ],
+          "breakpoint": null,
+          "w": 166,
+          "h": 48,
+          "texts": [
+            "Label text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12607-4549@1x.png"
+        },
+        {
+          "set": "Table / Cell",
+          "setId": "12607:4086",
+          "setClass": null,
+          "id": "12607:4087",
+          "name": "Type=Checkbox, Position=Header",
+          "classes": [
+            "checkbox",
+            "header"
+          ],
+          "breakpoint": null,
+          "w": 170,
+          "h": 52,
+          "texts": [
+            "Label text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12607-4087@1x.png"
+        },
+        {
+          "set": "Table / Cell",
+          "setId": "12607:4086",
+          "setClass": null,
+          "id": "12607:4182",
+          "name": "Type=Checkbox, Position=Cell Light",
+          "classes": [
+            "checkbox",
+            "cell-light"
+          ],
+          "breakpoint": null,
+          "w": 170,
+          "h": 52,
+          "texts": [
+            "Label text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12607-4182@1x.png"
+        },
+        {
+          "set": "Table / Cell",
+          "setId": "12607:4086",
+          "setClass": null,
+          "id": "12607:4213",
+          "name": "Type=Checkbox, Position=Cell Dark",
+          "classes": [
+            "checkbox",
+            "cell-dark"
+          ],
+          "breakpoint": null,
+          "w": 170,
+          "h": 52,
+          "texts": [
+            "Label text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12607-4213@1x.png"
+        },
+        {
+          "set": "Table / Cell",
+          "setId": "12607:4086",
+          "setClass": null,
+          "id": "12607:4555",
+          "name": "Type=Checkbox, Position=Highlight",
+          "classes": [
+            "checkbox",
+            "highlight"
+          ],
+          "breakpoint": null,
+          "w": 170,
+          "h": 52,
+          "texts": [
+            "Label text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12607-4555@1x.png"
+        },
+        {
+          "set": "Table / Cell",
+          "setId": "12607:4086",
+          "setClass": null,
+          "id": "12607:4097",
+          "name": "Type=Radio, Position=Header",
+          "classes": [
+            "radio",
+            "header"
+          ],
+          "breakpoint": null,
+          "w": 170,
+          "h": 52,
+          "texts": [
+            "Label text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12607-4097@1x.png"
+        },
+        {
+          "set": "Table / Cell",
+          "setId": "12607:4086",
+          "setClass": null,
+          "id": "12607:4176",
+          "name": "Type=Radio, Position=Cell Light",
+          "classes": [
+            "radio",
+            "cell-light"
+          ],
+          "breakpoint": null,
+          "w": 170,
+          "h": 52,
+          "texts": [
+            "Label text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12607-4176@1x.png"
+        },
+        {
+          "set": "Table / Cell",
+          "setId": "12607:4086",
+          "setClass": null,
+          "id": "12607:4219",
+          "name": "Type=Radio, Position=Cell Dark",
+          "classes": [
+            "radio",
+            "cell-dark"
+          ],
+          "breakpoint": null,
+          "w": 170,
+          "h": 52,
+          "texts": [
+            "Label text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12607-4219@1x.png"
+        },
+        {
+          "set": "Table / Cell",
+          "setId": "12607:4086",
+          "setClass": null,
+          "id": "12607:4561",
+          "name": "Type=Radio, Position=Highlight",
+          "classes": [
+            "radio",
+            "highlight"
+          ],
+          "breakpoint": null,
+          "w": 170,
+          "h": 52,
+          "texts": [
+            "Label text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12607-4561@1x.png"
+        },
+        {
+          "set": "Table / Cell",
+          "setId": "12607:4086",
+          "setClass": null,
+          "id": "12607:4108",
+          "name": "Type=Toggle, Position=Header",
+          "classes": [
+            "toggle",
+            "header"
+          ],
+          "breakpoint": null,
+          "w": 178,
+          "h": 48,
+          "texts": [
+            "Label text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12607-4108@1x.png"
+        },
+        {
+          "set": "Table / Cell",
+          "setId": "12607:4086",
+          "setClass": null,
+          "id": "12607:4170",
+          "name": "Type=Toggle, Position=Cell Light",
+          "classes": [
+            "toggle",
+            "cell-light"
+          ],
+          "breakpoint": null,
+          "w": 178,
+          "h": 48,
+          "texts": [
+            "Label text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12607-4170@1x.png"
+        },
+        {
+          "set": "Table / Cell",
+          "setId": "12607:4086",
+          "setClass": null,
+          "id": "12607:4225",
+          "name": "Type=Toggle, Position=Cell Dark",
+          "classes": [
+            "toggle",
+            "cell-dark"
+          ],
+          "breakpoint": null,
+          "w": 178,
+          "h": 48,
+          "texts": [
+            "Label text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12607-4225@1x.png"
+        },
+        {
+          "set": "Table / Cell",
+          "setId": "12607:4086",
+          "setClass": null,
+          "id": "12607:4567",
+          "name": "Type=Toggle, Position=Highlight",
+          "classes": [
+            "toggle",
+            "highlight"
+          ],
+          "breakpoint": null,
+          "w": 178,
+          "h": 48,
+          "texts": [
+            "Label text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12607-4567@1x.png"
+        },
+        {
+          "set": "Table / Cell",
+          "setId": "12607:4086",
+          "setClass": null,
+          "id": "12607:4122",
+          "name": "Type=Empty, Position=Header",
+          "classes": [
+            "empty",
+            "header"
+          ],
+          "breakpoint": null,
+          "w": 178,
+          "h": 48,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12607-4122@1x.png"
+        },
+        {
+          "set": "Table / Cell",
+          "setId": "12607:4086",
+          "setClass": null,
+          "id": "12607:4169",
+          "name": "Type=Empty, Position=Cell Light",
+          "classes": [
+            "empty",
+            "cell-light"
+          ],
+          "breakpoint": null,
+          "w": 178,
+          "h": 48,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12607-4169@1x.png"
+        },
+        {
+          "set": "Table / Cell",
+          "setId": "12607:4086",
+          "setClass": null,
+          "id": "12607:4231",
+          "name": "Type=Empty, Position=Cell Dark",
+          "classes": [
+            "empty",
+            "cell-dark"
+          ],
+          "breakpoint": null,
+          "w": 178,
+          "h": 48,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12607-4231@1x.png"
+        },
+        {
+          "set": "Table / Cell",
+          "setId": "12607:4086",
+          "setClass": null,
+          "id": "12607:4573",
+          "name": "Type=Empty, Position=Highlight",
+          "classes": [
+            "empty",
+            "highlight"
+          ],
+          "breakpoint": null,
+          "w": 178,
+          "h": 48,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12607-4573@1x.png"
+        }
+      ]
+    },
+    "toggle": {
+      "module": "M19",
+      "used": false,
+      "variants": [
+        {
+          "set": "Toggle switches",
+          "setId": "12287:8487",
+          "setClass": "switches",
+          "id": "12287:8485",
+          "name": "Checked=False, Status=Default",
+          "classes": [
+            "switches"
+          ],
+          "breakpoint": null,
+          "w": 28,
+          "h": 16,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12287-8485@1x.png"
+        },
+        {
+          "set": "Toggle switches",
+          "setId": "12287:8487",
+          "setClass": "switches",
+          "id": "12287:8488",
+          "name": "Checked=False, Status=Disabled",
+          "classes": [
+            "switches",
+            "disabled"
+          ],
+          "breakpoint": null,
+          "w": 28,
+          "h": 16,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12287-8488@1x.png"
+        },
+        {
+          "set": "Toggle switches",
+          "setId": "12287:8487",
+          "setClass": "switches",
+          "id": "12287:8486",
+          "name": "Checked=True, Status=Default",
+          "classes": [
+            "switches",
+            "true"
+          ],
+          "breakpoint": null,
+          "w": 28,
+          "h": 16,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12287-8486@1x.png"
+        },
+        {
+          "set": "Toggle switches",
+          "setId": "12287:8487",
+          "setClass": "switches",
+          "id": "12287:8490",
+          "name": "Checked=True, Status=Disabled",
+          "classes": [
+            "switches",
+            "true",
+            "disabled"
+          ],
+          "breakpoint": null,
+          "w": 28,
+          "h": 16,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12287-8490@1x.png"
+        },
+        {
+          "set": "Toggle group",
+          "setId": "12287:8716",
+          "setClass": "group",
+          "id": "12287:8715",
+          "name": "Alignment=Left, Type=Single Line",
+          "classes": [
+            "group",
+            "left",
+            "single-line"
+          ],
+          "breakpoint": null,
+          "w": 224,
+          "h": 24,
+          "texts": [
+            "Control toggle heading"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12287-8715@1x.png"
+        },
+        {
+          "set": "Toggle group",
+          "setId": "12287:8716",
+          "setClass": "group",
+          "id": "12287:8725",
+          "name": "Alignment=Right, Type=Single Line",
+          "classes": [
+            "group",
+            "right",
+            "single-line"
+          ],
+          "breakpoint": null,
+          "w": 338,
+          "h": 24,
+          "texts": [
+            "Control toggle heading"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12287-8725@1x.png"
+        },
+        {
+          "set": "Toggle group",
+          "setId": "12287:8716",
+          "setClass": "group",
+          "id": "12287:8717",
+          "name": "Alignment=Left, Type=Heading + Description",
+          "classes": [
+            "group",
+            "left",
+            "heading-description"
+          ],
+          "breakpoint": null,
+          "w": 338,
+          "h": 48,
+          "texts": [
+            "Control toggle heading",
+            "Description of what this control will do"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12287-8717@1x.png"
+        },
+        {
+          "set": "Toggle group",
+          "setId": "12287:8716",
+          "setClass": "group",
+          "id": "12287:8729",
+          "name": "Alignment=Right, Type=Heading + Description",
+          "classes": [
+            "group",
+            "right",
+            "heading-description"
+          ],
+          "breakpoint": null,
+          "w": 338,
+          "h": 72,
+          "texts": [
+            "Control toggle heading",
+            "Description of what this control will do"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12287-8729@1x.png"
+        }
+      ]
+    },
+    "tooltip": {
+      "module": "M20",
+      "used": false,
+      "variants": [
+        {
+          "set": "Tooltip",
+          "setId": "12334:9961",
+          "setClass": null,
+          "id": "12334:9957",
+          "name": "Position=Top",
+          "classes": [
+            "top"
+          ],
+          "breakpoint": null,
+          "w": 134,
+          "h": 39,
+          "texts": [
+            "Tooltip text here"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12334-9957@1x.png"
+        },
+        {
+          "set": "Tooltip",
+          "setId": "12334:9961",
+          "setClass": null,
+          "id": "12334:9958",
+          "name": "Position=Bottom",
+          "classes": [
+            "bottom"
+          ],
+          "breakpoint": null,
+          "w": 134,
+          "h": 39,
+          "texts": [
+            "Tooltip text here"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12334-9958@1x.png"
+        },
+        {
+          "set": "Tooltip",
+          "setId": "12334:9961",
+          "setClass": null,
+          "id": "12334:9960",
+          "name": "Position=Left",
+          "classes": [
+            "left"
+          ],
+          "breakpoint": null,
+          "w": 141,
+          "h": 33.999996185302734,
+          "texts": [
+            "Tooltip text here"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12334-9960@1x.png"
+        },
+        {
+          "set": "Tooltip",
+          "setId": "12334:9961",
+          "setClass": null,
+          "id": "12334:9959",
+          "name": "Position=Right",
+          "classes": [
+            "right"
+          ],
+          "breakpoint": null,
+          "w": 141,
+          "h": 33.999996185302734,
+          "texts": [
+            "Tooltip text here"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12334-9959@1x.png"
+        }
+      ]
+    },
+    "account": {
+      "module": "M21",
+      "used": false,
+      "variants": [
+        {
+          "set": "Account Summary",
+          "setId": "12693:19253",
+          "setClass": null,
+          "id": "12693:19258",
+          "name": "Breakpoint=Mobile",
+          "classes": [],
+          "breakpoint": "mobile",
+          "w": 375,
+          "h": 1098,
+          "texts": [
+            "First name:",
+            "John",
+            "Title:",
+            "Mr",
+            "Hospital/Practice name:",
+            "St. Thomas’ Hospital",
+            "EFN (Uniform Training Number):",
+            "123456789",
+            "Telephone number:",
+            "+44 7700 900123",
+            "House number and street:",
+            "Oxford Street, 45",
+            "Zip code:",
+            "PO16 7",
+            "Password:",
+            "*************",
+            "Last name:",
+            "Dowry",
+            "HCP type:",
+            "Selected option",
+            "Speciality",
+            "Selected option",
+            "Email:",
+            "john.dowry@example.com",
+            "Additional address field:",
+            "Avenue Lane",
+            "City:",
+            "London",
+            "Reset password"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12693-19258@1x.frame.png"
+        },
+        {
+          "set": "Account Summary",
+          "setId": "12693:19253",
+          "setClass": null,
+          "id": "12693:19256",
+          "name": "Breakpoint=Tablet",
+          "classes": [],
+          "breakpoint": "tablet",
+          "w": 768,
+          "h": 594,
+          "texts": [
+            "First name:",
+            "John",
+            "Last name:",
+            "Dowry",
+            "Title:",
+            "Mr",
+            "HCP type:",
+            "Selected option",
+            "Hospital/Practice name:",
+            "St. Thomas’ Hospital",
+            "Speciality",
+            "Selected option",
+            "EFN (Uniform Training Number):",
+            "123456789",
+            "Telephone number:",
+            "+44 7700 900123",
+            "Email:",
+            "john.dowry@ example.com",
+            "House number and street:",
+            "Oxford Street, 45",
+            "Additional address field:",
+            "Avenue Lane",
+            "Zip code:",
+            "PO16 7",
+            "City:",
+            "London",
+            "Password:",
+            "*************",
+            "Reset password"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12693-19256@1x.frame.png"
+        },
+        {
+          "set": "Account Summary",
+          "setId": "12693:19253",
+          "setClass": null,
+          "id": "12693:19254",
+          "name": "Breakpoint=Desktop",
+          "classes": [],
+          "breakpoint": "desktop",
+          "w": 1440,
+          "h": 634,
+          "texts": [
+            "First name:",
+            "John",
+            "Last name:",
+            "Dowry",
+            "Title:",
+            "Mr",
+            "HCP type:",
+            "Selected option",
+            "Hospital/Practice name:",
+            "St. Thomas’ Hospital",
+            "Speciality",
+            "Selected option",
+            "EFN (Uniform Training Number):",
+            "123456789",
+            "Telephone number:",
+            "+44 7700 900123",
+            "Email:",
+            "john.dowry@example.com",
+            "House number and street:",
+            "Oxford Street, 45",
+            "Additional address field:",
+            "Avenue Lane",
+            "Zip code:",
+            "PO16 7",
+            "City:",
+            "London",
+            "Password:",
+            "*************",
+            "Reset password"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12693-19254@1x.frame.png"
+        }
+      ]
+    },
+    "block-content": {
+      "module": "M22",
+      "used": true,
+      "variants": [
+        {
+          "set": "Block Content",
+          "setId": "12601:4831",
+          "setClass": null,
+          "id": "12534:1412",
+          "name": "Breakpoint=Desktop",
+          "classes": [],
+          "breakpoint": "desktop",
+          "w": 1440,
+          "h": 194,
+          "texts": [
+            "The most inspiring heading",
+            "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause."
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12534-1412@1x.frame.png"
+        },
+        {
+          "set": "Block Content",
+          "setId": "12601:4831",
+          "setClass": null,
+          "id": "12601:4832",
+          "name": "Breakpoint=Tablet",
+          "classes": [],
+          "breakpoint": "tablet",
+          "w": 768,
+          "h": 226,
+          "texts": [
+            "The most inspiring heading",
+            "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause."
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12601-4832@1x.frame.png"
+        },
+        {
+          "set": "Block Content",
+          "setId": "12601:4831",
+          "setClass": null,
+          "id": "12601:4859",
+          "name": "Breakpoint=Mobile",
+          "classes": [],
+          "breakpoint": "mobile",
+          "w": 375,
+          "h": 328,
+          "texts": [
+            "The most inspiring heading",
+            "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause."
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12601-4859@1x.frame.png"
+        }
+      ]
+    },
+    "cta-banner": {
+      "module": "M23",
+      "used": false,
+      "variants": [
+        {
+          "set": "CTA Banner",
+          "setId": "13370:2040",
+          "setClass": null,
+          "id": "13370:1909",
+          "name": "Breakpoint=Desktop",
+          "classes": [],
+          "breakpoint": "desktop",
+          "w": 1440,
+          "h": 418,
+          "texts": [
+            "The most inspiring heading",
+            "Quis aute iure reprehenderit in voluptate velit esse. Quo usque tandem abutere, Catilina, patientia nostra? A communi observantia non est recedendum. Plura mihi bona sunt, inclinet, amari petere vellent. ",
+            "Input label",
+            "*",
+            "Placeholder text",
+            "Supportive text",
+            "Primary Action",
+            "Secondary Action",
+            "Tertiary Action",
+            "Quis aute iure reprehenderit in voluptate velit esse. Quo usque tandem abutere, Catilina, patientia nostra? A communi observantia non est recedendum. Plura mihi bona sunt, inclinet, amari petere vellent. "
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13370-1909@1x.frame.png"
+        },
+        {
+          "set": "CTA Banner",
+          "setId": "13370:2040",
+          "setClass": null,
+          "id": "13370:2041",
+          "name": "Breakpoint=Tablet",
+          "classes": [],
+          "breakpoint": "tablet",
+          "w": 768,
+          "h": 450,
+          "texts": [
+            "The most inspiring heading",
+            "Quis aute iure reprehenderit in voluptate velit esse. Quo usque tandem abutere, Catilina, patientia nostra? A communi observantia non est recedendum. Plura mihi bona sunt, inclinet, amari petere vellent. ",
+            "Input label",
+            "*",
+            "Placeholder text",
+            "Supportive text",
+            "Primary Action",
+            "Secondary Action",
+            "Tertiary Action",
+            "Quis aute iure reprehenderit in voluptate velit esse. Quo usque tandem abutere, Catilina, patientia nostra? A communi observantia non est recedendum. Plura mihi bona sunt, inclinet, amari petere vellent. "
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13370-2041@1x.frame.png"
+        },
+        {
+          "set": "CTA Banner",
+          "setId": "13370:2040",
+          "setClass": null,
+          "id": "13370:2088",
+          "name": "Breakpoint=Mobile",
+          "classes": [],
+          "breakpoint": "mobile",
+          "w": 375,
+          "h": 748,
+          "texts": [
+            "The most inspiring heading",
+            "Quis aute iure reprehenderit in voluptate velit esse. Quo usque tandem abutere, Catilina, patientia nostra? A communi observantia non est recedendum. Plura mihi bona sunt, inclinet, amari petere vellent. ",
+            "Input label",
+            "*",
+            "Placeholder text",
+            "Supportive text",
+            "Primary Action",
+            "Secondary Action",
+            "Tertiary Action",
+            "Quis aute iure reprehenderit in voluptate velit esse. Quo usque tandem abutere, Catilina, patientia nostra? A communi observantia non est recedendum. Plura mihi bona sunt, inclinet, amari petere vellent. "
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13370-2088@1x.frame.png"
+        }
+      ]
+    },
+    "calculator": {
+      "module": "M24",
+      "used": false,
+      "variants": [
+        {
+          "set": "Weight Conversion",
+          "setId": "15163:14798",
+          "setClass": "weight-conversion",
+          "id": "15163:14797",
+          "name": "Breakpoint=Desktop",
+          "classes": [
+            "weight-conversion"
+          ],
+          "breakpoint": "desktop",
+          "w": 1180,
+          "h": 464,
+          "texts": [
+            "The most inspiring heading",
+            "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause.",
+            "The most inspiring heading",
+            "Input label",
+            "Input label",
+            "Placeholder text",
+            "kg",
+            "Placeholder text",
+            "kg",
+            "The most inspiring heading",
+            "Simple label",
+            "Simple label",
+            "Enter value",
+            "kg",
+            "Enter value",
+            "kg"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/15163-14797@1x.frame.png"
+        },
+        {
+          "set": "Weight Conversion",
+          "setId": "15163:14798",
+          "setClass": "weight-conversion",
+          "id": "15163:14799",
+          "name": "Breakpoint=Tablet",
+          "classes": [
+            "weight-conversion"
+          ],
+          "breakpoint": "tablet",
+          "w": 768,
+          "h": 512,
+          "texts": [
+            "The most inspiring heading",
+            "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause.",
+            "The most inspiring heading",
+            "Input label",
+            "Input label",
+            "Placeholder text",
+            "kg",
+            "Placeholder text",
+            "kg",
+            "The most inspiring heading",
+            "Simple label",
+            "Simple label",
+            "Enter value",
+            "kg",
+            "Enter value",
+            "kg"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/15163-14799@1x.frame.png"
+        },
+        {
+          "set": "Weight Conversion",
+          "setId": "15163:14798",
+          "setClass": "weight-conversion",
+          "id": "15163:14934",
+          "name": "Breakpoint=Mobile",
+          "classes": [
+            "weight-conversion"
+          ],
+          "breakpoint": "mobile",
+          "w": 375,
+          "h": 860,
+          "texts": [
+            "The most inspiring heading",
+            "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause.",
+            "The most inspiring heading",
+            "Input label",
+            "Placeholder text",
+            "kg",
+            "Input label",
+            "Placeholder text",
+            "kg",
+            "The most inspiring heading",
+            "Simple label",
+            "Enter value",
+            "kg",
+            "Simple label",
+            "Enter value",
+            "kg"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/15163-14934@1x.frame.png"
+        },
+        {
+          "set": "Dosing Calculator",
+          "setId": "15021:13523",
+          "setClass": "dosing-calculator",
+          "id": "15021:12810",
+          "name": "Breakpoint=Desktop",
+          "classes": [
+            "dosing-calculator"
+          ],
+          "breakpoint": "desktop",
+          "w": 1180,
+          "h": 1156,
+          "texts": [
+            "The most inspiring heading",
+            "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause.",
+            "Input label",
+            "*",
+            "Input label",
+            "*",
+            "Supportive text label",
+            "Supportive text label",
+            "Placeholder text",
+            "kg",
+            "Placeholder text",
+            "kg",
+            "Input label",
+            "*",
+            "Input label",
+            "*",
+            "Supportive text label",
+            "Supportive text label",
+            "Placeholder text",
+            "kg",
+            "Placeholder text",
+            "kg",
+            "Input label",
+            "*",
+            "Input label",
+            "*",
+            "Supportive text label",
+            "Supportive text label",
+            "Placeholder text",
+            "kg",
+            "Placeholder text",
+            "kg",
+            "Input label",
+            "*",
+            "Input label",
+            "*",
+            "Supportive text label",
+            "Supportive text label",
+            "Placeholder text",
+            "kg",
+            "Placeholder text",
+            "kg",
+            "Input label",
+            "*",
+            "Input label",
+            "*",
+            "Supportive text label",
+            "Supportive text label",
+            "Placeholder text",
+            "kg",
+            "Placeholder text",
+            "kg",
+            "Input label",
+            "*",
+            "Input label",
+            "*",
+            "Supportive text label",
+            "Supportive text label",
+            "Placeholder text",
+            "kg",
+            "Placeholder text",
+            "kg",
+            "Primary Action",
+            "Simple label",
+            "Simple label",
+            "Input",
+            "Input",
+            "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause."
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/15021-12810@1x.frame.png"
+        },
+        {
+          "set": "Dosing Calculator",
+          "setId": "15021:13523",
+          "setClass": "dosing-calculator",
+          "id": "15035:10694",
+          "name": "Breakpoint=Tablet",
+          "classes": [
+            "dosing-calculator"
+          ],
+          "breakpoint": "tablet",
+          "w": 768,
+          "h": 1188,
+          "texts": [
+            "The most inspiring heading",
+            "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause.",
+            "Input label",
+            "*",
+            "Input label",
+            "*",
+            "Supportive text label",
+            "Supportive text label",
+            "Placeholder text",
+            "kg",
+            "Placeholder text",
+            "kg",
+            "Input label",
+            "*",
+            "Input label",
+            "*",
+            "Supportive text label",
+            "Supportive text label",
+            "Placeholder text",
+            "kg",
+            "Placeholder text",
+            "kg",
+            "Input label",
+            "*",
+            "Input label",
+            "*",
+            "Supportive text label",
+            "Supportive text label",
+            "Placeholder text",
+            "kg",
+            "Placeholder text",
+            "kg",
+            "Input label",
+            "*",
+            "Input label",
+            "*",
+            "Supportive text label",
+            "Supportive text label",
+            "Placeholder text",
+            "kg",
+            "Placeholder text",
+            "kg",
+            "Input label",
+            "*",
+            "Input label",
+            "*",
+            "Supportive text label",
+            "Supportive text label",
+            "Placeholder text",
+            "kg",
+            "Placeholder text",
+            "kg",
+            "Input label",
+            "*",
+            "Input label",
+            "*",
+            "Supportive text label",
+            "Supportive text label",
+            "Placeholder text",
+            "kg",
+            "Placeholder text",
+            "kg",
+            "Primary Action",
+            "Simple label",
+            "Simple label",
+            "Input",
+            "Input",
+            "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause."
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/15035-10694@1x.frame.png"
+        },
+        {
+          "set": "Dosing Calculator",
+          "setId": "15021:13523",
+          "setClass": "dosing-calculator",
+          "id": "15035:12439",
+          "name": "Breakpoint=Mobile",
+          "classes": [
+            "dosing-calculator"
+          ],
+          "breakpoint": "mobile",
+          "w": 375,
+          "h": 2246,
+          "texts": [
+            "The most inspiring heading",
+            "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause.",
+            "Input label",
+            "*",
+            "Supportive text label",
+            "Placeholder text",
+            "kg",
+            "Input label",
+            "*",
+            "Supportive text label",
+            "Placeholder text",
+            "kg",
+            "Input label",
+            "*",
+            "Supportive text label",
+            "Placeholder text",
+            "kg",
+            "Input label",
+            "*",
+            "Supportive text label",
+            "Placeholder text",
+            "kg",
+            "Input label",
+            "*",
+            "Supportive text label",
+            "Placeholder text",
+            "kg",
+            "Input label",
+            "*",
+            "Supportive text label",
+            "Placeholder text",
+            "kg",
+            "Input label",
+            "*",
+            "Supportive text label",
+            "Placeholder text",
+            "kg",
+            "Input label",
+            "*",
+            "Supportive text label",
+            "Placeholder text",
+            "kg",
+            "Input label",
+            "*",
+            "Supportive text label",
+            "Placeholder text",
+            "kg",
+            "Input label",
+            "*",
+            "Supportive text label",
+            "Placeholder text",
+            "kg",
+            "Input label",
+            "*",
+            "Supportive text label",
+            "Placeholder text",
+            "kg",
+            "Input label",
+            "*",
+            "Supportive text label",
+            "Placeholder text",
+            "kg",
+            "Primary Action",
+            "Simple label",
+            "Input",
+            "Simple label",
+            "Input",
+            "One of the biggest challenges with DCM is that it’s highly heterogeneous, both in its presentation and its underlying aetiology. While environmental factors, such as infections or exposure to certain toxins, are linked with DCM, genetics also play a role: up to 35% of DCM cases have an identifiable genetic cause."
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/15035-12439@1x.frame.png"
+        },
+        {
+          "set": "Risk Calculator",
+          "setId": "15170:17991",
+          "setClass": "risk-calculator",
+          "id": "15170:17990",
+          "name": "Breakpoint=Desktop",
+          "classes": [
+            "risk-calculator"
+          ],
+          "breakpoint": "desktop",
+          "w": 1180,
+          "h": 546,
+          "texts": [
+            "Risk Calculator",
+            "Age",
+            "*",
+            "Atrial fibrillation",
+            "*",
+            "Input age",
+            "Years",
+            "No",
+            "Yes",
+            "Weight",
+            "*",
+            "Pulmonary systolic pressure",
+            "*",
+            "Input weight between 30 - 200 kg",
+            "kg",
+            "Input value 0-150",
+            "mmHg",
+            "Height",
+            "*",
+            "E/e Report",
+            "*",
+            "Input height between 140- 250 cm",
+            "cm",
+            "input value 0-100",
+            "Number of antihypertensive medicinal products",
+            "*",
+            "More than 2",
+            "Less than 2",
+            "Calculate score"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/15170-17990@1x.frame.png"
+        },
+        {
+          "set": "Risk Calculator",
+          "setId": "15170:17991",
+          "setClass": "risk-calculator",
+          "id": "15170:17992",
+          "name": "Breakpoint=Tablet",
+          "classes": [
+            "risk-calculator"
+          ],
+          "breakpoint": "tablet",
+          "w": 768,
+          "h": 546,
+          "texts": [
+            "Risk Calculator",
+            "Age",
+            "*",
+            "Atrial fibrillation",
+            "*",
+            "Input age",
+            "Years",
+            "No",
+            "Yes",
+            "Weight",
+            "*",
+            "Pulmonary systolic pressure",
+            "*",
+            "Input weight between 30 - 200 kg",
+            "kg",
+            "Input value 0-150",
+            "mmHg",
+            "Height",
+            "*",
+            "E/e Report",
+            "*",
+            "Input height between 140- 250 cm",
+            "cm",
+            "input value 0-100",
+            "Number of antihypertensive medicinal products",
+            "*",
+            "More than 2",
+            "Less than 2",
+            "Calculate score"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/15170-17992@1x.frame.png"
+        },
+        {
+          "set": "Risk Calculator",
+          "setId": "15170:17991",
+          "setClass": "risk-calculator",
+          "id": "15170:18511",
+          "name": "Breakpoint=Mobile",
+          "classes": [
+            "risk-calculator"
+          ],
+          "breakpoint": "mobile",
+          "w": 375,
+          "h": 864,
+          "texts": [
+            "Risk Calculator",
+            "Age",
+            "*",
+            "Input age",
+            "Years",
+            "Weight",
+            "*",
+            "Input weight between 30 - 200 kg",
+            "kg",
+            "Height",
+            "*",
+            "Input height between 140- 250 cm",
+            "cm",
+            "Number of antihypertensive medicinal products",
+            "More than 2",
+            "Less than 2",
+            "Atrial fibrillation",
+            "*",
+            "No",
+            "Yes",
+            "Pulmonary systolic pressure",
+            "*",
+            "Input value 0-150",
+            "mmHg",
+            "E/e Report",
+            "*",
+            "input value 0-100",
+            "Calculate score"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/15170-18511@1x.frame.png"
+        }
+      ]
+    },
+    "email": {
+      "module": "M25",
+      "used": true,
+      "variants": [
+        {
+          "set": "Email",
+          "setId": "12712:21024",
+          "setClass": null,
+          "id": "12712:21025",
+          "name": "Type=Mobile",
+          "classes": [],
+          "breakpoint": null,
+          "w": 343,
+          "h": 850,
+          "texts": [
+            "Your secure login link is ready",
+            "Hi there <firstname, lastname>",
+            "Click the button below to log in – no password needed, just one click and you're in.",
+            "Log in to your account",
+            "This link works once and expires in 10 minutes.   If you didn't request this, just ignore it. \nNeed help? Get in contact  Thanks, The AstraZeneca team",
+            "Unsubscribe",
+            "Manage Preferences",
+            "Privacy Policy"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12712-21025@1x.png"
+        },
+        {
+          "set": "Email",
+          "setId": "12712:21024",
+          "setClass": null,
+          "id": "12712:21043",
+          "name": "Type=Desktop",
+          "classes": [],
+          "breakpoint": null,
+          "w": 674,
+          "h": 856,
+          "texts": [
+            "Your secure login link is ready",
+            "Hi there <firstname, lastname>",
+            "Click the button below to log in – no password needed, just one click and you're in.",
+            "Log in to your account",
+            "This link works once and expires in 10 minutes.   If you didn't request this, just ignore it. \nNeed help? Get in contact  Thanks, The AstraZeneca team",
+            "Unsubscribe",
+            "Manage Preferences",
+            "Privacy Policy"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12712-21043@1x.png"
+        }
+      ]
+    },
+    "forms": {
+      "module": "M26",
+      "used": false,
+      "variants": [
+        {
+          "set": "Form Content",
+          "setId": "12682:15985",
+          "setClass": null,
+          "id": "12682:15982",
+          "name": "Breakpoint=Desktop",
+          "classes": [],
+          "breakpoint": "desktop",
+          "w": 1440,
+          "h": 714,
+          "texts": [
+            "First name",
+            "*",
+            "First name",
+            "*",
+            "e.g. John",
+            "e.g. Dowry",
+            "Hospital/Practice name",
+            "*",
+            "HCP type",
+            "*",
+            "e.g. St Thomas’ Hospital",
+            "Select an option",
+            "Speciality",
+            "*",
+            "Email",
+            "*",
+            "Select an option",
+            "e.g. john.dowry@example.com",
+            "Password",
+            "*",
+            "Confirm Password",
+            "*",
+            "*************",
+            "*************",
+            "Terms & Condition",
+            "Privicy Policy",
+            "Register"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12682-15982@1x.frame.png"
+        },
+        {
+          "set": "Form Content",
+          "setId": "12682:15985",
+          "setClass": null,
+          "id": "12682:15983",
+          "name": "Breakpoint=Tablet",
+          "classes": [],
+          "breakpoint": "tablet",
+          "w": 768,
+          "h": 618,
+          "texts": [
+            "First name",
+            "*",
+            "First name",
+            "*",
+            "e.g. John",
+            "e.g. Dowry",
+            "Hospital/Practice name",
+            "*",
+            "HCP type",
+            "*",
+            "e.g. St Thomas’ Hospital",
+            "Select an option",
+            "Speciality",
+            "*",
+            "Email",
+            "*",
+            "Select an option",
+            "e.g. john.dowry@example.com",
+            "Password",
+            "*",
+            "Confirm Password",
+            "*",
+            "*************",
+            "*************",
+            "Terms & Condition",
+            "Privicy Policy",
+            "Register"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12682-15983@1x.frame.png"
+        },
+        {
+          "set": "Form Content",
+          "setId": "12682:15985",
+          "setClass": null,
+          "id": "12682:15984",
+          "name": "Breakpoint=Mobile",
+          "classes": [],
+          "breakpoint": "mobile",
+          "w": 375,
+          "h": 1018,
+          "texts": [
+            "First name",
+            "*",
+            "e.g. John",
+            "First name",
+            "*",
+            "e.g. Dowry",
+            "Hospital/Practice name",
+            "*",
+            "e.g. St Thomas’ Hospital",
+            "HCP type",
+            "*",
+            "Select an option",
+            "Speciality",
+            "*",
+            "Select an option",
+            "Email",
+            "*",
+            "e.g. john.dowry@example.com",
+            "Password",
+            "*",
+            "*************",
+            "Confirm Password",
+            "*",
+            "*************",
+            "Terms & Condition",
+            "Privicy Policy",
+            "Register"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12682-15984@1x.frame.png"
+        }
+      ]
+    },
+    "footer": {
+      "module": "M27",
+      "used": true,
+      "variants": [
+        {
+          "set": "Footer",
+          "setId": "12406:12187",
+          "setClass": null,
+          "id": "12406:12186",
+          "name": "Breakpoint=Desktop",
+          "classes": [],
+          "breakpoint": "desktop",
+          "w": 1440,
+          "h": 292,
+          "texts": [
+            "Privacy Notice",
+            "Legal Statement",
+            "Cookie Notice",
+            "Site Map",
+            "The AstraZeneca portal was created with the intention of proposing a space for digital dialogue between doctors, specialists and the company.",
+            "Prescribing Information",
+            "AstraZeneca",
+            "Important Safety Information",
+            "Contact Us",
+            "XX-XXXX-01/2025"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12406-12186@1x.frame.png"
+        },
+        {
+          "set": "Footer",
+          "setId": "12406:12187",
+          "setClass": null,
+          "id": "12406:12188",
+          "name": "Breakpoint=Tablet",
+          "classes": [],
+          "breakpoint": "tablet",
+          "w": 768,
+          "h": 386,
+          "texts": [
+            "The AstraZeneca portal was created with the intention of proposing a space for digital dialogue between doctors, specialists and the company.",
+            "Privacy Notice",
+            "Legal Statement",
+            "Cookie Notice",
+            "Site Map",
+            "Prescribing Information",
+            "AstraZeneca",
+            "Important Safety Information",
+            "Contact Us",
+            "XX-XXXX-01/2025"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12406-12188@1x.frame.png"
+        },
+        {
+          "set": "Footer",
+          "setId": "12406:12187",
+          "setClass": null,
+          "id": "12406:12804",
+          "name": "Breakpoint=Mobile",
+          "classes": [],
+          "breakpoint": "mobile",
+          "w": 375,
+          "h": 534,
+          "texts": [
+            "The AstraZeneca portal was created with the intention of proposing a space for digital dialogue between doctors, specialists and the company.",
+            "Privacy Notice",
+            "Cookie Notice",
+            "Prescribing Information",
+            "Important Safety Information",
+            "Legal Statement",
+            "Site Map",
+            "AstraZeneca",
+            "Contact Us",
+            "XX-XXXX-01/2025"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12406-12804@1x.frame.png"
+        }
+      ]
+    },
+    "header": {
+      "module": "M28",
+      "used": true,
+      "variants": [
+        {
+          "set": "Header",
+          "setId": "12387:11135",
+          "setClass": null,
+          "id": "12379:10829",
+          "name": "Breakpoint=Desktop, Type=Full",
+          "classes": [
+            "full"
+          ],
+          "breakpoint": "desktop",
+          "w": 1440,
+          "h": 92,
+          "texts": [
+            "Contact Us",
+            "AZ Employee Login",
+            "DE",
+            "EN",
+            "FR",
+            "IT",
+            "Products",
+            "Therapeutic Areas",
+            "News",
+            "Login"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12379-10829@1x.frame.png"
+        },
+        {
+          "set": "Header",
+          "setId": "12387:11135",
+          "setClass": null,
+          "id": "13496:14555",
+          "name": "Breakpoint=Desktop, Type=Registration",
+          "classes": [
+            "registration"
+          ],
+          "breakpoint": "desktop",
+          "w": 1440,
+          "h": 60,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13496-14555@1x.frame.png"
+        },
+        {
+          "set": "Header",
+          "setId": "12387:11135",
+          "setClass": null,
+          "id": "12387:11136",
+          "name": "Breakpoint=Mobile, Type=Full",
+          "classes": [
+            "full"
+          ],
+          "breakpoint": "mobile",
+          "w": 375,
+          "h": 60,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12387-11136@1x.frame.png"
+        },
+        {
+          "set": "Header",
+          "setId": "12387:11135",
+          "setClass": null,
+          "id": "13496:14586",
+          "name": "Breakpoint=Mobile, Type=Registration",
+          "classes": [
+            "registration"
+          ],
+          "breakpoint": "mobile",
+          "w": 375,
+          "h": 60,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13496-14586@1x.frame.png"
+        },
+        {
+          "set": "Header",
+          "setId": "12387:11135",
+          "setClass": null,
+          "id": "12387:11396",
+          "name": "Breakpoint=Tablet, Type=Full",
+          "classes": [
+            "full"
+          ],
+          "breakpoint": "tablet",
+          "w": 768,
+          "h": 60,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12387-11396@1x.frame.png"
+        },
+        {
+          "set": "Header",
+          "setId": "12387:11135",
+          "setClass": null,
+          "id": "13496:14572",
+          "name": "Breakpoint=Tablet, Type=Registration",
+          "classes": [
+            "registration"
+          ],
+          "breakpoint": "tablet",
+          "w": 768,
+          "h": 60,
+          "texts": [],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13496-14572@1x.frame.png"
+        }
+      ]
+    },
+    "home-hero-branded": {
+      "module": "M29",
+      "used": false,
+      "variants": [
+        {
+          "set": "Home Hero Branded",
+          "setId": "12950:24836",
+          "setClass": null,
+          "id": "12950:24813",
+          "name": "Breakpoint=Desktop",
+          "classes": [],
+          "breakpoint": "desktop",
+          "w": 1440,
+          "h": 428,
+          "texts": [
+            "An impact header",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Button text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12950-24813@1x.frame.png"
+        },
+        {
+          "set": "Home Hero Branded",
+          "setId": "12950:24836",
+          "setClass": null,
+          "id": "12950:24837",
+          "name": "Breakpoint=Tablet",
+          "classes": [],
+          "breakpoint": "tablet",
+          "w": 768,
+          "h": 428,
+          "texts": [
+            "An impact header",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Button text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12950-24837@1x.frame.png"
+        },
+        {
+          "set": "Home Hero Branded",
+          "setId": "12950:24836",
+          "setClass": null,
+          "id": "12950:24853",
+          "name": "Breakpoint=Mobile",
+          "classes": [],
+          "breakpoint": "mobile",
+          "w": 375,
+          "h": 594,
+          "texts": [
+            "An impact header",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Button text"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12950-24853@1x.frame.png"
+        }
+      ]
+    },
+    "login": {
+      "module": "M30",
+      "used": true,
+      "variants": [
+        {
+          "set": "Login",
+          "setId": "12643:9460",
+          "setClass": null,
+          "id": "12643:9459",
+          "name": "Type=Full, Breakpoint=Desktop",
+          "classes": [
+            "full"
+          ],
+          "breakpoint": "desktop",
+          "w": 1440,
+          "h": 941,
+          "texts": [
+            "Login to your account",
+            "Email",
+            "*",
+            "john.dowry@example.com",
+            "Password",
+            "*",
+            "Forgot your password?",
+            "*************",
+            "Login",
+            "Remember me on this device",
+            "Or",
+            "Login with Magic Link",
+            "Login using DocCheck",
+            "Login with AZ Employee Email",
+            "Don’t have an account?",
+            "Create account"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12643-9459@1x.frame.png"
+        },
+        {
+          "set": "Login",
+          "setId": "12643:9460",
+          "setClass": null,
+          "id": "12643:9902",
+          "name": "Type=Full, Breakpoint=Tablet",
+          "classes": [
+            "full"
+          ],
+          "breakpoint": "tablet",
+          "w": 768,
+          "h": 869,
+          "texts": [
+            "Login to your account",
+            "Email",
+            "*",
+            "john.dowry@example.com",
+            "Password",
+            "*",
+            "Forgot your password?",
+            "*************",
+            "Login",
+            "Remember me on this device",
+            "Or",
+            "Login with Magic Link",
+            "Login using DocCheck",
+            "Login with AZ Employee Email",
+            "Don’t have an account?",
+            "Create account"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12643-9902@1x.frame.png"
+        },
+        {
+          "set": "Login",
+          "setId": "12643:9460",
+          "setClass": null,
+          "id": "12649:10046",
+          "name": "Type=Full, Breakpoint=Mobile",
+          "classes": [
+            "full"
+          ],
+          "breakpoint": "mobile",
+          "w": 375,
+          "h": 734,
+          "texts": [
+            "Login to your account",
+            "Email",
+            "*",
+            "john.dowry@example.com",
+            "Password",
+            "*",
+            "Forgot your password?",
+            "*************",
+            "Login",
+            "Remember me on this device",
+            "Or",
+            "Login with Magic Link",
+            "Login using DocCheck",
+            "Login with AZ Employee Email",
+            "Don’t have an account?",
+            "Create account"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12649-10046@1x.frame.png"
+        },
+        {
+          "set": "Login",
+          "setId": "12643:9460",
+          "setClass": null,
+          "id": "12649:10124",
+          "name": "Type=Email Field, Breakpoint=Mobile",
+          "classes": [
+            "email-field"
+          ],
+          "breakpoint": "mobile",
+          "w": 375,
+          "h": 302,
+          "texts": [
+            "Login without a password",
+            "Email",
+            "*",
+            "john.dowry@example.com",
+            "Send me the link",
+            "Login with email & password"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12649-10124@1x.frame.png"
+        },
+        {
+          "set": "Login",
+          "setId": "12643:9460",
+          "setClass": null,
+          "id": "12643:9461",
+          "name": "Type=Email Field, Breakpoint=Desktop",
+          "classes": [
+            "email-field"
+          ],
+          "breakpoint": "desktop",
+          "w": 1440,
+          "h": 941,
+          "texts": [
+            "Login without a password",
+            "Enter your email and we’ll send you a one‑time login link.",
+            "Email",
+            "*",
+            "john.dowry@example.com",
+            "Send me the link",
+            "Login with email & password"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12643-9461@1x.frame.png"
+        },
+        {
+          "set": "Login",
+          "setId": "12643:9460",
+          "setClass": null,
+          "id": "12643:9924",
+          "name": "Type=Email Field, Breakpoint=Tablet",
+          "classes": [
+            "email-field"
+          ],
+          "breakpoint": "tablet",
+          "w": 768,
+          "h": 869,
+          "texts": [
+            "Login without a password",
+            "Enter your email and we’ll send you a one‑time login link.",
+            "Email",
+            "*",
+            "john.dowry@example.com",
+            "Send me the link",
+            "Login with email & password"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12643-9924@1x.frame.png"
+        }
+      ]
+    },
+    "teaser": {
+      "module": "M31",
+      "used": false,
+      "variants": [
+        {
+          "set": "Teaser",
+          "setId": "12421:13846",
+          "setClass": null,
+          "id": "12421:13803",
+          "name": "Size=Large, Breakpoint=Desktop",
+          "classes": [
+            "large"
+          ],
+          "breakpoint": "desktop",
+          "w": 1440,
+          "h": 480,
+          "texts": [
+            "An impact headline",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Primary action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12421-13803@1x.frame.png"
+        },
+        {
+          "set": "Teaser",
+          "setId": "12421:13846",
+          "setClass": null,
+          "id": "12425:13927",
+          "name": "Size=Large, Breakpoint=Tablet",
+          "classes": [
+            "large"
+          ],
+          "breakpoint": "tablet",
+          "w": 768,
+          "h": 480,
+          "texts": [
+            "An impact headline",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Primary action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12425-13927@1x.frame.png"
+        },
+        {
+          "set": "Teaser",
+          "setId": "12421:13846",
+          "setClass": null,
+          "id": "12421:13897",
+          "name": "Size=Large, Breakpoint=Mobile",
+          "classes": [
+            "large"
+          ],
+          "breakpoint": "mobile",
+          "w": 375,
+          "h": 480,
+          "texts": [
+            "An impact headline",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Primary action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12421-13897@1x.frame.png"
+        },
+        {
+          "set": "Teaser",
+          "setId": "12421:13846",
+          "setClass": null,
+          "id": "12421:13847",
+          "name": "Size=Medium, Breakpoint=Desktop",
+          "classes": [
+            "medium"
+          ],
+          "breakpoint": "desktop",
+          "w": 1440,
+          "h": 390,
+          "texts": [
+            "An impact headline",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Primary action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12421-13847@1x.frame.png"
+        },
+        {
+          "set": "Teaser",
+          "setId": "12421:13846",
+          "setClass": null,
+          "id": "12425:13931",
+          "name": "Size=Medium, Breakpoint=Tablet",
+          "classes": [
+            "medium"
+          ],
+          "breakpoint": "tablet",
+          "w": 768,
+          "h": 390,
+          "texts": [
+            "An impact headline",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Primary action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12425-13931@1x.frame.png"
+        },
+        {
+          "set": "Teaser",
+          "setId": "12421:13846",
+          "setClass": null,
+          "id": "12421:13901",
+          "name": "Size=Medium, Breakpoint=Mobile",
+          "classes": [
+            "medium"
+          ],
+          "breakpoint": "mobile",
+          "w": 375,
+          "h": 390,
+          "texts": [
+            "An impact headline",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Primary action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12421-13901@1x.frame.png"
+        },
+        {
+          "set": "Teaser",
+          "setId": "12421:13846",
+          "setClass": null,
+          "id": "12421:13857",
+          "name": "Size=Small, Breakpoint=Desktop",
+          "classes": [
+            "small"
+          ],
+          "breakpoint": "desktop",
+          "w": 1440,
+          "h": 270,
+          "texts": [
+            "An impact headline",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Primary action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12421-13857@1x.frame.png"
+        },
+        {
+          "set": "Teaser",
+          "setId": "12421:13846",
+          "setClass": null,
+          "id": "12425:13935",
+          "name": "Size=Small, Breakpoint=Tablet",
+          "classes": [
+            "small"
+          ],
+          "breakpoint": "tablet",
+          "w": 768,
+          "h": 270,
+          "texts": [
+            "An impact headline",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Primary action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12425-13935@1x.frame.png"
+        },
+        {
+          "set": "Teaser",
+          "setId": "12421:13846",
+          "setClass": null,
+          "id": "12421:13905",
+          "name": "Size=Small, Breakpoint=Mobile",
+          "classes": [
+            "small"
+          ],
+          "breakpoint": "mobile",
+          "w": 375,
+          "h": 350,
+          "texts": [
+            "An impact headline",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Primary action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12421-13905@1x.frame.png"
+        },
+        {
+          "set": "Teaser / Text + Image",
+          "setId": "12431:14282",
+          "setClass": "text-image",
+          "id": "12431:14270",
+          "name": "Breakpoint=Desktop, Alignment=Left",
+          "classes": [
+            "text-image",
+            "left"
+          ],
+          "breakpoint": "desktop",
+          "w": 1180,
+          "h": 324,
+          "texts": [
+            "The most inspiring heading",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Primary action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12431-14270@1x.frame.png"
+        },
+        {
+          "set": "Teaser / Text + Image",
+          "setId": "12431:14282",
+          "setClass": "text-image",
+          "id": "12431:14513",
+          "name": "Breakpoint=Tablet, Alignment=Left",
+          "classes": [
+            "text-image",
+            "left"
+          ],
+          "breakpoint": "tablet",
+          "w": 704,
+          "h": 192,
+          "texts": [
+            "The most inspiring heading",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Primary action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12431-14513@1x.frame.png"
+        },
+        {
+          "set": "Teaser / Text + Image",
+          "setId": "12431:14282",
+          "setClass": "text-image",
+          "id": "12431:14523",
+          "name": "Breakpoint=Tablet, Alignment=Right",
+          "classes": [
+            "text-image",
+            "right"
+          ],
+          "breakpoint": "tablet",
+          "w": 704,
+          "h": 192,
+          "texts": [
+            "The most inspiring heading",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Primary action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12431-14523@1x.frame.png"
+        },
+        {
+          "set": "Teaser / Text + Image",
+          "setId": "12431:14282",
+          "setClass": "text-image",
+          "id": "12431:14293",
+          "name": "Breakpoint=Mobile, Alignment=Left",
+          "classes": [
+            "text-image",
+            "left"
+          ],
+          "breakpoint": "mobile",
+          "w": 375,
+          "h": 428,
+          "texts": [
+            "The most inspiring heading",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Primary action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12431-14293@1x.frame.png"
+        },
+        {
+          "set": "Teaser / Text + Image",
+          "setId": "12431:14282",
+          "setClass": "text-image",
+          "id": "12431:14271",
+          "name": "Breakpoint=Desktop, Alignment=Right",
+          "classes": [
+            "text-image",
+            "right"
+          ],
+          "breakpoint": "desktop",
+          "w": 1180,
+          "h": 324,
+          "texts": [
+            "The most inspiring heading",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Primary action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12431-14271@1x.frame.png"
+        },
+        {
+          "set": "Teaser / Card",
+          "setId": "12436:14752",
+          "setClass": "card",
+          "id": "12436:14706",
+          "name": "Breakpoint=Desktop",
+          "classes": [
+            "card"
+          ],
+          "breakpoint": "desktop",
+          "w": 527,
+          "h": 476,
+          "texts": [
+            "Event",
+            "The most inspiring heading",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Primary action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12436-14706@1x.frame.png"
+        },
+        {
+          "set": "Teaser / Card",
+          "setId": "12436:14752",
+          "setClass": "card",
+          "id": "12436:14753",
+          "name": "Breakpoint=Tablet",
+          "classes": [
+            "card"
+          ],
+          "breakpoint": "tablet",
+          "w": 527,
+          "h": 476,
+          "texts": [
+            "Event",
+            "The most inspiring heading",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Primary action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12436-14753@1x.frame.png"
+        },
+        {
+          "set": "Teaser / Card",
+          "setId": "12436:14752",
+          "setClass": "card",
+          "id": "12436:14800",
+          "name": "Breakpoint=Mobile",
+          "classes": [
+            "card"
+          ],
+          "breakpoint": "mobile",
+          "w": 375,
+          "h": 456,
+          "texts": [
+            "Event",
+            "The most inspiring heading",
+            "A subheading that addresses the what, the why we should care and hopefully some social proof.",
+            "Primary action"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/12436-14800@1x.frame.png"
+        }
+      ]
+    },
+    "quiz": {
+      "module": "M32",
+      "used": false,
+      "variants": [
+        {
+          "set": "Quiz",
+          "setId": "13422:2864",
+          "setClass": null,
+          "id": "13422:2865",
+          "name": "Type=Question, Breakpoint=Desktop",
+          "classes": [
+            "question"
+          ],
+          "breakpoint": "desktop",
+          "w": 1440,
+          "h": 1024,
+          "texts": [
+            "1/3",
+            "Question 1: Choose an answer?",
+            "(Pick one of the options below)",
+            "Option 1 with some text as content",
+            "Option 2 with some long text as content",
+            "Option 3 with some longer text as content",
+            "Previous question",
+            "Next question",
+            "Powered by"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13422-2865@1x.frame.png"
+        },
+        {
+          "set": "Quiz",
+          "setId": "13422:2864",
+          "setClass": null,
+          "id": "13424:4795",
+          "name": "Type=Results, Breakpoint=Desktop",
+          "classes": [
+            "results"
+          ],
+          "breakpoint": "desktop",
+          "w": 1440,
+          "h": 1000,
+          "texts": [
+            "This is your title results!",
+            "Some text here with a link: Link title",
+            "2/3",
+            "Back to Start",
+            "View Correct Answers",
+            "Powered by"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13424-4795@1x.frame.png"
+        },
+        {
+          "set": "Quiz",
+          "setId": "13422:2864",
+          "setClass": null,
+          "id": "13424:3535",
+          "name": "Type=Question, Breakpoint=Tablet",
+          "classes": [
+            "question"
+          ],
+          "breakpoint": "tablet",
+          "w": 768,
+          "h": 1008,
+          "texts": [
+            "1/3",
+            "Question 1: Choose an answer?",
+            "(Pick one of the options below)",
+            "Option 1 with some text as content",
+            "Option 2 with some long text as content",
+            "Option 3 with some longer text as content",
+            "Previous question",
+            "Next question",
+            "Powered by"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13424-3535@1x.frame.png"
+        },
+        {
+          "set": "Quiz",
+          "setId": "13422:2864",
+          "setClass": null,
+          "id": "13424:4813",
+          "name": "Type=Results, Breakpoint=Tablet",
+          "classes": [
+            "results"
+          ],
+          "breakpoint": "tablet",
+          "w": 768,
+          "h": 1008,
+          "texts": [
+            "1/3",
+            "This is your title results!",
+            "Some text here with a link: Link title",
+            "2/3",
+            "Back to Start",
+            "View Correct Answers",
+            "Powered by"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13424-4813@1x.frame.png"
+        },
+        {
+          "set": "Quiz",
+          "setId": "13422:2864",
+          "setClass": null,
+          "id": "13422:2884",
+          "name": "Type=Question, Breakpoint=Mobile",
+          "classes": [
+            "question"
+          ],
+          "breakpoint": "mobile",
+          "w": 375,
+          "h": 850,
+          "texts": [
+            "1/3",
+            "Question 1: Choose an answer?",
+            "(Pick one of the options below)",
+            "Option 1 with some text as content",
+            "Option 2 with some long text as content",
+            "Option 3 with some longer text as content",
+            "Next question",
+            "Previous question",
+            "Powered by"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13422-2884@1x.frame.png"
+        },
+        {
+          "set": "Quiz",
+          "setId": "13422:2864",
+          "setClass": null,
+          "id": "13424:4831",
+          "name": "Type=Results, Breakpoint=Mobile",
+          "classes": [
+            "results"
+          ],
+          "breakpoint": "mobile",
+          "w": 375,
+          "h": 850,
+          "texts": [
+            "1/3",
+            "This is your title results!",
+            "Some text here with a link: Link title",
+            "2/3",
+            "View Correct Answers",
+            "Back to Start",
+            "Powered by"
+          ],
+          "png": ".work/reskin/figma/rsZQmpVzuyn0KhCDA3WN60/_pages/2413431205561424165/png/13424-4831@1x.frame.png"
+        }
+      ]
+    }
+  },
+  "failed": []
+}

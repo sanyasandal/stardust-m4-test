@@ -1,0 +1,86 @@
+/* Forms — kit ".Forms" 12682:15982 (desktop) / 12682:15983 (tablet) / 12682:15984 (mobile) */
+.forms {
+  container-type: inline-size;
+  color: var(--az-graphite);
+}
+
+.forms .forms-form {
+  margin: 0;
+  padding: 20px 16px;
+}
+
+.forms .forms-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 24px;
+}
+
+.forms .forms-control {
+  position: relative;
+}
+
+.forms .forms-password input {
+  padding-right: 44px;
+}
+
+.forms .forms-reveal {
+  position: absolute;
+  top: 17px;
+  right: 16px;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.forms .forms-checks {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.forms .forms-check label a {
+  color: var(--az-magenta);
+  text-decoration: underline;
+}
+
+.forms .forms-submit {
+  display: flex;
+  justify-content: center;
+}
+
+.forms .forms-submit .button {
+  width: 100%;
+}
+
+@container (width >= 600px) {
+  .forms .forms-form {
+    padding: 32px;
+  }
+
+  .forms .forms-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .forms .forms-checks,
+  .forms .forms-submit {
+    grid-column: 1 / -1;
+  }
+
+  .forms .forms-submit .button {
+    width: auto;
+  }
+}
+
+@container (width >= 1200px) {
+  .forms .forms-form {
+    padding: 40px calc((100% - 1180px) / 2);
+  }
+
+  .forms .forms-grid {
+    gap: 40px;
+  }
+}

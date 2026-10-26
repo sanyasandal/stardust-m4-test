@@ -1,0 +1,98 @@
+/* kit "Button" (12084:109164): the block is a bare flex box around one or more .button anchors */
+div.button.block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  width: fit-content;
+  height: auto;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  cursor: auto;
+}
+
+.button.block a.button {
+  gap: 8px;
+  padding: 0 16px;
+  border-width: 1px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.button.block a.button.small {
+  height: 34px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.button.block a.button.large {
+  height: 54px;
+}
+
+.button.block a.button.link {
+  height: 24px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--az-graphite);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.button.block a.button.link.small {
+  height: 20px;
+}
+
+.button.block a.button.icon-only {
+  width: 42px;
+  height: 42px;
+  padding: 0;
+}
+
+.button.block a.button.icon-only.large {
+  width: 54px;
+  height: 54px;
+}
+
+.button.block a.button.icon-only.small {
+  width: 34px;
+  height: 34px;
+}
+
+.button.block .button-icon {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  background-color: currentcolor;
+  mask: var(--icon) center / 20px 20px no-repeat;
+}
+
+.button.block .button-text {
+  text-decoration: inherit;
+}
+
+/* interaction states (no Figma variants: brand hover / focus ring) */
+.button.block a.button.tertiary:hover {
+  border-color: var(--az-mulberry);
+  background-color: var(--az-white);
+  color: var(--az-mulberry);
+}
+
+.button.block a.button.link:hover {
+  background: none;
+  color: var(--az-magenta);
+}
+
+.button.block a.button:focus-visible {
+  outline: 2px solid var(--az-magenta);
+  outline-offset: 2px;
+}
+
+.button.block a.button[aria-disabled="true"] {
+  opacity: 0.4;
+  pointer-events: none;
+}
